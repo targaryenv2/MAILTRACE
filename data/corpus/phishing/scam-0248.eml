@@ -1,0 +1,63 @@
+From: "Microsoft 365" <notice@micros0ft-verify.com>
+To: Aditya Dawson <aditya.dawson@summitfoods.co.in>
+Subject: Electricity connection will be disconnected tonight
+Date: Wed, 13 May 2026 21:31:00 +0000
+Message-ID: <178772094031.6.11113707614090336593@micros0ft-verify.com>
+Return-Path: <bounce-6303@micros0ft-verify.com>
+MIME-Version: 1.0
+X-Mailer: BulkSend 2.1
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id AC9A1E97D4E4 for
+ <recipient@summitfoods.co.in>; Wed, 13 May 2026 21:31:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 0C7194C4219B; Wed, 13 May 2026 21:28:59 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id FD272B5149BA; Wed, 13 May
+ 2026 21:26:30 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 0DBE9C7C9E1C; Wed,
+ 13 May 2026 21:23:26 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@micros0ft-verify.com>;
+Authentication-Results: mx.micros0ft-verify.com; spf=fail
+ smtp.mailfrom=micros0ft-verify.com; dkim=none header.d=micros0ft-verify.com;
+ dmarc=fail (p=reject) header.from=micros0ft-verify.com
+Content-Type: multipart/alternative;
+ boundary="===============3899591086259063230=="
+
+--===============3899591086259063230==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+You have been selected in this month's customer appreciation draw. Reference =
+number: TRK150995954.
+
+Click here to log in and complete the process:
+https://micros0ft-verify.com/account/verify
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Microsoft 365
+
+--===============3899591086259063230==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>You have been selected in this month's cu=
+stomer appreciation draw. Reference number: TRK150995954.</p><p>Click here to=
+ log in and complete the process: https://micros0ft-verify.com/account/verify=
+</p><p>If we do not receive a response within 24 hours the request will be ca=
+ncelled and the amount returned to treasury.</p><p>Customer Support Microsoft=
+ 365</p><p><a href=3D"https://micros0ft-verify.com/account/verify">https://ww=
+w.microsoft.com/verify</a></p></body></html>
+
+--===============3899591086259063230==--

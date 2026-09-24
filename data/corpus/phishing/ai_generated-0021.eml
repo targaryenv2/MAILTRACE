@@ -1,0 +1,66 @@
+From: "Emily Menon" <emily.menon@orionsystems.io>
+To: Ishita Menon <ishita.menon@orionsystems.io>
+Subject: Re: the shared folder permissions
+Date: Wed, 27 May 2026 04:15:00 +0000
+Message-ID: <178772093663.6.5492379402094635131@orionsystems.io>
+Return-Path: <bounce-8344@orionsystems.io>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id C0CBF71D0F5A for
+ <recipient@orionsystems.io>; Wed, 27 May 2026 04:15:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ AD6BD6AE2AA0; Wed, 27 May 2026 04:12:22 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id A41E3472682A; Wed, 27 May
+ 2026 04:11:23 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=683154829; h=from:to:subject:date;
+ bh=MOMKhcNSIVOSfIECeBRTrafSCsyS1hazxrV/sITFSHM=; =?utf-8?q?b=3DWGX9RexC3Sis?=
+ =?utf-8?q?qYn7SZGKTW59m1kUvDJi1VYWV3eBSjli0Q7DCy9WCG1s2vx/QXTFUCOc452jX++xP?=
+ =?utf-8?q?4mW+pEybQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3058807424815176045=="
+
+--===============3058807424815176045==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Ishita,
+
+Thanks again for your time earlier this week. I have put the revised Engineer=
+ing
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://docs-workspace.app/d/c6f443f3
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Emily Menon
+Partner, Aurora Freight
+
+--===============3058807424815176045==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Ishita,</p><p>Thanks again for your time earlier this week.=
+ I have put the revised Engineering document in the shared workspace and adde=
+d comments against the two clauses we discussed.</p><p>You can open it here w=
+hen convenient: https://docs-workspace.app/d/c6f443f3</p><p>There is no rush =
+on this. If the second section reads oddly, that is my drafting rather than a=
+ change in position, so do flag it.</p><p>Best regards, Emily Menon Partner, =
+Aurora Freight</p><p><a href=3D"https://docs-workspace.app/d/c6f443f3">shared=
+ workspace</a></p></body></html>
+
+--===============3058807424815176045==--

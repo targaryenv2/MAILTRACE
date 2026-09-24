@@ -1,0 +1,63 @@
+From: "David Hughes" <david.hughes@northgate-industries.com>
+To: Nikhil Reddy <nikhil.reddy@brightpath-edu.ac.in>
+Subject: Following up on the Academics document you shared
+Date: Wed, 20 May 2026 21:03:00 +0000
+Message-ID: <178772093637.6.4502290884634416110@northgate-industries.com>
+Return-Path: <bounce-7099@northgate-industries.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id F32B9D820464 for
+ <recipient@brightpath-edu.ac.in>; Wed, 20 May 2026 21:03:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 63A4316E2F5C; Wed, 20 May 2026
+ 20:58:45 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=518006542; h=from:to:subject:date;
+ bh=xwgAvhteJCgxTeFgetO1ZwuNLEkZ0H7G6S8dQ+I1raw=; =?utf-8?q?b=3DZw9Q5+csEheo?=
+ =?utf-8?q?aVK/yJqLVeyxfu4ex0n2tKfhYbl/cguh4p783PnlLym3n9qgqv2FcQiQUV1T44lJa?=
+ =?utf-8?q?Xk+AI4d1Q=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4662777724331810634=="
+
+--===============4662777724331810634==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Nikhil,
+
+Thanks again for your time earlier this week. I have put the revised Academics
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://sharedrive-review.io/d/5cd8a62a
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+David Hughes
+Associate Director, Aurora Freight
+
+--===============4662777724331810634==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Nikhil,</p><p>Thanks again for your time earlier this week.=
+ I have put the revised Academics document in the shared workspace and added =
+comments against the two clauses we discussed.</p><p>You can open it here whe=
+n convenient: https://sharedrive-review.io/d/5cd8a62a</p><p>There is no rush =
+on this. If the second section reads oddly, that is my drafting rather than a=
+ change in position, so do flag it.</p><p>Best regards, David Hughes Associat=
+e Director, Aurora Freight</p><p><a href=3D"https://sharedrive-review.io/d/5c=
+d8a62a">shared workspace</a></p></body></html>
+
+--===============4662777724331810634==--

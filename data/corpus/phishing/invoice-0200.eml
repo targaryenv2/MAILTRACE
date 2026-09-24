@@ -1,0 +1,78 @@
+From: "Zenith Traders Accounts" <billing@gooogle-mail.cf>
+To: Neha Gupta <neha.gupta@brightpath-edu.ac.in>
+Subject: Purchase order INV-2026-9737 needs your approval
+Date: Sat, 09 May 2026 00:45:00 +0000
+Message-ID: <178772093953.6.11309354966806247843@gooogle-mail.cf>
+Return-Path: <bounce-1722@gooogle-mail.cf>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id F433EF6306E2 for
+ <recipient@brightpath-edu.ac.in>; Sat, 09 May 2026 00:45:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 65FD98BFBD14; Sat, 09 May
+ 2026 00:39:53 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id B3B5A84BD88E; Sat, 09 May 2026
+ 00:39:08 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 21A87E8D2FC2; Sat, 09 May 2026 00:35:07 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@gooogle-mail.cf>;
+Authentication-Results: mx.gooogle-mail.cf; spf=softfail
+ smtp.mailfrom=gooogle-mail.cf; dkim=fail header.d=gooogle-mail.cf; dmarc=fail
+ (p=reject) header.from=gooogle-mail.cf
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gooogle-mail.cf;
+ s=selector1; t=255538805; h=from:to:subject:date;
+ bh=QX72wCiwWc6rZMxhVSl1Fqb8onhwxlqDaViN95dxDQw=; =?utf-8?q?b=3DczYcm1kV/sGu?=
+ =?utf-8?q?5OwRu8LAllK5yXzQWf01Eo6/zStG0lOO318mjQCpVl82jAu2wQsU8aFhrYgx1vlXG?=
+ =?utf-8?q?U6x+MNIAQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============0328205878231562674=="
+
+--===============0328205878231562674==
+Content-Type: multipart/alternative;
+ boundary="===============1542107930989138335=="
+
+--===============1542107930989138335==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Neha,
+
+Please find attached invoice INV-2026-9737 for INR 6,346,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Sanjay Verma
+Accounts Receivable, Zenith Traders
+
+--===============1542107930989138335==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Neha,</p><p>Please find attached invoice INV-2026-9737 f=
+or INR 6,346,000, now overdue. Kindly review the attached statement and proce=
+ss this payment immediately to avoid service interruption.</p><p>If the bank =
+details have changed since your last remittance, use the updated account info=
+rmation in the attachment.</p><p>Regards, Sanjay Verma Accounts Receivable, Z=
+enith Traders</p></body></html>
+
+--===============1542107930989138335==--
+
+--===============0328205878231562674==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-9737.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============0328205878231562674==--

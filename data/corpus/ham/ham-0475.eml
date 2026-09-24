@@ -1,0 +1,40 @@
+From: "Sanjay Hughes" <sanjay.hughes@orionsystems.io>
+To: Ishita Hughes <ishita.hughes@orionsystems.io>
+Subject: Weekly Human Resources sync - agenda
+Date: Sun, 17 May 2026 05:50:00 +0000
+Message-ID: <178772094383.6.2439251649313544793@orionsystems.io>
+Return-Path: <sanjay.hughes@orionsystems.io>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id C578BDFCF0E1 for <recipient@orionsystems.io>; Sun,
+ 17 May 2026 05:50:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 8A82A342C285; Sun,
+ 17 May 2026 05:47:00 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=478366891; h=from:to:subject:date;
+ bh=jyqDCo2t6ofTuOP/CeeMYieT9HqcP4Tu5j3jGzJvP2s=; =?utf-8?q?b=3DiomjkAaLWkYT?=
+ =?utf-8?q?pLc+gyufcFvdtQjeS0hXMTbP7koMww5soZsPll/U13bqYigejevUEFxNXTitO8O1E?=
+ =?utf-8?q?L1LQ/UQ/A=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Human Resources sync:
+
+1. Status of the Vertex Logistics migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Sanjay Hughes

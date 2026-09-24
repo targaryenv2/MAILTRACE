@@ -1,0 +1,43 @@
+From: "Anna Pillai (CEO)" <anna.pillai@yahoo.com>
+Reply-To: anna.pillai.office@yahoo.com
+To: Divya Rao <divya.rao@brightpath-edu.ac.in>
+Subject: Quick request before end of day
+Date: Wed, 20 May 2026 04:43:00 +0000
+Message-ID: <178772093755.6.6101284067369273012@yahoo.com>
+Return-Path: <bounce-8761@yahoo.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 44389E7C6FF3 for
+ <recipient@brightpath-edu.ac.in>; Wed, 20 May 2026 04:43:00 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by smtp-out-3.example (Postfix) with ESMTPS id B26718076CF4;
+ Wed, 20 May 2026 04:40:08 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=288926574; h=from:to:subject:date;
+ bh=GGuOZbwG35QVpqSuhvGr7T6Tya/l15c4RIVAbuohHIw=; =?utf-8?q?b=3DUFpaOrR0b1Hx?=
+ =?utf-8?q?HdeCR3pDr9+alHiGlsNLWeDh7SKmbYSjI8Zjl8Zl+Au6y00H+vdaGzgEurX7YV9K1?=
+ =?utf-8?q?I574LZx0A=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Divya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 4,312,000 to a new beneficiary today. This relates to
+Kestrel Supplies Ltd and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Kestrel Supplies Ltd
+Account: 57730285400
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Anna Pillai
+CFO

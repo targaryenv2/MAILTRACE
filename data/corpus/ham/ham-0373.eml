@@ -1,0 +1,39 @@
+From: "Arjun Iyer" <arjun.iyer@summitfoods.co.in>
+To: Nikhil Grant <nikhil.grant@summitfoods.co.in>
+Subject: Payslip for December is available
+Date: Fri, 15 May 2026 21:24:00 +0000
+Message-ID: <178772094227.6.12284309161610596021@summitfoods.co.in>
+Return-Path: <arjun.iyer@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 7010468B30F6 for
+ <recipient@summitfoods.co.in>; Fri, 15 May 2026 21:24:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 8806164AC7B4; Fri, 15 May 2026
+ 21:18:22 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=156895824; h=from:to:subject:date;
+ bh=6U1y0IrQkLH8Q3Q0YWO6/mtxYseVKwc3EansU0uvUlQ=; =?utf-8?q?b=3DGef3YTD4saT3?=
+ =?utf-8?q?vpFb025Pu0W42HaK6pIE9LRCfo8Pq14oaFUGniNlRHBV6YnPvELIPGnLORYg6Lk2S?=
+ =?utf-8?q?tizmK5b2Q=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Nikhil,
+
+Your payslip for December is now available on the employee portal. Log in thr=
+ough
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Orion Systems

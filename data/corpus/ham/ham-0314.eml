@@ -1,0 +1,36 @@
+From: "Rohan Bose" <rohan.bose@brightpath-edu.ac.in>
+To: Emily Hughes <emily.hughes@brightpath-edu.ac.in>
+Subject: Invoice INV-2025-8116 paid
+Date: Sat, 30 May 2026 22:07:00 +0000
+Message-ID: <178772094134.6.13089242772702044306@brightpath-edu.ac.in>
+Return-Path: <rohan.bose@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 1D2E5BBCDFBC for
+ <recipient@brightpath-edu.ac.in>; Sat, 30 May 2026 22:07:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 7BA85E5419E5; Sat, 30 May
+ 2026 22:05:54 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 329C936EE0CB; Sat, 30 May 2026 22:04:47 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=865173419; h=from:to:subject:date;
+ bh=PsDk0esmPCbLK/g+yjBxTscd6N79AOpJt0lwJsbU6/I=; =?utf-8?q?b=3DP0Xu0JBGzanW?=
+ =?utf-8?q?GL6qKdioSwPfdsNnDqFWXLZkBO0PUEd9NoHhxxXdbC0/YR6iL6XjOinQcUCpxvBG6?=
+ =?utf-8?q?QX/+JpxQQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+This confirms that invoice INV-2025-8116 for $337,900 was paid on 14 May 2026
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Vertex Logistics

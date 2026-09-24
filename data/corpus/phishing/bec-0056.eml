@@ -1,0 +1,47 @@
+From: "Neha Sharma (CEO)" <neha.sharma@gmail.com>
+Reply-To: neha.sharma.office@gmail.com
+To: Ishita Iyer <ishita.iyer@hansacapital.co>
+Subject: Quick request before end of day
+Date: Fri, 08 May 2026 10:10:00 +0000
+Message-ID: <178772093713.6.6756650696445732466@gmail.com>
+Return-Path: <bounce-1535@gmail.com>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.hansacapital.co (Postfix) with ESMTPS id 0B54FEA8CA55
+ for <recipient@hansacapital.co>; Fri, 08 May 2026 10:10:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id B83671A65CCC; Fri, 08 May
+ 2026 10:06:04 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id B8069A9CC620; Fri, 08 May 2026
+ 09:59:53 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=186989651; h=from:to:subject:date;
+ bh=0z3hIui/q2ztirVXIRs3vn/y1U+bb7mOz6wa2Uzjpvk=; =?utf-8?q?b=3DnZFVdyTgDf8Z?=
+ =?utf-8?q?HSEOofBPbTGt3kfeOhrxozzDAUlUee55PtoIvuDjtmgqsSlmYdGRzkr/f+nCGwkjy?=
+ =?utf-8?q?a6HaCm5ew=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Ishita,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $1,783,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 86937888753
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Neha Sharma
+CFO

@@ -1,0 +1,33 @@
+From: "Meera Reddy" <meera.reddy@hansacapital.co>
+To: Daniel Grant <daniel.grant@hansacapital.co>
+Subject: Library books due July
+Date: Wed, 13 May 2026 03:13:00 +0000
+Message-ID: <178772094070.6.3295043807243357949@hansacapital.co>
+Return-Path: <meera.reddy@hansacapital.co>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.hansacapital.co
+ (Postfix) with ESMTPS id 2F5C26D2BCB8 for <recipient@hansacapital.co>; Wed,
+ 13 May 2026 03:13:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 8CF2A2451C24; Wed,
+ 13 May 2026 03:07:39 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=655005514; h=from:to:subject:date;
+ bh=PZ9p7+EIhk9iU5jFt6enZaecwRNfzaqTRLIM3BkTf/4=; =?utf-8?q?b=3D6wh8Wkp3b6pT?=
+ =?utf-8?q?X97lt9JAKv0ZPy6dOv4SPq0TlHeeq+yAcDV9sVSt32cACqmfbAV3f1/AUNuXNZiFb?=
+ =?utf-8?q?87KGPdQ/Q=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Daniel,
+
+Two items on your library account are due at the end of July. Renewals can be
+made at the circulation desk or from the catalogue page.
+
+Central Library

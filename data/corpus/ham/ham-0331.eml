@@ -1,0 +1,52 @@
+From: "Aditya Ellis" <aditya.ellis@brightpath-edu.ac.in>
+To: James Grant <james.grant@brightpath-edu.ac.in>
+Subject: Welcome to the team, James
+Date: Mon, 04 May 2026 17:24:00 +0000
+Message-ID: <178772094161.6.18338220220282149598@brightpath-edu.ac.in>
+Return-Path: <aditya.ellis@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id D0E83B42A71E for
+ <recipient@brightpath-edu.ac.in>; Mon, 04 May 2026 17:24:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ DC0441910606; Mon, 04 May 2026 17:21:50 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=637604024; h=from:to:subject:date;
+ bh=Ga9Q4YwbXRb+LiPu8/gBfsthsAABk6BcTIy38k0EmZQ=; =?utf-8?q?b=3DvH90UnHyEXY9?=
+ =?utf-8?q?sCxNyDquhGGbC5igfkRMiOH9NsdTN1oAWh4JY8mf+z527ALdZjSpmgvrWhH0z1ycu?=
+ =?utf-8?q?+m5JRcCug=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8880076537593029168=="
+
+--===============8880076537593029168==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi James,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Aditya Ellis
+Human Resources, Northgate Industries
+
+--===============8880076537593029168==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi James,</p><p>Welcome aboard. Your laptop is at the IT desk =
+on the second floor and your manager will walk you through the first-week pla=
+n tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Aditya Ellis Human =
+Resources, Northgate Industries</p></body></html>
+
+--===============8880076537593029168==--

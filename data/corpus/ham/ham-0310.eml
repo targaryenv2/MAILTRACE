@@ -1,0 +1,51 @@
+From: "Sarah Reddy" <sarah.reddy@brightpath-edu.ac.in>
+To: James Ellis <james.ellis@brightpath-edu.ac.in>
+Subject: Reminder: submit Operations timesheets by Friday
+Date: Tue, 05 May 2026 16:12:00 +0000
+Message-ID: <178772094128.6.12137093941238503638@brightpath-edu.ac.in>
+Return-Path: <sarah.reddy@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id
+ 650B4D205D98 for <recipient@brightpath-edu.ac.in>; Tue, 05 May 2026 16:12:00
+ +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 21D47EA8A66B; Tue, 05 May
+ 2026 16:11:42 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=136062849; h=from:to:subject:date;
+ bh=dgDDqaN5AJhyOV/rJUEvBb8TUyx4P4hZQxSj9hlLfHM=; =?utf-8?q?b=3DUg0npdlrkZiM?=
+ =?utf-8?q?skMVhk/9r4nKv5QApRPpt+frXZtJlHv5sVF6Suo/NxXPMMdy0cpRWt9TF0MErAPDh?=
+ =?utf-8?q?U/V/4/dgw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4492889146341504376=="
+
+--===============4492889146341504376==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi James,
+
+A reminder that July timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Sarah Reddy
+Operations
+
+--===============4492889146341504376==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi James,</p><p>A reminder that July timesheets close on Frida=
+y. If you are on leave, your approver can submit on your behalf.</p><p>Thanks=
+, Sarah Reddy Operations</p></body></html>
+
+--===============4492889146341504376==--

@@ -1,0 +1,53 @@
+From: "Sneha Menon" <sneha.menon@summitfoods.co.in>
+To: Nikhil Joshi <nikhil.joshi@summitfoods.co.in>
+Subject: Reminder: submit Operations timesheets by Friday
+Date: Fri, 22 May 2026 21:20:00 +0000
+Message-ID: <178772094329.6.1709993944354270780@summitfoods.co.in>
+Return-Path: <sneha.menon@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.summitfoods.co.in (Postfix) with ESMTPS id F8998FC33200
+ for <recipient@summitfoods.co.in>; Fri, 22 May 2026 21:20:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id FDCA329908CD; Fri, 22 May
+ 2026 21:16:03 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 5714778DA8E1; Fri, 22 May 2026
+ 21:09:57 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=477816266; h=from:to:subject:date;
+ bh=7yyShuojLJ12A2qoR4rwB/0DAE5IVZnF8y1xBwh45mM=; =?utf-8?q?b=3DZaOEycS+vhLz?=
+ =?utf-8?q?ho+juTOXaiAK4SPX9QnfJKW+t7VVHC7cDB6UmaOWWvpu8cz3XHEX6vZa8c/T3nIT6?=
+ =?utf-8?q?1cekgc/Ug=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4807349846165485559=="
+
+--===============4807349846165485559==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Nikhil,
+
+A reminder that March timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Sneha Menon
+Operations
+
+--===============4807349846165485559==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Nikhil,</p><p>A reminder that March timesheets close on Fri=
+day. If you are on leave, your approver can submit on your behalf.</p><p>Than=
+ks, Sneha Menon Operations</p></body></html>
+
+--===============4807349846165485559==--

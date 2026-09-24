@@ -1,0 +1,80 @@
+From: "Aurora Freight Accounts" <billing@paypal-resolution-centre.top>
+To: Ananya Kapoor <ananya.kapoor@kalyaniworks.in>
+Subject: Remittance advice INV-2026-8578 - action required
+Date: Thu, 28 May 2026 01:32:00 +0000
+Message-ID: <178772093973.6.11738946227882137367@paypal-resolution-centre.top>
+Return-Path: <bounce-2074@paypal-resolution-centre.top>
+MIME-Version: 1.0
+X-Mailer: BulkSend 2.1
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 3555ACFF4298 for
+ <recipient@kalyaniworks.in>; Thu, 28 May 2026 01:32:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ tor-exit-node.example (Postfix) with ESMTPS id FD33DD56A161; Thu, 28 May 2026
+ 01:29:49 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 3EA2A94BF8E1; Thu, 28 May 2026
+ 01:25:41 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by smtp-out-3.example (Postfix) with ESMTPS id B603487CCA75;
+ Thu, 28 May 2026 01:24:20 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@paypal-resolution-centre.top>;
+Authentication-Results: mx.paypal-resolution-centre.top; spf=softfail
+ smtp.mailfrom=paypal-resolution-centre.top; dkim=fail
+ header.d=paypal-resolution-centre.top; dmarc=fail (p=reject)
+ header.from=paypal-resolution-centre.top
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=paypal-resolution-centre.top; s=selector1; t=116554314;
+ h=from:to:subject:date; bh=W2AowpNgi3umZFnf+Wpd9hjZRWb3fS9A+Va0XT8W0Qk=; 
+ =?utf-8?q?b=3DirpDgaaG94nF+dGEKB0wfiOIQxjwKa2DfV2YmVvwFdO8sbo9XTb9b256k4jdP?=
+ =?utf-8?q?SZVIb7NrXMQVF3Gk/EfbqarOA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============0200986080563478882=="
+
+--===============0200986080563478882==
+Content-Type: multipart/alternative;
+ boundary="===============3331724723310221277=="
+
+--===============3331724723310221277==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Ananya,
+
+Please find attached invoice INV-2026-8578 for EUR 7,621,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+David Ellis
+Accounts Receivable, Aurora Freight
+
+--===============3331724723310221277==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Ananya,</p><p>Please find attached invoice INV-2026-8578=
+ for EUR 7,621,000, now overdue. Kindly review the attached statement and pro=
+cess this payment immediately to avoid service interruption.</p><p>If the ban=
+k details have changed since your last remittance, use the updated account in=
+formation in the attachment.</p><p>Regards, David Ellis Accounts Receivable, =
+Aurora Freight</p></body></html>
+
+--===============3331724723310221277==--
+
+--===============0200986080563478882==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2026-8578.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============0200986080563478882==--

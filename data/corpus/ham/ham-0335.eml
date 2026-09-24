@@ -1,0 +1,51 @@
+From: "Emily Anderson" <emily.anderson@northgate-industries.com>
+To: Divya Carter <divya.carter@northgate-industries.com>
+Subject: Reminder: submit Research timesheets by Friday
+Date: Fri, 22 May 2026 15:05:00 +0000
+Message-ID: <178772094167.6.8281494339959694982@northgate-industries.com>
+Return-Path: <emily.anderson@northgate-industries.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id FAC61AA3FE63 for
+ <recipient@northgate-industries.com>; Fri, 22 May 2026 15:05:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 462C6835D7EE;
+ Fri, 22 May 2026 15:04:41 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=481743229; h=from:to:subject:date;
+ bh=Q8Eo0aDtFa0Ytta1LJlDD8WQAEM18vdYLYTuH3o8Jec=; =?utf-8?q?b=3Dg0lX1Bywpsq2?=
+ =?utf-8?q?8V//BbyVMMrNuhFS4WYeR+0ptRHzPdbYpJ/nE9gtfaxGrhg/UwQ+PVzN9QVaf4qyp?=
+ =?utf-8?q?I3A8If3dg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2279010766914707472=="
+
+--===============2279010766914707472==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Divya,
+
+A reminder that November timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Emily Anderson
+Research
+
+--===============2279010766914707472==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Divya,</p><p>A reminder that November timesheets close on F=
+riday. If you are on leave, your approver can submit on your behalf.</p><p>Th=
+anks, Emily Anderson Research</p></body></html>
+
+--===============2279010766914707472==--

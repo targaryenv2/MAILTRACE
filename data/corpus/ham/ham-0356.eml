@@ -1,0 +1,34 @@
+From: "Ishita Grant" <ishita.grant@orionsystems.io>
+To: Rahul Reddy <rahul.reddy@orionsystems.io>
+Subject: Library books due December
+Date: Thu, 14 May 2026 16:47:00 +0000
+Message-ID: <178772094199.6.4809121002420191951@orionsystems.io>
+Return-Path: <ishita.grant@orionsystems.io>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id F75EB4518D7F for <recipient@orionsystems.io>; Thu,
+ 14 May 2026 16:47:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 8FFA1D0D696C; Thu,
+ 14 May 2026 16:46:53 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=775638192; h=from:to:subject:date;
+ bh=0zMWoAzDZPoZCF8CiALzRlSLpwUfQIdDf+g4kkzAkrs=; =?utf-8?q?b=3DpsCyfJNnYrgf?=
+ =?utf-8?q?rr74P9uFUZSlB4x8w6Akglmmy/DCpUw97B4mOVlYTas8UlHVI2E9uK49tirHrhtrv?=
+ =?utf-8?q?4Abi+VBEQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rahul,
+
+Two items on your library account are due at the end of December. Renewals ca=
+n be
+made at the circulation desk or from the catalogue page.
+
+Central Library

@@ -1,0 +1,54 @@
+From: "Nikhil Rao" <nikhil.rao@meridian-labs.org>
+To: Laura Bose <laura.bose@meridian-labs.org>
+Subject: Reminder: submit Legal timesheets by Friday
+Date: Wed, 13 May 2026 02:07:00 +0000
+Message-ID: <178772094072.6.1776423475077482238@meridian-labs.org>
+Return-Path: <nikhil.rao@meridian-labs.org>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.meridian-labs.org
+ (Postfix) with ESMTPS id 6CAE0638475A for <recipient@meridian-labs.org>; Wed,
+ 13 May 2026 02:07:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 045A180D0CC2; Wed,
+ 13 May 2026 02:03:50 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id ABB55BAAEA1C; Wed, 13 May 2026
+ 02:00:50 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=130990234; h=from:to:subject:date;
+ bh=xccYTRN8tc5bkNbCFNW+vhXBQC71pJZ/9LGTiP8PGBI=; =?utf-8?q?b=3DGqdng2HZPEFQ?=
+ =?utf-8?q?srALZ5jcymppTg8aDL6uNyFWqlASGc7V7D4uq48ptZ2FEQKjpsSsz8JKDoaExU2KL?=
+ =?utf-8?q?reLN6a8Sg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============5823737165784817654=="
+
+--===============5823737165784817654==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Laura,
+
+A reminder that March timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Nikhil Rao
+Legal
+
+--===============5823737165784817654==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Laura,</p><p>A reminder that March timesheets close on Frid=
+ay. If you are on leave, your approver can submit on your behalf.</p><p>Thank=
+s, Nikhil Rao Legal</p></body></html>
+
+--===============5823737165784817654==--

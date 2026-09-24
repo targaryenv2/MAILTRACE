@@ -1,0 +1,80 @@
+From: "Trident Components Accounts" <billing@office365-alert.top>
+To: Neha Ellis <neha.ellis@hansacapital.co>
+Subject: Remittance advice INV-2026-9274 - action required
+Date: Tue, 05 May 2026 15:39:00 +0000
+Message-ID: <178772093923.6.11888880467871707690@office365-alert.top>
+Return-Path: <bounce-4703@office365-alert.top>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 4320C89B3B45 for
+ <recipient@hansacapital.co>; Tue, 05 May 2026 15:39:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ B3AC3B80D662; Tue, 05 May 2026 15:38:48 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id FB2DEE2F8BF3; Tue, 05 May
+ 2026 15:34:44 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id 931514EC9AE9; Tue, 05 May
+ 2026 15:33:30 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id F7B7C8352130; Tue, 05 May
+ 2026 15:32:31 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@office365-alert.top>;
+Authentication-Results: mx.office365-alert.top; spf=softfail
+ smtp.mailfrom=office365-alert.top; dkim=fail header.d=office365-alert.top;
+ dmarc=fail (p=reject) header.from=office365-alert.top
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=office365-alert.top;
+ s=selector1; t=343009490; h=from:to:subject:date;
+ bh=vfz2a1Bph6klH03A2nLFKG250jH3UclcWIDvmMHDkrU=; =?utf-8?q?b=3D0RbCA5HTU3NW?=
+ =?utf-8?q?eEu4gA+1hSOLaDSvv0RMIbziaNt9YG2l8Z98XaErNWzN9hs5FBIuq/g3k8Jns2C/J?=
+ =?utf-8?q?wb+eT7MEA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============3078289581639742086=="
+
+--===============3078289581639742086==
+Content-Type: multipart/alternative;
+ boundary="===============0573077965502816346=="
+
+--===============0573077965502816346==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Neha,
+
+Please find attached invoice INV-2026-9274 for EUR 6,289,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Rahul Fletcher
+Accounts Receivable, Trident Components
+
+--===============0573077965502816346==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Neha,</p><p>Please find attached invoice INV-2026-9274 f=
+or EUR 6,289,000, now overdue. Kindly review the attached statement and proce=
+ss this payment immediately to avoid service interruption.</p><p>If the bank =
+details have changed since your last remittance, use the updated account info=
+rmation in the attachment.</p><p>Regards, Rahul Fletcher Accounts Receivable,=
+ Trident Components</p></body></html>
+
+--===============0573077965502816346==--
+
+--===============3078289581639742086==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-9274.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============3078289581639742086==--

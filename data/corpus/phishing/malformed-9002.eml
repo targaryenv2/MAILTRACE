@@ -1,0 +1,9 @@
+From: broken <@@@>
+To: someone
+Subject: =?utf-8?B?bm90LXZhbGlkLWJhc2U2NA?
+Content-Type: multipart/mixed; boundary="missing"
+
+--missing
+Content-Type: text/plain
+
+truncated body with no closing boundary and a broken encoded-word subject

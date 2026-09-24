@@ -1,0 +1,53 @@
+From: "Ananya Menon" <ananya.menon@meridian-labs.org>
+To: Divya Verma <divya.verma@meridian-labs.org>
+Subject: Invoice INV-2025-8294 paid
+Date: Fri, 15 May 2026 05:14:00 +0000
+Message-ID: <178772094410.6.5903282830153865943@meridian-labs.org>
+Return-Path: <ananya.menon@meridian-labs.org>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id A6D0583CE3FB for
+ <recipient@meridian-labs.org>; Fri, 15 May 2026 05:14:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 20FA72C143F4; Fri, 15 May
+ 2026 05:13:26 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id C74C83DB9960; Fri, 15 May 2026
+ 05:12:51 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=345063025; h=from:to:subject:date;
+ bh=Dzq0qNKvep85ZcDXX2G8QttA71X2aSJ8dMKEfFu80kU=; =?utf-8?q?b=3D3n+G36XYKkg+?=
+ =?utf-8?q?dcHzW223Xd0qWTd6D1sFX8Lu78gvd7NGAXSvvtg6QoUzibLxZlLSLk7K3/Jg/taEj?=
+ =?utf-8?q?fXkO2ZtxA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4630124636071534562=="
+
+--===============4630124636071534562==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+This confirms that invoice INV-2025-8294 for $211,300 was paid on 13 May 2026
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Brightpath Institute
+
+--===============4630124636071534562==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>This confirms that invoice INV-2025-8294 for $211=
+,300 was paid on 13 May 2026 by bank transfer to the account already on file.=
+ No further action is needed.</p><p>Accounts Payable Brightpath Institute</p>=
+</body></html>
+
+--===============4630124636071534562==--

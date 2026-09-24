@@ -1,0 +1,57 @@
+From: "Anna Kapoor" <anna.kapoor@hansacapital.co>
+To: Vikram Fletcher <vikram.fletcher@hansacapital.co>
+Subject: PR #3240: refactor the retry handler
+Date: Thu, 28 May 2026 06:31:00 +0000
+Message-ID: <178772094214.6.12395723741083141515@hansacapital.co>
+Return-Path: <anna.kapoor@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id A41F7BBE3917 for
+ <recipient@hansacapital.co>; Thu, 28 May 2026 06:31:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 13881E214D0B; Thu, 28 May 2026 06:25:53 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 06795CA04FEE; Thu, 28 May
+ 2026 06:22:44 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=375789240; h=from:to:subject:date;
+ bh=Ie+sxI0g7iBTssYFRScQHzTg7NfKeS6T/rGajQEHc1o=; =?utf-8?q?b=3DEGcAixLfbhcz?=
+ =?utf-8?q?WKMSIaMUC5t0rUQHJP1MdPtJNcTiC3BCdsEblmhpU2eKge0gQwURcXEW8S0eNiwRm?=
+ =?utf-8?q?P5l4Gj/yA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7500860861431963957=="
+
+--===============7500860861431963957==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Anna Kapoor requested your review on pull request #3240.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============7500860861431963957==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Anna Kapoor requested your review on pull request #3240.</p><p=
+>refactor: collapse the three retry paths into one backoff helper</p><p>Chang=
+ed 6 files, +148 -211. CI is green. The behaviour change worth checking is th=
+at a 429 now retries twice instead of once.</p><p>View it in the repository w=
+hen you get a chance.</p></body></html>
+
+--===============7500860861431963957==--

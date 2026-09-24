@@ -1,0 +1,57 @@
+From: "Karthik Iyer" <karthik.iyer@hansacapital.co>
+To: Sanjay Kapoor <sanjay.kapoor@hansacapital.co>
+Subject: Conference paper decision - Meridian Labs workshop
+Date: Tue, 05 May 2026 15:02:00 +0000
+Message-ID: <178772094280.6.10286853243027867327@hansacapital.co>
+Return-Path: <karthik.iyer@hansacapital.co>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.hansacapital.co (Postfix) with ESMTPS id 44F854FA5C08
+ for <recipient@hansacapital.co>; Tue, 05 May 2026 15:02:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 4E1EC2ADEBBF; Tue, 05 May
+ 2026 14:57:46 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id E9ED640612BC; Tue, 05 May 2026
+ 14:56:33 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=424337984; h=from:to:subject:date;
+ bh=Z9FvtjhekO7HqYG2ONpFZfwhaHHLiee/qLN55JAUh6w=; =?utf-8?q?b=3D7gSI1GzZmW7v?=
+ =?utf-8?q?55ojBqnpHBZq/yYpz6TOcpj9wlJ6qQciEPX1SMBohgcwPUvl2y7lgsAkrVDFvFjLV?=
+ =?utf-8?q?qDPHMy5eg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3781523391825619092=="
+
+--===============3781523391825619092==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sanjay,
+
+Thank you for your submission to the Meridian Labs workshop. The reviewers ha=
+ve
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============3781523391825619092==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Sanjay,</p><p>Thank you for your submission to the Meridi=
+an Labs workshop. The reviewers have recommended acceptance with minor revisi=
+ons. Reviews are attached to the submission record in the conference system.<=
+/p><p>Camera-ready copies are due at the end of the month.</p><p>Programme Co=
+mmittee</p></body></html>
+
+--===============3781523391825619092==--

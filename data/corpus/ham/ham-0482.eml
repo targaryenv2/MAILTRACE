@@ -1,0 +1,36 @@
+From: "Anna Nair" <anna.nair@kalyaniworks.in>
+To: Sneha Dawson <sneha.dawson@kalyaniworks.in>
+Subject: Library books due December
+Date: Sat, 09 May 2026 03:36:00 +0000
+Message-ID: <178772094394.6.6094418816051854147@kalyaniworks.in>
+Return-Path: <anna.nair@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id A8C62F7D3570 for
+ <recipient@kalyaniworks.in>; Sat, 09 May 2026 03:36:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 77CF48CAAD28; Sat, 09 May 2026
+ 03:32:50 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 6BF44FCC2545; Sat, 09 May 2026
+ 03:29:54 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=356150475; h=from:to:subject:date;
+ bh=sKC53fi4KrbIZjfIsaBANfFGMA9j/giS/WfRO/wwOso=; =?utf-8?q?b=3Dc8QSW6uuQ6ru?=
+ =?utf-8?q?E5awKQIOdekGgWy5M4lpiZ6MzDWICAPOnIh32aawcl2j/acpNEv4q2LbZvV2KSANj?=
+ =?utf-8?q?6/lYgcrZg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sneha,
+
+Two items on your library account are due at the end of December. Renewals ca=
+n be
+made at the circulation desk or from the catalogue page.
+
+Central Library

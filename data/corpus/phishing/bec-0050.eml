@@ -1,0 +1,50 @@
+From: "Kavya Anderson (CEO)" <kavya.anderson@outlook.com>
+Reply-To: kavya.anderson.office@outlook.com
+To: Arjun Nair <arjun.nair@brightpath-edu.ac.in>
+Subject: Confidential matter - need your help
+Date: Thu, 28 May 2026 22:22:00 +0000
+Message-ID: <178772093704.6.17737951059227492225@outlook.com>
+Return-Path: <bounce-7685@outlook.com>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id A39B05CC0B6C for
+ <recipient@brightpath-edu.ac.in>; Thu, 28 May 2026 22:22:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 8E664633F5EE; Thu, 28 May
+ 2026 22:17:26 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id BFD435123DEE; Thu, 28 May 2026
+ 22:17:21 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id D905A9062511; Thu, 28 May 2026
+ 22:11:27 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=265800202; h=from:to:subject:date;
+ bh=h6neWYqbqh77IEvIXxpGBUNPs2h1lKABqLT5lmEhZCc=; =?utf-8?q?b=3DYTqq1V9Ym+eh?=
+ =?utf-8?q?I+88+LGPsXA4/WyoflIFMZ7KjeSDc+5pSx6KnJSLuwQQlXD4AaoZPkz03QevUYOf+?=
+ =?utf-8?q?NMJ8Jsnmw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Arjun,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 6,995,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 27194359316
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Kavya Anderson
+Managing Director

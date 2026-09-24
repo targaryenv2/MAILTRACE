@@ -1,0 +1,53 @@
+From: "Divya Grant (CEO)" <divya.grant@gmail.com>
+Reply-To: divya.grant.office@gmail.com
+To: Anna Gupta <anna.gupta@hansacapital.co>
+Subject: URGENT: release the payment today
+Date: Sat, 09 May 2026 12:16:00 +0000
+Message-ID: <178772093687.6.5798175876243710295@gmail.com>
+Return-Path: <bounce-2547@gmail.com>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.hansacapital.co
+ (Postfix) with ESMTPS id 26933FD3498D for <recipient@hansacapital.co>; Sat,
+ 09 May 2026 12:16:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 97F19DE937FE; Sat,
+ 09 May 2026 12:10:43 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id C9C4B30540FB; Sat, 09 May 2026
+ 12:07:19 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 729AF3072FC4; Sat, 09 May 2026
+ 12:05:36 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 06825160768C; Sat, 09 May 2026 12:02:37 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=2771417; h=from:to:subject:date;
+ bh=UMD5lGQh+ROB/ybAUNKqbLJeisJvAUK1uzRHYL9FOKE=; =?utf-8?q?b=3DoC54xygEPKNW?=
+ =?utf-8?q?YDxcLKhPnpOxj0dzn7/L83wFu6eVa57nceTfmpciGE7pI8F2XEqFs5KR2dFf0AtCG?=
+ =?utf-8?q?cmIAhNJ/A=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Anna,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $8,847,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 80333782050
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Divya Grant
+Chief Executive Officer

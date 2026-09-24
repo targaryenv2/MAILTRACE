@@ -1,0 +1,49 @@
+From: "Priya Gupta (CEO)" <priya.gupta@outlook.com>
+Reply-To: priya.gupta.office@outlook.com
+To: Laura Rao <laura.rao@hansacapital.co>
+Subject: URGENT: release the payment today
+Date: Sat, 09 May 2026 16:57:00 +0000
+Message-ID: <178772093724.6.5614734087787775119@outlook.com>
+Return-Path: <bounce-6415@outlook.com>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.hansacapital.co (Postfix) with ESMTPS id 640A5F7F8515
+ for <recipient@hansacapital.co>; Sat, 09 May 2026 16:57:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 7ED43F7449FD; Sat, 09
+ May 2026 16:50:21 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id A6730E63B862; Sat, 09 May
+ 2026 16:45:41 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mail.gateway.example (Postfix) with ESMTPS id 5FE0830E334F; Sat, 09 May 2026
+ 16:44:27 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=940178981; h=from:to:subject:date;
+ bh=Pt2Ml9mf16zR1ONX7x+PVkjES1htsm4CPVLAYsunsJo=; =?utf-8?q?b=3D92ojLxEaHHOx?=
+ =?utf-8?q?SHmsp8UCuvJQOMO8exVSqw9qq1rN25Ojl68pXSKTQ8lp2aLHULQGOR1MAk9uPDPdV?=
+ =?utf-8?q?E418Y+NcA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Laura,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 1,603,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 90439478305
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Priya Gupta
+Managing Director

@@ -1,0 +1,65 @@
+From: "Laura Menon" <laura.menon@northgate-industries.com>
+To: Sanjay Carter <sanjay.carter@brightpath-edu.ac.in>
+Subject: Quick question about the Zenith Traders agreement
+Date: Mon, 11 May 2026 06:18:00 +0000
+Message-ID: <178772093657.6.789136855916682@northgate-industries.com>
+Return-Path: <bounce-9955@northgate-industries.com>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id
+ 63B8B22B55B5 for <recipient@brightpath-edu.ac.in>; Mon, 11 May 2026 06:18:00
+ +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 8E3AD189AF91; Mon, 11 May
+ 2026 06:16:06 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=741467976; h=from:to:subject:date;
+ bh=7SudIkgRFX3eI9INY0lYGMe/kouUIw9wEoxjcqCfNuA=; =?utf-8?q?b=3DA/OTQHk3UXEn?=
+ =?utf-8?q?0u7/pcI8XarV1nZFwwyoaxWKLyNnghZco7gB7UwWDMjtHNqtzfzmdOxtGTt6RniNA?=
+ =?utf-8?q?0amTpSKIw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8863689523284566031=="
+
+--===============8863689523284566031==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sanjay,
+
+Thanks again for your time earlier this week. I have put the revised IT Servi=
+ces
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://sharedrive-review.io/d/45e7fa70
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Laura Menon
+Programme Manager, Zenith Traders
+
+--===============8863689523284566031==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Sanjay,</p><p>Thanks again for your time earlier this week.=
+ I have put the revised IT Services document in the shared workspace and adde=
+d comments against the two clauses we discussed.</p><p>You can open it here w=
+hen convenient: https://sharedrive-review.io/d/45e7fa70</p><p>There is no rus=
+h on this. If the second section reads oddly, that is my drafting rather than=
+ a change in position, so do flag it.</p><p>Best regards, Laura Menon Program=
+me Manager, Zenith Traders</p><p><a href=3D"https://sharedrive-review.io/d/45=
+e7fa70">shared workspace</a></p></body></html>
+
+--===============8863689523284566031==--

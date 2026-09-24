@@ -1,0 +1,74 @@
+From: "Kestrel Supplies Ltd Accounts" <billing@itr-refund-portal.click>
+To: Anna Sharma <anna.sharma@hansacapital.co>
+Subject: Purchase order INV-2026-2476 needs your approval
+Date: Mon, 25 May 2026 20:07:00 +0000
+Message-ID: <178772093957.6.3644928561399331486@itr-refund-portal.click>
+Return-Path: <bounce-1348@itr-refund-portal.click>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 01B19488B9B1 for
+ <recipient@hansacapital.co>; Mon, 25 May 2026 20:07:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id 71C85FAFF65B; Mon, 25 May 2026 20:02:43 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id ADFB3EBD9BC3; Mon,
+ 25 May 2026 19:59:43 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 68D0E14794A3; Mon, 25 May
+ 2026 19:55:47 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@itr-refund-portal.click>;
+Authentication-Results: mx.itr-refund-portal.click; spf=fail
+ smtp.mailfrom=itr-refund-portal.click; dkim=none
+ header.d=itr-refund-portal.click; dmarc=fail (p=reject)
+ header.from=itr-refund-portal.click
+Content-Type: multipart/mixed; boundary="===============3984750199665556716=="
+
+--===============3984750199665556716==
+Content-Type: multipart/alternative;
+ boundary="===============3065744742259824691=="
+
+--===============3065744742259824691==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Anna,
+
+Please find attached invoice INV-2026-2476 for INR 807,000, now overdue. Kind=
+ly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Rohan Hughes
+Accounts Receivable, Kestrel Supplies Ltd
+
+--===============3065744742259824691==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Anna,</p><p>Please find attached invoice INV-2026-2476 f=
+or INR 807,000, now overdue. Kindly review the attached statement and process=
+ this payment immediately to avoid service interruption.</p><p>If the bank de=
+tails have changed since your last remittance, use the updated account inform=
+ation in the attachment.</p><p>Regards, Rohan Hughes Accounts Receivable, Kes=
+trel Supplies Ltd</p></body></html>
+
+--===============3065744742259824691==--
+
+--===============3984750199665556716==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-2476.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============3984750199665556716==--

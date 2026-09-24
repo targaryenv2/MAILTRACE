@@ -1,0 +1,53 @@
+From: "Divya Dawson" <divya.dawson@meridian-labs.org>
+To: Aditya Menon <aditya.menon@meridian-labs.org>
+Subject: Invoice INV-2025-5853 paid
+Date: Sun, 17 May 2026 15:10:00 +0000
+Message-ID: <178772094344.6.6084822967200585343@meridian-labs.org>
+Return-Path: <divya.dawson@meridian-labs.org>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 950CCB3F99B2 for
+ <recipient@meridian-labs.org>; Sun, 17 May 2026 15:10:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 51359070FAF2; Sun, 17 May 2026 15:09:07 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id FFD9C397EAC7; Sun, 17 May
+ 2026 15:08:12 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=773064611; h=from:to:subject:date;
+ bh=ClXbwC9M/8sYGOceHuZZH3n4T47ewEBEiJGU+Ajc8RY=; =?utf-8?q?b=3DV2NMlxYElNnb?=
+ =?utf-8?q?jXCFa7Rao2OcFJxxdNacs9HuHcBOUAnC/jqqx/DdA41Hj5DRumSQ+csPHTXF9YHIe?=
+ =?utf-8?q?z2oG4U3dQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============0566630908367346390=="
+
+--===============0566630908367346390==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+This confirms that invoice INV-2025-5853 for $118,600 was paid on 26 Apr 2026
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Vertex Logistics
+
+--===============0566630908367346390==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>This confirms that invoice INV-2025-5853 for $118=
+,600 was paid on 26 Apr 2026 by bank transfer to the account already on file.=
+ No further action is needed.</p><p>Accounts Payable Vertex Logistics</p></bo=
+dy></html>
+
+--===============0566630908367346390==--

@@ -1,0 +1,48 @@
+From: "Divya Rao (CEO)" <divya.rao@yahoo.com>
+Reply-To: divya.rao.office@yahoo.com
+To: Sneha Pillai <sneha.pillai@summitfoods.co.in>
+Subject: Change of bank details for Kestrel Supplies Ltd
+Date: Thu, 21 May 2026 00:49:00 +0000
+Message-ID: <178772093716.6.13370227423085842466@yahoo.com>
+Return-Path: <bounce-9889@yahoo.com>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id 552E11CB990E for <recipient@summitfoods.co.in>; Thu,
+ 21 May 2026 00:49:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id BBAF1F494E65; Thu,
+ 21 May 2026 00:46:46 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mail.gateway.example (Postfix) with ESMTPS id 57464A554D0D; Thu, 21 May 2026
+ 00:42:03 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=333700392; h=from:to:subject:date;
+ bh=wA07IRIuNE7y8EvxXbkevJbGSaeF4DnjosVx1kbD4fs=; =?utf-8?q?b=3Df1YKpWQuSETF?=
+ =?utf-8?q?+BO2fDUMWh3l5qQwo20T6CswH+aTZ0DGLj/5RjnFLADr6y4Pr6Jpr5DDSUWfmHVr5?=
+ =?utf-8?q?Rah6B8P+A=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Sneha,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $8,841,000 to a new beneficiary today. This relates to
+Kestrel Supplies Ltd and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Kestrel Supplies Ltd
+Account: 82541763181
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Divya Rao
+Managing Director

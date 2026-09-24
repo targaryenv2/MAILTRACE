@@ -1,0 +1,53 @@
+From: "Kavya Nair" <kavya.nair@northgate-industries.com>
+To: Divya Gupta <divya.gupta@northgate-industries.com>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Thu, 21 May 2026 21:54:00 +0000
+Message-ID: <178772094361.6.8158540796534619726@northgate-industries.com>
+Return-Path: <kavya.nair@northgate-industries.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.northgate-industries.com (Postfix) with ESMTPS id FD93E0BD4050 for
+ <recipient@northgate-industries.com>; Thu, 21 May 2026 21:54:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ BFE2989B91F6; Thu, 21 May 2026 21:51:49 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=846997588; h=from:to:subject:date;
+ bh=bHA2+A3FzlaSQChTlbDgeuF3r1jAFhg7lO10+KHfrYE=; =?utf-8?q?b=3DnrvrQtgN7C1b?=
+ =?utf-8?q?LbXcCsRaWfvv6aPgP5f7oKFIyb0q3QnYblLH+No9mbWwptYIM0z6gqAnrzTvJrIAm?=
+ =?utf-8?q?l1uPxkTpg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============0233161346143519097=="
+
+--===============0233161346143519097==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Operations systems this Saturday between 02:00 and=
+ 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Operations Operations
+
+--===============0233161346143519097==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the Operations systems thi=
+s Saturday between 02:00 and 04:00 IST. Expect a short interruption while the=
+ database fails over.</p><p>No user action is required. We will send a note h=
+ere once the window closes.</p><p>Operations Operations</p></body></html>
+
+--===============0233161346143519097==--

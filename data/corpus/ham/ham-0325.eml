@@ -1,0 +1,57 @@
+From: "Daniel Reddy" <daniel.reddy@vertexlogistics.in>
+To: Karthik Fletcher <karthik.fletcher@vertexlogistics.in>
+Subject: PR #2236: refactor the retry handler
+Date: Mon, 11 May 2026 22:00:00 +0000
+Message-ID: <178772094151.6.10062569267225766043@vertexlogistics.in>
+Return-Path: <daniel.reddy@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.vertexlogistics.in
+ (Postfix) with ESMTPS id 366477DEE8B4 for <recipient@vertexlogistics.in>;
+ Mon, 11 May 2026 22:00:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id E86304E17CFE; Mon,
+ 11 May 2026 21:57:19 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 416C878F41DA; Mon, 11 May 2026
+ 21:52:04 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=515616629; h=from:to:subject:date;
+ bh=xUBCGwz0AJ4tq7R4Tv9HEziTtHKnb4L9TJVKIgyCfis=; =?utf-8?q?b=3DDT/TQSsHHqzL?=
+ =?utf-8?q?tXcRbioNCltuxg4IEvTSC1vX16/mrcK5LbSXNbpHHBI1gcAkBGIEjbjxb3Wfae72D?=
+ =?utf-8?q?uJC3UX/2Q=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============5186842097892394067=="
+
+--===============5186842097892394067==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Daniel Reddy requested your review on pull request #2236.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============5186842097892394067==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Daniel Reddy requested your review on pull request #2236.</p><=
+p>refactor: collapse the three retry paths into one backoff helper</p><p>Chan=
+ged 6 files, +148 -211. CI is green. The behaviour change worth checking is t=
+hat a 429 now retries twice instead of once.</p><p>View it in the repository =
+when you get a chance.</p></body></html>
+
+--===============5186842097892394067==--

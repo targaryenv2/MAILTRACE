@@ -1,0 +1,35 @@
+From: "Sneha Rao" <sneha.rao@brightpath-edu.ac.in>
+To: Neha Menon <neha.menon@brightpath-edu.ac.in>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Sun, 03 May 2026 11:23:00 +0000
+Message-ID: <178772094122.6.11594702725084092569@brightpath-edu.ac.in>
+Return-Path: <sneha.rao@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id C0CD275AF4FF for
+ <recipient@brightpath-edu.ac.in>; Sun, 03 May 2026 11:23:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id 0BB901124E43; Sun, 03 May
+ 2026 11:22:35 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=221635583; h=from:to:subject:date;
+ bh=P/4fMPfeiv+l1rqkXY5HpcjC6fNhPKBkE9TK88VLw30=; =?utf-8?q?b=3DVW+Vyy5PFo00?=
+ =?utf-8?q?qSQSRyjnabQ1ug5chq2EM+Jz2Za+WN+rR/KnQrJYpIPMzClOHDrtzD0k4Z+0mdV1Q?=
+ =?utf-8?q?i3M7RngTA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Admissions systems this Saturday between 02:00 and=
+ 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Admissions Operations

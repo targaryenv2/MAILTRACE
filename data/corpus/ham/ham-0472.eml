@@ -1,0 +1,55 @@
+From: "Emily Verma" <emily.verma@hansacapital.co>
+To: Daniel Anderson <daniel.anderson@hansacapital.co>
+Subject: Invoice INV-2025-9794 paid
+Date: Fri, 22 May 2026 01:03:00 +0000
+Message-ID: <178772094378.6.7607133361261653350@hansacapital.co>
+Return-Path: <emily.verma@hansacapital.co>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.hansacapital.co (Postfix) with ESMTPS id B580B54C599E
+ for <recipient@hansacapital.co>; Fri, 22 May 2026 01:03:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 6DBD3AC34176; Fri, 22 May
+ 2026 01:02:50 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id D1271409A2F0; Fri,
+ 22 May 2026 01:00:03 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=693250067; h=from:to:subject:date;
+ bh=aJmVXJIFLxjodD9cjcRMU1WqAec+mepJHppqsjV5V8U=; =?utf-8?q?b=3D2jBR+/Yc3O33?=
+ =?utf-8?q?KdNbi5SmZpLkqafk2uSSQ0hS8Z/m/d//kwmKP1lgr5Ikwm4TyN0SMIu8A5nJD83Fl?=
+ =?utf-8?q?RPvg2ZNJw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3441018793015260169=="
+
+--===============3441018793015260169==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This confirms that invoice INV-2025-9794 for INR 17,300 was paid on 22 Apr 20=
+26
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Meridian Labs
+
+--===============3441018793015260169==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>This confirms that invoice INV-2025-9794 for INR =
+17,300 was paid on 22 Apr 2026 by bank transfer to the account already on fil=
+e. No further action is needed.</p><p>Accounts Payable Meridian Labs</p></bod=
+y></html>
+
+--===============3441018793015260169==--

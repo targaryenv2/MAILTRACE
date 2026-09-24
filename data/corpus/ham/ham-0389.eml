@@ -1,0 +1,65 @@
+From: "Laura Hughes" <laura.hughes@meridian-labs.org>
+To: Karthik Gupta <karthik.gupta@meridian-labs.org>
+Subject: Invoice INV-2025-5875 paid
+Date: Sun, 24 May 2026 00:51:00 +0000
+Message-ID: <178772094251.6.13622339182961059136@meridian-labs.org>
+Return-Path: <laura.hughes@meridian-labs.org>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 56031D267D43 for
+ <recipient@meridian-labs.org>; Sun, 24 May 2026 00:51:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 8708F68120BC;
+ Sun, 24 May 2026 00:50:48 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=24515022; h=from:to:subject:date;
+ bh=+um4DIFzbJlkPaL/+H1o/v2HcR0kwZT7DAqZY7wXZ10=; =?utf-8?q?b=3D5vjwTow6/oyy?=
+ =?utf-8?q?ZeNK7lmvxOAJ2i4JTTs779Lul26Axdshme7RvcR257WEfq6QGjFt5IFd6yrHkSVh7?=
+ =?utf-8?q?XnH6tcevg=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============0171697542236106453=="
+
+--===============0171697542236106453==
+Content-Type: multipart/alternative;
+ boundary="===============4315376171571844618=="
+
+--===============4315376171571844618==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This confirms that invoice INV-2025-5875 for INR 92,800 was paid on 07 May 20=
+26
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Northgate Industries
+
+--===============4315376171571844618==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>This confirms that invoice INV-2025-5875 for INR =
+92,800 was paid on 07 May 2026 by bank transfer to the account already on fil=
+e. No further action is needed.</p><p>Accounts Payable Northgate Industries</=
+p></body></html>
+
+--===============4315376171571844618==--
+
+--===============0171697542236106453==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-5875.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============0171697542236106453==--

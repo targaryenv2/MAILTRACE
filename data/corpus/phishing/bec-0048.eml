@@ -1,0 +1,53 @@
+From: "Aditya Nair (CEO)" <aditya.nair@gmail.com>
+Reply-To: aditya.nair.office@gmail.com
+To: Michael Brooks <michael.brooks@vertexlogistics.in>
+Subject: Re: Urgent wire transfer - confidential
+Date: Tue, 12 May 2026 02:10:00 +0000
+Message-ID: <178772093701.6.16022044390344076725@gmail.com>
+Return-Path: <bounce-8320@gmail.com>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 609500103655 for
+ <recipient@vertexlogistics.in>; Tue, 12 May 2026 02:10:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 5DCA3DB48764; Tue, 12 May 2026 02:07:50 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id 9AC91634C223;
+ Tue, 12 May 2026 02:05:47 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 54CD72F82105; Tue, 12 May
+ 2026 01:59:49 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 1B8B18189D41; Tue, 12 May 2026
+ 01:58:34 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=765151371; h=from:to:subject:date;
+ bh=vTKGNhwcwS6I/fGEXzQTvZTQ+LG7jBhOGbSl1vV/1Qw=; =?utf-8?q?b=3D+9WWFkgb+zJQ?=
+ =?utf-8?q?Jdy06iyAznAk0sB0imjZMe8MLV8OgQ1TdzBPxnbwY56kJ7P9/ul+pR21RBuaBrX1M?=
+ =?utf-8?q?bXo3OxYMQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Michael,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 6,549,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 31717643567
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Aditya Nair
+Managing Director

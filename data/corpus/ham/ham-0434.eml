@@ -1,0 +1,56 @@
+From: "Emily Grant" <emily.grant@brightpath-edu.ac.in>
+To: Emily Dawson <emily.dawson@brightpath-edu.ac.in>
+Subject: Payslip for April is available
+Date: Fri, 22 May 2026 01:40:00 +0000
+Message-ID: <178772094320.6.11120727237182076224@brightpath-edu.ac.in>
+Return-Path: <emily.grant@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id AAE9D15AD9AF for
+ <recipient@brightpath-edu.ac.in>; Fri, 22 May 2026 01:40:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 48685A598FC7; Fri, 22 May 2026
+ 01:34:34 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=138089289; h=from:to:subject:date;
+ bh=oxpN8xAKrS51vPtNuSpAjsh8hT7IFTwJqRr5Dc6Z/AQ=; =?utf-8?q?b=3D+Zmh+jLsMQLp?=
+ =?utf-8?q?zR+V6zksDDbCdxfrvPtUEZWDYvGrOE6yzQcEk9hNsy7G1J+nBZ59RiiSXNmBKbJG7?=
+ =?utf-8?q?NAjbnWC6w=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============9023085464155876251=="
+
+--===============9023085464155876251==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Emily,
+
+Your payslip for April is now available on the employee portal. Log in through
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Brightpath Institute
+
+--===============9023085464155876251==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Emily,</p><p>Your payslip for April is now available on t=
+he employee portal. Log in through the usual internal link on the intranet ho=
+me page.</p><p>If any of the tax details look incorrect, raise a ticket with =
+Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll Team=
+ Brightpath Institute</p></body></html>
+
+--===============9023085464155876251==--

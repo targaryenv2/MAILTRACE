@@ -1,0 +1,46 @@
+From: "Ishita Verma (CEO)" <ishita.verma@gmail.com>
+Reply-To: ishita.verma.office@gmail.com
+To: Daniel Verma <daniel.verma@brightpath-edu.ac.in>
+Subject: Confidential matter - need your help
+Date: Tue, 12 May 2026 10:41:00 +0000
+Message-ID: <178772093682.6.12754167499117047087@gmail.com>
+Return-Path: <bounce-9041@gmail.com>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id
+ 310B4AF431BC for <recipient@brightpath-edu.ac.in>; Tue, 12 May 2026 10:41:00
+ +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 3B5A85A0ABD5; Tue, 12 May
+ 2026 10:40:22 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=863704326; h=from:to:subject:date;
+ bh=DH2yUxkRNHZIyRk+ai2tOmywCGotiMJh4Q/qwuMXzs8=; =?utf-8?q?b=3DKYzSPS4cacxJ?=
+ =?utf-8?q?h6VMX5gcFmRjlkUEa79Tw2xtKc3WInJ/CKGSWqJedVRK9pGRBndocHZdlLXrqxO/v?=
+ =?utf-8?q?dvwOjBu8Q=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Daniel,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $1,582,000 to a new beneficiary today. This relates to
+Kestrel Supplies Ltd and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Kestrel Supplies Ltd
+Account: 85580004644
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Ishita Verma
+Managing Director

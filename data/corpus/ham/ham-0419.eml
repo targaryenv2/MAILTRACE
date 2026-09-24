@@ -1,0 +1,69 @@
+From: "James Pillai" <james.pillai@hansacapital.co>
+To: Rahul Reddy <rahul.reddy@hansacapital.co>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Wed, 20 May 2026 13:21:00 +0000
+Message-ID: <178772094296.6.7485567049225711255@hansacapital.co>
+Return-Path: <james.pillai@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id B1EF96843DDD for
+ <recipient@hansacapital.co>; Wed, 20 May 2026 13:21:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id DA4DE8C3A128; Wed, 20 May 2026 13:20:02 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 7FBBFA738A7C; Wed, 20 May 2026 13:16:30 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=830573272; h=from:to:subject:date;
+ bh=+voZDASHlFuIwqiOM4xmlbuvv+FFkxznDvbkKtPyq6A=; =?utf-8?q?b=3DyFCDIIOzFq3I?=
+ =?utf-8?q?m9VHyOLihyzS0i9DI+F5e6lRo5mXnC+yndk20vC58PpW2o78Ug7cxSvLYAMyHK3+W?=
+ =?utf-8?q?zCt1W6msg=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============2457999753735529873=="
+
+--===============2457999753735529873==
+Content-Type: multipart/alternative;
+ boundary="===============2700468837357969284=="
+
+--===============2700468837357969284==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Admissions systems this Saturday between 02:00 and=
+ 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Admissions Operations
+
+--===============2700468837357969284==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the Admissions systems thi=
+s Saturday between 02:00 and 04:00 IST. Expect a short interruption while the=
+ database fails over.</p><p>No user action is required. We will send a note h=
+ere once the window closes.</p><p>Admissions Operations</p></body></html>
+
+--===============2700468837357969284==--
+
+--===============2457999753735529873==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-2894.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============2457999753735529873==--

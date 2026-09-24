@@ -1,0 +1,63 @@
+From: "Microsoft 365" <notice@microsoft-account-team.xyz>
+To: Arjun Hughes <arjun.hughes@northgate-industries.com>
+Subject: Income tax refund of INR 3,591,000 is pending
+Date: Mon, 18 May 2026 03:35:00 +0000
+Message-ID: <178772094039.6.4290638845821408960@microsoft-account-team.xyz>
+Return-Path: <bounce-4131@microsoft-account-team.xyz>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.northgate-industries.com (Postfix) with ESMTPS id
+ 9C5107E18AA1 for <recipient@northgate-industries.com>; Mon, 18 May 2026
+ 03:35:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 57DE79245EB1; Mon, 18 May
+ 2026 03:33:57 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 893BC4DB0ED1; Mon, 18 May 2026 03:30:43 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id 048C46236654;
+ Mon, 18 May 2026 03:29:32 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@microsoft-account-team.xyz>;
+Authentication-Results: mx.microsoft-account-team.xyz; spf=fail
+ smtp.mailfrom=microsoft-account-team.xyz; dkim=none
+ header.d=microsoft-account-team.xyz; dmarc=fail (p=reject)
+ header.from=microsoft-account-team.xyz
+Content-Type: multipart/alternative;
+ boundary="===============0854906452445076889=="
+
+--===============0854906452445076889==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+A refund has been approved against your assessment and is awaiting your bank =
+confirmation. Reference number: CN449398549.
+
+Click here to log in and complete the process:
+https://microsoft-account-team.xyz/session/renew
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Microsoft 365
+
+--===============0854906452445076889==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>A refund has been approved against your a=
+ssessment and is awaiting your bank confirmation. Reference number: CN4493985=
+49.</p><p>Click here to log in and complete the process: https://microsoft-ac=
+count-team.xyz/session/renew</p><p>If we do not receive a response within 24 =
+hours the request will be cancelled and the amount returned to treasury.</p><=
+p>Customer Support Microsoft 365</p><p><a href=3D"https://microsoft-account-t=
+eam.xyz/session/renew">https://www.microsoft.com/verify</a></p></body></html>
+
+--===============0854906452445076889==--

@@ -1,0 +1,54 @@
+From: "Rahul Gupta" <rahul.gupta@brightpath-edu.ac.in>
+To: Priya Brooks <priya.brooks@brightpath-edu.ac.in>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Sun, 10 May 2026 19:21:00 +0000
+Message-ID: <178772094396.6.6193408234464051714@brightpath-edu.ac.in>
+Return-Path: <rahul.gupta@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id CF005A5F0071 for
+ <recipient@brightpath-edu.ac.in>; Sun, 10 May 2026 19:21:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id CD9927058203; Sun, 10 May 2026
+ 19:18:35 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 66C499971759; Sun, 10 May 2026 19:11:55 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=896625956; h=from:to:subject:date;
+ bh=b5vnkKHNhHV7DeF+UEbtikA18EgyKJLdWHMjP9GGnj4=; =?utf-8?q?b=3D1cyt0VIWgg3i?=
+ =?utf-8?q?i08FeZu2KPxL1uTfYxbYRgIzDgWiaLJv9NC65Ogvnrkdx7csKilLKnW0FsFCLIbpW?=
+ =?utf-8?q?bUxX6cwsQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3320265005982487134=="
+
+--===============3320265005982487134==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Planned maintenance on the Legal systems this Saturday between 02:00 and 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Legal Operations
+
+--===============3320265005982487134==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the Legal systems this Sat=
+urday between 02:00 and 04:00 IST. Expect a short interruption while the data=
+base fails over.</p><p>No user action is required. We will send a note here o=
+nce the window closes.</p><p>Legal Operations</p></body></html>
+
+--===============3320265005982487134==--

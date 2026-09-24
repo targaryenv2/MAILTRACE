@@ -1,0 +1,69 @@
+From: "Meera Verma" <meera.verma@meridian-labs.org>
+To: Michael Reddy <michael.reddy@meridian-labs.org>
+Subject: Updated IT Services template for your comments
+Date: Sun, 10 May 2026 08:36:00 +0000
+Message-ID: <178772093656.6.17844061708169206526@meridian-labs.org>
+Return-Path: <bounce-1018@meridian-labs.org>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 8607E0B730E6 for
+ <recipient@meridian-labs.org>; Sun, 10 May 2026 08:36:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 35B55DB627ED; Sun, 10 May 2026
+ 08:34:34 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 04117EBFA1EC; Sun, 10 May
+ 2026 08:30:34 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 506CEA86F8D7; Sun, 10 May 2026 08:24:04 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=968113468; h=from:to:subject:date;
+ bh=HN2d4cTUHiI3BTqT6Tv4exe0cqxzhhPtldO2pN+jFmE=; =?utf-8?q?b=3DweQWl0cNqAml?=
+ =?utf-8?q?9APKQGPfyaSjEvI5974o1kk28kQqQLiopGDOW+SawDpwagst7flEDBTsb7lAja1TZ?=
+ =?utf-8?q?+Bm+1pjpQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============5478925133857961291=="
+
+--===============5478925133857961291==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Michael,
+
+Thanks again for your time earlier this week. I have put the revised IT Servi=
+ces
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/c36b4a92
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Meera Verma
+Partner, Kestrel Supplies Ltd
+
+--===============5478925133857961291==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Michael,</p><p>Thanks again for your time earlier this week=
+. I have put the revised IT Services document in the shared workspace and add=
+ed comments against the two clauses we discussed.</p><p>You can open it here =
+when convenient: https://teamfiles-hub.co/d/c36b4a92</p><p>There is no rush o=
+n this. If the second section reads oddly, that is my drafting rather than a =
+change in position, so do flag it.</p><p>Best regards, Meera Verma Partner, K=
+estrel Supplies Ltd</p><p><a href=3D"https://teamfiles-hub.co/d/c36b4a92">sha=
+red workspace</a></p></body></html>
+
+--===============5478925133857961291==--

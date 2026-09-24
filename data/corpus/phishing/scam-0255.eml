@@ -1,0 +1,61 @@
+From: "PayPal" <notice@paypa1-secure.com>
+To: Sarah Verma <sarah.verma@kalyaniworks.in>
+Subject: Your parcel TRK640655828 could not be delivered - reschedule now
+Date: Mon, 25 May 2026 13:00:00 +0000
+Message-ID: <178772094042.6.7396328699021751536@paypa1-secure.com>
+Return-Path: <bounce-3958@paypa1-secure.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id C52318A45B07 for
+ <recipient@kalyaniworks.in>; Mon, 25 May 2026 13:00:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 1E6B9B3077D2; Mon, 25 May 2026
+ 12:59:18 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id 34B70A6BE773; Mon, 25 May 2026 12:54:29 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id D57BF29D514E; Mon,
+ 25 May 2026 12:51:55 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@paypa1-secure.com>;
+Authentication-Results: mx.paypa1-secure.com; spf=fail
+ smtp.mailfrom=paypa1-secure.com; dkim=none header.d=paypa1-secure.com;
+ dmarc=fail (p=reject) header.from=paypa1-secure.com
+Content-Type: multipart/alternative;
+ boundary="===============2751344085015286390=="
+
+--===============2751344085015286390==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your KYC documents have expired and the account has been marked for restricti=
+on. Reference number: TRK640655828.
+
+Click here to log in and complete the process:
+https://paypa1-secure.com/auth/confirm
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+PayPal
+
+--===============2751344085015286390==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your KYC documents have expired and the a=
+ccount has been marked for restriction. Reference number: TRK640655828.</p><p=
+>Click here to log in and complete the process: https://paypa1-secure.com/aut=
+h/confirm</p><p>If we do not receive a response within 24 hours the request w=
+ill be cancelled and the amount returned to treasury.</p><p>Customer Support =
+PayPal</p><p><a href=3D"http://203.0.113.99/login">https://www.paypal.com/ver=
+ify</a></p></body></html>
+
+--===============2751344085015286390==--

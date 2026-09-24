@@ -1,0 +1,50 @@
+From: "David Bose" <david.bose@kalyaniworks.in>
+To: Karthik Bose <karthik.bose@kalyaniworks.in>
+Subject: Library books due February
+Date: Thu, 14 May 2026 01:27:00 +0000
+Message-ID: <178772094110.6.5662095011989263922@kalyaniworks.in>
+Return-Path: <david.bose@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id F3A63DBD075B for
+ <recipient@kalyaniworks.in>; Thu, 14 May 2026 01:27:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 960C0793944F; Thu, 14 May 2026 01:23:31 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id 35CDD2C511E9;
+ Thu, 14 May 2026 01:18:50 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=382992573; h=from:to:subject:date;
+ bh=yqXuUF77R88p4/dCyKgELQ9B7mLjWD/cOBWyXkgViC0=; =?utf-8?q?b=3D+mNysJnJJ2LY?=
+ =?utf-8?q?iq1OA5cX/w5P0rWG6uyIPr0yBz8bRl3ZcfvI6R1eNU2oWnySgI/+Tr/hq12sE10xi?=
+ =?utf-8?q?n6zPVC3WA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============1290635379487654365=="
+
+--===============1290635379487654365==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Karthik,
+
+Two items on your library account are due at the end of February. Renewals ca=
+n be
+made at the circulation desk or from the catalogue page.
+
+Central Library
+
+--===============1290635379487654365==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-5528.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============1290635379487654365==--

@@ -1,0 +1,67 @@
+From: "Nikhil Carter" <nikhil.carter@brightpath-edu.ac.in>
+To: Neha Bose <neha.bose@vertexlogistics.in>
+Subject: Re: the shared folder permissions
+Date: Sun, 17 May 2026 13:25:00 +0000
+Message-ID: <178772093671.6.14581417683147006255@brightpath-edu.ac.in>
+Return-Path: <bounce-7018@brightpath-edu.ac.in>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 82C6E69CA374 for
+ <recipient@vertexlogistics.in>; Sun, 17 May 2026 13:25:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 25ED4E668B49; Sun, 17 May 2026
+ 13:19:29 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by smtp-out-3.example (Postfix) with ESMTPS id 65D4A8789525;
+ Sun, 17 May 2026 13:15:41 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=837006352; h=from:to:subject:date;
+ bh=o6+BAutunkj+EUwQwDiKkOT4irGyClAHcw2vjVSIBzU=; =?utf-8?q?b=3DvrvxreA6qXM5?=
+ =?utf-8?q?WxVWn2/Dm5U2eGidBLS7LMakj6n+69pR79OTE3gidiVWh9fK0KYAc4dWcOGH40Q5D?=
+ =?utf-8?q?e5C519VUQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8908479149578568197=="
+
+--===============8908479149578568197==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Neha,
+
+Thanks again for your time earlier this week. I have put the revised Operatio=
+ns
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://docs-workspace.app/d/9bc18753
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Nikhil Carter
+Associate Director, Zenith Traders
+
+--===============8908479149578568197==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Neha,</p><p>Thanks again for your time earlier this week. I=
+ have put the revised Operations document in the shared workspace and added c=
+omments against the two clauses we discussed.</p><p>You can open it here when=
+ convenient: https://docs-workspace.app/d/9bc18753</p><p>There is no rush on =
+this. If the second section reads oddly, that is my drafting rather than a ch=
+ange in position, so do flag it.</p><p>Best regards, Nikhil Carter Associate =
+Director, Zenith Traders</p><p><a href=3D"https://docs-workspace.app/d/9bc187=
+53">shared workspace</a></p></body></html>
+
+--===============8908479149578568197==--

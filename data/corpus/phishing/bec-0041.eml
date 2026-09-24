@@ -1,0 +1,49 @@
+From: "David Iyer (CEO)" <david.iyer@yahoo.com>
+Reply-To: david.iyer.office@yahoo.com
+To: Arjun Rao <arjun.rao@summitfoods.co.in>
+Subject: Payment instruction (do not discuss)
+Date: Tue, 12 May 2026 16:41:00 +0000
+Message-ID: <178772093691.6.5372927298097222268@yahoo.com>
+Return-Path: <bounce-1971@yahoo.com>
+MIME-Version: 1.0
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 28C21A61783D for
+ <recipient@summitfoods.co.in>; Tue, 12 May 2026 16:41:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ tor-exit-node.example (Postfix) with ESMTPS id 3F6B14641CB1; Tue, 12 May 2026
+ 16:40:13 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id D02BA0DAAE1E; Tue, 12 May 2026
+ 16:39:37 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mail.gateway.example (Postfix) with ESMTPS id
+ 517A2F5731E3; Tue, 12 May 2026 16:34:56 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=823925518; h=from:to:subject:date;
+ bh=uXo8OyUsd21g/Oz/3PzRM9EgS2F9SPXYgERlohL98mA=; =?utf-8?q?b=3Dz1wJp0CZUvZ0?=
+ =?utf-8?q?XIDaesTiPSgLnmWXpSiGTX2oSYbQyp9HnoQPgCK+BcoPkDfTyFMRDTigDeD/BH/Kf?=
+ =?utf-8?q?DYRIfCi3w=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Arjun,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 7,018,000 to a new beneficiary today. This relates to
+Zenith Traders and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Zenith Traders
+Account: 90957306747
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+David Iyer
+Chief Executive Officer

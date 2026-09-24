@@ -1,0 +1,56 @@
+From: "Rohan Menon" <rohan.menon@brightpath-edu.ac.in>
+To: Priya Bose <priya.bose@brightpath-edu.ac.in>
+Subject: PR #326: refactor the retry handler
+Date: Sun, 03 May 2026 02:35:00 +0000
+Message-ID: <178772094345.6.6968975770646958831@brightpath-edu.ac.in>
+Return-Path: <rohan.menon@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id B6075F671667 for
+ <recipient@brightpath-edu.ac.in>; Sun, 03 May 2026 02:35:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id F51F06DF4B9F; Sun, 03 May 2026 02:29:32 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 5CE9DDD9FFED; Sun, 03 May 2026 02:24:08 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=146573047; h=from:to:subject:date;
+ bh=qfg9xchlyKrCcnQaVbT2zrrU0NeXWSCPj3ZKAHiuQ2Q=; =?utf-8?q?b=3D30fjDnxF64Lz?=
+ =?utf-8?q?5BpU59yNp2Qm4CigTKCnugkpxfJNNilE9+ezhdQX4H//pAXlZB6KwgpiI6Fc5fl3L?=
+ =?utf-8?q?gxT6b39eQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============1917261371847984337=="
+
+--===============1917261371847984337==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Rohan Menon requested your review on pull request #326.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============1917261371847984337==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Rohan Menon requested your review on pull request #326.</p><p>=
+refactor: collapse the three retry paths into one backoff helper</p><p>Change=
+d 6 files, +148 -211. CI is green. The behaviour change worth checking is tha=
+t a 429 now retries twice instead of once.</p><p>View it in the repository wh=
+en you get a chance.</p></body></html>
+
+--===============1917261371847984337==--

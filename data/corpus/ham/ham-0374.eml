@@ -1,0 +1,67 @@
+From: "Kavya Joshi" <kavya.joshi@brightpath-edu.ac.in>
+To: Arjun Kapoor <arjun.kapoor@brightpath-edu.ac.in>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Wed, 20 May 2026 10:14:00 +0000
+Message-ID: <178772094228.6.12279437947739353167@brightpath-edu.ac.in>
+Return-Path: <kavya.joshi@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id F578EE2FC9E6 for
+ <recipient@brightpath-edu.ac.in>; Wed, 20 May 2026 10:14:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id AAEBE5D23060; Wed,
+ 20 May 2026 10:10:28 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=941062794; h=from:to:subject:date;
+ bh=cmyzh+TTQdMcUHQ3Uyx33s5cN+Iw7U7n6Mia/0fOAwo=; =?utf-8?q?b=3DhCXIpHv315g7?=
+ =?utf-8?q?wGphKKJ02ltYKKYDkimvELMQZPVTSX8i2LXDByG6rSHxJHp61eRD15sVJsVUE7b+E?=
+ =?utf-8?q?1ArWNXNow=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============0504427142325362629=="
+
+--===============0504427142325362629==
+Content-Type: multipart/alternative;
+ boundary="===============5068096227403733736=="
+
+--===============5068096227403733736==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Admissions systems this Saturday between 02:00 and=
+ 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Admissions Operations
+
+--===============5068096227403733736==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the Admissions systems thi=
+s Saturday between 02:00 and 04:00 IST. Expect a short interruption while the=
+ database fails over.</p><p>No user action is required. We will send a note h=
+ere once the window closes.</p><p>Admissions Operations</p></body></html>
+
+--===============5068096227403733736==--
+
+--===============0504427142325362629==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-1166.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============0504427142325362629==--

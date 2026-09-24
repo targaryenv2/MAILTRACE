@@ -1,0 +1,33 @@
+From: "Divya Ellis" <divya.ellis@vertexlogistics.in>
+To: James Nair <james.nair@vertexlogistics.in>
+Subject: Library books due May
+Date: Tue, 19 May 2026 17:42:00 +0000
+Message-ID: <178772094106.6.17966850423609218323@vertexlogistics.in>
+Return-Path: <divya.ellis@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.vertexlogistics.in
+ (Postfix) with ESMTPS id 46FED202EC4E for <recipient@vertexlogistics.in>;
+ Tue, 19 May 2026 17:42:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 716C96390EA6; Tue,
+ 19 May 2026 17:36:56 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=974777095; h=from:to:subject:date;
+ bh=W+Z9DoeH0ASXuugLLSpxWP9D/9S6+uYmAkBUq2cjrVA=; =?utf-8?q?b=3DOBoYzYAAtaMj?=
+ =?utf-8?q?yhyFVT3vUBk6T3QY2enh/R2zfZNmFVS3l3ZL4RLaPmOUjWfIYNdTRMn+ES6c9MQ9G?=
+ =?utf-8?q?QZba9MZRg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear James,
+
+Two items on your library account are due at the end of May. Renewals can be
+made at the circulation desk or from the catalogue page.
+
+Central Library

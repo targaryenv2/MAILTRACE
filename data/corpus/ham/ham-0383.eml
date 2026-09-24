@@ -1,0 +1,43 @@
+From: "Sanjay Iyer" <sanjay.iyer@hansacapital.co>
+To: Ananya Ellis <ananya.ellis@hansacapital.co>
+Subject: Your order INV-2026-9472 has shipped
+Date: Fri, 29 May 2026 09:38:00 +0000
+Message-ID: <178772094242.6.994890141561006897@hansacapital.co>
+Return-Path: <sanjay.iyer@hansacapital.co>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.hansacapital.co (Postfix) with ESMTPS id 55D90E4D21B5
+ for <recipient@hansacapital.co>; Fri, 29 May 2026 09:38:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 458A5899A353; Fri, 29 May
+ 2026 09:37:52 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id EC9E1408B66C; Fri,
+ 29 May 2026 09:33:03 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=33450377; h=from:to:subject:date;
+ bh=OH4dR7KpUgoVx0nZI5tzvf3Zzv2rtSW6sFvxyhmhefY=; =?utf-8?q?b=3Dh3oMYPpy2Hrc?=
+ =?utf-8?q?G+yrtmO9PqfJCEjedDvfxF7CDVDRtzU3VSRyoSIIZ8DwEIhIDHLkh4LBGBB7zCb/f?=
+ =?utf-8?q?1JSDf+ddw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Ananya,
+
+Order INV-2026-9472 shipped today and should arrive within three working days=
+. Tracking
+number TRK475819232.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Meridian Labs Customer Care

@@ -1,0 +1,54 @@
+From: "David Grant" <david.grant@hansacapital.co>
+To: David Gupta <david.gupta@hansacapital.co>
+Subject: Conference paper decision - Orion Systems workshop
+Date: Sat, 23 May 2026 10:47:00 +0000
+Message-ID: <178772094195.6.16112826027484144719@hansacapital.co>
+Return-Path: <david.grant@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 1694DEA64DA6 for
+ <recipient@hansacapital.co>; Sat, 23 May 2026 10:47:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 1BD6F3AC099C; Sat, 23 May
+ 2026 10:46:19 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=344967713; h=from:to:subject:date;
+ bh=uhCKlLwZjMoOvxKvNR9XS522Lh/w51NOm5wwpa5XUwc=; =?utf-8?q?b=3D5EEu0UJsXFDm?=
+ =?utf-8?q?k4LKoCXNV0Rx3IySHJUwV0YJ9K8vOV4/bSj0yxquLu+l4pkYQizYxDivu5OSRahLB?=
+ =?utf-8?q?Zpr3hzkeg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3768742866404411273=="
+
+--===============3768742866404411273==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear David,
+
+Thank you for your submission to the Orion Systems workshop. The reviewers ha=
+ve
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============3768742866404411273==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear David,</p><p>Thank you for your submission to the Orion S=
+ystems workshop. The reviewers have recommended acceptance with minor revisio=
+ns. Reviews are attached to the submission record in the conference system.</=
+p><p>Camera-ready copies are due at the end of the month.</p><p>Programme Com=
+mittee</p></body></html>
+
+--===============3768742866404411273==--

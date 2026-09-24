@@ -1,0 +1,63 @@
+From: "Priya Kapoor" <priya.kapoor@meridian-labs.org>
+To: Nikhil Pillai <nikhil.pillai@vertexlogistics.in>
+Subject: Notes from Tuesday and one item for review
+Date: Wed, 27 May 2026 02:25:00 +0000
+Message-ID: <178772093640.6.1157443599484810839@meridian-labs.org>
+Return-Path: <bounce-9519@meridian-labs.org>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.vertexlogistics.in (Postfix) with ESMTPS id E8632710F695 for
+ <recipient@vertexlogistics.in>; Wed, 27 May 2026 02:25:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 731A9E4B92F4; Wed, 27 May 2026 02:20:17 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=498749662; h=from:to:subject:date;
+ bh=mI8m/XwPRRo2ht17GIm0Q7wh0pA8g+2ZOOuY4ekJzF4=; =?utf-8?q?b=3D6ozOPMt3qt/v?=
+ =?utf-8?q?rImSsX3wdqI5BTSE12N2+vT4OEPw6q13o18Mi9JfsgNPY1wHdPE31cJA4XWQvPZsP?=
+ =?utf-8?q?hdo83tx9w=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============0257344443967170025=="
+
+--===============0257344443967170025==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Nikhil,
+
+Thanks again for your time earlier this week. I have put the revised Human Re=
+sources
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://sharedrive-review.io/d/9eb580fb
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Priya Kapoor
+Associate Director, Zenith Traders
+
+--===============0257344443967170025==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Nikhil,</p><p>Thanks again for your time earlier this week.=
+ I have put the revised Human Resources document in the shared workspace and =
+added comments against the two clauses we discussed.</p><p>You can open it he=
+re when convenient: https://sharedrive-review.io/d/9eb580fb</p><p>There is no=
+ rush on this. If the second section reads oddly, that is my drafting rather =
+than a change in position, so do flag it.</p><p>Best regards, Priya Kapoor As=
+sociate Director, Zenith Traders</p><p><a href=3D"https://sharedrive-review.i=
+o/d/9eb580fb">shared workspace</a></p></body></html>
+
+--===============0257344443967170025==--

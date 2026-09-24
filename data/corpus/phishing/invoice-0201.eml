@@ -1,0 +1,73 @@
+From: "Trident Components Accounts" <billing@linkedin-invitation.click>
+To: Nikhil Kapoor <nikhil.kapoor@brightpath-edu.ac.in>
+Subject: Purchase order INV-2026-5888 needs your approval
+Date: Mon, 04 May 2026 04:11:00 +0000
+Message-ID: <178772093955.6.11329941930288137532@linkedin-invitation.click>
+Return-Path: <bounce-5659@linkedin-invitation.click>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 172B1C84290C for
+ <recipient@brightpath-edu.ac.in>; Mon, 04 May 2026 04:11:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 234D2D7F4F91; Mon, 04 May 2026
+ 04:10:27 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 6AFF90A7D6F4; Mon, 04 May
+ 2026 04:06:33 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 2C136A332695; Mon, 04 May 2026 04:01:35 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@linkedin-invitation.click>;
+Authentication-Results: mx.linkedin-invitation.click; spf=fail
+ smtp.mailfrom=linkedin-invitation.click; dkim=none
+ header.d=linkedin-invitation.click; dmarc=fail (p=reject)
+ header.from=linkedin-invitation.click
+Content-Type: multipart/mixed; boundary="===============1212247326044740544=="
+
+--===============1212247326044740544==
+Content-Type: multipart/alternative;
+ boundary="===============2869927224716633725=="
+
+--===============2869927224716633725==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Nikhil,
+
+Please find attached invoice INV-2026-5888 for EUR 9,040,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Divya Hughes
+Accounts Receivable, Trident Components
+
+--===============2869927224716633725==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Nikhil,</p><p>Please find attached invoice INV-2026-5888=
+ for EUR 9,040,000, now overdue. Kindly review the attached statement and pro=
+cess this payment immediately to avoid service interruption.</p><p>If the ban=
+k details have changed since your last remittance, use the updated account in=
+formation in the attachment.</p><p>Regards, Divya Hughes Accounts Receivable,=
+ Trident Components</p></body></html>
+
+--===============2869927224716633725==--
+
+--===============1212247326044740544==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-5888.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============1212247326044740544==--

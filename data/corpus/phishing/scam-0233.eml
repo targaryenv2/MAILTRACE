@@ -1,0 +1,56 @@
+From: "State Bank of India" <notice@onlinesbi-verify.click>
+To: Priya Menon <priya.menon@vertexlogistics.in>
+Subject: Electricity connection will be disconnected tonight
+Date: Mon, 04 May 2026 01:32:00 +0000
+Message-ID: <178772094007.6.1447973243515281380@onlinesbi-verify.click>
+Return-Path: <bounce-6609@onlinesbi-verify.click>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id D361694B0A02 for
+ <recipient@vertexlogistics.in>; Mon, 04 May 2026 01:32:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mail.gateway.example (Postfix) with ESMTPS id 0975A983A089; Mon, 04 May 2026
+ 01:29:33 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@onlinesbi-verify.click>;
+Authentication-Results: mx.onlinesbi-verify.click; spf=fail
+ smtp.mailfrom=onlinesbi-verify.click; dkim=none
+ header.d=onlinesbi-verify.click; dmarc=fail (p=reject)
+ header.from=onlinesbi-verify.click
+Content-Type: multipart/alternative;
+ boundary="===============2813211459706789257=="
+
+--===============2813211459706789257==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your KYC documents have expired and the account has been marked for restricti=
+on. Reference number: CN009381909.
+
+Click here to log in and complete the process:
+https://onlinesbi-verify.click/session/renew
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+State Bank of India
+
+--===============2813211459706789257==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your KYC documents have expired and the a=
+ccount has been marked for restriction. Reference number: CN009381909.</p><p>=
+Click here to log in and complete the process: https://onlinesbi-verify.click=
+/session/renew</p><p>If we do not receive a response within 24 hours the requ=
+est will be cancelled and the amount returned to treasury.</p><p>Customer Sup=
+port State Bank of India</p><p><a href=3D"http://203.0.113.99/login">https://=
+www.sbi.co.in/verify</a></p></body></html>
+
+--===============2813211459706789257==--

@@ -1,0 +1,60 @@
+From: "HDFC Bank" <notice@hdfcbank-secure-in.xyz>
+To: Meera Hughes <meera.hughes@northgate-industries.com>
+Subject: Electricity connection will be disconnected tonight
+Date: Sun, 03 May 2026 03:05:00 +0000
+Message-ID: <178772094011.6.9052169706996545389@hdfcbank-secure-in.xyz>
+Return-Path: <bounce-6423@hdfcbank-secure-in.xyz>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 7EF4EA65979C for
+ <recipient@northgate-industries.com>; Sun, 03 May 2026 03:05:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 47D00D2BF735; Sun, 03 May 2026 03:03:08 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 02236D8684B1; Sun, 03 May
+ 2026 03:02:37 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hdfcbank-secure-in.xyz>;
+Authentication-Results: mx.hdfcbank-secure-in.xyz; spf=fail
+ smtp.mailfrom=hdfcbank-secure-in.xyz; dkim=none
+ header.d=hdfcbank-secure-in.xyz; dmarc=fail (p=reject)
+ header.from=hdfcbank-secure-in.xyz
+Content-Type: multipart/alternative;
+ boundary="===============8387833591236914043=="
+
+--===============8387833591236914043==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+You have been selected in this month's customer appreciation draw. Reference =
+number: TRK504117593.
+
+Click here to log in and complete the process:
+https://hdfcbank-secure-in.xyz/session/renew
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+HDFC Bank
+
+--===============8387833591236914043==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>You have been selected in this month's cu=
+stomer appreciation draw. Reference number: TRK504117593.</p><p>Click here to=
+ log in and complete the process: https://hdfcbank-secure-in.xyz/session/rene=
+w</p><p>If we do not receive a response within 24 hours the request will be c=
+ancelled and the amount returned to treasury.</p><p>Customer Support HDFC Ban=
+k</p><p><a href=3D"https://hdfcbank-secure-in.xyz/session/renew">https://www.=
+hdfcbank.com/verify</a></p></body></html>
+
+--===============8387833591236914043==--

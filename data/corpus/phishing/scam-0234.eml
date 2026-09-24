@@ -1,0 +1,56 @@
+From: "LinkedIn" <notice@linkedin-invitation.click>
+To: Sarah Gupta <sarah.gupta@kalyaniworks.in>
+Subject: Income tax refund of INR 236,000 is pending
+Date: Sun, 03 May 2026 04:23:00 +0000
+Message-ID: <178772094009.6.10921366588914869145@linkedin-invitation.click>
+Return-Path: <bounce-9189@linkedin-invitation.click>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 997C3B2DC47A for
+ <recipient@kalyaniworks.in>; Sun, 03 May 2026 04:23:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id A4DF90889978; Sun, 03 May
+ 2026 04:18:25 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@linkedin-invitation.click>;
+Authentication-Results: mx.linkedin-invitation.click; spf=fail
+ smtp.mailfrom=linkedin-invitation.click; dkim=none
+ header.d=linkedin-invitation.click; dmarc=fail (p=reject)
+ header.from=linkedin-invitation.click
+Content-Type: multipart/alternative;
+ boundary="===============4593413279540321833=="
+
+--===============4593413279540321833==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your consignment is held at our facility because the address details are inco=
+mplete. Reference number: AWB753547793.
+
+Click here to log in and complete the process:
+https://linkedin-invitation.click/secure/signin
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+LinkedIn
+
+--===============4593413279540321833==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your consignment is held at our facility =
+because the address details are incomplete. Reference number: AWB753547793.</=
+p><p>Click here to log in and complete the process: https://linkedin-invitati=
+on.click/secure/signin</p><p>If we do not receive a response within 24 hours =
+the request will be cancelled and the amount returned to treasury.</p><p>Cust=
+omer Support LinkedIn</p><p><a href=3D"http://198.51.100.77/login">https://ww=
+w.linkedin.com/verify</a></p></body></html>
+
+--===============4593413279540321833==--

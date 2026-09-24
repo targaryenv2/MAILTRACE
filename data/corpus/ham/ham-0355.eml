@@ -1,0 +1,70 @@
+From: "Daniel Joshi" <daniel.joshi@orionsystems.io>
+To: Rahul Grant <rahul.grant@orionsystems.io>
+Subject: PR #3005: refactor the retry handler
+Date: Tue, 05 May 2026 01:38:00 +0000
+Message-ID: <178772094198.6.3607815809747426224@orionsystems.io>
+Return-Path: <daniel.joshi@orionsystems.io>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id BF86D979FDA6 for
+ <recipient@orionsystems.io>; Tue, 05 May 2026 01:38:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 1E3BCAD83A8D; Tue, 05 May
+ 2026 01:33:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 7C3D3EF1710D; Tue, 05 May 2026 01:32:00 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=829481357; h=from:to:subject:date;
+ bh=r8hhnjcPJQPzRjMtsX/UHfgYuo5OX0V7x7TpGK7Vakw=; =?utf-8?q?b=3DDBS2gfdi2Sd3?=
+ =?utf-8?q?wCqBpZsR4H4AxqkXzOfYfcgMa1qhmOEibp2WQbA2gL7dZp786pgfkhAiWOboLCqet?=
+ =?utf-8?q?LJ/EcmbsA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============2929815728472790599=="
+
+--===============2929815728472790599==
+Content-Type: multipart/alternative;
+ boundary="===============3235884233257065644=="
+
+--===============3235884233257065644==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Daniel Joshi requested your review on pull request #3005.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============3235884233257065644==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Daniel Joshi requested your review on pull request #3005.</p><=
+p>refactor: collapse the three retry paths into one backoff helper</p><p>Chan=
+ged 6 files, +148 -211. CI is green. The behaviour change worth checking is t=
+hat a 429 now retries twice instead of once.</p><p>View it in the repository =
+when you get a chance.</p></body></html>
+
+--===============3235884233257065644==--
+
+--===============2929815728472790599==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-7973.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============2929815728472790599==--

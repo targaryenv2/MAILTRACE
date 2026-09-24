@@ -1,0 +1,70 @@
+From: "Emily Fletcher" <emily.fletcher@kalyaniworks.in>
+To: Aditya Iyer <aditya.iyer@kalyaniworks.in>
+Subject: Payslip for March is available
+Date: Tue, 26 May 2026 13:29:00 +0000
+Message-ID: <178772094216.6.9089503568744075929@kalyaniworks.in>
+Return-Path: <emily.fletcher@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.kalyaniworks.in (Postfix) with ESMTPS id 8877F05270E5
+ for <recipient@kalyaniworks.in>; Tue, 26 May 2026 13:29:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id E6B89D829F0C; Tue, 26 May
+ 2026 13:26:00 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=657916387; h=from:to:subject:date;
+ bh=4AZGJflBZ8fHViZ1dvxx5oTy5rIBJ+ipOW1cCtWDxno=; =?utf-8?q?b=3DdFjRIBSR6vvT?=
+ =?utf-8?q?Xx7OwVC+3zUpHtCrX2PJn8/pnbROrp7GzhZrLQt+N7dbgIIe+ozITeBtAEZq5j11O?=
+ =?utf-8?q?jCs66q75A=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============9079349497711191105=="
+
+--===============9079349497711191105==
+Content-Type: multipart/alternative;
+ boundary="===============5166289619986426364=="
+
+--===============5166289619986426364==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Aditya,
+
+Your payslip for March is now available on the employee portal. Log in through
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Orion Systems
+
+--===============5166289619986426364==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Aditya,</p><p>Your payslip for March is now available on =
+the employee portal. Log in through the usual internal link on the intranet h=
+ome page.</p><p>If any of the tax details look incorrect, raise a ticket with=
+ Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll Tea=
+m Orion Systems</p></body></html>
+
+--===============5166289619986426364==--
+
+--===============9079349497711191105==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-3531.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============9079349497711191105==--

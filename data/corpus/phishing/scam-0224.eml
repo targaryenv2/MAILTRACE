@@ -1,0 +1,66 @@
+From: "Income Tax Department" <notice@itr-refund-portal.click>
+To: Meera Bose <meera.bose@orionsystems.io>
+Subject: Your parcel AWB070352630 could not be delivered - reschedule now
+Date: Wed, 06 May 2026 06:23:00 +0000
+Message-ID: <178772093992.6.7927964245138450317@itr-refund-portal.click>
+Return-Path: <bounce-4928@itr-refund-portal.click>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.orionsystems.io (Postfix) with ESMTPS id EC42C159B521
+ for <recipient@orionsystems.io>; Wed, 06 May 2026 06:23:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id B35A4A81E6D7; Wed, 06 May
+ 2026 06:16:54 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id BC3757518446; Wed, 06 May 2026
+ 06:11:43 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 4F37B5F5D687; Wed, 06 May 2026 06:05:12 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ relay.open-smtp.example (Postfix) with ESMTPS id EB6AD8041A6B; Wed, 06 May
+ 2026 06:03:47 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@itr-refund-portal.click>;
+Authentication-Results: mx.itr-refund-portal.click; spf=fail
+ smtp.mailfrom=itr-refund-portal.click; dkim=none
+ header.d=itr-refund-portal.click; dmarc=fail (p=reject)
+ header.from=itr-refund-portal.click
+Content-Type: multipart/alternative;
+ boundary="===============1267343314245458584=="
+
+--===============1267343314245458584==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your consignment is held at our facility because the address details are inco=
+mplete. Reference number: AWB070352630.
+
+Click here to log in and complete the process:
+https://itr-refund-portal.click/account/verify
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Income Tax Department
+
+--===============1267343314245458584==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your consignment is held at our facility =
+because the address details are incomplete. Reference number: AWB070352630.</=
+p><p>Click here to log in and complete the process: https://itr-refund-portal=
+.click/account/verify</p><p>If we do not receive a response within 24 hours t=
+he request will be cancelled and the amount returned to treasury.</p><p>Custo=
+mer Support Income Tax Department</p><p><a href=3D"https://itr-refund-portal.=
+click/account/verify">https://www.incometax.gov.in/verify</a></p></body></htm=
+l>
+
+--===============1267343314245458584==--

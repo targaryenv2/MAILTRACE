@@ -1,0 +1,63 @@
+From: "LinkedIn" <notice@linkedin-invitation.click>
+To: Ananya Dawson <ananya.dawson@meridian-labs.org>
+Subject: KYC update required within 24 hours
+Date: Tue, 12 May 2026 14:18:00 +0000
+Message-ID: <178772094059.6.5662221607320890077@linkedin-invitation.click>
+Return-Path: <bounce-1719@linkedin-invitation.click>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 8CBA989D34CB for
+ <recipient@meridian-labs.org>; Tue, 12 May 2026 14:18:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 98679708A52C; Tue, 12 May
+ 2026 14:13:11 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 244C71571F64; Tue, 12 May 2026 14:08:23 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 689F3EAFF3C2; Tue, 12 May
+ 2026 14:02:47 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@linkedin-invitation.click>;
+Authentication-Results: mx.linkedin-invitation.click; spf=fail
+ smtp.mailfrom=linkedin-invitation.click; dkim=none
+ header.d=linkedin-invitation.click; dmarc=fail (p=reject)
+ header.from=linkedin-invitation.click
+Content-Type: multipart/alternative;
+ boundary="===============2795297909881712251=="
+
+--===============2795297909881712251==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your consignment is held at our facility because the address details are inco=
+mplete. Reference number: AWB531471719.
+
+Click here to log in and complete the process:
+https://linkedin-invitation.click/session/renew
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+LinkedIn
+
+--===============2795297909881712251==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your consignment is held at our facility =
+because the address details are incomplete. Reference number: AWB531471719.</=
+p><p>Click here to log in and complete the process: https://linkedin-invitati=
+on.click/session/renew</p><p>If we do not receive a response within 24 hours =
+the request will be cancelled and the amount returned to treasury.</p><p>Cust=
+omer Support LinkedIn</p><p><a href=3D"http://203.0.113.99/login">https://www=
+.linkedin.com/verify</a></p></body></html>
+
+--===============2795297909881712251==--

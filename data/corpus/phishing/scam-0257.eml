@@ -1,0 +1,61 @@
+From: "HDFC Bank" <notice@hdfc-kyc-update.link>
+To: Laura Sharma <laura.sharma@meridian-labs.org>
+Subject: KYC update required within 24 hours
+Date: Wed, 13 May 2026 01:06:00 +0000
+Message-ID: <178772094046.6.14386208892544875363@hdfc-kyc-update.link>
+Return-Path: <bounce-7562@hdfc-kyc-update.link>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.meridian-labs.org (Postfix) with ESMTPS id D2760DAF41CE for
+ <recipient@meridian-labs.org>; Wed, 13 May 2026 01:06:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 2642E71055D0; Wed, 13 May 2026 01:05:57 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 0DAA3280F71D; Wed, 13 May
+ 2026 01:00:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id D93923596459; Wed, 13 May 2026
+ 00:53:22 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@hdfc-kyc-update.link>;
+Authentication-Results: mx.hdfc-kyc-update.link; spf=fail
+ smtp.mailfrom=hdfc-kyc-update.link; dkim=none header.d=hdfc-kyc-update.link;
+ dmarc=fail (p=reject) header.from=hdfc-kyc-update.link
+Content-Type: multipart/alternative;
+ boundary="===============3338748766126835167=="
+
+--===============3338748766126835167==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+A refund has been approved against your assessment and is awaiting your bank =
+confirmation. Reference number: AWB075398655.
+
+Click here to log in and complete the process:
+https://hdfc-kyc-update.link/secure/signin
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+HDFC Bank
+
+--===============3338748766126835167==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>A refund has been approved against your a=
+ssessment and is awaiting your bank confirmation. Reference number: AWB075398=
+655.</p><p>Click here to log in and complete the process: https://hdfc-kyc-up=
+date.link/secure/signin</p><p>If we do not receive a response within 24 hours=
+ the request will be cancelled and the amount returned to treasury.</p><p>Cus=
+tomer Support HDFC Bank</p><p><a href=3D"https://hdfc-kyc-update.link/secure/=
+signin">https://www.hdfcbank.com/verify</a></p></body></html>
+
+--===============3338748766126835167==--

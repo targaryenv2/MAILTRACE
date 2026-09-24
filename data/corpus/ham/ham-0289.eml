@@ -1,0 +1,42 @@
+From: "Vikram Fletcher" <vikram.fletcher@meridian-labs.org>
+To: Aditya Hughes <aditya.hughes@meridian-labs.org>
+Subject: Weekly Finance sync - agenda
+Date: Tue, 19 May 2026 20:16:00 +0000
+Message-ID: <178772094096.6.14680126690098265487@meridian-labs.org>
+Return-Path: <vikram.fletcher@meridian-labs.org>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.meridian-labs.org (Postfix) with ESMTPS id 200A612B5E4D for
+ <recipient@meridian-labs.org>; Tue, 19 May 2026 20:16:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 1CF8AAB582CF; Tue, 19 May
+ 2026 20:13:19 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id E1D50ADDCEC6; Tue, 19 May 2026
+ 20:07:28 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=259007673; h=from:to:subject:date;
+ bh=tEfdF9RW6jocTjHyG7IJ34CVdnV2qlVGkFzySUvV664=; =?utf-8?q?b=3DXbgUQlDwegMA?=
+ =?utf-8?q?cj+r89kEDPKpHfHvD9VUcU/ytxScgUQkm6ohfZAjYgv052QBWYOm4CfBX36vGZaA2?=
+ =?utf-8?q?YhzSIxM9Q=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Finance sync:
+
+1. Status of the Meridian Labs migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Vikram Fletcher

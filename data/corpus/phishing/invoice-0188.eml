@@ -1,0 +1,73 @@
+From: "Aurora Freight Accounts" <billing@paypal-resolution-centre.top>
+To: Karthik Joshi <karthik.joshi@brightpath-edu.ac.in>
+Subject: Invoice attached: INV-2025-4984 ($4,610,000)
+Date: Mon, 01 Jun 2026 08:38:00 +0000
+Message-ID: <178772093933.6.1558347037822483093@paypal-resolution-centre.top>
+Return-Path: <bounce-7892@paypal-resolution-centre.top>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id D59BFEFF2093 for
+ <recipient@brightpath-edu.ac.in>; Mon, 01 Jun 2026 08:38:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id 487D5B0BAA41; Mon, 01 Jun
+ 2026 08:32:39 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 40CF67F8C85A; Mon, 01 Jun
+ 2026 08:29:42 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 6C845809D038; Mon, 01 Jun 2026
+ 08:25:12 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@paypal-resolution-centre.top>;
+Authentication-Results: mx.paypal-resolution-centre.top; spf=fail
+ smtp.mailfrom=paypal-resolution-centre.top; dkim=none
+ header.d=paypal-resolution-centre.top; dmarc=fail (p=reject)
+ header.from=paypal-resolution-centre.top
+Content-Type: multipart/mixed; boundary="===============0780753562711478804=="
+
+--===============0780753562711478804==
+Content-Type: multipart/alternative;
+ boundary="===============1109067046499920898=="
+
+--===============1109067046499920898==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Karthik,
+
+Please find attached invoice INV-2025-4984 for $4,610,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Sneha Sharma
+Accounts Receivable, Aurora Freight
+
+--===============1109067046499920898==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Karthik,</p><p>Please find attached invoice INV-2025-498=
+4 for $4,610,000, now overdue. Kindly review the attached statement and proce=
+ss this payment immediately to avoid service interruption.</p><p>If the bank =
+details have changed since your last remittance, use the updated account info=
+rmation in the attachment.</p><p>Regards, Sneha Sharma Accounts Receivable, A=
+urora Freight</p></body></html>
+
+--===============1109067046499920898==--
+
+--===============0780753562711478804==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-4984.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============0780753562711478804==--

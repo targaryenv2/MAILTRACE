@@ -1,0 +1,43 @@
+From: "Nikhil Gupta" <nikhil.gupta@kalyaniworks.in>
+To: Priya Bose <priya.bose@kalyaniworks.in>
+Subject: Weekly IT Services sync - agenda
+Date: Sun, 03 May 2026 19:10:00 +0000
+Message-ID: <178772094204.6.12713331672434875958@kalyaniworks.in>
+Return-Path: <nikhil.gupta@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.kalyaniworks.in
+ (Postfix) with ESMTPS id D54BECB34BA2 for <recipient@kalyaniworks.in>; Sun,
+ 03 May 2026 19:10:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id B04C04081E95; Sun,
+ 03 May 2026 19:07:54 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id B72C51ACCE23; Sun, 03 May 2026
+ 19:05:15 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=710082247; h=from:to:subject:date;
+ bh=eIQb/6RTIzLuxIRmPMMoTh8wdZgHF8Ky5Yiug2Uq/1A=; =?utf-8?q?b=3D+7otcxOhW/6I?=
+ =?utf-8?q?m0bLaJypqm4SY7UJ0z/Q5vstwQKiFHiYT/+e54X8FaEXAv7e2IiUQc1D8+V2ZIPxB?=
+ =?utf-8?q?++6B+mqaA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's IT Services sync:
+
+1. Status of the Orion Systems migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Nikhil Gupta

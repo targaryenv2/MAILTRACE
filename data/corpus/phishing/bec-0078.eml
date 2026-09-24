@@ -1,0 +1,47 @@
+From: "Rahul Joshi (CEO)" <rahul.joshi@outlook.com>
+Reply-To: rahul.joshi.office@outlook.com
+To: Kavya Carter <kavya.carter@northgate-industries.com>
+Subject: Change of bank details for Trident Components
+Date: Thu, 07 May 2026 10:59:00 +0000
+Message-ID: <178772093747.6.4359822988791016991@outlook.com>
+Return-Path: <bounce-5929@outlook.com>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id CD4F244DAE66 for
+ <recipient@northgate-industries.com>; Thu, 07 May 2026 10:59:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 46877431CD41; Thu, 07 May 2026 10:56:15 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 7B3132C84BFC; Thu,
+ 07 May 2026 10:55:40 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=146885883; h=from:to:subject:date;
+ bh=Hs/sOffpLBtAxLMrAFUWDQ/8e1SJ6IbqOVUmkOiYCkk=; =?utf-8?q?b=3D0qstW48oGXAw?=
+ =?utf-8?q?+barOBxIFZpLRJVukB0OFlmyx2mlQwmeyyLtOBQl+RAOap4YQ7Ma8+z/R3CjhxXGm?=
+ =?utf-8?q?T2HmC4T0Q=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Kavya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 1,811,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 14207446803
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Rahul Joshi
+Chief Executive Officer

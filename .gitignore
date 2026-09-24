@@ -1,0 +1,79 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+venv/
+.venv/
+env/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Databases / local data
+data/mailtrace.db
+data/mailtrace.db-shm
+data/mailtrace.db-wal
+*.sqlite
+*.sqlite3
+
+# GeoIP binary databases (large, downloaded via script)
+*.mmdb
+
+# Intel cache (generated at runtime from live API calls)
+data/cache/
+
+# Evidence trail (generated at runtime)
+data/evidence/
+
+# Logs
+*.log
+logs/
+
+# Secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+service-account*.json
+
+# Compressed archives
+*.zip
+
+# Coverage / testing cache
+coverage/
+.cache/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+.next/
+out/
+
+# Superpowers (local agent state)
+.superpowers/

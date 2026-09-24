@@ -1,0 +1,107 @@
+{
+  "_note": "Geolocation stand-ins for the RFC 5737 / TEST-NET addresses used by the bundled corpus. The corpus deliberately never contains a real IP, so without this map the geolocation feature has nothing to resolve in DEMO_MODE and the trace map renders empty - which reads as a broken feature rather than a safe one. Every value here is invented. resolve_ip() stamps source='fixture' on anything returned from this file, and the UI, the PDF and the JSON all display that provenance, so a fixture location can never be mistaken for a MaxMind lookup. Ignored entirely unless DEMO_MODE is on: in real mail a documentation range in a Received header IS a forged header, and the analyser should keep saying so.",
+  "_alignment": "Keys, hostnames and country hints match RELAY_POOL in scripts/make_corpus.py. If a relay is added there, add it here too or its hops resolve as 'unavailable'.",
+  "generated": "2026-01-04T00:00:00Z",
+  "ips": {
+    "192.0.2.201": {
+      "hostname": "tor-exit-node.example",
+      "city": "Bucharest",
+      "country": "Romania",
+      "country_code": "RO",
+      "lat": 44.4268,
+      "lon": 26.1025,
+      "asn": "AS64500",
+      "isp": "Quietnode Exit Services",
+      "tags": [
+        "anonymiser"
+      ],
+      "role": "Tor exit relay: whatever sent into this node is not recoverable from the headers, so this is the earliest node the evidence can support"
+    },
+    "198.51.100.89": {
+      "hostname": "relay.open-smtp.example",
+      "city": "Saint Petersburg",
+      "country": "Russia",
+      "country_code": "RU",
+      "lat": 59.9311,
+      "lon": 30.3609,
+      "asn": "AS64501",
+      "isp": "Harbourline Networks",
+      "tags": [
+        "bulletproof"
+      ],
+      "role": "misconfigured open relay that launders the true origin"
+    },
+    "198.51.100.7": {
+      "hostname": "vps-31.hosting.example",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "asn": "AS64502",
+      "isp": "Northbridge Cloud (shared VPS)",
+      "tags": [],
+      "role": "single-tenant VPS rented for the send"
+    },
+    "198.51.100.150": {
+      "hostname": "compute-04.cloudprovider.example",
+      "city": "Ashburn",
+      "country": "United States",
+      "country_code": "US",
+      "lat": 39.0438,
+      "lon": -77.4874,
+      "asn": "AS64503",
+      "isp": "Meridian Cloud Compute",
+      "tags": [],
+      "role": "cloud compute instance, not infrastructure the purported sender owns"
+    },
+    "192.0.2.10": {
+      "hostname": "mx1.mail-relay.example",
+      "city": "Singapore",
+      "country": "Singapore",
+      "country_code": "SG",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "asn": "AS64504",
+      "isp": "Redlark Transit (bulk mail relay)",
+      "tags": [],
+      "role": "regional bulk-mail relay in the middle of the path"
+    },
+    "192.0.2.44": {
+      "hostname": "smtp-out-3.example",
+      "city": "Dallas",
+      "country": "United States",
+      "country_code": "US",
+      "lat": 32.7767,
+      "lon": -96.797,
+      "asn": "AS64505",
+      "isp": "Orbit Datacenter (outbound SMTP pool)",
+      "tags": [],
+      "role": "shared outbound SMTP pool"
+    },
+    "203.0.113.61": {
+      "hostname": "edge-2.mailcluster.example",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "country_code": "DE",
+      "lat": 50.1109,
+      "lon": 8.6821,
+      "asn": "AS64506",
+      "isp": "Kestrel Mailcluster Edge",
+      "tags": [],
+      "role": "edge node of a mail cluster"
+    },
+    "203.0.113.5": {
+      "hostname": "mail.gateway.example",
+      "city": "Chennai",
+      "country": "India",
+      "country_code": "IN",
+      "lat": 13.0827,
+      "lon": 80.2707,
+      "asn": "AS64507",
+      "isp": "Kestrel Telecom (regional MTA)",
+      "tags": [],
+      "role": "regional mail transfer agent in the middle of the path"
+    }
+  }
+}

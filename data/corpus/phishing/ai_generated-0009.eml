@@ -1,0 +1,63 @@
+From: "Priya Fletcher" <priya.fletcher@hansacapital.co>
+To: Daniel Gupta <daniel.gupta@vertexlogistics.in>
+Subject: Re: the shared folder permissions
+Date: Fri, 08 May 2026 14:29:00 +0000
+Message-ID: <178772093645.6.15767153592691423818@hansacapital.co>
+Return-Path: <bounce-8791@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 7739E37472E1 for
+ <recipient@vertexlogistics.in>; Fri, 08 May 2026 14:29:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 293898D40AD0; Fri, 08 May
+ 2026 14:28:15 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=721006258; h=from:to:subject:date;
+ bh=GJsi97b/n8TBKJ8BzowjyclOlEymLZz3asy1rPpWUOE=; =?utf-8?q?b=3D4P9fZ2OBuHe7?=
+ =?utf-8?q?0akBFKxPBUP66fxSzcpr1AD5T/XJ1YbvYjstRclD+wjdRNezVJLESOqlweU5JDWqM?=
+ =?utf-8?q?5NDrNixZw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============1946583172608344137=="
+
+--===============1946583172608344137==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Daniel,
+
+Thanks again for your time earlier this week. I have put the revised Admissio=
+ns
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://docs-workspace.app/d/2e8e9ede
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Priya Fletcher
+Partner, Kestrel Supplies Ltd
+
+--===============1946583172608344137==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Daniel,</p><p>Thanks again for your time earlier this week.=
+ I have put the revised Admissions document in the shared workspace and added=
+ comments against the two clauses we discussed.</p><p>You can open it here wh=
+en convenient: https://docs-workspace.app/d/2e8e9ede</p><p>There is no rush o=
+n this. If the second section reads oddly, that is my drafting rather than a =
+change in position, so do flag it.</p><p>Best regards, Priya Fletcher Partner=
+, Kestrel Supplies Ltd</p><p><a href=3D"https://docs-workspace.app/d/2e8e9ede=
+">shared workspace</a></p></body></html>
+
+--===============1946583172608344137==--

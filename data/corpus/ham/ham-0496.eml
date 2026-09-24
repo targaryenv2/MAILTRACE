@@ -1,0 +1,35 @@
+From: "Meera Carter" <meera.carter@hansacapital.co>
+To: Ananya Carter <ananya.carter@hansacapital.co>
+Subject: Welcome to the team, Ananya
+Date: Sat, 23 May 2026 06:57:00 +0000
+Message-ID: <178772094416.6.4536686977643334105@hansacapital.co>
+Return-Path: <meera.carter@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 9480EBAA2B8B for
+ <recipient@hansacapital.co>; Sat, 23 May 2026 06:57:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 608D352917FA; Sat, 23 May
+ 2026 06:56:16 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=645051833; h=from:to:subject:date;
+ bh=NIQUN9wkKoQPF0Kuh3A7bMj+UX+N2a70NjSXsQhJNzI=; =?utf-8?q?b=3DDrphouRponR7?=
+ =?utf-8?q?7Ii2SAwL++KCHHC3cvmZ8kuMo5KgOA1+vWEuH6GNBlq3dgs6IahkkY6Xc3eXzl53C?=
+ =?utf-8?q?C8iU6bTLg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Ananya,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Meera Carter
+Human Resources, Northgate Industries

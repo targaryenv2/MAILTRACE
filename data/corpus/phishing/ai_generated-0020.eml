@@ -1,0 +1,74 @@
+From: "Emily Kapoor" <emily.kapoor@summitfoods.co.in>
+To: Emily Fletcher <emily.fletcher@brightpath-edu.ac.in>
+Subject: Following up on the Engineering document you shared
+Date: Fri, 08 May 2026 11:53:00 +0000
+Message-ID: <178772093661.6.2948376558210990630@summitfoods.co.in>
+Return-Path: <bounce-1201@summitfoods.co.in>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id
+ B3DD789087E2 for <recipient@brightpath-edu.ac.in>; Fri, 08 May 2026 11:53:00
+ +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 42455A8F89BC; Fri, 08
+ May 2026 11:51:20 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id 83E29ECF96A5; Fri, 08 May 2026 11:45:17 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id A803D51970EF; Fri,
+ 08 May 2026 11:41:21 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 6AE9B3E9A492; Fri, 08 May
+ 2026 11:38:30 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=561356256; h=from:to:subject:date;
+ bh=CeHtfimt0H0igJ7aHaCG2EVvDvJsAp9V53rUzgZbNi8=; =?utf-8?q?b=3DiYACel0Hamnq?=
+ =?utf-8?q?x0f8VRzcg93u/Ho6dQoXpPgncNUlpHZC9SKeBB9Z4PtqiFMKIesLMvSlTnVa3oxYj?=
+ =?utf-8?q?TDnxNYRDA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4048585426506410085=="
+
+--===============4048585426506410085==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Emily,
+
+Thanks again for your time earlier this week. I have put the revised Engineer=
+ing
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/8b476f06
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Emily Kapoor
+Programme Manager, Trident Components
+
+--===============4048585426506410085==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Emily,</p><p>Thanks again for your time earlier this week. =
+I have put the revised Engineering document in the shared workspace and added=
+ comments against the two clauses we discussed.</p><p>You can open it here wh=
+en convenient: https://teamfiles-hub.co/d/8b476f06</p><p>There is no rush on =
+this. If the second section reads oddly, that is my drafting rather than a ch=
+ange in position, so do flag it.</p><p>Best regards, Emily Kapoor Programme M=
+anager, Trident Components</p><p><a href=3D"https://teamfiles-hub.co/d/8b476f=
+06">shared workspace</a></p></body></html>
+
+--===============4048585426506410085==--

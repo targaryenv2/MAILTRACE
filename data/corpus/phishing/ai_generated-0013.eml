@@ -1,0 +1,70 @@
+From: "Ananya Reddy" <ananya.reddy@northgate-industries.com>
+To: Arjun Reddy <arjun.reddy@orionsystems.io>
+Subject: Notes from Tuesday and one item for review
+Date: Wed, 06 May 2026 14:05:00 +0000
+Message-ID: <178772093651.6.7894828550354158321@northgate-industries.com>
+Return-Path: <bounce-3938@northgate-industries.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.orionsystems.io (Postfix) with ESMTPS id 045FEA7F01A7 for
+ <recipient@orionsystems.io>; Wed, 06 May 2026 14:05:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id F19370E22408; Wed, 06 May
+ 2026 13:59:41 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by tor-exit-node.example (Postfix) with ESMTPS id
+ FABEAC0B5A50; Wed, 06 May 2026 13:58:45 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by edge-2.mailcluster.example (Postfix) with ESMTPS id
+ C6F02D53FEFA; Wed, 06 May 2026 13:56:05 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=658821270; h=from:to:subject:date;
+ bh=bvi1sIeKJpLmjE582irZk6zP465i3/mBl2tAPjfVETc=; =?utf-8?q?b=3DYlteoSU18yUq?=
+ =?utf-8?q?8CdtjzFNarujNC3gFG8lnD8h3rdmz9yraOg6N5zouN1AlAMAFsgU61bZ0XYK42tud?=
+ =?utf-8?q?Xtk5vyBHA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============0568161947883937693=="
+
+--===============0568161947883937693==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Arjun,
+
+Thanks again for your time earlier this week. I have put the revised Procurem=
+ent
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/c015d7af
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Ananya Reddy
+Programme Manager, Bluestone Partners
+
+--===============0568161947883937693==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Arjun,</p><p>Thanks again for your time earlier this week. =
+I have put the revised Procurement document in the shared workspace and added=
+ comments against the two clauses we discussed.</p><p>You can open it here wh=
+en convenient: https://teamfiles-hub.co/d/c015d7af</p><p>There is no rush on =
+this. If the second section reads oddly, that is my drafting rather than a ch=
+ange in position, so do flag it.</p><p>Best regards, Ananya Reddy Programme M=
+anager, Bluestone Partners</p><p><a href=3D"https://teamfiles-hub.co/d/c015d7=
+af">shared workspace</a></p></body></html>
+
+--===============0568161947883937693==--

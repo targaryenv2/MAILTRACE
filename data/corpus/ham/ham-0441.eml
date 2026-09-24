@@ -1,0 +1,53 @@
+From: "Nikhil Reddy" <nikhil.reddy@hansacapital.co>
+To: Sarah Anderson <sarah.anderson@hansacapital.co>
+Subject: Reminder: submit Academics timesheets by Friday
+Date: Fri, 29 May 2026 13:44:00 +0000
+Message-ID: <178772094331.6.17986351076158350890@hansacapital.co>
+Return-Path: <nikhil.reddy@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 51E93804A2DF for
+ <recipient@hansacapital.co>; Fri, 29 May 2026 13:44:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id CC274619637D; Fri, 29 May
+ 2026 13:42:24 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id C1E31AE0A813; Fri, 29 May 2026
+ 13:36:28 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=716174584; h=from:to:subject:date;
+ bh=0S5MUoHlitco9h/+U7qJ1zHCEPqM0QuY5NX8St77M0A=; =?utf-8?q?b=3DvGjMYvSSAcmU?=
+ =?utf-8?q?DZJL0kAx44X1uZBpAoirsYrEqxv6nMmL9AYLxnK7eUsZxQeW3ZswSlgzu9+EShRh9?=
+ =?utf-8?q?nnIziAicg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============0851313805291129224=="
+
+--===============0851313805291129224==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Sarah,
+
+A reminder that January timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Nikhil Reddy
+Academics
+
+--===============0851313805291129224==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Sarah,</p><p>A reminder that January timesheets close on Fr=
+iday. If you are on leave, your approver can submit on your behalf.</p><p>Tha=
+nks, Nikhil Reddy Academics</p></body></html>
+
+--===============0851313805291129224==--

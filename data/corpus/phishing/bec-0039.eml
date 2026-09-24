@@ -1,0 +1,53 @@
+From: "Rohan Carter (CEO)" <rohan.carter@yahoo.com>
+Reply-To: rohan.carter.office@yahoo.com
+To: Laura Sharma <laura.sharma@orionsystems.io>
+Subject: Change of bank details for Zenith Traders
+Date: Sun, 31 May 2026 23:58:00 +0000
+Message-ID: <178772093688.6.10224886770991978325@yahoo.com>
+Return-Path: <bounce-6024@yahoo.com>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id 1F30274098A4 for <recipient@orionsystems.io>; Sun,
+ 31 May 2026 23:58:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 0AB1E75F8C16; Sun,
+ 31 May 2026 23:53:07 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 968EF4A978F0; Sun, 31 May
+ 2026 23:48:23 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id 2AFF6DDECC11; Sun, 31 May
+ 2026 23:47:22 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 524FF8437097; Sun, 31 May
+ 2026 23:45:25 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=374413630; h=from:to:subject:date;
+ bh=iZGfSJ2/YhQJqZoQ0vr3zN2joI5011y7FA0DYEE5ojI=; =?utf-8?q?b=3DEcQlDKARtlaf?=
+ =?utf-8?q?kl7nt2Oo/O/qUdf0Ud2vxxNlWFdqBLDHp1RILiruESANz1BcLEQsRBRwFAM459YOJ?=
+ =?utf-8?q?zEjNbOwSA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Laura,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 7,072,000 to a new beneficiary today. This relates to
+Zenith Traders and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Zenith Traders
+Account: 40604488456
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Rohan Carter
+Managing Director

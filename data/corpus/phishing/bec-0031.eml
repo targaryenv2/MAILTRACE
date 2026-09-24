@@ -1,0 +1,50 @@
+From: "Ananya Sharma (CEO)" <ananya.sharma@gmail.com>
+Reply-To: ananya.sharma.office@gmail.com
+To: Sanjay Brooks <sanjay.brooks@brightpath-edu.ac.in>
+Subject: Confidential matter - need your help
+Date: Fri, 08 May 2026 23:50:00 +0000
+Message-ID: <178772093677.6.14845591180298492885@gmail.com>
+Return-Path: <bounce-1870@gmail.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 54D24B8FC164 for
+ <recipient@brightpath-edu.ac.in>; Fri, 08 May 2026 23:50:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ C9F29847573A; Fri, 08 May 2026 23:43:45 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 37C8269F530A; Fri, 08 May
+ 2026 23:42:08 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 1A5919211ACB; Fri,
+ 08 May 2026 23:41:50 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=14219910; h=from:to:subject:date;
+ bh=LcO24bV97DMhKG7EaOG7tc/TaDpSttCe14BR1kLk7Ak=; =?utf-8?q?b=3DqqkO57UAGqE+?=
+ =?utf-8?q?+ExFUQsU4M0iNjfn7nF7Gmsgb57swbkzTzJuXdU2LvMyy57Sr+nfzoeYLeSY9G2b/?=
+ =?utf-8?q?5GIDh5PsQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Sanjay,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 705,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 45183585048
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Ananya Sharma
+Chief Executive Officer

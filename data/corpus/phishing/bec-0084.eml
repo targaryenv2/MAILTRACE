@@ -1,0 +1,47 @@
+From: "David Gupta (CEO)" <david.gupta@gmail.com>
+Reply-To: david.gupta.office@gmail.com
+To: Sanjay Gupta <sanjay.gupta@hansacapital.co>
+Subject: Change of bank details for Aurora Freight
+Date: Wed, 13 May 2026 00:12:00 +0000
+Message-ID: <178772093757.6.18059736312871038057@gmail.com>
+Return-Path: <bounce-6354@gmail.com>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.hansacapital.co
+ (Postfix) with ESMTPS id 9BF5B53A9EA8 for <recipient@hansacapital.co>; Wed,
+ 13 May 2026 00:12:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 3CEE74063093; Wed, 13 May 2026 00:10:20 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by edge-2.mailcluster.example (Postfix) with ESMTPS id
+ E6BED9749F6E; Wed, 13 May 2026 00:04:33 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=446041846; h=from:to:subject:date;
+ bh=PzBWQxoOtjac80q2VoVKBxiIQav0K1o3nsdBNNB2sn8=; =?utf-8?q?b=3DKh+VY9FM1KrP?=
+ =?utf-8?q?yPuVtFIJVdDR39Nb8FefRRZxp8D5BXhT9rzPWRqyxB0qF8Vx2LtW46+3pxrJBdHz0?=
+ =?utf-8?q?BGY/v2/kg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sanjay,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $2,425,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 33212445048
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+David Gupta
+Chief Executive Officer

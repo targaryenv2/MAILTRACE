@@ -1,0 +1,60 @@
+From: "Sanjay Gupta" <sanjay.gupta@hansacapital.co>
+To: Daniel Menon <daniel.menon@hansacapital.co>
+Subject: Payslip for January is available
+Date: Sat, 30 May 2026 13:28:00 +0000
+Message-ID: <178772094259.6.10158896787767975097@hansacapital.co>
+Return-Path: <sanjay.gupta@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id A2AB613C8D6A for
+ <recipient@hansacapital.co>; Sat, 30 May 2026 13:28:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 76B4794E6E08; Sat, 30 May
+ 2026 13:22:07 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 0DCF4465C5A7; Sat, 30 May 2026 13:15:43 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=814990885; h=from:to:subject:date;
+ bh=DSpLJm9I8slxdnMYwPNfK3u0jCjOUkwwB4Z+zf2KACM=; =?utf-8?q?b=3DOO+ZBCGgcohs?=
+ =?utf-8?q?tndOvlAH5F6HRS95uQicOCprjIKHUCdZt17LhkQIejK/WFTlPJtmLF9eyLXL3gV1M?=
+ =?utf-8?q?IzuJyJxjA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8663243610140480121=="
+
+--===============8663243610140480121==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Daniel,
+
+Your payslip for January is now available on the employee portal. Log in thro=
+ugh
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Meridian Labs
+
+--===============8663243610140480121==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Daniel,</p><p>Your payslip for January is now available o=
+n the employee portal. Log in through the usual internal link on the intranet=
+ home page.</p><p>If any of the tax details look incorrect, raise a ticket wi=
+th Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll T=
+eam Meridian Labs</p></body></html>
+
+--===============8663243610140480121==--

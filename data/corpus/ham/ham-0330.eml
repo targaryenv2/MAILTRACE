@@ -1,0 +1,53 @@
+From: "Emily Rao" <emily.rao@hansacapital.co>
+To: David Nair <david.nair@hansacapital.co>
+Subject: Reminder: submit Finance timesheets by Friday
+Date: Thu, 14 May 2026 15:43:00 +0000
+Message-ID: <178772094159.6.1735525430395603919@hansacapital.co>
+Return-Path: <emily.rao@hansacapital.co>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 58A8449A0BB7 for
+ <recipient@hansacapital.co>; Thu, 14 May 2026 15:43:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id 377B5CB9292C; Thu, 14 May 2026 15:39:29 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id C52CE0A082FC; Thu,
+ 14 May 2026 15:36:39 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=309174934; h=from:to:subject:date;
+ bh=EfQd0RrSQgIGPJpp1WWJyryNoYECARSA4AXtnRbpihU=; =?utf-8?q?b=3DeztTVQrQ1dJP?=
+ =?utf-8?q?Nql4/CIqMRTTN45ZkyiJ0viPnQOS8elXXSTpOp7fZVanxIrivrWbf2d4AHWhypMHU?=
+ =?utf-8?q?zwMiNO6Aw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============9106909866031967614=="
+
+--===============9106909866031967614==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi David,
+
+A reminder that March timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Emily Rao
+Finance
+
+--===============9106909866031967614==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi David,</p><p>A reminder that March timesheets close on Frid=
+ay. If you are on leave, your approver can submit on your behalf.</p><p>Thank=
+s, Emily Rao Finance</p></body></html>
+
+--===============9106909866031967614==--

@@ -1,0 +1,79 @@
+From: "Zenith Traders Accounts" <billing@linkedin-invitation.click>
+To: David Gupta <david.gupta@orionsystems.io>
+Subject: Purchase order INV-2026-4905 needs your approval
+Date: Tue, 12 May 2026 04:11:00 +0000
+Message-ID: <178772093911.6.8737345895824726923@linkedin-invitation.click>
+Return-Path: <bounce-1333@linkedin-invitation.click>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id B69BAEFF9B3F for
+ <recipient@orionsystems.io>; Tue, 12 May 2026 04:11:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 490D543451EC; Tue, 12 May 2026
+ 04:09:36 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 075A88DAF4D4; Tue, 12 May
+ 2026 04:04:07 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mail.gateway.example (Postfix) with ESMTPS id
+ A6309500B2F0; Tue, 12 May 2026 03:58:28 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@linkedin-invitation.click>;
+Authentication-Results: mx.linkedin-invitation.click; spf=softfail
+ smtp.mailfrom=linkedin-invitation.click; dkim=fail
+ header.d=linkedin-invitation.click; dmarc=fail (p=reject)
+ header.from=linkedin-invitation.click
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=linkedin-invitation.click; s=selector1; t=338889474;
+ h=from:to:subject:date; bh=NuRTwBKNsEAPBOiXXWYLzZoV5GWgc397dRmRks7IG+Q=; 
+ =?utf-8?q?b=3DBGRfqzO2ZwztMD+RwXv2sriOY5yJN3ujQG60SMa6fJs9FRW3y3ooLalYQpxw+?=
+ =?utf-8?q?3gXTimF22Fk+sNZMmpIDhxWMw=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============5818270611444858155=="
+
+--===============5818270611444858155==
+Content-Type: multipart/alternative;
+ boundary="===============8114876758729266222=="
+
+--===============8114876758729266222==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello David,
+
+Please find attached invoice INV-2026-4905 for INR 5,454,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Laura Nair
+Accounts Receivable, Zenith Traders
+
+--===============8114876758729266222==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello David,</p><p>Please find attached invoice INV-2026-4905 =
+for INR 5,454,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Laura Nair Accounts Receivable, Ze=
+nith Traders</p></body></html>
+
+--===============8114876758729266222==--
+
+--===============5818270611444858155==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2026-4905.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============5818270611444858155==--

@@ -1,0 +1,58 @@
+From: "Divya Verma" <divya.verma@meridian-labs.org>
+To: Priya Joshi <priya.joshi@meridian-labs.org>
+Subject: Your order INV-2026-9537 has shipped
+Date: Fri, 29 May 2026 00:28:00 +0000
+Message-ID: <178772094104.6.15983222658854599207@meridian-labs.org>
+Return-Path: <divya.verma@meridian-labs.org>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.meridian-labs.org
+ (Postfix) with ESMTPS id 43337C4FE6E4 for <recipient@meridian-labs.org>; Fri,
+ 29 May 2026 00:28:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id 5C06540B6572;
+ Fri, 29 May 2026 00:26:39 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=206963048; h=from:to:subject:date;
+ bh=qiFD1MlqX7oAYGfAwBWwWdwCagGDc8Vl1RF9O6tFQ9U=; =?utf-8?q?b=3D2Bt6S3ABjBiC?=
+ =?utf-8?q?Jc10PGYfBveN/4PgJJU1JhBinpVDdCKPmV042TfTAsNpUuf3eSmguvqwqqGWa1beJ?=
+ =?utf-8?q?uMO2LFbbQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============5900606880342209147=="
+
+--===============5900606880342209147==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Priya,
+
+Order INV-2026-9537 shipped today and should arrive within three working days=
+. Tracking
+number AWB768476142.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Orion Systems Customer Care
+
+--===============5900606880342209147==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Priya,</p><p>Order INV-2026-9537 shipped today and shoul=
+d arrive within three working days. Tracking number AWB768476142.</p><p>Items=
+ - 1 x Mechanical keyboard - 2 x USB-C cable, 1m</p><p>No action is needed. O=
+rder history is available from your account page.</p><p>Orion Systems Custome=
+r Care</p></body></html>
+
+--===============5900606880342209147==--

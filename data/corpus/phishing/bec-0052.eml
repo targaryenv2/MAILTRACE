@@ -1,0 +1,52 @@
+From: "Meera Carter (CEO)" <meera.carter@yahoo.com>
+Reply-To: meera.carter.office@yahoo.com
+To: Sanjay Carter <sanjay.carter@orionsystems.io>
+Subject: Confidential matter - need your help
+Date: Fri, 29 May 2026 16:59:00 +0000
+Message-ID: <178772093707.6.13750566033778583335@yahoo.com>
+Return-Path: <bounce-9207@yahoo.com>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id 98606DF0A343 for
+ <recipient@orionsystems.io>; Fri, 29 May 2026 16:59:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 65E5A3072254; Fri, 29 May 2026 16:54:26 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 7231FCF1F44E; Fri,
+ 29 May 2026 16:50:55 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 3F9024EFDFF5; Fri, 29 May 2026
+ 16:47:32 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 649DB514A858; Fri, 29 May 2026 16:46:08 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=956572704; h=from:to:subject:date;
+ bh=tp9C1do/2jZYCmiIB+YMPVbGX2vKnyPgGbTvloF/IQQ=; =?utf-8?q?b=3DRIVHoNV48VwD?=
+ =?utf-8?q?2r5EZkNnpeBOMlCSYky3Tt0mEoHrMcZgGt+0If25FbC5dqzbaIp8TCBUFXVqUbIqZ?=
+ =?utf-8?q?4tZ6EzVwg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sanjay,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $3,005,000 to a new beneficiary today. This relates to
+Kestrel Supplies Ltd and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Kestrel Supplies Ltd
+Account: 96661410451
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Meera Carter
+Managing Director

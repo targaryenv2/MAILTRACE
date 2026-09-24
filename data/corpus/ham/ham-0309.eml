@@ -1,0 +1,51 @@
+From: "Anna Joshi" <anna.joshi@vertexlogistics.in>
+To: Laura Brooks <laura.brooks@vertexlogistics.in>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Fri, 08 May 2026 10:40:00 +0000
+Message-ID: <178772094126.6.8620008006131590631@vertexlogistics.in>
+Return-Path: <anna.joshi@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 5B5AD9F3D0B3 for
+ <recipient@vertexlogistics.in>; Fri, 08 May 2026 10:40:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id DBB4A257B810; Fri, 08 May
+ 2026 10:37:19 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=299482404; h=from:to:subject:date;
+ bh=njswhMz8ESCN2heCWn2OJSXz6hcIUrrGaPpWNmJIRiM=; =?utf-8?q?b=3DZEKuvFDqm9he?=
+ =?utf-8?q?lJQP2kYgarMpg75YnpgAMkMx0hVy8V/5VdJxQGRMstADEuiP4J6FskoK4tIOP6CYG?=
+ =?utf-8?q?nwVrZfB7g=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============1791918768720051689=="
+
+--===============1791918768720051689==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Planned maintenance on the Legal systems this Saturday between 02:00 and 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Legal Operations
+
+--===============1791918768720051689==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the Legal systems this Sat=
+urday between 02:00 and 04:00 IST. Expect a short interruption while the data=
+base fails over.</p><p>No user action is required. We will send a note here o=
+nce the window closes.</p><p>Legal Operations</p></body></html>
+
+--===============1791918768720051689==--

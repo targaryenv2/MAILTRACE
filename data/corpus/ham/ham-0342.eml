@@ -1,0 +1,57 @@
+From: "Ananya Pillai" <ananya.pillai@hansacapital.co>
+To: Ananya Verma <ananya.verma@hansacapital.co>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Sat, 09 May 2026 17:16:00 +0000
+Message-ID: <178772094177.6.3507006990564274891@hansacapital.co>
+Return-Path: <ananya.pillai@hansacapital.co>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 3B2FD6F786C9 for
+ <recipient@hansacapital.co>; Sat, 09 May 2026 17:16:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 7AB01C97858E;
+ Sat, 09 May 2026 17:10:35 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id CE0EB67A401D; Sat, 09 May
+ 2026 17:10:24 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=202374355; h=from:to:subject:date;
+ bh=cD/2cwhG/zl2FPvtdZFaHB4P1/YpTA/fK2N8qj+5Lso=; =?utf-8?q?b=3DVfgZT5nM6DbB?=
+ =?utf-8?q?y1uTIHsg4zh1ao8UNNKWEOJaQdHa/p18BReFhceGTtnh4SY5hcKhUBthiD99D0IZ0?=
+ =?utf-8?q?OxclEhHSw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2650060407151981972=="
+
+--===============2650060407151981972==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Human Resources systems this Saturday between 02:0=
+0 and 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Human Resources Operations
+
+--===============2650060407151981972==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the Human Resources system=
+s this Saturday between 02:00 and 04:00 IST. Expect a short interruption whil=
+e the database fails over.</p><p>No user action is required. We will send a n=
+ote here once the window closes.</p><p>Human Resources Operations</p></body><=
+/html>
+
+--===============2650060407151981972==--

@@ -1,0 +1,57 @@
+From: "Meera Joshi" <meera.joshi@kalyaniworks.in>
+To: Rahul Brooks <rahul.brooks@kalyaniworks.in>
+Subject: Payslip for February is available
+Date: Mon, 11 May 2026 09:37:00 +0000
+Message-ID: <178772094129.6.16239936930998658685@kalyaniworks.in>
+Return-Path: <meera.joshi@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 0D41EE5E9957 for
+ <recipient@kalyaniworks.in>; Mon, 11 May 2026 09:37:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id B266A0E03437; Mon, 11 May
+ 2026 09:33:07 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=463708662; h=from:to:subject:date;
+ bh=QK4oztfC5heDPvBVkh2VRjSfSD18HXob95gx308Y24U=; =?utf-8?q?b=3DzePjTR4XgNjW?=
+ =?utf-8?q?dCbjrS+Yy7qCc7w/NiYps3BMFCfdT+p6GE5MaGWqI2Wk7EUiazxmdo0VoksIlQ9+d?=
+ =?utf-8?q?XXWbaf8pw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7818549003849312264=="
+
+--===============7818549003849312264==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rahul,
+
+Your payslip for February is now available on the employee portal. Log in thr=
+ough
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Vertex Logistics
+
+--===============7818549003849312264==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Rahul,</p><p>Your payslip for February is now available o=
+n the employee portal. Log in through the usual internal link on the intranet=
+ home page.</p><p>If any of the tax details look incorrect, raise a ticket wi=
+th Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll T=
+eam Vertex Logistics</p></body></html>
+
+--===============7818549003849312264==--

@@ -1,0 +1,63 @@
+From: "Emily Ellis" <emily.ellis@orionsystems.io>
+To: Ishita Dawson <ishita.dawson@summitfoods.co.in>
+Subject: Quick question about the Bluestone Partners agreement
+Date: Sun, 03 May 2026 23:57:00 +0000
+Message-ID: <178772093652.6.2921616598761683629@orionsystems.io>
+Return-Path: <bounce-1221@orionsystems.io>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.summitfoods.co.in (Postfix) with ESMTPS id 0F17ACB3C3D7
+ for <recipient@summitfoods.co.in>; Sun, 03 May 2026 23:57:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id FF42455DD4AA; Sun, 03 May
+ 2026 23:56:58 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=900137236; h=from:to:subject:date;
+ bh=VwLi8WGqwuwGhpZwV5rr42Am5BvpqBfBjZlPZ4JruOw=; =?utf-8?q?b=3Dna1MADCiEX56?=
+ =?utf-8?q?vA1jCtL4WlQoydCca96NIhHGzrxeAUdcdMlRSPCt3ytnPoifrLhu4iDIIv74mbs1k?=
+ =?utf-8?q?53XhUhMJA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4850446877967291744=="
+
+--===============4850446877967291744==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Ishita,
+
+Thanks again for your time earlier this week. I have put the revised Procurem=
+ent
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://sharedrive-review.io/d/038d2e7b
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Emily Ellis
+Associate Director, Bluestone Partners
+
+--===============4850446877967291744==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Ishita,</p><p>Thanks again for your time earlier this week.=
+ I have put the revised Procurement document in the shared workspace and adde=
+d comments against the two clauses we discussed.</p><p>You can open it here w=
+hen convenient: https://sharedrive-review.io/d/038d2e7b</p><p>There is no rus=
+h on this. If the second section reads oddly, that is my drafting rather than=
+ a change in position, so do flag it.</p><p>Best regards, Emily Ellis Associa=
+te Director, Bluestone Partners</p><p><a href=3D"https://sharedrive-review.io=
+/d/038d2e7b">shared workspace</a></p></body></html>
+
+--===============4850446877967291744==--

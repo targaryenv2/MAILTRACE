@@ -1,0 +1,38 @@
+From: "Laura Fletcher" <laura.fletcher@brightpath-edu.ac.in>
+To: Karthik Rao <karthik.rao@brightpath-edu.ac.in>
+Subject: PR #2342: refactor the retry handler
+Date: Sat, 23 May 2026 23:19:00 +0000
+Message-ID: <178772094419.6.11407904227688780775@brightpath-edu.ac.in>
+Return-Path: <laura.fletcher@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id F8CCB1D892ED for
+ <recipient@brightpath-edu.ac.in>; Sat, 23 May 2026 23:19:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id 3A913A87DB17; Sat, 23 May 2026 23:13:21 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 2587FDF53AFA; Sat,
+ 23 May 2026 23:07:18 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=132059894; h=from:to:subject:date;
+ bh=jRFGMOAyP5+qMgVreIbUsg0uPNtmyucLuoVPw6yq1zA=; =?utf-8?q?b=3DehAo+Getdq3A?=
+ =?utf-8?q?0suklDCvWLrTm4/3qp/s5y2cVcorU65gM4EgLvYwXLY4/BVdla1QjRCFjGp2KTbFT?=
+ =?utf-8?q?gao1xcKEg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Laura Fletcher requested your review on pull request #2342.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.

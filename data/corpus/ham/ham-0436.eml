@@ -1,0 +1,52 @@
+From: "Sanjay Anderson" <sanjay.anderson@hansacapital.co>
+To: James Iyer <james.iyer@hansacapital.co>
+Subject: Welcome to the team, James
+Date: Wed, 06 May 2026 10:56:00 +0000
+Message-ID: <178772094323.6.17659079919804785951@hansacapital.co>
+Return-Path: <sanjay.anderson@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 0358043DE5D0 for
+ <recipient@hansacapital.co>; Wed, 06 May 2026 10:56:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 4198D4617B48; Wed, 06 May
+ 2026 10:52:56 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id CCD3B777F4A9; Wed, 06 May 2026
+ 10:51:58 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=832696947; h=from:to:subject:date;
+ bh=di5cuFFVZg8hs1N94RVIFDYsngu6gQzA8SoBC4Rt8Zg=; =?utf-8?q?b=3D33eflkxphs6o?=
+ =?utf-8?q?siI6h5jvtm359ybiAEI/uVjlrzdeoFsM0MjiO1Dg8/RgwZ+C6MfG92rj91JFwZ4WT?=
+ =?utf-8?q?l6zr6ogTQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============4257730166157813651=="
+
+--===============4257730166157813651==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi James,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Sanjay Anderson
+Human Resources, Vertex Logistics
+
+--===============4257730166157813651==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-2525.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============4257730166157813651==--

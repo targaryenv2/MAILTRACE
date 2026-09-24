@@ -1,0 +1,69 @@
+From: "Michael Nair" <michael.nair@summitfoods.co.in>
+To: Ananya Iyer <ananya.iyer@summitfoods.co.in>
+Subject: Conference paper decision - Vertex Logistics workshop
+Date: Mon, 04 May 2026 01:03:00 +0000
+Message-ID: <178772094247.6.17101047246350055771@summitfoods.co.in>
+Return-Path: <michael.nair@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id DB8ECCCE4315 for <recipient@summitfoods.co.in>; Mon,
+ 04 May 2026 01:03:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id C7940871F954; Mon,
+ 04 May 2026 00:58:06 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=477176251; h=from:to:subject:date;
+ bh=4xqUTDu608+pmCLqWWhmV0cl7e6aJ9hUzOhLjjtDT1A=; =?utf-8?q?b=3Dg+yUd6mFQlko?=
+ =?utf-8?q?ZnndevUXnZFq1qMGALdmX/acCb0lOxnJR52d+5kYYJrTnjF14m6R33sO2nGbBxI2K?=
+ =?utf-8?q?vyp6HOleA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============6764783058866936223=="
+
+--===============6764783058866936223==
+Content-Type: multipart/alternative;
+ boundary="===============6865891317315596293=="
+
+--===============6865891317315596293==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Ananya,
+
+Thank you for your submission to the Vertex Logistics workshop. The reviewers=
+ have
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============6865891317315596293==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Ananya,</p><p>Thank you for your submission to the Vertex=
+ Logistics workshop. The reviewers have recommended acceptance with minor rev=
+isions. Reviews are attached to the submission record in the conference syste=
+m.</p><p>Camera-ready copies are due at the end of the month.</p><p>Programme=
+ Committee</p></body></html>
+
+--===============6865891317315596293==--
+
+--===============6764783058866936223==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-3640.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============6764783058866936223==--

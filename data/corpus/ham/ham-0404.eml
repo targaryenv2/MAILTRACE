@@ -1,0 +1,56 @@
+From: "Karthik Kapoor" <karthik.kapoor@orionsystems.io>
+To: Sarah Bose <sarah.bose@orionsystems.io>
+Subject: Payslip for July is available
+Date: Fri, 15 May 2026 16:03:00 +0000
+Message-ID: <178772094274.6.9506201351128911037@orionsystems.io>
+Return-Path: <karthik.kapoor@orionsystems.io>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id D980A2C450D9 for
+ <recipient@orionsystems.io>; Fri, 15 May 2026 16:03:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ C29AB16AACCA; Fri, 15 May 2026 16:00:43 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=24278893; h=from:to:subject:date;
+ bh=mQH4IKFNifcGKYE3ZYo+kzrmrJN8ER81jwAv+8xIGkI=; =?utf-8?q?b=3D7MpBW7HZ91GM?=
+ =?utf-8?q?ottHLFjLW1QMFqhdFXYZvB55y+QAubqeDPLRM9issd+wBolPjmS+zyt8awrvL6Ok9?=
+ =?utf-8?q?Dr2UxBFgA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============6115881207104536157=="
+
+--===============6115881207104536157==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sarah,
+
+Your payslip for July is now available on the employee portal. Log in through
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Northgate Industries
+
+--===============6115881207104536157==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Sarah,</p><p>Your payslip for July is now available on th=
+e employee portal. Log in through the usual internal link on the intranet hom=
+e page.</p><p>If any of the tax details look incorrect, raise a ticket with P=
+ayroll and we will correct it in the next cycle.</p><p>Regards, Payroll Team =
+Northgate Industries</p></body></html>
+
+--===============6115881207104536157==--

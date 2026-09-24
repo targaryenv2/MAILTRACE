@@ -1,0 +1,78 @@
+From: "Kestrel Supplies Ltd Accounts" <billing@appleid-verify.link>
+To: Daniel Ellis <daniel.ellis@kalyaniworks.in>
+Subject: Outstanding invoice INV-2025-7092 - payment overdue
+Date: Thu, 21 May 2026 17:38:00 +0000
+Message-ID: <178772093921.6.13838129644243164141@appleid-verify.link>
+Return-Path: <bounce-3390@appleid-verify.link>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id E7085D34BB6A for
+ <recipient@kalyaniworks.in>; Thu, 21 May 2026 17:38:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 12544D2D8DAF; Thu, 21 May 2026
+ 17:35:19 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ F72CF03D8C1B; Thu, 21 May 2026 17:29:28 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 7F437BAFF1F7; Thu, 21 May
+ 2026 17:24:45 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@appleid-verify.link>;
+Authentication-Results: mx.appleid-verify.link; spf=softfail
+ smtp.mailfrom=appleid-verify.link; dkim=fail header.d=appleid-verify.link;
+ dmarc=fail (p=reject) header.from=appleid-verify.link
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=appleid-verify.link;
+ s=selector1; t=468733783; h=from:to:subject:date;
+ bh=+/bySTYNJz3MAhsQmnXNBU47TgyvTAkky8uyP3DA/JI=; =?utf-8?q?b=3Dhqx9eqLTNLIU?=
+ =?utf-8?q?UmXozH2WJ2KWrBNJPfhpyQFaIyPa0qjiCmJCGg1DIRL6r6Pm5sUYrBntslAe6fOrg?=
+ =?utf-8?q?o5OEByDyQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============4181698346654211207=="
+
+--===============4181698346654211207==
+Content-Type: multipart/alternative;
+ boundary="===============4690222198040066259=="
+
+--===============4690222198040066259==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Daniel,
+
+Please find attached invoice INV-2025-7092 for INR 2,205,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Priya Anderson
+Accounts Receivable, Kestrel Supplies Ltd
+
+--===============4690222198040066259==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Daniel,</p><p>Please find attached invoice INV-2025-7092=
+ for INR 2,205,000, now overdue. Kindly review the attached statement and pro=
+cess this payment immediately to avoid service interruption.</p><p>If the ban=
+k details have changed since your last remittance, use the updated account in=
+formation in the attachment.</p><p>Regards, Priya Anderson Accounts Receivabl=
+e, Kestrel Supplies Ltd</p></body></html>
+
+--===============4690222198040066259==--
+
+--===============4181698346654211207==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-7092.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============4181698346654211207==--

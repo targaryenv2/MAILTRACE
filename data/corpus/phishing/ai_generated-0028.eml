@@ -1,0 +1,73 @@
+From: "Priya Bose" <priya.bose@kalyaniworks.in>
+To: Michael Verma <michael.verma@vertexlogistics.in>
+Subject: Updated Engineering template for your comments
+Date: Sun, 31 May 2026 21:27:00 +0000
+Message-ID: <178772093672.6.4911063625612959517@kalyaniworks.in>
+Return-Path: <bounce-9497@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.vertexlogistics.in
+ (Postfix) with ESMTPS id 301B1C94BFC1 for <recipient@vertexlogistics.in>;
+ Sun, 31 May 2026 21:27:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 316455BF44FF; Sun,
+ 31 May 2026 21:21:07 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ tor-exit-node.example (Postfix) with ESMTPS id B5743646338A; Sun, 31 May 2026
+ 21:18:03 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 497C09202CB1; Sun, 31 May 2026
+ 21:12:44 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 6129D40091C5; Sun, 31 May 2026 21:08:11 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=806234391; h=from:to:subject:date;
+ bh=YqU5jQs9iFhsdYtc2vf3op3KA990SFxTaT1baIUF3dE=; =?utf-8?q?b=3Dvb3o8GoDo/ZN?=
+ =?utf-8?q?dlqMikf0BSt8v6i0mtTllgz4MhrYumowVVpZfjplK1IRN9ai4Pb4MA/4kb5Nr8f47?=
+ =?utf-8?q?RFD4ipCVg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2707535653578487939=="
+
+--===============2707535653578487939==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Michael,
+
+Thanks again for your time earlier this week. I have put the revised Engineer=
+ing
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/77a87b0e
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Priya Bose
+Associate Director, Bluestone Partners
+
+--===============2707535653578487939==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Michael,</p><p>Thanks again for your time earlier this week=
+. I have put the revised Engineering document in the shared workspace and add=
+ed comments against the two clauses we discussed.</p><p>You can open it here =
+when convenient: https://teamfiles-hub.co/d/77a87b0e</p><p>There is no rush o=
+n this. If the second section reads oddly, that is my drafting rather than a =
+change in position, so do flag it.</p><p>Best regards, Priya Bose Associate D=
+irector, Bluestone Partners</p><p><a href=3D"https://teamfiles-hub.co/d/77a87=
+b0e">shared workspace</a></p></body></html>
+
+--===============2707535653578487939==--

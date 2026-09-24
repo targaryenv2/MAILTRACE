@@ -1,0 +1,60 @@
+From: "Sneha Pillai" <sneha.pillai@meridian-labs.org>
+To: James Carter <james.carter@meridian-labs.org>
+Subject: Your order INV-2026-4331 has shipped
+Date: Wed, 06 May 2026 18:07:00 +0000
+Message-ID: <178772094236.6.3113592606737189783@meridian-labs.org>
+Return-Path: <sneha.pillai@meridian-labs.org>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 360D3DC27F01 for
+ <recipient@meridian-labs.org>; Wed, 06 May 2026 18:07:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id 71351A150420; Wed, 06 May 2026 18:01:27 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id EA4340B4BC01; Wed,
+ 06 May 2026 17:55:52 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=764070755; h=from:to:subject:date;
+ bh=g84laUIsD+q4b+o5ioBNk2PTzy8b2zTs0zkVn6ubH7k=; =?utf-8?q?b=3DJKl372hz6xdk?=
+ =?utf-8?q?0TLnmL8NlMttOWXRwRsyixbYAN4CLH7ZfF6aThpp8bduSM2TnQOaPiv7q0UO8Um9e?=
+ =?utf-8?q?ZEwTWM2NQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7855211167046047688=="
+
+--===============7855211167046047688==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello James,
+
+Order INV-2026-4331 shipped today and should arrive within three working days=
+. Tracking
+number AWB326150686.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Summit Foods Customer Care
+
+--===============7855211167046047688==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello James,</p><p>Order INV-2026-4331 shipped today and shoul=
+d arrive within three working days. Tracking number AWB326150686.</p><p>Items=
+ - 1 x Mechanical keyboard - 2 x USB-C cable, 1m</p><p>No action is needed. O=
+rder history is available from your account page.</p><p>Summit Foods Customer=
+ Care</p></body></html>
+
+--===============7855211167046047688==--

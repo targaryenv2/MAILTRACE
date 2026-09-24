@@ -1,0 +1,69 @@
+From: "Daniel Gupta" <daniel.gupta@brightpath-edu.ac.in>
+To: Michael Grant <michael.grant@brightpath-edu.ac.in>
+Subject: Reminder: submit Operations timesheets by Friday
+Date: Mon, 01 Jun 2026 08:09:00 +0000
+Message-ID: <178772094234.6.13552483571517609624@brightpath-edu.ac.in>
+Return-Path: <daniel.gupta@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id
+ AB011E65AD20 for <recipient@brightpath-edu.ac.in>; Mon, 01 Jun 2026 08:09:00
+ +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 80F8BEF690EF; Mon, 01 Jun
+ 2026 08:04:39 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id D11B85955E82; Mon,
+ 01 Jun 2026 08:01:13 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=199676237; h=from:to:subject:date;
+ bh=xESNpHzKRXlq/tMFtz/OTkS+gk6ngyhb/vwCWB1OTP0=; =?utf-8?q?b=3DXIbsaltKPDcE?=
+ =?utf-8?q?hEH84XqQszFdpOLr9FUiM0LSX3c7MGOGFp+vuCG02KnbP/1/UnQWMMSeVuBiur+KF?=
+ =?utf-8?q?4TmeS3XAA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============6213182627005468712=="
+
+--===============6213182627005468712==
+Content-Type: multipart/alternative;
+ boundary="===============5905080135414029743=="
+
+--===============5905080135414029743==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Michael,
+
+A reminder that March timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Daniel Gupta
+Operations
+
+--===============5905080135414029743==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Michael,</p><p>A reminder that March timesheets close on Fr=
+iday. If you are on leave, your approver can submit on your behalf.</p><p>Tha=
+nks, Daniel Gupta Operations</p></body></html>
+
+--===============5905080135414029743==--
+
+--===============6213182627005468712==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-8194.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============6213182627005468712==--

@@ -1,0 +1,57 @@
+From: "Kavya Gupta" <kavya.gupta@northgate-industries.com>
+To: Rahul Nair <rahul.nair@northgate-industries.com>
+Subject: Payslip for December is available
+Date: Sat, 30 May 2026 18:17:00 +0000
+Message-ID: <178772094145.6.10292657328332555996@northgate-industries.com>
+Return-Path: <kavya.gupta@northgate-industries.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id CD0DAC42B689 for
+ <recipient@northgate-industries.com>; Sat, 30 May 2026 18:17:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id B67CDEED509B; Sat, 30 May 2026
+ 18:12:57 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 8BFF06E8F04B; Sat, 30 May 2026 18:08:05 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=786948170; h=from:to:subject:date;
+ bh=SuoU5DaHPb4LY2YOchAR/jU3/eGWQJW42giA/iz1OyQ=; =?utf-8?q?b=3DF60uiOQHhTbr?=
+ =?utf-8?q?W0TD72SdQH/HaRMNJfSSgXMBrtXaV9ISUZuAkjV4Kps/yed7miuKxDbs4mb1QwRqi?=
+ =?utf-8?q?ZIQL5MsaQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============0199528093631511395=="
+
+--===============0199528093631511395==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rahul,
+
+Your payslip for December is now available on the employee portal. Log in thr=
+ough
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Summit Foods
+
+--===============0199528093631511395==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-0204.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============0199528093631511395==--

@@ -1,0 +1,39 @@
+From: "Nikhil Fletcher" <nikhil.fletcher@hansacapital.co>
+To: Sanjay Sharma <sanjay.sharma@hansacapital.co>
+Subject: Your order INV-2025-0667 has shipped
+Date: Sat, 23 May 2026 14:38:00 +0000
+Message-ID: <178772094401.6.14145870658375262287@hansacapital.co>
+Return-Path: <nikhil.fletcher@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 41EF2217B130 for
+ <recipient@hansacapital.co>; Sat, 23 May 2026 14:38:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 242CF5A43F48; Sat, 23 May
+ 2026 14:32:43 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=984742056; h=from:to:subject:date;
+ bh=w4PgASOelaSGtt7M/3kBbJN2BUw3ZKYfZgyExlxEtAQ=; =?utf-8?q?b=3DOI/bp83c0ZrH?=
+ =?utf-8?q?70eXjtvXKj3SDhfLgzidU0BZ9lSlEiApUa9D94T92JrA7VnKfL57V+lwxjJNLoCwm?=
+ =?utf-8?q?vKSNFzXVA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Sanjay,
+
+Order INV-2025-0667 shipped today and should arrive within three working days=
+. Tracking
+number AWB013775475.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Meridian Labs Customer Care

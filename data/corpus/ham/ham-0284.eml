@@ -1,0 +1,56 @@
+From: "Rahul Pillai" <rahul.pillai@kalyaniworks.in>
+To: Rohan Pillai <rohan.pillai@kalyaniworks.in>
+Subject: PR #2491: refactor the retry handler
+Date: Sun, 31 May 2026 11:02:00 +0000
+Message-ID: <178772094088.6.3704692787099429111@kalyaniworks.in>
+Return-Path: <rahul.pillai@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.kalyaniworks.in (Postfix) with ESMTPS id 33C6CF11CFFD
+ for <recipient@kalyaniworks.in>; Sun, 31 May 2026 11:02:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 1045C114F230; Sun, 31 May
+ 2026 10:59:53 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id B7A3F4E476DB; Sun, 31 May 2026 10:54:31 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=251007075; h=from:to:subject:date;
+ bh=3gQurT63Bp/iWIEVdP1OGWZrm39cTc1bbBzAsBNxFgc=; =?utf-8?q?b=3DPPBUaydkkg0x?=
+ =?utf-8?q?HVyedJyx0/pUIIXAhJ7sAMpLB44V1jBt++DuWVWKgiSGD56fcb2rNqxjbDE1tg65B?=
+ =?utf-8?q?jXPGCGH9g=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2580578612454692718=="
+
+--===============2580578612454692718==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Rahul Pillai requested your review on pull request #2491.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============2580578612454692718==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Rahul Pillai requested your review on pull request #2491.</p><=
+p>refactor: collapse the three retry paths into one backoff helper</p><p>Chan=
+ged 6 files, +148 -211. CI is green. The behaviour change worth checking is t=
+hat a 429 now retries twice instead of once.</p><p>View it in the repository =
+when you get a chance.</p></body></html>
+
+--===============2580578612454692718==--

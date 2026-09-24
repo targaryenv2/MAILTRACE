@@ -1,0 +1,39 @@
+From: "Aditya Rao" <aditya.rao@brightpath-edu.ac.in>
+To: Sarah Gupta <sarah.gupta@brightpath-edu.ac.in>
+Subject: Payslip for February is available
+Date: Tue, 05 May 2026 01:28:00 +0000
+Message-ID: <178772094294.6.13641885418356644660@brightpath-edu.ac.in>
+Return-Path: <aditya.rao@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 0219AA69B471 for
+ <recipient@brightpath-edu.ac.in>; Tue, 05 May 2026 01:28:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 7B4B80918BC9; Tue, 05 May 2026
+ 01:24:25 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=535367271; h=from:to:subject:date;
+ bh=Yb3xcJf2jsqDlLeJiQK4xw13F48rMhp7zQu1DC5Fimo=; =?utf-8?q?b=3Dv+av/0OreG2P?=
+ =?utf-8?q?ZEELUsM4ZUlJT2GEsn4fIp5Ms2kEBVYKKyPHE0po3aMZwrxeeqI27PfimTC/j4kQJ?=
+ =?utf-8?q?QLwHp7rVA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sarah,
+
+Your payslip for February is now available on the employee portal. Log in thr=
+ough
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Orion Systems

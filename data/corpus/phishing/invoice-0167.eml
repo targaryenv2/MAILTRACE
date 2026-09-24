@@ -1,0 +1,76 @@
+From: "Aurora Freight Accounts" <billing@docusign-review.click>
+To: James Fletcher <james.fletcher@kalyaniworks.in>
+Subject: Remittance advice INV-2025-6298 - action required
+Date: Mon, 18 May 2026 19:09:00 +0000
+Message-ID: <178772093896.6.17799766758367683535@docusign-review.click>
+Return-Path: <bounce-7140@docusign-review.click>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 701B9FC18FAA for
+ <recipient@kalyaniworks.in>; Mon, 18 May 2026 19:09:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id B57423668FDF; Mon, 18 May
+ 2026 19:07:36 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 618911AEAFF1; Mon, 18 May
+ 2026 19:06:57 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id C85167119865; Mon, 18 May 2026
+ 19:06:47 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id ACE18D0A0EB4; Mon, 18 May 2026 19:03:29 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@docusign-review.click>;
+Authentication-Results: mx.docusign-review.click; spf=fail
+ smtp.mailfrom=docusign-review.click; dkim=none
+ header.d=docusign-review.click; dmarc=fail (p=reject)
+ header.from=docusign-review.click
+Content-Type: multipart/mixed; boundary="===============0491511064361633015=="
+
+--===============0491511064361633015==
+Content-Type: multipart/alternative;
+ boundary="===============5986843628266238896=="
+
+--===============5986843628266238896==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello James,
+
+Please find attached invoice INV-2025-6298 for $1,471,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Neha Nair
+Accounts Receivable, Aurora Freight
+
+--===============5986843628266238896==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello James,</p><p>Please find attached invoice INV-2025-6298 =
+for $1,471,000, now overdue. Kindly review the attached statement and process=
+ this payment immediately to avoid service interruption.</p><p>If the bank de=
+tails have changed since your last remittance, use the updated account inform=
+ation in the attachment.</p><p>Regards, Neha Nair Accounts Receivable, Aurora=
+ Freight</p></body></html>
+
+--===============5986843628266238896==--
+
+--===============0491511064361633015==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-6298.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============0491511064361633015==--

@@ -1,0 +1,67 @@
+From: "Kestrel Supplies Ltd Accounts" <billing@appleid-verify.link>
+To: Kavya Gupta <kavya.gupta@brightpath-edu.ac.in>
+Subject: Remittance advice INV-2026-7132 - action required
+Date: Fri, 08 May 2026 22:42:00 +0000
+Message-ID: <178772093902.6.515506850512918567@appleid-verify.link>
+Return-Path: <bounce-6108@appleid-verify.link>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 297C7CF4CA61 for
+ <recipient@brightpath-edu.ac.in>; Fri, 08 May 2026 22:42:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 4869FE610388; Fri, 08 May
+ 2026 22:40:20 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@appleid-verify.link>;
+Authentication-Results: mx.appleid-verify.link; spf=fail
+ smtp.mailfrom=appleid-verify.link; dkim=none header.d=appleid-verify.link;
+ dmarc=fail (p=reject) header.from=appleid-verify.link
+Content-Type: multipart/mixed; boundary="===============0919731251617399956=="
+
+--===============0919731251617399956==
+Content-Type: multipart/alternative;
+ boundary="===============8002413953461659150=="
+
+--===============8002413953461659150==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Kavya,
+
+Please find attached invoice INV-2026-7132 for EUR 7,117,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Arjun Pillai
+Accounts Receivable, Kestrel Supplies Ltd
+
+--===============8002413953461659150==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Kavya,</p><p>Please find attached invoice INV-2026-7132 =
+for EUR 7,117,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Arjun Pillai Accounts Receivable, =
+Kestrel Supplies Ltd</p></body></html>
+
+--===============8002413953461659150==--
+
+--===============0919731251617399956==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2026-7132.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============0919731251617399956==--

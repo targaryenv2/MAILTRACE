@@ -1,0 +1,74 @@
+From: "Arjun Menon" <arjun.menon@hansacapital.co>
+To: Rohan Sharma <rohan.sharma@hansacapital.co>
+Subject: Weekly IT Services sync - agenda
+Date: Wed, 06 May 2026 16:37:00 +0000
+Message-ID: <178772094223.6.2295846588525769931@hansacapital.co>
+Return-Path: <arjun.menon@hansacapital.co>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.hansacapital.co (Postfix) with ESMTPS id 8F9480D679EF
+ for <recipient@hansacapital.co>; Wed, 06 May 2026 16:37:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 4212AD5D1D80; Wed, 06
+ May 2026 16:36:44 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id 6793D25F264F; Wed, 06 May 2026 16:33:01 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=635328043; h=from:to:subject:date;
+ bh=cTagimYHOZzaIAI1iN2UE0alsoXVJLqxnpsuQElrwOU=; =?utf-8?q?b=3D4W/UZi511NJS?=
+ =?utf-8?q?M6RbtiLpAEK28uQUlRXreBen+dtfo0NIL92B0d/l52b2KnbQ9HHDkCamZtJZ81Ams?=
+ =?utf-8?q?IrCBFyIyg=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============6012411468198056745=="
+
+--===============6012411468198056745==
+Content-Type: multipart/alternative;
+ boundary="===============2699977159346159524=="
+
+--===============2699977159346159524==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's IT Services sync:
+
+1. Status of the Summit Foods migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Arjun Menon
+
+--===============2699977159346159524==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi team,</p><p>Agenda for Thursday's IT Services sync:</p><p>1=
+. Status of the Summit Foods migration 2. Hiring update for the two open role=
+s 3. Budget review before quarter close</p><p>The recording and notes will go=
+ in the usual shared folder afterwards. Add any items to the bottom of the pa=
+ge before Wednesday evening.</p><p>Thanks, Arjun Menon</p></body></html>
+
+--===============2699977159346159524==--
+
+--===============6012411468198056745==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-3446.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============6012411468198056745==--

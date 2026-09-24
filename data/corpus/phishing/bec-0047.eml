@@ -1,0 +1,52 @@
+From: "Sanjay Pillai (CEO)" <sanjay.pillai@gmail.com>
+Reply-To: sanjay.pillai.office@gmail.com
+To: Divya Verma <divya.verma@summitfoods.co.in>
+Subject: Quick request before end of day
+Date: Mon, 25 May 2026 16:24:00 +0000
+Message-ID: <178772093700.6.7872979325950261373@gmail.com>
+Return-Path: <bounce-7972@gmail.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.summitfoods.co.in (Postfix) with ESMTPS id ED2748FC2613 for
+ <recipient@summitfoods.co.in>; Mon, 25 May 2026 16:24:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id 0EF61224AF82; Mon, 25 May 2026 16:22:57 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ CF8367B1B942; Mon, 25 May 2026 16:20:52 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ relay.open-smtp.example (Postfix) with ESMTPS id 1454720425E6; Mon, 25 May
+ 2026 16:20:43 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 584AEB765FDF; Mon, 25 May 2026
+ 16:19:09 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=754748708; h=from:to:subject:date;
+ bh=cRWz81/SdlNUjDGX/jpgR6thqcNuuFwSkvjFPCAZ5ag=; =?utf-8?q?b=3DlFdcvOZAChl8?=
+ =?utf-8?q?w3aInSxN9so9FPl0phIDWv1jj7nErJPN3uAitxwbwabloG5bYBxnBL91v7nYcjz2G?=
+ =?utf-8?q?FsU9MV6uw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Divya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 4,449,000 to a new beneficiary today. This relates to
+Lakeside Consulting and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Lakeside Consulting
+Account: 19693479396
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Sanjay Pillai
+Managing Director

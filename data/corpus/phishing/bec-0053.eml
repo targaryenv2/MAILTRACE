@@ -1,0 +1,46 @@
+From: "Neha Reddy (CEO)" <neha.reddy@outlook.com>
+Reply-To: neha.reddy.office@outlook.com
+To: Laura Pillai <laura.pillai@orionsystems.io>
+Subject: Payment instruction (do not discuss)
+Date: Sun, 10 May 2026 16:59:00 +0000
+Message-ID: <178772093708.6.16326365673521274534@outlook.com>
+Return-Path: <bounce-7478@outlook.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.orionsystems.io (Postfix) with ESMTPS id 9E7B9EDDA381 for
+ <recipient@orionsystems.io>; Sun, 10 May 2026 16:59:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 4876288BE76C; Sun, 10 May
+ 2026 16:57:59 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 566172A6A5F3; Sun, 10 May 2026
+ 16:53:20 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=102994398; h=from:to:subject:date;
+ bh=Oyl39ns1bQS8YCXbJP9zC91mjFn5wqS0Jqnp1QaLLoU=; =?utf-8?q?b=3DdaNbfanwTzK4?=
+ =?utf-8?q?EBFGVMlhUPWj0onL9ey9elPXM05CBL4R5FBEWOv8nj6icmTZPTKntRFjEStYAZkBQ?=
+ =?utf-8?q?RRtSh+kag=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Laura,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 9,305,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 77958097200
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Neha Reddy
+Chief Executive Officer

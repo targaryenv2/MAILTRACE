@@ -1,0 +1,558 @@
+/*
+ * MailTrace console — design tokens and the 3-D surface system.
+ *
+ * Tailwind provides layout and spacing. Everything that gives the console its
+ * depth lives here, because it is the part Tailwind's utility classes cannot
+ * express: layered shadows, specular edges, the parallax backdrop, and the
+ * severity ramp that has to mean the same thing on every panel.
+ *
+ * Three rules the rest of the frontend depends on:
+ *
+ * 1. Colour is declared once, as HSL channel triplets, so a single `--accent-h`
+ *    change re-tints the whole console. Components never hardcode a hex value.
+ * 2. Depth is a scale, not a decoration. `--depth` (0..3, set by the settings
+ *    drawer) multiplies every shadow and blur, so a user on a weak GPU can flatten
+ *    the entire UI without losing the layout.
+ * 3. Motion is opt-out at three levels: the OS (`prefers-reduced-motion`), the
+ *    settings drawer (`data-motion="off"`), and per-element. An analyst reading a
+ *    forensic report should never be fighting an animation.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Accent hue drives buttons, focus rings and the active nav rail. */
+    --accent-h: 224;
+    --accent-s: 92%;
+    --accent-l: 62%;
+    --accent: hsl(var(--accent-h) var(--accent-s) var(--accent-l));
+    --accent-soft: hsl(var(--accent-h) var(--accent-s) var(--accent-l) / 0.14);
+    --accent-line: hsl(var(--accent-h) var(--accent-s) var(--accent-l) / 0.42);
+
+    /* Depth multiplier, 0 = flat. Set by ThemeProvider from user settings. */
+    --depth: 1;
+    --radius: 14px;
+    --rail: 15.5rem;
+    --topbar: 3.5rem;
+
+    /* Severity ramp. These five are the only colours allowed to carry meaning. */
+    --sev-critical: 350 82% 58%;
+    --sev-high: 18 90% 58%;
+    --sev-medium: 42 94% 56%;
+    --sev-low: 152 62% 46%;
+    --sev-info: 210 16% 62%;
+
+    /* Provenance ramp: how a value was obtained, never how bad it is. */
+    --prov-live: 152 62% 46%;
+    --prov-fixture: 262 70% 66%;
+    --prov-offline: 199 76% 54%;
+    --prov-computed: 210 16% 62%;
+    --prov-unavailable: 220 8% 46%;
+
+    --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+      "Liberation Mono", monospace;
+  }
+
+  /* Dark is the default because a SOC console is looked at for hours in a dim
+     room, and because the depth system reads correctly against a dark base. */
+  :root,
+  [data-theme="dark"] {
+    color-scheme: dark;
+    --bg: 228 30% 5%;
+    --bg-deep: 230 34% 3.5%;
+    --panel: 226 26% 9%;
+    --panel-raised: 226 24% 12%;
+    --panel-sunk: 228 28% 7%;
+    --line: 226 20% 18%;
+    --line-strong: 226 18% 26%;
+    --text: 220 32% 94%;
+    --text-dim: 220 14% 66%;
+    --text-faint: 220 10% 48%;
+    --glass: 226 26% 11% / 0.72;
+    --spec: 0 0% 100% / 0.06;
+    --shadow-key: 230 60% 2%;
+  }
+
+  [data-theme="light"] {
+    color-scheme: light;
+    --bg: 220 28% 96%;
+    --bg-deep: 220 24% 92%;
+    --panel: 0 0% 100%;
+    --panel-raised: 0 0% 100%;
+    --panel-sunk: 220 24% 97%;
+    --line: 220 18% 87%;
+    --line-strong: 220 16% 76%;
+    --text: 226 40% 12%;
+    --text-dim: 224 14% 38%;
+    --text-faint: 224 10% 52%;
+    --glass: 0 0% 100% / 0.78;
+    --spec: 0 0% 100% / 0.9;
+    --shadow-key: 226 40% 40%;
+    --accent-l: 52%;
+  }
+
+  * {
+    border-color: hsl(var(--line));
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    font-size: 17px;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: #FAFAFA;
+    color: #0F172A;
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', system-ui, sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    /* Tabular figures everywhere: risk scores and timestamps sit in columns and
+       must not shift width as they update on the live feed. */
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Density is a user setting; it scales the base font rather than every
+     padding value, so one knob changes the whole console consistently. */
+  [data-density="compact"] body { font-size: 15px; }
+  [data-density="roomy"] body { font-size: 19px; }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--accent-soft);
+  }
+
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--line-strong));
+    border-radius: 99px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover { background-clip: padding-box; }
+
+  code, kbd, pre, .mono { font-family: var(--font-mono); }
+}
+
+@layer components {
+  /* ---------------------------------------------------------------------
+   * Surfaces
+   *
+   * `.surface` is the single card primitive. Depth comes from three stacked
+   * effects rather than one big shadow: a hairline border for the edge, an
+   * inset highlight along the top for the specular lip, and two drop shadows
+   * at different radii for contact and ambient occlusion. All three are scaled
+   * by --depth so the whole thing can be turned off.
+   * ------------------------------------------------------------------- */
+  .surface {
+    position: relative;
+    background: hsl(var(--panel));
+    border: 1px solid hsl(var(--line));
+    border-radius: var(--radius);
+    box-shadow:
+      inset 0 1px 0 hsl(var(--spec)),
+      0 calc(1px * var(--depth)) calc(2px * var(--depth)) hsl(var(--shadow-key) / calc(0.28 * var(--depth))),
+      0 calc(8px * var(--depth)) calc(24px * var(--depth)) hsl(var(--shadow-key) / calc(0.22 * var(--depth)));
+  }
+
+  .surface-glass {
+    background: hsl(var(--glass));
+    backdrop-filter: blur(calc(14px * var(--depth))) saturate(1.4);
+    -webkit-backdrop-filter: blur(calc(14px * var(--depth))) saturate(1.4);
+  }
+
+  /* Sunk wells hold read-only evidence: raw headers, JSON, the trail. The
+     inverted shadow says "this is inside the card, not on top of it". */
+  .surface-sunk {
+    background: hsl(var(--panel-sunk));
+    border: 1px solid hsl(var(--line));
+    border-radius: calc(var(--radius) - 4px);
+    box-shadow: inset 0 calc(2px * var(--depth)) calc(6px * var(--depth))
+      hsl(var(--shadow-key) / calc(0.3 * var(--depth)));
+  }
+
+  /* Lift on hover, for things that are actually clickable. The translate is
+     tiny on purpose: 2px reads as responsive, 6px reads as a toy. */
+  .lift {
+    transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 180ms cubic-bezier(0.22, 1, 0.36, 1),
+      border-color 180ms ease;
+    will-change: transform;
+  }
+  .lift:hover {
+    transform: translateY(calc(-2px * var(--depth)));
+    border-color: hsl(var(--line-strong));
+    box-shadow:
+      inset 0 1px 0 hsl(var(--spec)),
+      0 calc(2px * var(--depth)) calc(4px * var(--depth)) hsl(var(--shadow-key) / calc(0.3 * var(--depth))),
+      0 calc(16px * var(--depth)) calc(40px * var(--depth)) hsl(var(--shadow-key) / calc(0.28 * var(--depth)));
+  }
+  .lift:active { transform: translateY(0); }
+
+  /* True 3-D tilt, used only on the dashboard hero tiles. `transform-style:
+     preserve-3d` on the parent is what makes the inner layers separate in
+     space instead of just scaling. */
+  .tilt-root { perspective: 1100px; }
+  .tilt {
+    transform-style: preserve-3d;
+    transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .tilt-layer { transform: translateZ(calc(18px * var(--depth))); }
+
+  /* ---------------------------------------------------------------------
+   * Backdrop
+   *
+   * Two fixed radial washes plus a grid, all behind everything at z-index -1.
+   * A CSS backdrop instead of a WebGL canvas: it costs no bundle size, no GPU
+   * context, and it still renders on a locked-down demo laptop.
+   * ------------------------------------------------------------------- */
+  .backdrop-scene {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      radial-gradient(120% 90% at 12% -10%,
+        hsl(var(--accent-h) 70% 30% / calc(0.34 * var(--depth))) 0%, transparent 55%),
+      radial-gradient(90% 70% at 95% 5%,
+        hsl(280 70% 34% / calc(0.22 * var(--depth))) 0%, transparent 58%),
+      radial-gradient(120% 100% at 50% 110%,
+        hsl(190 70% 30% / calc(0.18 * var(--depth))) 0%, transparent 60%),
+      hsl(var(--bg-deep));
+  }
+
+  .backdrop-grid {
+    position: fixed;
+    inset: -50%;
+    z-index: -1;
+    pointer-events: none;
+    opacity: calc(0.5 * var(--depth));
+    background-image:
+      linear-gradient(hsl(var(--line-strong) / 0.5) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--line-strong) / 0.5) 1px, transparent 1px);
+    background-size: 64px 64px;
+    /* Tilt the grid away from the viewer so it reads as a floor plane. The mask
+       fades it out before the horizon, which is what stops the moiré. */
+    transform: perspective(700px) rotateX(62deg) translateY(-8%) scale(1.6);
+    transform-origin: 50% 0%;
+    mask-image: linear-gradient(to bottom, transparent, black 22%, transparent 62%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 22%, transparent 62%);
+  }
+
+  /* ---------------------------------------------------------------------
+   * Semantic chips
+   * ------------------------------------------------------------------- */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.125rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    flex-shrink: 0;
+    line-height: 1.5;
+  }
+  .chip-critical { color: hsl(var(--sev-critical)); border-color: hsl(var(--sev-critical) / 0.4); background: hsl(var(--sev-critical) / 0.12); }
+  .chip-high     { color: hsl(var(--sev-high));     border-color: hsl(var(--sev-high) / 0.4);     background: hsl(var(--sev-high) / 0.12); }
+  .chip-medium   { color: hsl(var(--sev-medium));   border-color: hsl(var(--sev-medium) / 0.4);   background: hsl(var(--sev-medium) / 0.12); }
+  .chip-low      { color: hsl(var(--sev-low));      border-color: hsl(var(--sev-low) / 0.4);      background: hsl(var(--sev-low) / 0.12); }
+  .chip-info     { color: hsl(var(--sev-info));     border-color: hsl(var(--sev-info) / 0.4);     background: hsl(var(--sev-info) / 0.1); }
+  .chip-clean    { color: hsl(var(--sev-low));      border-color: hsl(var(--sev-low) / 0.4);      background: hsl(var(--sev-low) / 0.12); }
+  .chip-accent   { color: var(--accent); border-color: var(--accent-line); background: var(--accent-soft); }
+
+  /* Provenance dot. Deliberately monochrome-adjacent and small: it must never
+     compete with a severity chip for attention, but it must always be there,
+     because a value's origin is part of its evidentiary weight. */
+  .prov {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.625rem;
+    font-weight: 500;
+    color: hsl(var(--text-faint));
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .prov::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 99px;
+    background: hsl(var(--prov-computed));
+    box-shadow: 0 0 0 2px hsl(var(--prov-computed) / 0.18);
+  }
+  .prov-live::before        { background: hsl(var(--prov-live));        box-shadow: 0 0 0 2px hsl(var(--prov-live) / 0.2); }
+  .prov-fixture::before     { background: hsl(var(--prov-fixture));     box-shadow: 0 0 0 2px hsl(var(--prov-fixture) / 0.2); }
+  .prov-simulated::before   { background: hsl(var(--prov-fixture));     box-shadow: 0 0 0 2px hsl(var(--prov-fixture) / 0.2); }
+  .prov-offline-table::before { background: hsl(var(--prov-offline));   box-shadow: 0 0 0 2px hsl(var(--prov-offline) / 0.2); }
+  .prov-unavailable::before { background: hsl(var(--prov-unavailable)); box-shadow: none; }
+
+  /* ---------------------------------------------------------------------
+   * Controls
+   * ------------------------------------------------------------------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 9px;
+    border: 1px solid hsl(var(--line-strong));
+    background: hsl(var(--panel-raised));
+    color: hsl(var(--text));
+    font-size: 0.8125rem;
+    font-weight: 550;
+    cursor: pointer;
+    box-shadow: inset 0 1px 0 hsl(var(--spec)),
+      0 calc(1px * var(--depth)) calc(2px * var(--depth)) hsl(var(--shadow-key) / 0.3);
+    transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+  }
+  .btn:hover:not(:disabled) { border-color: var(--accent-line); }
+  .btn:active:not(:disabled) { transform: translateY(1px); box-shadow: inset 0 1px 2px hsl(var(--shadow-key) / 0.4); }
+  .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+  .btn-primary {
+    background: linear-gradient(hsl(var(--accent-h) var(--accent-s) calc(var(--accent-l) + 6%)),
+      hsl(var(--accent-h) var(--accent-s) calc(var(--accent-l) - 6%)));
+    border-color: hsl(var(--accent-h) var(--accent-s) calc(var(--accent-l) - 16%));
+    color: white;
+  }
+  .btn-ghost { background: transparent; border-color: transparent; box-shadow: none; color: hsl(var(--text-dim)); }
+  .btn-ghost:hover:not(:disabled) { background: hsl(var(--panel-raised)); color: hsl(var(--text)); }
+  .btn-danger { color: hsl(var(--sev-critical)); border-color: hsl(var(--sev-critical) / 0.45); background: hsl(var(--sev-critical) / 0.1); }
+  .btn-sm { padding: 0.2rem 0.55rem; font-size: 0.75rem; border-radius: 7px; }
+
+  .field {
+    width: 100%;
+    padding: 0.4rem 0.6rem;
+    border-radius: 9px;
+    border: 1px solid hsl(var(--line-strong));
+    background: hsl(var(--panel-sunk));
+    color: hsl(var(--text));
+    font-size: 0.8125rem;
+    box-shadow: inset 0 1px 2px hsl(var(--shadow-key) / calc(0.25 * var(--depth)));
+  }
+  .field:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+  .field::placeholder { color: hsl(var(--text-faint)); }
+
+  /* Range inputs are the primary micromanagement control, so they get a real
+     treatment instead of the browser default. */
+  input[type="range"].field {
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0;
+    height: 26px;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+  }
+  input[type="range"].field::-webkit-slider-runnable-track {
+    height: 5px;
+    border-radius: 99px;
+    background: hsl(var(--line-strong));
+    box-shadow: inset 0 1px 2px hsl(var(--shadow-key) / 0.4);
+  }
+  input[type="range"].field::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px; height: 15px;
+    margin-top: -5px;
+    border-radius: 99px;
+    background: linear-gradient(hsl(0 0% 100% / 0.35), transparent), var(--accent);
+    border: 1px solid hsl(var(--accent-h) var(--accent-s) calc(var(--accent-l) - 20%));
+    box-shadow: 0 1px 3px hsl(var(--shadow-key) / 0.5);
+  }
+  input[type="range"].field::-moz-range-track {
+    height: 5px; border-radius: 99px; background: hsl(var(--line-strong));
+  }
+  input[type="range"].field::-moz-range-thumb {
+    width: 14px; height: 14px; border-radius: 99px; background: var(--accent);
+    border: 1px solid hsl(var(--accent-h) var(--accent-s) calc(var(--accent-l) - 20%));
+  }
+
+  .switch {
+    position: relative;
+    width: 36px; height: 20px;
+    border-radius: 99px;
+    border: 1px solid hsl(var(--line-strong));
+    background: hsl(var(--panel-sunk));
+    cursor: pointer;
+    flex: none;
+    box-shadow: inset 0 1px 3px hsl(var(--shadow-key) / 0.4);
+    transition: background 160ms ease, border-color 160ms ease;
+  }
+  .switch::after {
+    content: "";
+    position: absolute;
+    top: 2px; left: 2px;
+    width: 14px; height: 14px;
+    border-radius: 99px;
+    background: hsl(var(--text-dim));
+    box-shadow: 0 1px 2px hsl(var(--shadow-key) / 0.5);
+    transition: transform 160ms cubic-bezier(0.22, 1, 0.36, 1), background 160ms ease;
+  }
+  .switch[data-on="true"] { background: var(--accent); border-color: var(--accent); }
+  .switch[data-on="true"]::after { transform: translateX(16px); background: white; }
+
+  /* ---------------------------------------------------------------------
+   * Data display
+   * ------------------------------------------------------------------- */
+  .kv { display: grid; grid-template-columns: minmax(7rem, auto) 1fr; gap: 0.3rem 0.9rem; }
+  .kv dt { color: hsl(var(--text-faint)); font-size: 0.75rem; }
+  .kv dd { margin: 0; font-size: 0.8125rem; overflow-wrap: anywhere; }
+
+  .row-hair { border-bottom: 1px solid hsl(var(--line)); }
+  .row-hair:last-child { border-bottom: 0; }
+
+  /* Vertical rail for the agent trail and the audit log. The pseudo-element
+     line is drawn behind the dots so it never overlaps them. */
+  .timeline { position: relative; padding-left: 1.75rem; }
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 5px; top: 6px; bottom: 6px;
+    width: 1px;
+    background: linear-gradient(hsl(var(--line-strong)), transparent);
+  }
+  .timeline > * { position: relative; }
+  .timeline-dot {
+    position: absolute;
+    left: -1.75rem; top: 5px;
+    width: 11px; height: 11px;
+    border-radius: 99px;
+    border: 2px solid hsl(var(--panel));
+    background: hsl(var(--sev-info));
+    z-index: 1;
+  }
+
+  /* A live event just arrived: flash the row once. Two seconds, then never
+     again — a permanently pulsing row is noise. */
+  .flash-in { animation: flash-in 1.6s ease-out 1; }
+
+  .skeleton {
+    background: linear-gradient(90deg, hsl(var(--panel-sunk)), hsl(var(--panel-raised)), hsl(var(--panel-sunk)));
+    background-size: 200% 100%;
+    animation: shimmer 1.4s linear infinite;
+    border-radius: 6px;
+  }
+
+  .scan-line {
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    animation: scan 1.8s ease-in-out infinite;
+  }
+}
+
+/* Themed colours are *not* declared as utilities here. They are declared once in
+ * tailwind.config.js as `hsl(var(--token))`, so Tailwind generates the whole
+ * family (`text-dim`, `bg-panel/70`, `border-line`, ring, divide, …) from the
+ * same variables this file defines. Two generators for one colour is how a
+ * palette drifts. */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
+  /* Long hex strings — hashes, tx ids — break mid-token or they blow out a card. */
+  .break-hash { overflow-wrap: anywhere; word-break: break-all; }
+}
+
+/* Leaflet dark theme overrides */
+.leaflet-popup-content-wrapper {
+  background: hsl(226 26% 9%) !important;
+  color: hsl(220 32% 94%) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+}
+.leaflet-popup-tip { background: hsl(226 26% 9%) !important; }
+.leaflet-popup-close-button { color: rgba(255,255,255,0.5) !important; }
+.leaflet-tooltip {
+  background: hsl(226 26% 11% / 0.95) !important;
+  color: hsl(220 32% 94%) !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 11px !important;
+  padding: 4px 8px !important;
+}
+.leaflet-tooltip-top::before { border-top-color: hsl(226 26% 11% / 0.95) !important; }
+.leaflet-tooltip-bottom::before { border-bottom-color: hsl(226 26% 11% / 0.95) !important; }
+.leaflet-control-zoom a {
+  background: hsl(226 26% 11% / 0.9) !important;
+  color: hsl(220 32% 94%) !important;
+  border-color: rgba(255,255,255,0.1) !important;
+}
+.leaflet-control-attribution {
+  background: hsl(226 26% 9% / 0.7) !important;
+  color: rgba(255,255,255,0.35) !important;
+  font-size: 9px !important;
+}
+.leaflet-control-attribution a { color: rgba(255,255,255,0.45) !important; }
+
+@keyframes flash-in {
+  0% { background: var(--accent-soft); }
+  100% { background: transparent; }
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+@keyframes scan {
+  0%, 100% { transform: translateX(-100%); opacity: 0; }
+  50% { transform: translateX(100%); opacity: 1; }
+}
+@keyframes pulse-ring {
+  0% { transform: scale(0.9); opacity: 0.7; }
+  100% { transform: scale(2.4); opacity: 0; }
+}
+@keyframes drift {
+  0% { transform: perspective(700px) rotateX(62deg) translateY(-8%) scale(1.6); }
+  100% { transform: perspective(700px) rotateX(62deg) translateY(-8%) translateX(64px) scale(1.6); }
+}
+
+/* Motion off at either level stops everything, including the backdrop drift.
+   Both selectors are needed: the OS preference must win even if the user's
+   stored setting says motion is on, and the stored setting must work on an OS
+   that reports no preference. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+[data-motion="off"] *,
+[data-motion="off"] *::before,
+[data-motion="off"] *::after {
+  animation: none !important;
+  transition: none !important;
+}
+[data-motion="full"] .backdrop-grid {
+  animation: drift 28s linear infinite alternate;
+}
+
+/* Printing a case is a real workflow — an analyst hands the page to legal. Drop
+   the backdrop and the depth so it does not waste toner or obscure text. */
+@media print {
+  :root { --depth: 0; }
+  .backdrop-scene, .backdrop-grid, .no-print { display: none !important; }
+  body { background: white; color: black; }
+  .surface { box-shadow: none; border-color: #ccc; break-inside: avoid; }
+}

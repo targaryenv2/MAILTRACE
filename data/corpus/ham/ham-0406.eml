@@ -1,0 +1,57 @@
+From: "Sneha Bose" <sneha.bose@orionsystems.io>
+To: Divya Bose <divya.bose@orionsystems.io>
+Subject: Weekly Engineering sync - agenda
+Date: Thu, 07 May 2026 03:54:00 +0000
+Message-ID: <178772094277.6.6675194196892277144@orionsystems.io>
+Return-Path: <sneha.bose@orionsystems.io>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id 33D40571F9ED for <recipient@orionsystems.io>; Thu,
+ 07 May 2026 03:54:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 655ACA4851C8; Thu,
+ 07 May 2026 03:49:41 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 572702D49347;
+ Thu, 07 May 2026 03:48:17 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=276843218; h=from:to:subject:date;
+ bh=9rKpaGmvR6ztfPefY30olJplQXWze+JU4Ka8uI/SVgM=; =?utf-8?q?b=3DWXTr/8X87iEP?=
+ =?utf-8?q?IMy4DORdXz4Nor1ZaFfzVJIc51r7w+WpNDw5Kntkild2Un1p0yZ2F3yPbdx4k5VL7?=
+ =?utf-8?q?7ES7UMl1w=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7638934344088566731=="
+
+--===============7638934344088566731==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Engineering sync:
+
+1. Status of the Northgate Industries migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Sneha Bose
+
+--===============7638934344088566731==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-6650.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============7638934344088566731==--

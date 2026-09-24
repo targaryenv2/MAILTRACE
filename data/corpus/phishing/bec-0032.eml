@@ -1,0 +1,46 @@
+From: "Emily Iyer (CEO)" <emily.iyer@yahoo.com>
+Reply-To: emily.iyer.office@yahoo.com
+To: Aditya Rao <aditya.rao@summitfoods.co.in>
+Subject: URGENT: release the payment today
+Date: Thu, 21 May 2026 12:07:00 +0000
+Message-ID: <178772093678.6.11433701589732501265@yahoo.com>
+Return-Path: <bounce-5471@yahoo.com>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id B566951C59C4 for
+ <recipient@summitfoods.co.in>; Thu, 21 May 2026 12:07:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id E1E25C22F73A; Thu, 21 May
+ 2026 12:06:25 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id E8DB8904D645; Thu, 21 May 2026 11:59:57 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=495021335; h=from:to:subject:date;
+ bh=6f1JYzYcBNk2EfD8MVCvsjDuz+aZtYHX2WfYhFhlJLo=; =?utf-8?q?b=3DSaan3K2MZ1fG?=
+ =?utf-8?q?gx31ASuokeWju0CBWi+4hePINZIpxui+EKOS5mIdPljAwyYGzic9aApfpne2N4vpL?=
+ =?utf-8?q?H19zni/nw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Aditya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 9,241,000 to a new beneficiary today. This relates to
+Kestrel Supplies Ltd and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Kestrel Supplies Ltd
+Account: 42216378345
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Emily Iyer
+Chairman

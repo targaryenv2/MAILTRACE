@@ -1,0 +1,37 @@
+From: "Neha Sharma" <neha.sharma@orionsystems.io>
+To: Meera Nair <meera.nair@orionsystems.io>
+Subject: Library books due February
+Date: Wed, 06 May 2026 18:30:00 +0000
+Message-ID: <178772094119.6.17164640487499651025@orionsystems.io>
+Return-Path: <neha.sharma@orionsystems.io>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id AC28B52043A2 for <recipient@orionsystems.io>; Wed,
+ 06 May 2026 18:30:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 41C83E6E7C47; Wed, 06 May 2026 18:24:46 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id C728DD4B13B4; Wed, 06 May
+ 2026 18:23:34 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=863276728; h=from:to:subject:date;
+ bh=kCDrQUGQ/6OWUQqkbhCi51gsbfSL2yJzHND2gKpGQZY=; =?utf-8?q?b=3DR4hIRd1y3BhU?=
+ =?utf-8?q?VhJnyFTmhiv7Lr2GGu4yohr5uN4yxy8dsaql4iTE7N2heJiTuq65GBMV/6B9NMNmb?=
+ =?utf-8?q?kVXJEBXeA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Meera,
+
+Two items on your library account are due at the end of February. Renewals ca=
+n be
+made at the circulation desk or from the catalogue page.
+
+Central Library

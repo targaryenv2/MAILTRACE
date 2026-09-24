@@ -1,0 +1,52 @@
+From: "Ananya Ellis" <ananya.ellis@meridian-labs.org>
+To: Laura Dawson <laura.dawson@meridian-labs.org>
+Subject: Welcome to the team, Laura
+Date: Tue, 05 May 2026 11:05:00 +0000
+Message-ID: <178772094398.6.8510408471617133336@meridian-labs.org>
+Return-Path: <ananya.ellis@meridian-labs.org>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.meridian-labs.org (Postfix) with ESMTPS id 691ADCB29092
+ for <recipient@meridian-labs.org>; Tue, 05 May 2026 11:05:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id FE72817DCBEB; Tue, 05
+ May 2026 11:03:57 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=497460332; h=from:to:subject:date;
+ bh=v6hy35dJK2/OjfxS35R390ba2FL6uSTVg0JzUCBltSw=; =?utf-8?q?b=3D+2v0w47dQNw8?=
+ =?utf-8?q?7NPYYWSQZWNFH6KjNPErnIPUF9ttC5BIuoGJEr3WQPKu8xKRyPIR5TaO7Z49GHhck?=
+ =?utf-8?q?fjdHt2kGA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8405372343826529008=="
+
+--===============8405372343826529008==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Laura,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Ananya Ellis
+Human Resources, Meridian Labs
+
+--===============8405372343826529008==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Laura,</p><p>Welcome aboard. Your laptop is at the IT desk =
+on the second floor and your manager will walk you through the first-week pla=
+n tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Ananya Ellis Human =
+Resources, Meridian Labs</p></body></html>
+
+--===============8405372343826529008==--

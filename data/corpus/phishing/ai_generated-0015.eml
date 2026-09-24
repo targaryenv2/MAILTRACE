@@ -1,0 +1,66 @@
+From: "Sanjay Dawson" <sanjay.dawson@vertexlogistics.in>
+To: Anna Kapoor <anna.kapoor@vertexlogistics.in>
+Subject: Following up on the Human Resources document you shared
+Date: Mon, 04 May 2026 11:36:00 +0000
+Message-ID: <178772093654.6.15995978351696025912@vertexlogistics.in>
+Return-Path: <bounce-6374@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id E69FAB551CE4 for
+ <recipient@vertexlogistics.in>; Mon, 04 May 2026 11:36:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id 717018EDFFF6; Mon, 04 May
+ 2026 11:32:20 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 4CD365824AFC; Mon, 04 May
+ 2026 11:31:54 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=701251701; h=from:to:subject:date;
+ bh=4f5X9g8ZQ5qlboCV0rJy80rI0KHOWoRyO3xAm49KFaA=; =?utf-8?q?b=3DbRwjPEknik0Z?=
+ =?utf-8?q?m6M4ahCLWwkfSbPU++GSngi1sGfONPfXxMG1LFDvlAp/WTpFpzDhhkgrSUI+8pn5k?=
+ =?utf-8?q?tjS8pFbZw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============0705805798871593136=="
+
+--===============0705805798871593136==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Anna,
+
+Thanks again for your time earlier this week. I have put the revised Human Re=
+sources
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://sharedrive-review.io/d/e9906734
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Sanjay Dawson
+Partner, Trident Components
+
+--===============0705805798871593136==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Anna,</p><p>Thanks again for your time earlier this week. I=
+ have put the revised Human Resources document in the shared workspace and ad=
+ded comments against the two clauses we discussed.</p><p>You can open it here=
+ when convenient: https://sharedrive-review.io/d/e9906734</p><p>There is no r=
+ush on this. If the second section reads oddly, that is my drafting rather th=
+an a change in position, so do flag it.</p><p>Best regards, Sanjay Dawson Par=
+tner, Trident Components</p><p><a href=3D"https://sharedrive-review.io/d/e990=
+6734">shared workspace</a></p></body></html>
+
+--===============0705805798871593136==--

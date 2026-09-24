@@ -1,0 +1,41 @@
+From: "Sneha Ellis" <sneha.ellis@northgate-industries.com>
+To: Ishita Brooks <ishita.brooks@northgate-industries.com>
+Subject: Your order INV-2026-7212 has shipped
+Date: Sun, 03 May 2026 17:45:00 +0000
+Message-ID: <178772094148.6.15489139556237287115@northgate-industries.com>
+Return-Path: <sneha.ellis@northgate-industries.com>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.northgate-industries.com (Postfix) with ESMTPS id
+ 4B63FD0D2285 for <recipient@northgate-industries.com>; Sun, 03 May 2026
+ 17:45:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 60F788AFFA01; Sun, 03 May
+ 2026 17:38:35 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=594617354; h=from:to:subject:date;
+ bh=aOA2euasMeO/gVipVXfKP6w2n9HIX+kY0MHHa6dXVik=; =?utf-8?q?b=3Djy1fnhBn75ur?=
+ =?utf-8?q?YBB2fAx3Nf/Y+HufyAAs8v7zpi617vNo87xKirWUxhu5sTr2/D+kvU0XCm25nh6kf?=
+ =?utf-8?q?rkZHRjs4w=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Ishita,
+
+Order INV-2026-7212 shipped today and should arrive within three working days=
+. Tracking
+number AWB640643944.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Northgate Industries Customer Care

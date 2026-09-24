@@ -1,0 +1,57 @@
+From: "Vikram Hughes" <vikram.hughes@brightpath-edu.ac.in>
+To: Emily Fletcher <emily.fletcher@brightpath-edu.ac.in>
+Subject: Your order INV-2025-3997 has shipped
+Date: Mon, 18 May 2026 14:39:00 +0000
+Message-ID: <178772094315.6.13025269006174151060@brightpath-edu.ac.in>
+Return-Path: <vikram.hughes@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id A813E6DDC244 for
+ <recipient@brightpath-edu.ac.in>; Mon, 18 May 2026 14:39:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id DFEBEAE71E57; Mon,
+ 18 May 2026 14:37:46 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id 5F87A96B3240; Mon, 18 May
+ 2026 14:33:49 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=677124280; h=from:to:subject:date;
+ bh=1JLHON4gSEpmX4r5aS4711tydeFCxbRBNGBw+egOA4c=; =?utf-8?q?b=3DApDjjp35OkVI?=
+ =?utf-8?q?O6rlA87f6m/o8Il7g8jqtoRktc5HhdB6rw12w8VaXyek72114ALS7vkwfx0WzRCcl?=
+ =?utf-8?q?3yb9te15Q=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============8901091450319204459=="
+
+--===============8901091450319204459==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Emily,
+
+Order INV-2025-3997 shipped today and should arrive within three working days=
+. Tracking
+number AWB236441185.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Orion Systems Customer Care
+
+--===============8901091450319204459==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-3997.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============8901091450319204459==--

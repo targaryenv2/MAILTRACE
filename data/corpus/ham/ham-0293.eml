@@ -1,0 +1,53 @@
+From: "Neha Reddy" <neha.reddy@brightpath-edu.ac.in>
+To: Vikram Gupta <vikram.gupta@brightpath-edu.ac.in>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Fri, 22 May 2026 11:21:00 +0000
+Message-ID: <178772094102.6.13617827894195774786@brightpath-edu.ac.in>
+Return-Path: <neha.reddy@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 49B4ED3022FD for
+ <recipient@brightpath-edu.ac.in>; Fri, 22 May 2026 11:21:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 5156C31A3C8E; Fri,
+ 22 May 2026 11:20:32 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=92608630; h=from:to:subject:date;
+ bh=M6/EL8q9ECXoEpB1KT0DnSaSiIg0nDDDqxAMyelb6N8=; =?utf-8?q?b=3DhLSQoIdTYgLF?=
+ =?utf-8?q?R65/Bw97N3tQVi1U9LHW7ojkaOE9uJcJF6xKc3yfUIZX8g7ScWon8Tw/kVgd9qBi0?=
+ =?utf-8?q?ml2ZngW9w=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============6488636040677799418=="
+
+--===============6488636040677799418==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the IT Services systems this Saturday between 02:00 an=
+d 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+IT Services Operations
+
+--===============6488636040677799418==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the IT Services systems th=
+is Saturday between 02:00 and 04:00 IST. Expect a short interruption while th=
+e database fails over.</p><p>No user action is required. We will send a note =
+here once the window closes.</p><p>IT Services Operations</p></body></html>
+
+--===============6488636040677799418==--

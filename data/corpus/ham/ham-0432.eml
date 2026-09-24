@@ -1,0 +1,52 @@
+From: "Meera Brooks" <meera.brooks@meridian-labs.org>
+To: Michael Anderson <michael.anderson@meridian-labs.org>
+Subject: Welcome to the team, Michael
+Date: Mon, 11 May 2026 22:49:00 +0000
+Message-ID: <178772094317.6.18260314418588096297@meridian-labs.org>
+Return-Path: <meera.brooks@meridian-labs.org>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.meridian-labs.org (Postfix) with ESMTPS id 9D717EADF3C1 for
+ <recipient@meridian-labs.org>; Mon, 11 May 2026 22:49:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 03CDC00E41BE; Mon, 11 May
+ 2026 22:45:42 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=617691736; h=from:to:subject:date;
+ bh=awatLSXNqJ57dydt9zqU3+v9ZK7SQSCcvW6LeTZ41e8=; =?utf-8?q?b=3D4bzXkCOLcQIh?=
+ =?utf-8?q?2Fz6b9RNmHgYYe4Int30B+jUt2iD9KNnX71FdYGDtcvUTNdS+4nXz4ZfAWRoANJ+1?=
+ =?utf-8?q?fba7gXW5A=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4675145251734102257=="
+
+--===============4675145251734102257==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Michael,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Meera Brooks
+Human Resources, Orion Systems
+
+--===============4675145251734102257==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Michael,</p><p>Welcome aboard. Your laptop is at the IT des=
+k on the second floor and your manager will walk you through the first-week p=
+lan tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Meera Brooks Huma=
+n Resources, Orion Systems</p></body></html>
+
+--===============4675145251734102257==--

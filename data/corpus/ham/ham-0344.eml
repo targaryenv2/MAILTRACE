@@ -1,0 +1,51 @@
+From: "Meera Iyer" <meera.iyer@kalyaniworks.in>
+To: James Bose <james.bose@kalyaniworks.in>
+Subject: Invoice INV-2025-5065 paid
+Date: Sat, 16 May 2026 07:59:00 +0000
+Message-ID: <178772094181.6.6867168975215927280@kalyaniworks.in>
+Return-Path: <meera.iyer@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id AF9E8DF162C6 for
+ <recipient@kalyaniworks.in>; Sat, 16 May 2026 07:59:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 575732B95AA2;
+ Sat, 16 May 2026 07:54:39 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=939991554; h=from:to:subject:date;
+ bh=E4/GnvB5evU/J/3u44uQzd6S6vuWPFt2D8hExKnKaSE=; =?utf-8?q?b=3DHGwpNaKFvTvH?=
+ =?utf-8?q?j4WTBHZfaObysQudxWA5YnZYzgohdHU0vlaKbLs/onn7q3FVCeieTItxqAuWVNnib?=
+ =?utf-8?q?HYOCA3u0Q=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8739481367220620112=="
+
+--===============8739481367220620112==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This confirms that invoice INV-2025-5065 for INR 242,000 was paid on 08 May 2=
+026
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Meridian Labs
+
+--===============8739481367220620112==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>This confirms that invoice INV-2025-5065 for INR =
+242,000 was paid on 08 May 2026 by bank transfer to the account already on fi=
+le. No further action is needed.</p><p>Accounts Payable Meridian Labs</p></bo=
+dy></html>
+
+--===============8739481367220620112==--

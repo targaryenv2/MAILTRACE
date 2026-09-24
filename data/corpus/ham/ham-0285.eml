@@ -1,0 +1,56 @@
+From: "Karthik Brooks" <karthik.brooks@brightpath-edu.ac.in>
+To: Vikram Nair <vikram.nair@brightpath-edu.ac.in>
+Subject: Welcome to the team, Vikram
+Date: Tue, 05 May 2026 07:32:00 +0000
+Message-ID: <178772094090.6.7132507492849599482@brightpath-edu.ac.in>
+Return-Path: <karthik.brooks@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id
+ AD042F4708D3 for <recipient@brightpath-edu.ac.in>; Tue, 05 May 2026 07:32:00
+ +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id BDAEE5F009DF; Tue, 05
+ May 2026 07:29:11 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id FC12729F7563; Tue, 05 May
+ 2026 07:26:57 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=877855959; h=from:to:subject:date;
+ bh=C5QgfvBa5QVizw1X8DdMnWb9OCKrj4Ra13Vu9wZpit4=; =?utf-8?q?b=3DxwEQRKq8Ethr?=
+ =?utf-8?q?suuoehls2yHsmkE0ke2JZsQlN1jXzA7nXgKNUEi2xQIw+XRDfv0zY14mlgHIRR7dm?=
+ =?utf-8?q?SOZ9duSeA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7924789754104565685=="
+
+--===============7924789754104565685==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Vikram,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Karthik Brooks
+Human Resources, Brightpath Institute
+
+--===============7924789754104565685==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Vikram,</p><p>Welcome aboard. Your laptop is at the IT desk=
+ on the second floor and your manager will walk you through the first-week pl=
+an tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Karthik Brooks Hum=
+an Resources, Brightpath Institute</p></body></html>
+
+--===============7924789754104565685==--

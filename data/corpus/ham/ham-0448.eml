@@ -1,0 +1,56 @@
+From: "Divya Bose" <divya.bose@brightpath-edu.ac.in>
+To: Ananya Nair <ananya.nair@brightpath-edu.ac.in>
+Subject: PR #2893: refactor the retry handler
+Date: Wed, 13 May 2026 23:34:00 +0000
+Message-ID: <178772094342.6.5022444265447081237@brightpath-edu.ac.in>
+Return-Path: <divya.bose@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 646C94ACA72F for
+ <recipient@brightpath-edu.ac.in>; Wed, 13 May 2026 23:34:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id D2611ABDA8EF; Wed, 13 May
+ 2026 23:28:04 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id F74ED3965EC8; Wed, 13 May 2026
+ 23:24:20 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=429134742; h=from:to:subject:date;
+ bh=XRUGNbZvrjDDpwFGVoYTyqaMnbrB/XnAdZkQWSQ36VY=; =?utf-8?q?b=3DXsXErNCZP6E4?=
+ =?utf-8?q?3uQ0Pqyd6w9E9tOnsS6DLFY9O/ZehY4NmE0jyOAYApeFPYzsucnTiNjqSqEfnoy42?=
+ =?utf-8?q?9jZG5axOg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7776321629770483238=="
+
+--===============7776321629770483238==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Divya Bose requested your review on pull request #2893.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============7776321629770483238==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Divya Bose requested your review on pull request #2893.</p><p>=
+refactor: collapse the three retry paths into one backoff helper</p><p>Change=
+d 6 files, +148 -211. CI is green. The behaviour change worth checking is tha=
+t a 429 now retries twice instead of once.</p><p>View it in the repository wh=
+en you get a chance.</p></body></html>
+
+--===============7776321629770483238==--

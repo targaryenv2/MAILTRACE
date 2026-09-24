@@ -1,0 +1,54 @@
+From: "David Bose" <david.bose@summitfoods.co.in>
+To: Karthik Joshi <karthik.joshi@summitfoods.co.in>
+Subject: Conference paper decision - Vertex Logistics workshop
+Date: Sun, 03 May 2026 23:32:00 +0000
+Message-ID: <178772094341.6.3592599408784963974@summitfoods.co.in>
+Return-Path: <david.bose@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 7D91923217FA for
+ <recipient@summitfoods.co.in>; Sun, 03 May 2026 23:32:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id DB54F8924360; Sun, 03 May 2026
+ 23:28:15 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=424979034; h=from:to:subject:date;
+ bh=Qe8WQMhTQtWoLpjvFc6VoPt16qbuI+MyjlXaHRJx9Oo=; =?utf-8?q?b=3DsJ++aF91iqHe?=
+ =?utf-8?q?eQ3BuIq3oEdMY1n7kY2FwoJprhbnGJmAkU7O3021KQkAYTaeTEknjQz4VkHoD4VOB?=
+ =?utf-8?q?XIgV9xArA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============0728058778365898375=="
+
+--===============0728058778365898375==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Karthik,
+
+Thank you for your submission to the Vertex Logistics workshop. The reviewers=
+ have
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============0728058778365898375==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Karthik,</p><p>Thank you for your submission to the Verte=
+x Logistics workshop. The reviewers have recommended acceptance with minor re=
+visions. Reviews are attached to the submission record in the conference syst=
+em.</p><p>Camera-ready copies are due at the end of the month.</p><p>Programm=
+e Committee</p></body></html>
+
+--===============0728058778365898375==--

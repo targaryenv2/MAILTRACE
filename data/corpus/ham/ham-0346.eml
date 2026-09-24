@@ -1,0 +1,57 @@
+From: "Ananya Grant" <ananya.grant@orionsystems.io>
+To: Priya Rao <priya.rao@orionsystems.io>
+Subject: Conference paper decision - Northgate Industries workshop
+Date: Mon, 11 May 2026 00:45:00 +0000
+Message-ID: <178772094184.6.9574558935220304016@orionsystems.io>
+Return-Path: <ananya.grant@orionsystems.io>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.orionsystems.io (Postfix) with ESMTPS id BE8C78ACA1F1
+ for <recipient@orionsystems.io>; Mon, 11 May 2026 00:45:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 957ECD595764; Mon, 11 May
+ 2026 00:41:38 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 03C75F40E3D4; Mon, 11 May 2026 00:36:41 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=755733128; h=from:to:subject:date;
+ bh=yvUWWDv0tSntAfIBa4eyR9PcqeczaBq9RnizRLDjXnY=; =?utf-8?q?b=3D7ApOZYI0ZnID?=
+ =?utf-8?q?/T8IupqlhE2d/6K3ZHcO1svsMUuEIrL6D6gxem/GIYhJK3h9zZDEIfUaFKrPdze1F?=
+ =?utf-8?q?bk0zRPOYA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7403510125100381366=="
+
+--===============7403510125100381366==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Priya,
+
+Thank you for your submission to the Northgate Industries workshop. The revie=
+wers have
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============7403510125100381366==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Priya,</p><p>Thank you for your submission to the Northga=
+te Industries workshop. The reviewers have recommended acceptance with minor =
+revisions. Reviews are attached to the submission record in the conference sy=
+stem.</p><p>Camera-ready copies are due at the end of the month.</p><p>Progra=
+mme Committee</p></body></html>
+
+--===============7403510125100381366==--

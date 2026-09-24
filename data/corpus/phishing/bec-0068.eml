@@ -1,0 +1,43 @@
+From: "Daniel Dawson (CEO)" <daniel.dawson@yahoo.com>
+Reply-To: daniel.dawson.office@yahoo.com
+To: Rohan Kapoor <rohan.kapoor@vertexlogistics.in>
+Subject: Confidential matter - need your help
+Date: Wed, 20 May 2026 06:25:00 +0000
+Message-ID: <178772093732.6.7046516623277407831@yahoo.com>
+Return-Path: <bounce-9197@yahoo.com>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 2B8157657794 for
+ <recipient@vertexlogistics.in>; Wed, 20 May 2026 06:25:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 2804C4388E9B; Wed, 20 May
+ 2026 06:22:06 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=150085550; h=from:to:subject:date;
+ bh=o4gKIowynjmyFx5C5bUSl16zJOqdE7v1+3X2QTACP8k=; =?utf-8?q?b=3DvH5Rph9KCtK0?=
+ =?utf-8?q?drxJqIe626xITBI/cEPQNHSfg1vEixq3juLrYydc4MxGzYXaNkemBB5m7NKo8turs?=
+ =?utf-8?q?/1WzipIRg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Rohan,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $4,535,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 99535970625
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Daniel Dawson
+Chairman

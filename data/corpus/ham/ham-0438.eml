@@ -1,0 +1,53 @@
+From: "Rahul Anderson" <rahul.anderson@kalyaniworks.in>
+To: Meera Brooks <meera.brooks@kalyaniworks.in>
+Subject: Reminder: submit IT Services timesheets by Friday
+Date: Mon, 11 May 2026 05:21:00 +0000
+Message-ID: <178772094326.6.1842476481854734505@kalyaniworks.in>
+Return-Path: <rahul.anderson@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id F2AB68D24814 for
+ <recipient@kalyaniworks.in>; Mon, 11 May 2026 05:21:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 8AFC0F2C678D; Mon, 11 May 2026 05:14:48 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 2F366273422C; Mon,
+ 11 May 2026 05:10:52 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=390524395; h=from:to:subject:date;
+ bh=uV+pXYsrnXVC/S7vOy681xW90dGzVprNELeOTuEwdYw=; =?utf-8?q?b=3DXueW1CYxhqt1?=
+ =?utf-8?q?K7l9VyXShh6OYiCBYUCSwhBxx7qRWi6ONU38pR0m3k+3Ff0egSGvGjVsc6JyAQ336?=
+ =?utf-8?q?aY3hG4LGg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3891351176378654996=="
+
+--===============3891351176378654996==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Meera,
+
+A reminder that April timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Rahul Anderson
+IT Services
+
+--===============3891351176378654996==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Meera,</p><p>A reminder that April timesheets close on Frid=
+ay. If you are on leave, your approver can submit on your behalf.</p><p>Thank=
+s, Rahul Anderson IT Services</p></body></html>
+
+--===============3891351176378654996==--

@@ -1,0 +1,81 @@
+From: "Bluestone Partners Accounts" <billing@onlinesbi-verify.click>
+To: Laura Dawson <laura.dawson@summitfoods.co.in>
+Subject: Outstanding invoice INV-2026-4474 - payment overdue
+Date: Thu, 14 May 2026 11:35:00 +0000
+Message-ID: <178772093949.6.13113753664279235758@onlinesbi-verify.click>
+Return-Path: <bounce-2308@onlinesbi-verify.click>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 25B905C529D2 for
+ <recipient@summitfoods.co.in>; Thu, 14 May 2026 11:35:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id 434AAC53BD10; Thu, 14 May
+ 2026 11:31:30 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id BE4C7B4F580D; Thu, 14 May
+ 2026 11:27:47 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 472AC489D1D7; Thu, 14 May 2026 11:21:41 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 8206883762BB; Thu,
+ 14 May 2026 11:19:56 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@onlinesbi-verify.click>;
+Authentication-Results: mx.onlinesbi-verify.click; spf=softfail
+ smtp.mailfrom=onlinesbi-verify.click; dkim=fail
+ header.d=onlinesbi-verify.click; dmarc=fail (p=reject)
+ header.from=onlinesbi-verify.click
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=onlinesbi-verify.click; s=selector1; t=343548316; h=from:to:subject:date;
+ bh=LeqBkC9gDqOHz1BXot0mA7LKft8EWwBA0/BHc25LUfo=; =?utf-8?q?b=3DfKDuYFttct7s?=
+ =?utf-8?q?SUaX2s1PUHjbyYKDJFAbRjfNAK0St2a9tR7lqdrSILMpJmlCfwl7AbfN/jHFBRq+z?=
+ =?utf-8?q?oJmZQNJRg=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============2359812623662904391=="
+
+--===============2359812623662904391==
+Content-Type: multipart/alternative;
+ boundary="===============7058337617110977205=="
+
+--===============7058337617110977205==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Laura,
+
+Please find attached invoice INV-2026-4474 for $3,896,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Kavya Joshi
+Accounts Receivable, Bluestone Partners
+
+--===============7058337617110977205==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Laura,</p><p>Please find attached invoice INV-2026-4474 =
+for $3,896,000, now overdue. Kindly review the attached statement and process=
+ this payment immediately to avoid service interruption.</p><p>If the bank de=
+tails have changed since your last remittance, use the updated account inform=
+ation in the attachment.</p><p>Regards, Kavya Joshi Accounts Receivable, Blue=
+stone Partners</p></body></html>
+
+--===============7058337617110977205==--
+
+--===============2359812623662904391==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2026-4474.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============2359812623662904391==--

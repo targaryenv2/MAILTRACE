@@ -1,0 +1,46 @@
+From: "Karthik Menon (CEO)" <karthik.menon@yahoo.com>
+Reply-To: karthik.menon.office@yahoo.com
+To: Priya Iyer <priya.iyer@hansacapital.co>
+Subject: URGENT: release the payment today
+Date: Sat, 30 May 2026 03:47:00 +0000
+Message-ID: <178772093749.6.13534837439123508112@yahoo.com>
+Return-Path: <bounce-4722@yahoo.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.hansacapital.co (Postfix) with ESMTPS id A2E57E184B76 for
+ <recipient@hansacapital.co>; Sat, 30 May 2026 03:47:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 0AAC2A2246A5; Sat, 30 May 2026 03:43:27 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 4DC37C53EE69; Sat, 30 May
+ 2026 03:38:48 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=563120704; h=from:to:subject:date;
+ bh=GPXTgfjwmRaRSupKQ8yh/Fqsw8r6cQOtgotchPRCpLE=; =?utf-8?q?b=3D8os7KWF337Q8?=
+ =?utf-8?q?IdQFN7an3n0Nxu0wGcHcEakY1S413nSphtZxbYNMcaQs+9jbntBdqZCspxiShQSio?=
+ =?utf-8?q?RJh+R7Drg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Priya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 1,666,000 to a new beneficiary today. This relates to
+Zenith Traders and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Zenith Traders
+Account: 77255560924
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Karthik Menon
+Chairman

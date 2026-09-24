@@ -1,0 +1,71 @@
+From: "Emily Kapoor" <emily.kapoor@kalyaniworks.in>
+To: Kavya Anderson <kavya.anderson@kalyaniworks.in>
+Subject: Weekly Engineering sync - agenda
+Date: Mon, 04 May 2026 01:57:00 +0000
+Message-ID: <178772094190.6.14473698688481375376@kalyaniworks.in>
+Return-Path: <emily.kapoor@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 74B3D034D123 for
+ <recipient@kalyaniworks.in>; Mon, 04 May 2026 01:57:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id D03F275AFAE7; Mon, 04 May 2026
+ 01:52:51 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=504518706; h=from:to:subject:date;
+ bh=o8vATVcyLfg35+S8EdGe96TiAxC8am6lHr5Z7w4VSGk=; =?utf-8?q?b=3DApgvXXHHoTIr?=
+ =?utf-8?q?P5AwNa089tb2RPwJ0lI0mWNZ/kdwOSTYF46Y1plm1Iaxichj6xNx3VOlGQl4Mgr8q?=
+ =?utf-8?q?oFa75sZog=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============2466379748744828727=="
+
+--===============2466379748744828727==
+Content-Type: multipart/alternative;
+ boundary="===============6593573151580847225=="
+
+--===============6593573151580847225==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Engineering sync:
+
+1. Status of the Meridian Labs migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Emily Kapoor
+
+--===============6593573151580847225==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi team,</p><p>Agenda for Thursday's Engineering sync:</p><p>1=
+. Status of the Meridian Labs migration 2. Hiring update for the two open rol=
+es 3. Budget review before quarter close</p><p>The recording and notes will g=
+o in the usual shared folder afterwards. Add any items to the bottom of the p=
+age before Wednesday evening.</p><p>Thanks, Emily Kapoor</p></body></html>
+
+--===============6593573151580847225==--
+
+--===============2466379748744828727==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-6987.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============2466379748744828727==--

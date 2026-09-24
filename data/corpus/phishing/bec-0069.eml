@@ -1,0 +1,47 @@
+From: "Sarah Nair (CEO)" <sarah.nair@gmail.com>
+Reply-To: sarah.nair.office@gmail.com
+To: Priya Ellis <priya.ellis@orionsystems.io>
+Subject: Change of bank details for Trident Components
+Date: Wed, 20 May 2026 19:07:00 +0000
+Message-ID: <178772093734.6.3714860179030033400@gmail.com>
+Return-Path: <bounce-5582@gmail.com>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.orionsystems.io (Postfix) with ESMTPS id 463C4C22FC44
+ for <recipient@orionsystems.io>; Wed, 20 May 2026 19:07:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id DD7A26114F32; Wed, 20 May
+ 2026 19:05:13 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 715A7AB347DD; Wed,
+ 20 May 2026 19:01:57 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=236550156; h=from:to:subject:date;
+ bh=bOk7LgWiiath56HYq/VEZm1TNkyC3NezKpDnTIMTuqY=; =?utf-8?q?b=3DOdZaK3/N+sAW?=
+ =?utf-8?q?L1btwHPJqZvR5JoOgqRLMU3SnVRnPebHEyAsdvDeylQIaGzsanWPaM6R1+m8FF35I?=
+ =?utf-8?q?a5SiBAuHg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Priya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $7,104,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 19985807802
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Sarah Nair
+CFO

@@ -1,0 +1,71 @@
+From: "Emily Sharma" <emily.sharma@summitfoods.co.in>
+To: Sneha Rao <sneha.rao@summitfoods.co.in>
+Subject: PR #754: refactor the retry handler
+Date: Sun, 10 May 2026 22:37:00 +0000
+Message-ID: <178772094158.6.18010645989265666571@summitfoods.co.in>
+Return-Path: <emily.sharma@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id B23EDBC84A68 for <recipient@summitfoods.co.in>; Sun,
+ 10 May 2026 22:37:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id B9387D46A3D6; Sun,
+ 10 May 2026 22:32:56 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 290749B486DD; Sun, 10 May
+ 2026 22:27:26 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=725360591; h=from:to:subject:date;
+ bh=79kfVVyJ7DoaGK8PAVhYVbYOZHHSl5OaxNS6RmNLfoE=; =?utf-8?q?b=3D818ggfO5HQIx?=
+ =?utf-8?q?s2bKyIzOLX1eWjWz4MHgveKefygY8n4dzyZ5lu4ByyD7RkelXsf8bsLhZAf8/A46n?=
+ =?utf-8?q?3811GQK1Q=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7341594869651183060=="
+
+--===============7341594869651183060==
+Content-Type: multipart/alternative;
+ boundary="===============1580803234862849896=="
+
+--===============1580803234862849896==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Emily Sharma requested your review on pull request #754.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============1580803234862849896==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Emily Sharma requested your review on pull request #754.</p><p=
+>refactor: collapse the three retry paths into one backoff helper</p><p>Chang=
+ed 6 files, +148 -211. CI is green. The behaviour change worth checking is th=
+at a 429 now retries twice instead of once.</p><p>View it in the repository w=
+hen you get a chance.</p></body></html>
+
+--===============1580803234862849896==--
+
+--===============7341594869651183060==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-0700.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============7341594869651183060==--

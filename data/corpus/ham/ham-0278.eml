@@ -1,0 +1,36 @@
+From: "Vikram Pillai" <vikram.pillai@brightpath-edu.ac.in>
+To: Daniel Menon <daniel.menon@brightpath-edu.ac.in>
+Subject: Welcome to the team, Daniel
+Date: Thu, 28 May 2026 18:36:00 +0000
+Message-ID: <178772094079.6.10597984449011740888@brightpath-edu.ac.in>
+Return-Path: <vikram.pillai@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id
+ 987890E4263D for <recipient@brightpath-edu.ac.in>; Thu, 28 May 2026 18:36:00
+ +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 75FF3161AD1D; Thu, 28 May
+ 2026 18:30:13 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=919226815; h=from:to:subject:date;
+ bh=nEizhuMwL1pK/Tox0hzdA92DSBibegoB8r+oqnD5zPc=; =?utf-8?q?b=3DDoRThESJwYKM?=
+ =?utf-8?q?mqOti97mHIS0kIXonthMVtgJiQ40goy50kkIQv+FEkaXlsH0jmmuodyp3Z+69IKi4?=
+ =?utf-8?q?Etjz4WtWQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Daniel,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Vikram Pillai
+Human Resources, Meridian Labs

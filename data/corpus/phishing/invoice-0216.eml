@@ -1,0 +1,82 @@
+From: "Lakeside Consulting Accounts" <billing@hdfcbank-secure-in.xyz>
+To: Laura Nair <laura.nair@meridian-labs.org>
+Subject: Outstanding invoice INV-2026-6959 - payment overdue
+Date: Sun, 31 May 2026 10:40:00 +0000
+Message-ID: <178772093979.6.16587253273954911546@hdfcbank-secure-in.xyz>
+Return-Path: <bounce-6914@hdfcbank-secure-in.xyz>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.meridian-labs.org
+ (Postfix) with ESMTPS id 212495B28DBF for <recipient@meridian-labs.org>; Sun,
+ 31 May 2026 10:40:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id F4E7A84D38E1; Sun,
+ 31 May 2026 10:35:35 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ CF063C7AB3E8; Sun, 31 May 2026 10:31:11 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id BE226EBB7B40; Sun, 31
+ May 2026 10:27:50 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 6DE8E298834A; Sun, 31 May 2026 10:25:59 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@hdfcbank-secure-in.xyz>;
+Authentication-Results: mx.hdfcbank-secure-in.xyz; spf=softfail
+ smtp.mailfrom=hdfcbank-secure-in.xyz; dkim=fail
+ header.d=hdfcbank-secure-in.xyz; dmarc=fail (p=reject)
+ header.from=hdfcbank-secure-in.xyz
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=hdfcbank-secure-in.xyz; s=selector1; t=794232822; h=from:to:subject:date;
+ bh=Qy1gS9zGpnguEP38TmLd3mWcotwISZL40vNN7Omd2aU=; =?utf-8?q?b=3DjmP+mUGtMv6j?=
+ =?utf-8?q?teQ/ZfY/GD6h4OKii2qdhU3wVXVeBMVFaDRrdlIkWtc0KVpAGy7B1rnSY+Tp7muil?=
+ =?utf-8?q?txsao/PGA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============3892725254535164609=="
+
+--===============3892725254535164609==
+Content-Type: multipart/alternative;
+ boundary="===============5683313299343013359=="
+
+--===============5683313299343013359==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Laura,
+
+Please find attached invoice INV-2026-6959 for INR 7,557,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Aditya Reddy
+Accounts Receivable, Lakeside Consulting
+
+--===============5683313299343013359==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Laura,</p><p>Please find attached invoice INV-2026-6959 =
+for INR 7,557,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Aditya Reddy Accounts Receivable, =
+Lakeside Consulting</p></body></html>
+
+--===============5683313299343013359==--
+
+--===============3892725254535164609==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-6959.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============3892725254535164609==--

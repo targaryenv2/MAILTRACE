@@ -1,0 +1,72 @@
+From: "Ananya Anderson" <ananya.anderson@kalyaniworks.in>
+To: Sneha Fletcher <sneha.fletcher@vertexlogistics.in>
+Subject: Quick question about the Trident Components agreement
+Date: Sat, 23 May 2026 12:45:00 +0000
+Message-ID: <178772093658.6.4106849465946335464@kalyaniworks.in>
+Return-Path: <bounce-2972@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.vertexlogistics.in (Postfix) with ESMTPS id 5777095EA77C for
+ <recipient@vertexlogistics.in>; Sat, 23 May 2026 12:45:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 29AF817D04B1; Sat, 23 May
+ 2026 12:42:33 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 98DBE1406010; Sat, 23 May 2026 12:42:01 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id C0EC10F990E5; Sat, 23 May
+ 2026 12:36:14 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id A1D872C1C463; Sat, 23 May
+ 2026 12:31:14 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=783373074; h=from:to:subject:date;
+ bh=VY+zRW0yAAluk9G7I5/Zmlm702+530WHfDNzTWZmdk0=; =?utf-8?q?b=3DHlME28me4rmJ?=
+ =?utf-8?q?E9L3wXznfqDNmBlTnvgNgKmz5YzLile7pbKKuJjyRdH1xESJAD7XAWJOf/EHJxdK2?=
+ =?utf-8?q?yswXfFLQg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2870576545755954264=="
+
+--===============2870576545755954264==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sneha,
+
+Thanks again for your time earlier this week. I have put the revised IT Servi=
+ces
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/514ad20c
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Ananya Anderson
+Programme Manager, Trident Components
+
+--===============2870576545755954264==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Sneha,</p><p>Thanks again for your time earlier this week. =
+I have put the revised IT Services document in the shared workspace and added=
+ comments against the two clauses we discussed.</p><p>You can open it here wh=
+en convenient: https://teamfiles-hub.co/d/514ad20c</p><p>There is no rush on =
+this. If the second section reads oddly, that is my drafting rather than a ch=
+ange in position, so do flag it.</p><p>Best regards, Ananya Anderson Programm=
+e Manager, Trident Components</p><p><a href=3D"https://teamfiles-hub.co/d/514=
+ad20c">shared workspace</a></p></body></html>
+
+--===============2870576545755954264==--

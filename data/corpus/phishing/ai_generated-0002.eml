@@ -1,0 +1,64 @@
+From: "Nikhil Rao" <nikhil.rao@summitfoods.co.in>
+To: Michael Joshi <michael.joshi@vertexlogistics.in>
+Subject: Notes from Tuesday and one item for review
+Date: Wed, 06 May 2026 07:52:00 +0000
+Message-ID: <178772093635.6.8257454297361818725@summitfoods.co.in>
+Return-Path: <bounce-1224@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.vertexlogistics.in
+ (Postfix) with ESMTPS id 388D45228D6E for <recipient@vertexlogistics.in>;
+ Wed, 06 May 2026 07:52:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id F140CECA266D; Wed,
+ 06 May 2026 07:49:44 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=429737635; h=from:to:subject:date;
+ bh=PohEW9JPuL2fAdT0kzIR7jG6F6sWzu8KCaWIYgoshjw=; =?utf-8?q?b=3DVldIy5XRMdoW?=
+ =?utf-8?q?GWxNNI6+fQEes658xnmKsFjl/PaY7DPYG/+WQ8NgG3ytO3Ki4PjfVAPN1IBqM9zC0?=
+ =?utf-8?q?RPaVhZZ3w=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============1615377908981521316=="
+
+--===============1615377908981521316==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Michael,
+
+Thanks again for your time earlier this week. I have put the revised IT Servi=
+ces
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://sharedrive-review.io/d/088ee5b3
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Nikhil Rao
+Programme Manager, Bluestone Partners
+
+--===============1615377908981521316==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Michael,</p><p>Thanks again for your time earlier this week=
+. I have put the revised IT Services document in the shared workspace and add=
+ed comments against the two clauses we discussed.</p><p>You can open it here =
+when convenient: https://sharedrive-review.io/d/088ee5b3</p><p>There is no ru=
+sh on this. If the second section reads oddly, that is my drafting rather tha=
+n a change in position, so do flag it.</p><p>Best regards, Nikhil Rao Program=
+me Manager, Bluestone Partners</p><p><a href=3D"https://sharedrive-review.io/=
+d/088ee5b3">shared workspace</a></p></body></html>
+
+--===============1615377908981521316==--

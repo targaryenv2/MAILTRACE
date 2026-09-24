@@ -1,0 +1,52 @@
+From: "Karthik Kapoor" <karthik.kapoor@meridian-labs.org>
+To: Ananya Brooks <ananya.brooks@meridian-labs.org>
+Subject: Welcome to the team, Ananya
+Date: Fri, 15 May 2026 12:46:00 +0000
+Message-ID: <178772094261.6.16793796793115680374@meridian-labs.org>
+Return-Path: <karthik.kapoor@meridian-labs.org>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id F0819A1B2742 for
+ <recipient@meridian-labs.org>; Fri, 15 May 2026 12:46:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 118470853288; Fri, 15 May
+ 2026 12:45:16 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=435757700; h=from:to:subject:date;
+ bh=NijC4CSsSqHTjvEw3YtL8QNOJaMhIq4KiSHHho1h2Oo=; =?utf-8?q?b=3Dd9QPjHrUN6rs?=
+ =?utf-8?q?UEjfKNwEyTbYnqDCOlfpsI/fBQEMrmwq4Km0z3qAnE/Cy4bZEDhLp2hl2qeRxAPer?=
+ =?utf-8?q?pWrEVBzng=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8122717768131877094=="
+
+--===============8122717768131877094==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Ananya,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Karthik Kapoor
+Human Resources, Orion Systems
+
+--===============8122717768131877094==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Ananya,</p><p>Welcome aboard. Your laptop is at the IT desk=
+ on the second floor and your manager will walk you through the first-week pl=
+an tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Karthik Kapoor Hum=
+an Resources, Orion Systems</p></body></html>
+
+--===============8122717768131877094==--

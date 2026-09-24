@@ -1,0 +1,52 @@
+From: "Daniel Pillai" <daniel.pillai@summitfoods.co.in>
+To: Sneha Fletcher <sneha.fletcher@summitfoods.co.in>
+Subject: Reminder: submit Research timesheets by Friday
+Date: Wed, 13 May 2026 15:40:00 +0000
+Message-ID: <178772094388.6.3370994236592619633@summitfoods.co.in>
+Return-Path: <daniel.pillai@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id B3EB5D0627A7 for <recipient@summitfoods.co.in>; Wed,
+ 13 May 2026 15:40:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 3EB430E140CE; Wed, 13 May 2026 15:38:15 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id A63000742A36; Wed, 13
+ May 2026 15:33:52 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=513628993; h=from:to:subject:date;
+ bh=+Ua3wMQ9ZK9jT3zzB0kGtCg+CRCDjdMns+6ZmJv6yq8=; =?utf-8?q?b=3DYRUtNrwHiMEa?=
+ =?utf-8?q?JZpsx6YW1FBSbQeJ9Wl7WQ1p2w4YHHvtAJBFiUfztV+WcT1a+dC32eILxZaJ5UPMV?=
+ =?utf-8?q?X6OpwXkBg=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============2646572792459061667=="
+
+--===============2646572792459061667==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Sneha,
+
+A reminder that March timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Daniel Pillai
+Research
+
+--===============2646572792459061667==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-5052.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============2646572792459061667==--

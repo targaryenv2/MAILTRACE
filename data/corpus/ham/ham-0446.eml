@@ -1,0 +1,50 @@
+From: "Neha Reddy" <neha.reddy@summitfoods.co.in>
+To: Arjun Hughes <arjun.hughes@summitfoods.co.in>
+Subject: Reminder: submit Academics timesheets by Friday
+Date: Thu, 07 May 2026 15:53:00 +0000
+Message-ID: <178772094339.6.16575031211936173178@summitfoods.co.in>
+Return-Path: <neha.reddy@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.summitfoods.co.in (Postfix) with ESMTPS id 9E4278680E84
+ for <recipient@summitfoods.co.in>; Thu, 07 May 2026 15:53:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id DAEAC3727363; Thu, 07 May
+ 2026 15:51:42 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=237437563; h=from:to:subject:date;
+ bh=X+Rhmj6Lff4paJ1DfWTgBnwkRBqOvvk+9o3+udXwB98=; =?utf-8?q?b=3D3VWAGaDfrKzL?=
+ =?utf-8?q?QPACxBGejUxYPRL/acIfpNDd0Pajx/m10d3aJE2ZNKzsDPq0pR/yiArtamWn9BrzI?=
+ =?utf-8?q?qplHcdl0g=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3750425894051295298=="
+
+--===============3750425894051295298==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Arjun,
+
+A reminder that January timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Neha Reddy
+Academics
+
+--===============3750425894051295298==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Arjun,</p><p>A reminder that January timesheets close on Fr=
+iday. If you are on leave, your approver can submit on your behalf.</p><p>Tha=
+nks, Neha Reddy Academics</p></body></html>
+
+--===============3750425894051295298==--

@@ -1,0 +1,40 @@
+From: "Neha Pillai" <neha.pillai@northgate-industries.com>
+To: Ananya Joshi <ananya.joshi@northgate-industries.com>
+Subject: Weekly Operations sync - agenda
+Date: Sun, 24 May 2026 10:45:00 +0000
+Message-ID: <178772094124.6.3564630873410770982@northgate-industries.com>
+Return-Path: <neha.pillai@northgate-industries.com>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 4DC27CAEDE5D for
+ <recipient@northgate-industries.com>; Sun, 24 May 2026 10:45:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ A07F9E34A998; Sun, 24 May 2026 10:41:37 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=212203482; h=from:to:subject:date;
+ bh=87yTlZIyW5exBr6DSoyB6YaY+6JpLEwqwAWrO4yj41g=; =?utf-8?q?b=3DUKCYjOMOLuw5?=
+ =?utf-8?q?4QPU5JEwngXbACAofUvwvivQOFIaZ09cjUrG7PkHQ/RFCytM+E1vt+6iAsKCDdBai?=
+ =?utf-8?q?3wIWr1vOg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Operations sync:
+
+1. Status of the Vertex Logistics migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Neha Pillai

@@ -1,0 +1,56 @@
+From: "Aditya Ellis" <aditya.ellis@orionsystems.io>
+To: David Kapoor <david.kapoor@orionsystems.io>
+Subject: Payslip for June is available
+Date: Sun, 24 May 2026 07:14:00 +0000
+Message-ID: <178772094413.6.70050309121180470@orionsystems.io>
+Return-Path: <aditya.ellis@orionsystems.io>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id 8003C4B1CFE2 for
+ <recipient@orionsystems.io>; Sun, 24 May 2026 07:14:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 39C1270644D2; Sun, 24 May 2026
+ 07:10:31 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=46265807; h=from:to:subject:date;
+ bh=gtcdI+WyripQs9f0x3g/KqRgLL+Phv7v/hnXv+WtH8Y=; =?utf-8?q?b=3D3HyTU1BGLRfy?=
+ =?utf-8?q?8+A8BgDp5duUGo3zFWQgyCDEaJTHg6b6rpMvcSfaVN6pTBFRYanxLc/5MjbiFreNi?=
+ =?utf-8?q?6UrI78j4Q=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7866218842648718318=="
+
+--===============7866218842648718318==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear David,
+
+Your payslip for June is now available on the employee portal. Log in through
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Brightpath Institute
+
+--===============7866218842648718318==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear David,</p><p>Your payslip for June is now available on th=
+e employee portal. Log in through the usual internal link on the intranet hom=
+e page.</p><p>If any of the tax details look incorrect, raise a ticket with P=
+ayroll and we will correct it in the next cycle.</p><p>Regards, Payroll Team =
+Brightpath Institute</p></body></html>
+
+--===============7866218842648718318==--

@@ -1,0 +1,57 @@
+From: "Ishita Nair" <ishita.nair@meridian-labs.org>
+To: Aditya Pillai <aditya.pillai@meridian-labs.org>
+Subject: Conference paper decision - Orion Systems workshop
+Date: Sat, 23 May 2026 06:10:00 +0000
+Message-ID: <178772094225.6.10881691302250203342@meridian-labs.org>
+Return-Path: <ishita.nair@meridian-labs.org>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id C013B1BF220D for
+ <recipient@meridian-labs.org>; Sat, 23 May 2026 06:10:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id BDB6CCA5E09A; Sat, 23 May
+ 2026 06:07:23 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ FC41A2A65835; Sat, 23 May 2026 06:01:49 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=667266432; h=from:to:subject:date;
+ bh=MRJ93mFVZ8qCwMno38BGJWLQk6t1OOX4dkfjD9oxzJY=; =?utf-8?q?b=3DvSHeJOfOtnCn?=
+ =?utf-8?q?H5empiG3AsHerrIrFVbaAxaLZUT2l/FCl1/zfFEnHzWvwujFuKIDg4OrYIJxyxoBv?=
+ =?utf-8?q?og5dBdJow=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2025646216608894193=="
+
+--===============2025646216608894193==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Aditya,
+
+Thank you for your submission to the Orion Systems workshop. The reviewers ha=
+ve
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============2025646216608894193==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Aditya,</p><p>Thank you for your submission to the Orion =
+Systems workshop. The reviewers have recommended acceptance with minor revisi=
+ons. Reviews are attached to the submission record in the conference system.<=
+/p><p>Camera-ready copies are due at the end of the month.</p><p>Programme Co=
+mmittee</p></body></html>
+
+--===============2025646216608894193==--

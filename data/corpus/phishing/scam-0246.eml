@@ -1,0 +1,63 @@
+From: "LinkedIn" <notice@linkedin-invitation.click>
+To: James Rao <james.rao@summitfoods.co.in>
+Subject: Income tax refund of INR 5,426,000 is pending
+Date: Sat, 09 May 2026 15:02:00 +0000
+Message-ID: <178772094027.6.17081606220838196624@linkedin-invitation.click>
+Return-Path: <bounce-1370@linkedin-invitation.click>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 212E7D653DA1 for
+ <recipient@summitfoods.co.in>; Sat, 09 May 2026 15:02:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id C1064CEF8830; Sat, 09 May 2026
+ 15:00:50 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 7FDBFBCF7CEC; Sat, 09 May
+ 2026 14:58:31 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 3225491B7D6E; Sat, 09 May
+ 2026 14:52:13 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@linkedin-invitation.click>;
+Authentication-Results: mx.linkedin-invitation.click; spf=fail
+ smtp.mailfrom=linkedin-invitation.click; dkim=none
+ header.d=linkedin-invitation.click; dmarc=fail (p=reject)
+ header.from=linkedin-invitation.click
+Content-Type: multipart/alternative;
+ boundary="===============6245260305024385704=="
+
+--===============6245260305024385704==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your consignment is held at our facility because the address details are inco=
+mplete. Reference number: CN748397085.
+
+Click here to log in and complete the process:
+https://linkedin-invitation.click/account/verify
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+LinkedIn
+
+--===============6245260305024385704==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your consignment is held at our facility =
+because the address details are incomplete. Reference number: CN748397085.</p=
+><p>Click here to log in and complete the process: https://linkedin-invitatio=
+n.click/account/verify</p><p>If we do not receive a response within 24 hours =
+the request will be cancelled and the amount returned to treasury.</p><p>Cust=
+omer Support LinkedIn</p><p><a href=3D"https://linkedin-invitation.click/acco=
+unt/verify">https://www.linkedin.com/verify</a></p></body></html>
+
+--===============6245260305024385704==--

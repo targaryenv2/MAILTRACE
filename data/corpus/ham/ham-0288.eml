@@ -1,0 +1,49 @@
+From: "Daniel Rao" <daniel.rao@northgate-industries.com>
+To: Vikram Anderson <vikram.anderson@northgate-industries.com>
+Subject: Library books due March
+Date: Wed, 20 May 2026 10:09:00 +0000
+Message-ID: <178772094094.6.12586103990992301186@northgate-industries.com>
+Return-Path: <daniel.rao@northgate-industries.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id FCD668C38A25 for
+ <recipient@northgate-industries.com>; Wed, 20 May 2026 10:09:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id C998BB5EE36A; Wed, 20 May 2026
+ 10:06:08 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=760058163; h=from:to:subject:date;
+ bh=+bBH37vY88TkltRE/JRqaPhB9C8f+onPIIA1qDEhqMo=; =?utf-8?q?b=3DSPULTO4aWH5T?=
+ =?utf-8?q?6cwuqj4I9Wfhz4lgVxwqL/zJCtZTiToNNaUF8S05LtWPp1/DM227P54uBb4czUklX?=
+ =?utf-8?q?870DYFSWw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7862928144881009866=="
+
+--===============7862928144881009866==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Vikram,
+
+Two items on your library account are due at the end of March. Renewals can be
+made at the circulation desk or from the catalogue page.
+
+Central Library
+
+--===============7862928144881009866==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Vikram,</p><p>Two items on your library account are due a=
+t the end of March. Renewals can be made at the circulation desk or from the =
+catalogue page.</p><p>Central Library</p></body></html>
+
+--===============7862928144881009866==--

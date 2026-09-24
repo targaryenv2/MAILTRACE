@@ -1,0 +1,54 @@
+From: "Meera Hughes" <meera.hughes@brightpath-edu.ac.in>
+To: Laura Brooks <laura.brooks@brightpath-edu.ac.in>
+Subject: Invoice INV-2025-9919 paid
+Date: Mon, 18 May 2026 08:04:00 +0000
+Message-ID: <178772094291.6.4952288372016686120@brightpath-edu.ac.in>
+Return-Path: <meera.hughes@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 161127CC5D00 for
+ <recipient@brightpath-edu.ac.in>; Mon, 18 May 2026 08:04:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 1F97A54CEA22; Mon, 18 May 2026
+ 08:01:09 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id 3C32932A2CA7; Mon, 18 May 2026 07:56:43 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=371066755; h=from:to:subject:date;
+ bh=f5JekGAqcsDjH/YnOpUVXWG3TdUHbzll29X/2MuIhNI=; =?utf-8?q?b=3D4x6lG340rsoJ?=
+ =?utf-8?q?V+NyiCTZIOi+CNEnbiX15B553kTe4CNgkoAd/Y/57q2B54NA4THiivUaqVi7CsWLE?=
+ =?utf-8?q?0r/lrh86A=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============5135459600614325494=="
+
+--===============5135459600614325494==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This confirms that invoice INV-2025-9919 for INR 94,400 was paid on 28 May 20=
+26
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Summit Foods
+
+--===============5135459600614325494==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>This confirms that invoice INV-2025-9919 for INR =
+94,400 was paid on 28 May 2026 by bank transfer to the account already on fil=
+e. No further action is needed.</p><p>Accounts Payable Summit Foods</p></body=
+></html>
+
+--===============5135459600614325494==--

@@ -1,0 +1,61 @@
+From: "Laura Dawson" <laura.dawson@vertexlogistics.in>
+To: Sneha Anderson <sneha.anderson@vertexlogistics.in>
+Subject: Payslip for August is available
+Date: Mon, 04 May 2026 19:57:00 +0000
+Message-ID: <178772094182.6.16766686889530804975@vertexlogistics.in>
+Return-Path: <laura.dawson@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.vertexlogistics.in
+ (Postfix) with ESMTPS id A30C2F13B195 for <recipient@vertexlogistics.in>;
+ Mon, 04 May 2026 19:57:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 45EDF16FD9B1; Mon,
+ 04 May 2026 19:56:43 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id E7677CAA5778; Mon, 04 May 2026
+ 19:53:09 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=636980064; h=from:to:subject:date;
+ bh=L7iwgmUS00VSVC0+QjRBxJnRdgIaP6KamLU1sM8nsiQ=; =?utf-8?q?b=3DTvnKn/uivaPg?=
+ =?utf-8?q?3TrUPD1fGquoG3WFWbd8HNTnF5ca2oFfSDHFROEy4T1c+0YVP+tZmZqrOd2JMiem/?=
+ =?utf-8?q?X5hbfI0+w=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4833088890101270554=="
+
+--===============4833088890101270554==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sneha,
+
+Your payslip for August is now available on the employee portal. Log in throu=
+gh
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Northgate Industries
+
+--===============4833088890101270554==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Sneha,</p><p>Your payslip for August is now available on =
+the employee portal. Log in through the usual internal link on the intranet h=
+ome page.</p><p>If any of the tax details look incorrect, raise a ticket with=
+ Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll Tea=
+m Northgate Industries</p></body></html>
+
+--===============4833088890101270554==--

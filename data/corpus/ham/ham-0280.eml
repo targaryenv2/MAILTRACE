@@ -1,0 +1,50 @@
+From: "Sarah Sharma" <sarah.sharma@orionsystems.io>
+To: Priya Ellis <priya.ellis@orionsystems.io>
+Subject: Invoice INV-2025-2280 paid
+Date: Mon, 04 May 2026 08:26:00 +0000
+Message-ID: <178772094082.6.11774949684868146780@orionsystems.io>
+Return-Path: <sarah.sharma@orionsystems.io>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id 496D6C9CC94C for
+ <recipient@orionsystems.io>; Mon, 04 May 2026 08:26:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id 204CFDD411F2; Mon, 04 May
+ 2026 08:25:20 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=277818621; h=from:to:subject:date;
+ bh=ksQDW8Wau86HlCkUTqdCzyqktsOXbQkOIhsFn3P0g7s=; =?utf-8?q?b=3DqEJxoxmzGaD1?=
+ =?utf-8?q?FlUXtkbfGuPo5cq2kG7Znn46QjknFN5GlTxop3E2BdlBVlFroYfPQzXkAocn7hLEy?=
+ =?utf-8?q?KqCHbnJ3A=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3337143706645546123=="
+
+--===============3337143706645546123==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+This confirms that invoice INV-2025-2280 for $158,600 was paid on 24 May 2026
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Brightpath Institute
+
+--===============3337143706645546123==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>This confirms that invoice INV-2025-2280 for $158=
+,600 was paid on 24 May 2026 by bank transfer to the account already on file.=
+ No further action is needed.</p><p>Accounts Payable Brightpath Institute</p>=
+</body></html>
+
+--===============3337143706645546123==--

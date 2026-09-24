@@ -1,0 +1,67 @@
+From: "Income Tax Department" <notice@incometax-refund-in.top>
+To: Nikhil Bose <nikhil.bose@summitfoods.co.in>
+Subject: KYC update required within 24 hours
+Date: Sun, 24 May 2026 23:05:00 +0000
+Message-ID: <178772094053.6.11971316055967260497@incometax-refund-in.top>
+Return-Path: <bounce-6734@incometax-refund-in.top>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id BA5B5D8E0316 for
+ <recipient@summitfoods.co.in>; Sun, 24 May 2026 23:05:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 5C9C584EC1F4; Sun, 24 May 2026
+ 23:01:48 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id E7B13538A51F; Sun, 24 May 2026 22:58:08 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ DA2F7123C508; Sun, 24 May 2026 22:54:32 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id CA9B8791F69C; Sun, 24 May
+ 2026 22:48:16 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@incometax-refund-in.top>;
+Authentication-Results: mx.incometax-refund-in.top; spf=fail
+ smtp.mailfrom=incometax-refund-in.top; dkim=none
+ header.d=incometax-refund-in.top; dmarc=fail (p=reject)
+ header.from=incometax-refund-in.top
+Content-Type: multipart/alternative;
+ boundary="===============1149826768504480793=="
+
+--===============1149826768504480793==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your consignment is held at our facility because the address details are inco=
+mplete. Reference number: TRK657480657.
+
+Click here to log in and complete the process:
+https://incometax-refund-in.top/account/verify
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Income Tax Department
+
+--===============1149826768504480793==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your consignment is held at our facility =
+because the address details are incomplete. Reference number: TRK657480657.</=
+p><p>Click here to log in and complete the process: https://incometax-refund-=
+in.top/account/verify</p><p>If we do not receive a response within 24 hours t=
+he request will be cancelled and the amount returned to treasury.</p><p>Custo=
+mer Support Income Tax Department</p><p><a href=3D"https://incometax-refund-i=
+n.top/account/verify">https://www.incometax.gov.in/verify</a></p></body></htm=
+l>
+
+--===============1149826768504480793==--

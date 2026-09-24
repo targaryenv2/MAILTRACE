@@ -1,0 +1,60 @@
+From: "Karthik Joshi" <karthik.joshi@kalyaniworks.in>
+To: Laura Carter <laura.carter@kalyaniworks.in>
+Subject: Weekly Operations sync - agenda
+Date: Fri, 22 May 2026 07:13:00 +0000
+Message-ID: <178772094310.6.5912159271704187121@kalyaniworks.in>
+Return-Path: <karthik.joshi@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 27C135CD2B59 for
+ <recipient@kalyaniworks.in>; Fri, 22 May 2026 07:13:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 6494CBB2032C; Fri, 22 May
+ 2026 07:10:41 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 8327FD3A39DA; Fri, 22 May 2026
+ 07:10:32 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=396591047; h=from:to:subject:date;
+ bh=/pxwjnJpBmN1kRzT/I8jbau2Bf1+vWEgdpbSfTpSDg0=; =?utf-8?q?b=3DPc0vZk+ss0xs?=
+ =?utf-8?q?RwrphFUqCrFPWEcdBLj7RLr1OQkfrSzF5/s3NR+O0FvMcbIDse6xiJjjYGn/8RFfW?=
+ =?utf-8?q?gM0ZqEstg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4953966425512715492=="
+
+--===============4953966425512715492==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Operations sync:
+
+1. Status of the Summit Foods migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Karthik Joshi
+
+--===============4953966425512715492==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi team,</p><p>Agenda for Thursday's Operations sync:</p><p>1.=
+ Status of the Summit Foods migration 2. Hiring update for the two open roles=
+ 3. Budget review before quarter close</p><p>The recording and notes will go =
+in the usual shared folder afterwards. Add any items to the bottom of the pag=
+e before Wednesday evening.</p><p>Thanks, Karthik Joshi</p></body></html>
+
+--===============4953966425512715492==--

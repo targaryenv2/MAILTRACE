@@ -1,0 +1,66 @@
+From: "Income Tax Department" <notice@incometax-refund-in.top>
+To: Arjun Brooks <arjun.brooks@northgate-industries.com>
+Subject: You have won a EUR 8,932,000 gift card - claim today
+Date: Sun, 24 May 2026 10:52:00 +0000
+Message-ID: <178772094005.6.12501152388575116171@incometax-refund-in.top>
+Return-Path: <bounce-4140@incometax-refund-in.top>
+MIME-Version: 1.0
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id A20CD42E0260 for
+ <recipient@northgate-industries.com>; Sun, 24 May 2026 10:52:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by tor-exit-node.example (Postfix) with ESMTPS id
+ C3C606327D0D; Sun, 24 May 2026 10:46:58 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id B15C76F76337; Sun, 24 May
+ 2026 10:43:03 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 6E5F6CE6C9EC; Sun,
+ 24 May 2026 10:39:44 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mail.gateway.example (Postfix) with ESMTPS id
+ 8C00997F05FD; Sun, 24 May 2026 10:37:34 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@incometax-refund-in.top>;
+Authentication-Results: mx.incometax-refund-in.top; spf=fail
+ smtp.mailfrom=incometax-refund-in.top; dkim=none
+ header.d=incometax-refund-in.top; dmarc=fail (p=reject)
+ header.from=incometax-refund-in.top
+Content-Type: multipart/alternative;
+ boundary="===============3100133419561233366=="
+
+--===============3100133419561233366==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Payment for the current billing cycle was not received. Reference number: CN9=
+09048822.
+
+Click here to log in and complete the process:
+https://incometax-refund-in.top/account/verify
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Income Tax Department
+
+--===============3100133419561233366==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Payment for the current billing cycle was=
+ not received. Reference number: CN909048822.</p><p>Click here to log in and =
+complete the process: https://incometax-refund-in.top/account/verify</p><p>If=
+ we do not receive a response within 24 hours the request will be cancelled a=
+nd the amount returned to treasury.</p><p>Customer Support Income Tax Departm=
+ent</p><p><a href=3D"https://incometax-refund-in.top/account/verify">https://=
+www.incometax.gov.in/verify</a></p></body></html>
+
+--===============3100133419561233366==--

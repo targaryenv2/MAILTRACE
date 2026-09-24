@@ -1,0 +1,39 @@
+From: "Sarah Reddy" <sarah.reddy@orionsystems.io>
+To: Kavya Ellis <kavya.ellis@orionsystems.io>
+Subject: PR #1857: refactor the retry handler
+Date: Sun, 17 May 2026 13:02:00 +0000
+Message-ID: <178772094351.6.9484756793144770473@orionsystems.io>
+Return-Path: <sarah.reddy@orionsystems.io>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id 1273E0FD6B08 for <recipient@orionsystems.io>; Sun,
+ 17 May 2026 13:02:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 03A7332C9EF3; Sun,
+ 17 May 2026 12:58:27 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ A7504B32C84B; Sun, 17 May 2026 12:57:12 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=246716328; h=from:to:subject:date;
+ bh=Kv5F8iZGk+xlATxWHRunig5dFz46Pnya3KpxTw869mU=; =?utf-8?q?b=3DWxPRmxjzFSTW?=
+ =?utf-8?q?hAA9qnvJZ7HtkXOnnvQ3uAOx3+Xmg8FYgsr6Kvt/ADN1lEqoISfXLnNce1btHvYCp?=
+ =?utf-8?q?EgCwl9bUQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Sarah Reddy requested your review on pull request #1857.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.

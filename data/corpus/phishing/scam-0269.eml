@@ -1,0 +1,55 @@
+From: "Apple" <notice@appleid-verify.link>
+To: Kavya Verma <kavya.verma@vertexlogistics.in>
+Subject: Income tax refund of INR 8,989,000 is pending
+Date: Sat, 09 May 2026 05:28:00 +0000
+Message-ID: <178772094065.6.5027964347412675634@appleid-verify.link>
+Return-Path: <bounce-1097@appleid-verify.link>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id AE689665C84B for
+ <recipient@vertexlogistics.in>; Sat, 09 May 2026 05:28:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 69E9F4225AC8; Sat, 09 May 2026
+ 05:26:03 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@appleid-verify.link>;
+Authentication-Results: mx.appleid-verify.link; spf=fail
+ smtp.mailfrom=appleid-verify.link; dkim=none header.d=appleid-verify.link;
+ dmarc=fail (p=reject) header.from=appleid-verify.link
+Content-Type: multipart/alternative;
+ boundary="===============9075545910214163414=="
+
+--===============9075545910214163414==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Payment for the current billing cycle was not received. Reference number: TRK=
+888659292.
+
+Click here to log in and complete the process:
+https://appleid-verify.link/auth/confirm
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Apple
+
+--===============9075545910214163414==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Payment for the current billing cycle was=
+ not received. Reference number: TRK888659292.</p><p>Click here to log in and=
+ complete the process: https://appleid-verify.link/auth/confirm</p><p>If we d=
+o not receive a response within 24 hours the request will be cancelled and th=
+e amount returned to treasury.</p><p>Customer Support Apple</p><p><a href=3D"=
+http://198.51.100.77/login">https://www.apple.com/verify</a></p></body></html>
+
+--===============9075545910214163414==--

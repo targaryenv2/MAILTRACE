@@ -1,0 +1,51 @@
+From: "Nikhil Rao" <nikhil.rao@orionsystems.io>
+To: Priya Verma <priya.verma@orionsystems.io>
+Subject: Invoice INV-2025-6191 paid
+Date: Sun, 03 May 2026 10:11:00 +0000
+Message-ID: <178772094135.6.13103899793370254990@orionsystems.io>
+Return-Path: <nikhil.rao@orionsystems.io>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id B04CCD3B006F for
+ <recipient@orionsystems.io>; Sun, 03 May 2026 10:11:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 746AA14B1CC9; Sun, 03 May 2026 10:07:48 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ F836D60A547E; Sun, 03 May 2026 10:03:05 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=899551921; h=from:to:subject:date;
+ bh=MrIWHwTZR5/1vBnq9z+vO+9uOj+gtRqFds8DQqNG3PA=; =?utf-8?q?b=3D3AMNfW5St2HP?=
+ =?utf-8?q?6nsVkpnc+VWEuxRr2Gry9T0JN4n9OG9uBq/c35Tjyuik5e97UyaIQtFYeQYf0MBE3?=
+ =?utf-8?q?A53vdNisw=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============2285840553033125509=="
+
+--===============2285840553033125509==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This confirms that invoice INV-2025-6191 for INR 82,500 was paid on 26 May 20=
+26
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Summit Foods
+
+--===============2285840553033125509==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-6191.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============2285840553033125509==--

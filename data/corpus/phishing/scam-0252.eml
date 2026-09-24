@@ -1,0 +1,54 @@
+From: "Amazon" <notice@arnazon.co>
+To: Neha Fletcher <neha.fletcher@orionsystems.io>
+Subject: Income tax refund of INR 8,015,000 is pending
+Date: Sat, 16 May 2026 23:14:00 +0000
+Message-ID: <178772094038.6.6488341242994064329@arnazon.co>
+Return-Path: <bounce-6077@arnazon.co>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id A7C7D43B2D58 for
+ <recipient@orionsystems.io>; Sat, 16 May 2026 23:14:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 57257EAF1B7C; Sat, 16 May 2026 23:12:35 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@arnazon.co>;
+Authentication-Results: mx.arnazon.co; spf=fail smtp.mailfrom=arnazon.co;
+ dkim=none header.d=arnazon.co; dmarc=fail (p=reject) header.from=arnazon.co
+Content-Type: multipart/alternative;
+ boundary="===============8368541110073087643=="
+
+--===============8368541110073087643==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your consignment is held at our facility because the address details are inco=
+mplete. Reference number: AWB199051612.
+
+Click here to log in and complete the process:
+https://arnazon.co/login
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Amazon
+
+--===============8368541110073087643==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your consignment is held at our facility =
+because the address details are incomplete. Reference number: AWB199051612.</=
+p><p>Click here to log in and complete the process: https://arnazon.co/login<=
+/p><p>If we do not receive a response within 24 hours the request will be can=
+celled and the amount returned to treasury.</p><p>Customer Support Amazon</p>=
+<p><a href=3D"https://arnazon.co/login">https://www.amazon.in/verify</a></p><=
+/body></html>
+
+--===============8368541110073087643==--

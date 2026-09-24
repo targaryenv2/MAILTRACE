@@ -1,0 +1,79 @@
+From: "Bluestone Partners Accounts" <billing@arnazon.co>
+To: Anna Kapoor <anna.kapoor@meridian-labs.org>
+Subject: Purchase order INV-2025-1677 needs your approval
+Date: Sun, 31 May 2026 06:28:00 +0000
+Message-ID: <178772093935.6.10472935305070176625@arnazon.co>
+Return-Path: <bounce-7568@arnazon.co>
+MIME-Version: 1.0
+X-Mailer: BulkSend 2.1
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id ABB808402722 for
+ <recipient@meridian-labs.org>; Sun, 31 May 2026 06:28:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id B535DC2B5150; Sun, 31 May 2026 06:25:23 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id DD92DED69D5F;
+ Sun, 31 May 2026 06:22:59 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 05056F8D19AE; Sun, 31 May
+ 2026 06:16:26 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 2ED200532048; Sun, 31 May 2026 06:14:28 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@arnazon.co>;
+Authentication-Results: mx.arnazon.co; spf=softfail smtp.mailfrom=arnazon.co;
+ dkim=fail header.d=arnazon.co; dmarc=fail (p=reject) header.from=arnazon.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=arnazon.co;
+ s=selector1; t=342726752; h=from:to:subject:date;
+ bh=ozvy6NvPOgQGA2UQhGjKDbNn7DfbCIuxW9fvVB5L8JA=; =?utf-8?q?b=3DrDDfrnisj2UY?=
+ =?utf-8?q?062yz5xaty6NTZhopGUiMezi3XQPParaYZUwr9P+47ejXEG8/ReGCEVGqvDn1T87j?=
+ =?utf-8?q?IrfKQc+0Q=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============0282780120139043938=="
+
+--===============0282780120139043938==
+Content-Type: multipart/alternative;
+ boundary="===============5320483889775119466=="
+
+--===============5320483889775119466==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Anna,
+
+Please find attached invoice INV-2025-1677 for $4,236,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Arjun Fletcher
+Accounts Receivable, Bluestone Partners
+
+--===============5320483889775119466==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Anna,</p><p>Please find attached invoice INV-2025-1677 f=
+or $4,236,000, now overdue. Kindly review the attached statement and process =
+this payment immediately to avoid service interruption.</p><p>If the bank det=
+ails have changed since your last remittance, use the updated account informa=
+tion in the attachment.</p><p>Regards, Arjun Fletcher Accounts Receivable, Bl=
+uestone Partners</p></body></html>
+
+--===============5320483889775119466==--
+
+--===============0282780120139043938==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-1677.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============0282780120139043938==--

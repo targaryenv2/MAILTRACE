@@ -1,0 +1,35 @@
+From: "Neha Nair" <neha.nair@meridian-labs.org>
+To: Emily Gupta <emily.gupta@meridian-labs.org>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Mon, 04 May 2026 20:00:00 +0000
+Message-ID: <178772094411.6.10216770564911371353@meridian-labs.org>
+Return-Path: <neha.nair@meridian-labs.org>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id ADFEAFDF7F35 for
+ <recipient@meridian-labs.org>; Mon, 04 May 2026 20:00:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 92731CB18A4D; Mon, 04 May 2026 19:57:20 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=513501318; h=from:to:subject:date;
+ bh=pmVfo6Mss2cn1b5Imv74AaNZPJa8bbT9wRsOtEmq6tY=; =?utf-8?q?b=3D6ul+Rlbu4NA6?=
+ =?utf-8?q?xb9+uEQ9LGqQ/t9az2wC+0KyNeZBHEOn5l7BFoU4kYrtQZ+9d3L4QWzd0xKUniKXP?=
+ =?utf-8?q?GpF02SsvA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Procurement systems this Saturday between 02:00 an=
+d 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Procurement Operations

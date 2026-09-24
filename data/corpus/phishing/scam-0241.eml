@@ -1,0 +1,63 @@
+From: "HDFC Bank" <notice@hdfcbank-secure-in.xyz>
+To: Aditya Joshi <aditya.joshi@brightpath-edu.ac.in>
+Subject: Income tax refund of INR 4,076,000 is pending
+Date: Sat, 30 May 2026 05:10:00 +0000
+Message-ID: <178772094020.6.17356834835508857537@hdfcbank-secure-in.xyz>
+Return-Path: <bounce-9862@hdfcbank-secure-in.xyz>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id D07D37DE72CE for
+ <recipient@brightpath-edu.ac.in>; Sat, 30 May 2026 05:10:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 41D8E1509FA9; Sat,
+ 30 May 2026 05:05:35 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 6D89E770690B; Sat, 30 May 2026
+ 05:05:24 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id F6B6D3EEFFCE; Sat, 30 May 2026
+ 04:59:24 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@hdfcbank-secure-in.xyz>;
+Authentication-Results: mx.hdfcbank-secure-in.xyz; spf=fail
+ smtp.mailfrom=hdfcbank-secure-in.xyz; dkim=none
+ header.d=hdfcbank-secure-in.xyz; dmarc=fail (p=reject)
+ header.from=hdfcbank-secure-in.xyz
+Content-Type: multipart/alternative;
+ boundary="===============1521643908932122140=="
+
+--===============1521643908932122140==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+A refund has been approved against your assessment and is awaiting your bank =
+confirmation. Reference number: AWB649278991.
+
+Click here to log in and complete the process:
+https://hdfcbank-secure-in.xyz/account/verify
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+HDFC Bank
+
+--===============1521643908932122140==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>A refund has been approved against your a=
+ssessment and is awaiting your bank confirmation. Reference number: AWB649278=
+991.</p><p>Click here to log in and complete the process: https://hdfcbank-se=
+cure-in.xyz/account/verify</p><p>If we do not receive a response within 24 ho=
+urs the request will be cancelled and the amount returned to treasury.</p><p>=
+Customer Support HDFC Bank</p><p><a href=3D"https://hdfcbank-secure-in.xyz/ac=
+count/verify">https://www.hdfcbank.com/verify</a></p></body></html>
+
+--===============1521643908932122140==--

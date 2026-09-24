@@ -1,0 +1,57 @@
+From: "Michael Sharma" <michael.sharma@summitfoods.co.in>
+To: Daniel Hughes <daniel.hughes@summitfoods.co.in>
+Subject: Payslip for October is available
+Date: Sat, 23 May 2026 18:07:00 +0000
+Message-ID: <178772094068.6.6224787592509458643@summitfoods.co.in>
+Return-Path: <michael.sharma@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id 3D6E7DB0927E for <recipient@summitfoods.co.in>; Sat,
+ 23 May 2026 18:07:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id 9E2DEC344318;
+ Sat, 23 May 2026 18:03:45 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ B3DCF22C8478; Sat, 23 May 2026 18:02:00 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=942179706; h=from:to:subject:date;
+ bh=vd8ftj7SxJBcr3DA+Btg9GcCog736+QT08nKwHMTBxY=; =?utf-8?q?b=3D4zJ+JapEWALT?=
+ =?utf-8?q?w7+9+WUOddSEDziosFRIszXcOWJiRYwVg4Kt8hSDUjGYtU7WJyEFFooRCvoEw2lkC?=
+ =?utf-8?q?IQEAaGCqA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============8178166139532241389=="
+
+--===============8178166139532241389==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Daniel,
+
+Your payslip for October is now available on the employee portal. Log in thro=
+ugh
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Northgate Industries
+
+--===============8178166139532241389==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-9700.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============8178166139532241389==--

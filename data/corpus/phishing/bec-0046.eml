@@ -1,0 +1,46 @@
+From: "Daniel Rao (CEO)" <daniel.rao@gmail.com>
+Reply-To: daniel.rao.office@gmail.com
+To: Sanjay Kapoor <sanjay.kapoor@kalyaniworks.in>
+Subject: Change of bank details for Aurora Freight
+Date: Thu, 07 May 2026 15:22:00 +0000
+Message-ID: <178772093698.6.14672260532921036419@gmail.com>
+Return-Path: <bounce-4488@gmail.com>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.kalyaniworks.in (Postfix) with ESMTPS id 1096EF8F05F5
+ for <recipient@kalyaniworks.in>; Thu, 07 May 2026 15:22:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 25A99629585B; Thu, 07
+ May 2026 15:15:55 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 1CD951C210AD; Thu, 07 May
+ 2026 15:12:22 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=788645353; h=from:to:subject:date;
+ bh=OWE1z0C9dyPnniUoeqax02pGhIqTA2E56blFS7HGOWM=; =?utf-8?q?b=3Du+RVVBSGnylF?=
+ =?utf-8?q?ay3y87rv7WuOJpOWg7h3jCnIZLkNL6MspllaRrB3TkpY/Q9Qfcqhk/7pwhYDDbc5v?=
+ =?utf-8?q?Jfbz4IxPA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sanjay,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 4,627,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 35157506497
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Daniel Rao
+Managing Director

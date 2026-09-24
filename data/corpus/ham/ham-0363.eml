@@ -1,0 +1,35 @@
+From: "Sanjay Reddy" <sanjay.reddy@orionsystems.io>
+To: Ananya Brooks <ananya.brooks@orionsystems.io>
+Subject: Invoice INV-2026-1683 paid
+Date: Wed, 27 May 2026 05:19:00 +0000
+Message-ID: <178772094211.6.15448483134472500993@orionsystems.io>
+Return-Path: <sanjay.reddy@orionsystems.io>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id E364B34889B2 for <recipient@orionsystems.io>; Wed,
+ 27 May 2026 05:19:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 32A61BB39733; Wed, 27 May 2026 05:15:32 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=529297917; h=from:to:subject:date;
+ bh=MT07f7AGJjiynzEJ/umZwcWw7p2IIrVfK3Qiwr6tBBo=; =?utf-8?q?b=3DGrK7X83TkPWj?=
+ =?utf-8?q?t81+6NOA1bZ6mFYZkLU+E80GYs/rbyxrLugg9rRaR4DSiTXNSiqYf+mqyzXSXyQnP?=
+ =?utf-8?q?nX8XZxSwA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This confirms that invoice INV-2026-1683 for INR 231,300 was paid on 14 May 2=
+026
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Orion Systems

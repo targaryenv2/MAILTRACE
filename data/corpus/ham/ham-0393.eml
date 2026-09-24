@@ -1,0 +1,35 @@
+From: "Rohan Anderson" <rohan.anderson@orionsystems.io>
+To: Michael Brooks <michael.brooks@orionsystems.io>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Thu, 28 May 2026 19:55:00 +0000
+Message-ID: <178772094257.6.4049585273581174891@orionsystems.io>
+Return-Path: <rohan.anderson@orionsystems.io>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.orionsystems.io (Postfix) with ESMTPS id A30686950CE9 for
+ <recipient@orionsystems.io>; Thu, 28 May 2026 19:55:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ F5B696A8BF3A; Thu, 28 May 2026 19:52:07 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=386905261; h=from:to:subject:date;
+ bh=JO0rXchFraSp+RqnVC7UFx4J6Ueag/1V2CmOVDPQii4=; =?utf-8?q?b=3D776h5335pTxe?=
+ =?utf-8?q?tQNkc7Jm5qXHQDJQprNY9MukB8VFyEN3RSiSeO6i2QBrXEiz+axpov/T3fP4+QBr5?=
+ =?utf-8?q?WYIa7FhSQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Operations systems this Saturday between 02:00 and=
+ 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Operations Operations

@@ -1,0 +1,51 @@
+From: "Karthik Joshi (CEO)" <karthik.joshi@outlook.com>
+Reply-To: karthik.joshi.office@outlook.com
+To: Sneha Menon <sneha.menon@brightpath-edu.ac.in>
+Subject: URGENT: release the payment today
+Date: Wed, 13 May 2026 18:16:00 +0000
+Message-ID: <178772093758.6.4532501293860967491@outlook.com>
+Return-Path: <bounce-6811@outlook.com>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id B7F8CDCBB21B for
+ <recipient@brightpath-edu.ac.in>; Wed, 13 May 2026 18:16:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ A47AA84EE47C; Wed, 13 May 2026 18:11:14 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 6C2BA4CB14D0; Wed, 13 May
+ 2026 18:07:05 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ BEB047A6798F; Wed, 13 May 2026 18:00:50 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=673548836; h=from:to:subject:date;
+ bh=2qr2pywdv0axRA73Pwjhxvjfhw/x4jd1w0te7lbSywk=; =?utf-8?q?b=3D8fVuVW9FtAiZ?=
+ =?utf-8?q?bUP6Yc4+/xI6LSblq+Q/B3E4WA1J4imRR9iqnDVIw9F8ZNLfEm7chzV9JkCIBtPb9?=
+ =?utf-8?q?0nKei1BYw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sneha,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 3,644,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 72546466143
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Karthik Joshi
+Chairman

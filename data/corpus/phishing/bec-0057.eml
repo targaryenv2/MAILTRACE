@@ -1,0 +1,43 @@
+From: "Divya Fletcher (CEO)" <divya.fletcher@yahoo.com>
+Reply-To: divya.fletcher.office@yahoo.com
+To: Emily Nair <emily.nair@orionsystems.io>
+Subject: Re: Urgent wire transfer - confidential
+Date: Sat, 16 May 2026 13:43:00 +0000
+Message-ID: <178772093715.6.15626349155901933648@yahoo.com>
+Return-Path: <bounce-8739@yahoo.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.orionsystems.io (Postfix) with ESMTPS id 4275476D5D66 for
+ <recipient@orionsystems.io>; Sat, 16 May 2026 13:43:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 9B168AA2777F; Sat, 16 May
+ 2026 13:40:49 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=355900527; h=from:to:subject:date;
+ bh=Dzu1rV/U6ix/I+mqEeKWzZR7h5YCKn59tFpDh5twD/4=; =?utf-8?q?b=3DX5L6B8+Ztjce?=
+ =?utf-8?q?WAhIkwkcjj6b0yJCQy/hJWbV5zjDpHVSMCDYfD79gRuZXh6FvUEUnmz9ccM9bWJLz?=
+ =?utf-8?q?6nUsPUyzg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Emily,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 8,927,000 to a new beneficiary today. This relates to
+Zenith Traders and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Zenith Traders
+Account: 76357133219
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Divya Fletcher
+Chief Executive Officer

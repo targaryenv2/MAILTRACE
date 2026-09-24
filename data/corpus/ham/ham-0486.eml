@@ -1,0 +1,51 @@
+From: "Laura Grant" <laura.grant@vertexlogistics.in>
+To: Sarah Fletcher <sarah.fletcher@vertexlogistics.in>
+Subject: Conference paper decision - Northgate Industries workshop
+Date: Tue, 12 May 2026 14:06:00 +0000
+Message-ID: <178772094400.6.16594521541000105947@vertexlogistics.in>
+Return-Path: <laura.grant@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.vertexlogistics.in
+ (Postfix) with ESMTPS id E86E7D35B1CA for <recipient@vertexlogistics.in>;
+ Tue, 12 May 2026 14:06:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 5F7AF5CDB619; Tue,
+ 12 May 2026 14:04:22 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=865540382; h=from:to:subject:date;
+ bh=ZaDxNncj5+CxxV1AVg+EfhkIQ+Tn6TW5PB+C/iwIpWI=; =?utf-8?q?b=3Dt45+deW2lF9L?=
+ =?utf-8?q?TxmRpFzQRh9mI4ddOIQtmgHJxH/5t5Wt18I7IVFB9c2gvcdoMR87mvPjjypFPjOlt?=
+ =?utf-8?q?YCPY1V4Ig=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7767130279932188334=="
+
+--===============7767130279932188334==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sarah,
+
+Thank you for your submission to the Northgate Industries workshop. The revie=
+wers have
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============7767130279932188334==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-1309.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============7767130279932188334==--

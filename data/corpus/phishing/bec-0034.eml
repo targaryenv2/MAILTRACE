@@ -1,0 +1,54 @@
+From: "Divya Hughes (CEO)" <divya.hughes@gmail.com>
+Reply-To: divya.hughes.office@gmail.com
+To: Rohan Fletcher <rohan.fletcher@northgate-industries.com>
+Subject: URGENT: release the payment today
+Date: Sat, 02 May 2026 20:04:00 +0000
+Message-ID: <178772093681.6.9316963147570369249@gmail.com>
+Return-Path: <bounce-3537@gmail.com>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.northgate-industries.com (Postfix) with ESMTPS id
+ 618F338E1285 for <recipient@northgate-industries.com>; Sat, 02 May 2026
+ 20:04:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id EFEA4D8B0996; Sat, 02 May
+ 2026 20:01:20 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 920371AAA746; Sat,
+ 02 May 2026 20:00:57 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id E10361C9BE79; Sat, 02 May 2026
+ 19:59:27 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by smtp-out-3.example (Postfix) with ESMTPS id AD30228C08DE;
+ Sat, 02 May 2026 19:56:51 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=923614416; h=from:to:subject:date;
+ bh=nKWVyC2tnoFKgcUKIFJOTlrS/e0SmSSL1XbGHrG7F/Y=; =?utf-8?q?b=3DBR25Xgj2xtqq?=
+ =?utf-8?q?0Xq5+twoUYkwc+VgO1UfJMVkquNYwA5eVetdhilkWav7hG+/iFuUD2NuxDhECy9Ht?=
+ =?utf-8?q?FRJR2nVxA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Rohan,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 5,912,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 52899681426
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Divya Hughes
+Chief Executive Officer

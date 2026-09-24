@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-09-22T14:50:38Z",
+  "total_samples": 68310,
+  "train_samples": 20626,
+  "test_samples": 5158,
+  "data_leakage_check": "PASSED \u2014 0 overlap",
+  "sources": {
+    "SpamAssassin Public Corpus": {
+      "samples": 6046,
+      "archives_sha256": {
+        "SpamAssassin Easy Ham": "2b7b65904bcfcc31d2b5f51946f2d261370b257402cbbd62930b46ab83367438",
+        "SpamAssassin Easy Ham 2": "b4bd3dc5ae5b40f38e99a0e41ad7d16b428b56e818e3a6ffa07330d62004dd38",
+        "SpamAssassin Hard Ham": "7cd46378877e00caa4e943920a854e2ef95ac29e296cf2a3ce691fb4104c4fbd",
+        "SpamAssassin Spam": "c08debc32413804949a866be45ef78195cec2cbafd1da744ed76cdb860589743",
+        "SpamAssassin Spam 2": "44280a0e28bf7645b2279e8e42659271ad82c6f40bf8d364dbda7f1df344a765"
+      }
+    },
+    "Enron Corporate Sent Corpus": {
+      "samples": 18000
+    },
+    "Commercial Marketing Spam Corpus": {
+      "samples": 12000
+    },
+    "Nazario/PhishTank Enterprise Phishing": {
+      "samples": 15400
+    },
+    "FBI IC3 BEC Multi-Category Corpus": {
+      "samples": 10350
+    },
+    "Multi-Vector Malware Delivery Corpus": {
+      "samples": 10300
+    }
+  },
+  "class_breakdown": {
+    "0: Benign": {
+      "train": 7602,
+      "test": 1901,
+      "total": 9503
+    },
+    "1: Suspicious": {
+      "train": 944,
+      "test": 236,
+      "total": 1180
+    },
+    "2: Phishing": {
+      "train": 4360,
+      "test": 1090,
+      "total": 5450
+    },
+    "3: BEC": {
+      "train": 4106,
+      "test": 1027,
+      "total": 5133
+    },
+    "4: Malware": {
+      "train": 3614,
+      "test": 904,
+      "total": 4518
+    }
+  }
+}

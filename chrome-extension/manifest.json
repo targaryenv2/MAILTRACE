@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "MailTrace Threat Scanner",
+  "version": "1.1.0",
+  "description": "Inline phishing detection for Gmail and Zoho Mail via MailTrace",
+  "permissions": ["storage", "identity"],
+  "oauth2": {
+    "client_id": "447547654320-63bo07h2egoqbekjtlrf97st1rm1ska8.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/gmail.readonly"]
+  },
+  "host_permissions": [
+    "https://mail.google.com/*",
+    "https://mail.zoho.com/*",
+    "https://mail.zoho.in/*",
+    "http://localhost:8000/*",
+    "https://gmail.googleapis.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content/gmail.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://mail.zoho.com/*", "https://mail.zoho.in/*"],
+      "js": ["content/zoho.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}

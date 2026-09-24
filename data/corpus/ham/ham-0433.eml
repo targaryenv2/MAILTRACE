@@ -1,0 +1,39 @@
+From: "Nikhil Ellis" <nikhil.ellis@orionsystems.io>
+To: Rohan Pillai <rohan.pillai@orionsystems.io>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Thu, 07 May 2026 03:15:00 +0000
+Message-ID: <178772094319.6.8113403110780786906@orionsystems.io>
+Return-Path: <nikhil.ellis@orionsystems.io>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id 78292CCE0C43 for <recipient@orionsystems.io>; Thu,
+ 07 May 2026 03:15:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 25C55E7BDB9F; Thu, 07 May 2026 03:12:18 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id A108F310F78C; Thu, 07 May
+ 2026 03:12:02 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=57844919; h=from:to:subject:date;
+ bh=ZeFI5qC/oZqc8U+yecFugGKyPQ5jfIq942BDQoVYKks=; =?utf-8?q?b=3DEZjLtUF97POX?=
+ =?utf-8?q?rnLyX6puB5yRcuSAehO99YZL8OuBnSWXwbw+FOwaQHjsTf9e6D9EQH4kNVS6yb2vK?=
+ =?utf-8?q?ikimO7KXA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Academics systems this Saturday between 02:00 and =
+04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Academics Operations

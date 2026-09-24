@@ -1,0 +1,55 @@
+From: "Rohan Joshi" <rohan.joshi@kalyaniworks.in>
+To: Karthik Rao <karthik.rao@kalyaniworks.in>
+Subject: Welcome to the team, Karthik
+Date: Sun, 17 May 2026 14:21:00 +0000
+Message-ID: <178772094201.6.14722739721734976701@kalyaniworks.in>
+Return-Path: <rohan.joshi@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id E5B1DD23B575 for
+ <recipient@kalyaniworks.in>; Sun, 17 May 2026 14:21:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id E35F8624E602; Sun, 17 May 2026 14:16:20 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 4DFF681970AE; Sun, 17 May 2026 14:12:45 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=890302705; h=from:to:subject:date;
+ bh=c0hfR9pWmiwSq355RmpW5Irvox4ckDydNeWx6XTkS98=; =?utf-8?q?b=3D9tounOGp7k58?=
+ =?utf-8?q?rNXt3vPbd7LkmOl4a5i3QxsCNvVfZN1+FBvEhBteEzz5aTzsCVztseI7m543hWIOW?=
+ =?utf-8?q?TG10BrzXw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8207868917329277778=="
+
+--===============8207868917329277778==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Karthik,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Rohan Joshi
+Human Resources, Northgate Industries
+
+--===============8207868917329277778==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Karthik,</p><p>Welcome aboard. Your laptop is at the IT des=
+k on the second floor and your manager will walk you through the first-week p=
+lan tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Rohan Joshi Human=
+ Resources, Northgate Industries</p></body></html>
+
+--===============8207868917329277778==--

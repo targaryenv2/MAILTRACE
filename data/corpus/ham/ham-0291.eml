@@ -1,0 +1,60 @@
+From: "Divya Brooks" <divya.brooks@northgate-industries.com>
+To: Rahul Sharma <rahul.sharma@northgate-industries.com>
+Subject: Payslip for July is available
+Date: Thu, 21 May 2026 11:07:00 +0000
+Message-ID: <178772094099.6.17664904382852522530@northgate-industries.com>
+Return-Path: <divya.brooks@northgate-industries.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.northgate-industries.com (Postfix) with ESMTPS id B050BFD12411 for
+ <recipient@northgate-industries.com>; Thu, 21 May 2026 11:07:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id A63139696251; Thu, 21 May
+ 2026 11:00:38 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 8C61F75EA40C; Thu, 21 May 2026
+ 10:56:55 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=98245193; h=from:to:subject:date;
+ bh=ZbB+MK8ZQA3m6xgT3PL6IBastBcPBQIXcp1lZLD+4z0=; =?utf-8?q?b=3DtsmWp4LHs847?=
+ =?utf-8?q?BImBt2CWpuBxJyhIIIKNHnMLPgbi0lN9tHNU6cDDxN63JAINSBNJeMkQqqx+ER8Od?=
+ =?utf-8?q?fSUMaUa3g=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7904048576582190652=="
+
+--===============7904048576582190652==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rahul,
+
+Your payslip for July is now available on the employee portal. Log in through
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Brightpath Institute
+
+--===============7904048576582190652==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Rahul,</p><p>Your payslip for July is now available on th=
+e employee portal. Log in through the usual internal link on the intranet hom=
+e page.</p><p>If any of the tax details look incorrect, raise a ticket with P=
+ayroll and we will correct it in the next cycle.</p><p>Regards, Payroll Team =
+Brightpath Institute</p></body></html>
+
+--===============7904048576582190652==--

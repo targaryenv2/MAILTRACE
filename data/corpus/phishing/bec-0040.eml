@@ -1,0 +1,52 @@
+From: "David Kapoor (CEO)" <david.kapoor@yahoo.com>
+Reply-To: david.kapoor.office@yahoo.com
+To: Ishita Gupta <ishita.gupta@summitfoods.co.in>
+Subject: Re: Urgent wire transfer - confidential
+Date: Mon, 04 May 2026 11:29:00 +0000
+Message-ID: <178772093689.6.11995176177417291105@yahoo.com>
+Return-Path: <bounce-2009@yahoo.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.summitfoods.co.in (Postfix) with ESMTPS id 7AED8BF0BA6C for
+ <recipient@summitfoods.co.in>; Mon, 04 May 2026 11:29:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id C402825F1AF4; Mon, 04 May
+ 2026 11:25:08 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 53C7C0724AF9; Mon, 04 May 2026
+ 11:19:07 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 81F9DB2CDB8A; Mon, 04 May
+ 2026 11:16:37 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 4E75E9BC8E66;
+ Mon, 04 May 2026 11:15:29 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=88829129; h=from:to:subject:date;
+ bh=VHG8enKG/7UkvqVY+aYbNWD4JQRHONMPbh//zWfqmd8=; =?utf-8?q?b=3D4k6kv3N49Gz9?=
+ =?utf-8?q?9j61AicJieSbRaMqK5tBN2rzg7HbDr1cZiNpzMPZRyGlZq0YAvZUwZtD5vi/Cztk9?=
+ =?utf-8?q?hsnMPlU3Q=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Ishita,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 8,808,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 32815441668
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+David Kapoor
+Chairman

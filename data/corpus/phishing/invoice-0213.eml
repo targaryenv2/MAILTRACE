@@ -1,0 +1,83 @@
+From: "Lakeside Consulting Accounts" <billing@paypal-resolution-centre.top>
+To: Emily Menon <emily.menon@hansacapital.co>
+Subject: Outstanding invoice INV-2026-1639 - payment overdue
+Date: Wed, 13 May 2026 17:35:00 +0000
+Message-ID: <178772093974.6.15248697255790153242@paypal-resolution-centre.top>
+Return-Path: <bounce-8531@paypal-resolution-centre.top>
+MIME-Version: 1.0
+X-Mailer: BulkSend 2.1
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 6C677BF0B298 for
+ <recipient@hansacapital.co>; Wed, 13 May 2026 17:35:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ E0B8C08E170C; Wed, 13 May 2026 17:33:24 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 1A79D904EAB0; Wed, 13 May
+ 2026 17:32:29 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id F3E485DC1FE9; Wed, 13 May
+ 2026 17:28:08 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id E15ACF88DE75; Wed, 13 May 2026 17:26:01 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@paypal-resolution-centre.top>;
+Authentication-Results: mx.paypal-resolution-centre.top; spf=softfail
+ smtp.mailfrom=paypal-resolution-centre.top; dkim=fail
+ header.d=paypal-resolution-centre.top; dmarc=fail (p=reject)
+ header.from=paypal-resolution-centre.top
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=paypal-resolution-centre.top; s=selector1; t=67028578;
+ h=from:to:subject:date; bh=TA2zV6+Gnd6yLfJBF+2omURt6gXPlM3mp0OOMgMNwS8=; 
+ =?utf-8?q?b=3D1rWkd7OE29FpbjllAwmYh3qnkqXkDvpKLJPl5TVwza9cQHRcGtun/E7J4K395?=
+ =?utf-8?q?SE8ExsHpm+w5qjeFnM94t5eIA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============5698163292839555034=="
+
+--===============5698163292839555034==
+Content-Type: multipart/alternative;
+ boundary="===============4464505757899538086=="
+
+--===============4464505757899538086==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Emily,
+
+Please find attached invoice INV-2026-1639 for INR 7,023,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Ishita Fletcher
+Accounts Receivable, Lakeside Consulting
+
+--===============4464505757899538086==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Emily,</p><p>Please find attached invoice INV-2026-1639 =
+for INR 7,023,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Ishita Fletcher Accounts Receivabl=
+e, Lakeside Consulting</p></body></html>
+
+--===============4464505757899538086==--
+
+--===============5698163292839555034==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2026-1639.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============5698163292839555034==--

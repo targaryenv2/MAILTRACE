@@ -1,0 +1,76 @@
+From: "Aurora Freight Accounts" <billing@hdfcbank-secure-in.xyz>
+To: Neha Anderson <neha.anderson@orionsystems.io>
+Subject: Invoice attached: INV-2026-4163 (INR 7,428,000)
+Date: Tue, 05 May 2026 10:34:00 +0000
+Message-ID: <178772093916.6.7596665903768073455@hdfcbank-secure-in.xyz>
+Return-Path: <bounce-8758@hdfcbank-secure-in.xyz>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id 65D08CEE4621 for
+ <recipient@orionsystems.io>; Tue, 05 May 2026 10:34:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 52F2F54CE5A0; Tue, 05 May 2026
+ 10:29:58 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mail.gateway.example (Postfix) with ESMTPS id 0CC8D9AD48BD; Tue, 05 May 2026
+ 10:28:58 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@hdfcbank-secure-in.xyz>;
+Authentication-Results: mx.hdfcbank-secure-in.xyz; spf=softfail
+ smtp.mailfrom=hdfcbank-secure-in.xyz; dkim=fail
+ header.d=hdfcbank-secure-in.xyz; dmarc=fail (p=reject)
+ header.from=hdfcbank-secure-in.xyz
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=hdfcbank-secure-in.xyz; s=selector1; t=424142454; h=from:to:subject:date;
+ bh=bstsMVNcUIGCedMFu7BDsdzYWHzyJxKbIzM9AsV9OR8=; =?utf-8?q?b=3DTRaMSioF0Qp3?=
+ =?utf-8?q?NlqBVp/YKHGB/Sp5wOcc/9ojuOAM5JctkneiE860dd737sOjq1EYCLV3Il+sUeMxg?=
+ =?utf-8?q?KnTY6cBvA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============6441008288388615195=="
+
+--===============6441008288388615195==
+Content-Type: multipart/alternative;
+ boundary="===============1327334900008934407=="
+
+--===============1327334900008934407==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Neha,
+
+Please find attached invoice INV-2026-4163 for INR 7,428,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Priya Iyer
+Accounts Receivable, Aurora Freight
+
+--===============1327334900008934407==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Neha,</p><p>Please find attached invoice INV-2026-4163 f=
+or INR 7,428,000, now overdue. Kindly review the attached statement and proce=
+ss this payment immediately to avoid service interruption.</p><p>If the bank =
+details have changed since your last remittance, use the updated account info=
+rmation in the attachment.</p><p>Regards, Priya Iyer Accounts Receivable, Aur=
+ora Freight</p></body></html>
+
+--===============1327334900008934407==--
+
+--===============6441008288388615195==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-4163.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============6441008288388615195==--

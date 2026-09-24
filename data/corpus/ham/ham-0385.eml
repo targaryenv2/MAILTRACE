@@ -1,0 +1,53 @@
+From: "Daniel Ellis" <daniel.ellis@brightpath-edu.ac.in>
+To: Anna Grant <anna.grant@brightpath-edu.ac.in>
+Subject: Reminder: submit Admissions timesheets by Friday
+Date: Thu, 21 May 2026 22:23:00 +0000
+Message-ID: <178772094244.6.8229183909740823121@brightpath-edu.ac.in>
+Return-Path: <daniel.ellis@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id ADCADAD6CC8B for
+ <recipient@brightpath-edu.ac.in>; Thu, 21 May 2026 22:23:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 2E8072BECF7D; Thu, 21 May
+ 2026 22:21:29 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id D2295F2B7ED2; Thu, 21 May 2026 22:20:09 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=555726234; h=from:to:subject:date;
+ bh=oQwyc8PDsUGCgB3zcUS8lV+sJZLW+3SU9zEkD2nZDvY=; =?utf-8?q?b=3DS0icg8Vnk7kd?=
+ =?utf-8?q?DoFHKFxfAowBBMURIZkmoTnrZkt4zXnxDl0IVEBSe3nm4+CSmw3WMbmQbmUHIMDa5?=
+ =?utf-8?q?/FbJTfMjA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============5615033166319208150=="
+
+--===============5615033166319208150==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Anna,
+
+A reminder that April timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Daniel Ellis
+Admissions
+
+--===============5615033166319208150==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Anna,</p><p>A reminder that April timesheets close on Frida=
+y. If you are on leave, your approver can submit on your behalf.</p><p>Thanks=
+, Daniel Ellis Admissions</p></body></html>
+
+--===============5615033166319208150==--

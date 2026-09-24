@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-08-26T05:09:20+00:00",
+  "seed": 20267818,
+  "synthetic": true,
+  "kind": "credential",
+  "fingerprint": "717812fc4d4ac78c42496dafe8204b0f",
+  "sender": "Income Tax Department Security <no-reply@itr-refund-portal.click>",
+  "subject": "[URGENT] Unusual sign-in activity on your Income Tax Department account",
+  "target_domain": "meridian-labs.org",
+  "files": [
+    "wave-credential-01.eml",
+    "wave-credential-02.eml",
+    "wave-credential-03.eml",
+    "wave-credential-04.eml",
+    "wave-credential-05.eml",
+    "wave-credential-06.eml"
+  ],
+  "recipients": [
+    "rahul.ellis@meridian-labs.org",
+    "nikhil.rao@meridian-labs.org",
+    "anna.verma@meridian-labs.org",
+    "karthik.dawson@meridian-labs.org",
+    "vikram.reddy@meridian-labs.org",
+    "arjun.pillai@meridian-labs.org"
+  ],
+  "note": "One campaign, 6 recipients at one organisation. Exists so the campaign roll-up and blast-radius screens have a real wave to show. Same generator and same reserved address ranges as the rest of the corpus."
+}

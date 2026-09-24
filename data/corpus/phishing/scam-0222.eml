@@ -1,0 +1,65 @@
+From: "Amazon" <notice@amazon-order-verify.top>
+To: Aditya Iyer <aditya.iyer@kalyaniworks.in>
+Subject: Income tax refund of $8,675,000 is pending
+Date: Sun, 10 May 2026 22:14:00 +0000
+Message-ID: <178772093989.6.1771664923917658931@amazon-order-verify.top>
+Return-Path: <bounce-2196@amazon-order-verify.top>
+MIME-Version: 1.0
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id EE67B040AF32 for
+ <recipient@kalyaniworks.in>; Sun, 10 May 2026 22:14:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by tor-exit-node.example (Postfix) with ESMTPS id 6E02D8EE857C; Sun, 10 May
+ 2026 22:13:37 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 7C076C84B8F8; Sun, 10 May
+ 2026 22:11:58 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id D81DB16D0BA6; Sun, 10 May 2026
+ 22:11:32 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 94F3DD4384CF; Sun, 10 May 2026 22:05:18 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@amazon-order-verify.top>;
+Authentication-Results: mx.amazon-order-verify.top; spf=fail
+ smtp.mailfrom=amazon-order-verify.top; dkim=none
+ header.d=amazon-order-verify.top; dmarc=fail (p=reject)
+ header.from=amazon-order-verify.top
+Content-Type: multipart/alternative;
+ boundary="===============1876203176988803683=="
+
+--===============1876203176988803683==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your consignment is held at our facility because the address details are inco=
+mplete. Reference number: CN107084886.
+
+Click here to log in and complete the process:
+https://amazon-order-verify.top/auth/confirm
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Amazon
+
+--===============1876203176988803683==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your consignment is held at our facility =
+because the address details are incomplete. Reference number: CN107084886.</p=
+><p>Click here to log in and complete the process: https://amazon-order-verif=
+y.top/auth/confirm</p><p>If we do not receive a response within 24 hours the =
+request will be cancelled and the amount returned to treasury.</p><p>Customer=
+ Support Amazon</p><p><a href=3D"http://203.0.113.99/login">https://www.amazo=
+n.in/verify</a></p></body></html>
+
+--===============1876203176988803683==--

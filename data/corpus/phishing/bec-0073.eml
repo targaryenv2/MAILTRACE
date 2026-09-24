@@ -1,0 +1,52 @@
+From: "Neha Iyer (CEO)" <neha.iyer@yahoo.com>
+Reply-To: neha.iyer.office@yahoo.com
+To: Rohan Verma <rohan.verma@northgate-industries.com>
+Subject: Payment instruction (do not discuss)
+Date: Wed, 20 May 2026 13:04:00 +0000
+Message-ID: <178772093739.6.15583362824937748121@yahoo.com>
+Return-Path: <bounce-5323@yahoo.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 3061D655DE51 for
+ <recipient@northgate-industries.com>; Wed, 20 May 2026 13:04:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 3E6843146A1D; Wed, 20 May 2026
+ 13:01:52 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 83F1C6F986AD; Wed, 20 May 2026 12:59:05 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ E600BBCE76C6; Wed, 20 May 2026 12:56:37 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 0785AD22759D; Wed, 20
+ May 2026 12:56:13 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=394981126; h=from:to:subject:date;
+ bh=TEPCoFLB+xhFX4NsJ5zTl7mhjYXgeUfwU6syJuMgs8g=; =?utf-8?q?b=3DpTQ40GXVmsVA?=
+ =?utf-8?q?/r8zOWbQi9C6jYg7e4a+/EfNcajN1dSBFW1flPKkRwDR3iMpI81XHQWBpHZvnLhI1?=
+ =?utf-8?q?8fZ0iMClA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rohan,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 7,215,000 to a new beneficiary today. This relates to
+Kestrel Supplies Ltd and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Kestrel Supplies Ltd
+Account: 95954638001
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Neha Iyer
+Managing Director

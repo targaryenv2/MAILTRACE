@@ -1,0 +1,66 @@
+From: "Sanjay Anderson" <sanjay.anderson@hansacapital.co>
+To: Sneha Reddy <sneha.reddy@orionsystems.io>
+Subject: Notes from Tuesday and one item for review
+Date: Wed, 27 May 2026 16:40:00 +0000
+Message-ID: <178772093670.6.4483540651458480301@hansacapital.co>
+Return-Path: <bounce-8558@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id 24694D1D4755 for
+ <recipient@orionsystems.io>; Wed, 27 May 2026 16:40:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id DF9B2D52D4CD; Wed, 27 May
+ 2026 16:35:38 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mail.gateway.example (Postfix) with ESMTPS id
+ 1F782BADEFA3; Wed, 27 May 2026 16:32:28 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=671752872; h=from:to:subject:date;
+ bh=u0IwthcbdpNm+EMIOq42z+2vCw2z77orOGctspo3i2Y=; =?utf-8?q?b=3D32MY91wDiSwd?=
+ =?utf-8?q?5a6WxgdbDW6/vgnsnkqrTaDjoHb80TRZt2rzOvGph+KEkdJ7geCA9EL4WrcFysj4z?=
+ =?utf-8?q?zGuQSZwkg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2135856541400655334=="
+
+--===============2135856541400655334==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sneha,
+
+Thanks again for your time earlier this week. I have put the revised Engineer=
+ing
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/59822e8c
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Sanjay Anderson
+Programme Manager, Bluestone Partners
+
+--===============2135856541400655334==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Sneha,</p><p>Thanks again for your time earlier this week. =
+I have put the revised Engineering document in the shared workspace and added=
+ comments against the two clauses we discussed.</p><p>You can open it here wh=
+en convenient: https://teamfiles-hub.co/d/59822e8c</p><p>There is no rush on =
+this. If the second section reads oddly, that is my drafting rather than a ch=
+ange in position, so do flag it.</p><p>Best regards, Sanjay Anderson Programm=
+e Manager, Bluestone Partners</p><p><a href=3D"https://teamfiles-hub.co/d/598=
+22e8c">shared workspace</a></p></body></html>
+
+--===============2135856541400655334==--

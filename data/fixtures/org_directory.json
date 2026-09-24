@@ -1,0 +1,340 @@
+{
+  "_note": "Illustrative organisation directory and mail-gateway telemetry used to compute blast radius when no gateway is connected. Every person, mailbox and click event here is invented for the demo; the sender domains are the ones used by the bundled demo emails. In production this file is replaced by a read-only feed from the directory (Entra ID / Google Workspace) and the mail gateway, and blast_radius() then reports source='live' instead of 'fixture'. It is never a source of truth about real people.",
+  "generated": "2026-01-04T00:00:00Z",
+  "organisations": [
+    "northgate-industries.com",
+    "orionsystems.io",
+    "summitfoods.co.in",
+    "vertexlogistics.in"
+  ],
+  "staff": [
+    {
+      "email": "daniel.anderson@northgate-industries.com",
+      "name": "Daniel Anderson",
+      "role": "Chief Financial Officer",
+      "department": "Finance"
+    },
+    {
+      "email": "divya.joshi@northgate-industries.com",
+      "name": "Divya Joshi",
+      "role": "Accounts Payable Clerk",
+      "department": "Finance"
+    },
+    {
+      "email": "rahul.menon@northgate-industries.com",
+      "name": "Rahul Menon",
+      "role": "Payroll Officer",
+      "department": "Finance"
+    },
+    {
+      "email": "sarah.whitfield@northgate-industries.com",
+      "name": "Sarah Whitfield",
+      "role": "HR Coordinator",
+      "department": "People"
+    },
+    {
+      "email": "imran.qureshi@northgate-industries.com",
+      "name": "Imran Qureshi",
+      "role": "SOC Analyst",
+      "department": "Security"
+    },
+    {
+      "email": "nikhil.varma@northgate-industries.com",
+      "name": "Nikhil Varma",
+      "role": "IT Systems Administrator",
+      "department": "IT"
+    },
+    {
+      "email": "kavya.kapoor@orionsystems.io",
+      "name": "Kavya Kapoor",
+      "role": "Procurement Lead",
+      "department": "Operations"
+    },
+    {
+      "email": "meera.bose@orionsystems.io",
+      "name": "Meera Bose",
+      "role": "Head of Engineering",
+      "department": "Engineering"
+    },
+    {
+      "email": "arun.sekar@orionsystems.io",
+      "name": "Arun Sekar",
+      "role": "Support Engineer",
+      "department": "Engineering"
+    },
+    {
+      "email": "priya.raman@orionsystems.io",
+      "name": "Priya Raman",
+      "role": "Executive Assistant",
+      "department": "Executive"
+    },
+    {
+      "email": "david.carter@summitfoods.co.in",
+      "name": "David Carter",
+      "role": "Finance Director",
+      "department": "Finance"
+    },
+    {
+      "email": "geetha.krishnan@summitfoods.co.in",
+      "name": "Geetha Krishnan",
+      "role": "Operations Analyst",
+      "department": "Operations"
+    },
+    {
+      "email": "rohan.sharma@vertexlogistics.in",
+      "name": "Rohan Sharma",
+      "role": "Branch Manager",
+      "department": "Operations"
+    },
+    {
+      "email": "sneha.joshi@vertexlogistics.in",
+      "name": "Sneha Joshi",
+      "role": "Account Executive",
+      "department": "Sales"
+    },
+    {
+      "email": "rahul.ellis@meridian-labs.org",
+      "name": "Rahul Ellis",
+      "role": "Accounts Payable Officer",
+      "department": "Finance"
+    },
+    {
+      "email": "nikhil.rao@meridian-labs.org",
+      "name": "Nikhil Rao",
+      "role": "Finance Manager",
+      "department": "Finance"
+    },
+    {
+      "email": "anna.verma@meridian-labs.org",
+      "name": "Anna Verma",
+      "role": "Payroll Administrator",
+      "department": "Finance"
+    },
+    {
+      "email": "karthik.dawson@meridian-labs.org",
+      "name": "Karthik Dawson",
+      "role": "Procurement Lead",
+      "department": "Operations"
+    },
+    {
+      "email": "vikram.reddy@meridian-labs.org",
+      "name": "Vikram Reddy",
+      "role": "Security Analyst",
+      "department": "Information Security"
+    },
+    {
+      "email": "arjun.pillai@meridian-labs.org",
+      "name": "Arjun Pillai",
+      "role": "Regional Sales Manager",
+      "department": "Sales"
+    }
+  ],
+  "_waves_note": "Keyed first by campaign fingerprint (see ingestion.parser.fingerprint) and, as a fallback, by the sender domain - which is what matches the bundled demo emails. Each recipient row is what the gateway and identity provider observed: delivered, opened, clicked, submitted_credentials, reported.",
+  "waves": {
+    "incometax-refund-in.top": {
+      "campaign_label": "Income-tax refund credential harvest",
+      "observed_at": "2026-01-06T09:12:00Z",
+      "recipients": [
+        {
+          "email": "rahul.menon@northgate-industries.com",
+          "delivered": true,
+          "opened": true,
+          "clicked": true,
+          "submitted_credentials": true,
+          "reported": false,
+          "last_event_at": "2026-01-06T09:18:00Z"
+        },
+        {
+          "email": "divya.joshi@northgate-industries.com",
+          "delivered": true,
+          "opened": true,
+          "clicked": true,
+          "submitted_credentials": false,
+          "reported": true,
+          "last_event_at": "2026-01-06T09:24:00Z"
+        },
+        {
+          "email": "daniel.anderson@northgate-industries.com",
+          "delivered": true,
+          "opened": true,
+          "clicked": false,
+          "submitted_credentials": false,
+          "reported": true,
+          "last_event_at": "2026-01-06T09:31:00Z"
+        },
+        {
+          "email": "sarah.whitfield@northgate-industries.com",
+          "delivered": true,
+          "opened": false,
+          "clicked": false,
+          "submitted_credentials": false,
+          "reported": false,
+          "last_event_at": ""
+        },
+        {
+          "email": "arun.sekar@orionsystems.io",
+          "delivered": true,
+          "opened": true,
+          "clicked": false,
+          "submitted_credentials": false,
+          "reported": false,
+          "last_event_at": "2026-01-06T10:02:00Z"
+        },
+        {
+          "email": "geetha.krishnan@summitfoods.co.in",
+          "delivered": true,
+          "opened": false,
+          "clicked": false,
+          "submitted_credentials": false,
+          "reported": false,
+          "last_event_at": ""
+        }
+      ]
+    },
+    "sbi-netbanking-kyc.top": {
+      "campaign_label": "Overdue invoice with malicious attachment",
+      "observed_at": "2026-01-08T11:20:00Z",
+      "recipients": [
+        {
+          "email": "kavya.kapoor@orionsystems.io",
+          "delivered": true,
+          "opened": true,
+          "clicked": true,
+          "submitted_credentials": false,
+          "reported": false,
+          "last_event_at": "2026-01-08T11:26:00Z"
+        },
+        {
+          "email": "divya.joshi@northgate-industries.com",
+          "delivered": true,
+          "opened": false,
+          "clicked": false,
+          "submitted_credentials": false,
+          "reported": false,
+          "last_event_at": ""
+        },
+        {
+          "email": "priya.raman@orionsystems.io",
+          "delivered": true,
+          "opened": true,
+          "clicked": false,
+          "submitted_credentials": false,
+          "reported": true,
+          "last_event_at": "2026-01-08T11:44:00Z"
+        },
+        {
+          "email": "sneha.joshi@vertexlogistics.in",
+          "delivered": true,
+          "opened": true,
+          "clicked": true,
+          "submitted_credentials": false,
+          "reported": false,
+          "last_event_at": "2026-01-08T12:03:00Z"
+        }
+      ]
+    },
+    "hdfcbank-secure-in.xyz": {
+      "campaign_label": "HDFC net-banking block notice (consumer scam)",
+      "observed_at": "2026-01-09T18:05:00Z",
+      "recipients": [
+        {
+          "email": "rohan.sharma@vertexlogistics.in",
+          "delivered": true,
+          "opened": true,
+          "clicked": true,
+          "submitted_credentials": false,
+          "reported": true,
+          "last_event_at": "2026-01-09T18:22:00Z"
+        },
+        {
+          "email": "sneha.joshi@vertexlogistics.in",
+          "delivered": true,
+          "opened": true,
+          "clicked": false,
+          "submitted_credentials": false,
+          "reported": false,
+          "last_event_at": "2026-01-09T18:40:00Z"
+        }
+      ]
+    },
+    "brightpath-edu.ac.in": {
+      "campaign_label": "AI-written spear-phish, single high-value target",
+      "observed_at": "2026-01-10T07:55:00Z",
+      "recipients": [
+        {
+          "email": "meera.bose@orionsystems.io",
+          "delivered": true,
+          "opened": true,
+          "clicked": false,
+          "submitted_credentials": false,
+          "reported": true,
+          "last_event_at": "2026-01-10T08:31:00Z"
+        }
+      ]
+    },
+    "717812fc4d4ac78c42496dafe8204b0f": {
+      "label": "generated wave: [URGENT] Unusual sign-in activity on your Income Tax Department account",
+      "source": "synthetic wave produced by scripts/make_wave.py; stands in for a mail-gateway delivery report",
+      "recipients": [
+        {
+          "email": "rahul.ellis@meridian-labs.org",
+          "name": "Rahul Ellis",
+          "role": "Accounts Payable Officer",
+          "department": "Finance",
+          "last_event_at": "2026-06-02T07:15:00+00:00",
+          "delivered": true,
+          "opened": true,
+          "clicked": true,
+          "submitted_credentials": true
+        },
+        {
+          "email": "nikhil.rao@meridian-labs.org",
+          "name": "Nikhil Rao",
+          "role": "Finance Manager",
+          "department": "Finance",
+          "last_event_at": "2026-06-02T07:18:00+00:00",
+          "delivered": true,
+          "opened": true,
+          "clicked": true
+        },
+        {
+          "email": "anna.verma@meridian-labs.org",
+          "name": "Anna Verma",
+          "role": "Payroll Administrator",
+          "department": "Finance",
+          "last_event_at": "2026-06-02T07:21:00+00:00",
+          "delivered": true,
+          "opened": true
+        },
+        {
+          "email": "karthik.dawson@meridian-labs.org",
+          "name": "Karthik Dawson",
+          "role": "Procurement Lead",
+          "department": "Operations",
+          "last_event_at": "2026-06-02T07:24:00+00:00",
+          "delivered": true,
+          "opened": true,
+          "reported": true
+        },
+        {
+          "email": "vikram.reddy@meridian-labs.org",
+          "name": "Vikram Reddy",
+          "role": "Security Analyst",
+          "department": "Information Security",
+          "last_event_at": "2026-06-02T07:27:00+00:00",
+          "delivered": true,
+          "opened": true,
+          "reported": true
+        },
+        {
+          "email": "arjun.pillai@meridian-labs.org",
+          "name": "Arjun Pillai",
+          "role": "Regional Sales Manager",
+          "department": "Sales",
+          "last_event_at": "2026-06-02T07:30:00+00:00",
+          "delivered": true
+        }
+      ]
+    }
+  }
+}

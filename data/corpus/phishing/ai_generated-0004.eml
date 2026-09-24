@@ -1,0 +1,68 @@
+From: "Neha Verma" <neha.verma@summitfoods.co.in>
+To: Vikram Menon <vikram.menon@vertexlogistics.in>
+Subject: Updated Engineering template for your comments
+Date: Thu, 21 May 2026 12:48:00 +0000
+Message-ID: <178772093638.6.12904247491824146291@summitfoods.co.in>
+Return-Path: <bounce-1022@summitfoods.co.in>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.vertexlogistics.in
+ (Postfix) with ESMTPS id 9654B3CBF185 for <recipient@vertexlogistics.in>;
+ Thu, 21 May 2026 12:48:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id 245053BB2D18;
+ Thu, 21 May 2026 12:47:08 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 53729F64C866; Thu, 21 May 2026 12:41:18 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=665900059; h=from:to:subject:date;
+ bh=tLguaON1kpitt6ypB6bLM3hqBpOaHH8CbWrE0aoJLJs=; =?utf-8?q?b=3DuN7vDaWGVm+S?=
+ =?utf-8?q?Wk17jbGfa5lrERN4BTP81/LX/6Q6ED1qNsR2p8zg7bS5zCsfXUTMV94HMrwdIV9vn?=
+ =?utf-8?q?03wdvWUQg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3566596683960831238=="
+
+--===============3566596683960831238==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Vikram,
+
+Thanks again for your time earlier this week. I have put the revised Engineer=
+ing
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/51c20a47
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Neha Verma
+Associate Director, Bluestone Partners
+
+--===============3566596683960831238==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Vikram,</p><p>Thanks again for your time earlier this week.=
+ I have put the revised Engineering document in the shared workspace and adde=
+d comments against the two clauses we discussed.</p><p>You can open it here w=
+hen convenient: https://teamfiles-hub.co/d/51c20a47</p><p>There is no rush on=
+ this. If the second section reads oddly, that is my drafting rather than a c=
+hange in position, so do flag it.</p><p>Best regards, Neha Verma Associate Di=
+rector, Bluestone Partners</p><p><a href=3D"https://teamfiles-hub.co/d/51c20a=
+47">shared workspace</a></p></body></html>
+
+--===============3566596683960831238==--

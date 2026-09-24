@@ -1,0 +1,58 @@
+From: "Arjun Reddy" <arjun.reddy@hansacapital.co>
+To: Sneha Grant <sneha.grant@hansacapital.co>
+Subject: Payslip for October is available
+Date: Tue, 26 May 2026 06:13:00 +0000
+Message-ID: <178772094314.6.10391654808253466953@hansacapital.co>
+Return-Path: <arjun.reddy@hansacapital.co>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.hansacapital.co
+ (Postfix) with ESMTPS id 2686EB18CCA8 for <recipient@hansacapital.co>; Tue,
+ 26 May 2026 06:13:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 39CD3EADD40F; Tue,
+ 26 May 2026 06:08:18 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=978501073; h=from:to:subject:date;
+ bh=rtBvvfkYy8SP8C2ulWxX0D/lB1mtx1baRrOGkeSn0d8=; =?utf-8?q?b=3DOX0hzx9WYRPo?=
+ =?utf-8?q?YnaswCQL/0j7REefsCwamQ5gqCdE+uq1/70HB6M9mpglN+AWmBPoTX3jkQyRa8jOu?=
+ =?utf-8?q?N2hEPt+BQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2378095233493417495=="
+
+--===============2378095233493417495==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sneha,
+
+Your payslip for October is now available on the employee portal. Log in thro=
+ugh
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Meridian Labs
+
+--===============2378095233493417495==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Sneha,</p><p>Your payslip for October is now available on=
+ the employee portal. Log in through the usual internal link on the intranet =
+home page.</p><p>If any of the tax details look incorrect, raise a ticket wit=
+h Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll Te=
+am Meridian Labs</p></body></html>
+
+--===============2378095233493417495==--

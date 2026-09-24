@@ -1,0 +1,70 @@
+From: "Lakeside Consulting Accounts" <billing@appie.com>
+To: Nikhil Ellis <nikhil.ellis@hansacapital.co>
+Subject: Remittance advice INV-2025-3762 - action required
+Date: Sun, 17 May 2026 05:36:00 +0000
+Message-ID: <178772093914.6.17560804051436671527@appie.com>
+Return-Path: <bounce-3597@appie.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id C3820F1C7946 for
+ <recipient@hansacapital.co>; Sun, 17 May 2026 05:36:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 8B74B64FEAAA; Sun, 17 May 2026 05:32:01 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@appie.com>;
+Authentication-Results: mx.appie.com; spf=softfail smtp.mailfrom=appie.com;
+ dkim=fail header.d=appie.com; dmarc=fail (p=reject) header.from=appie.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=appie.com;
+ s=selector1; t=94731159; h=from:to:subject:date;
+ bh=DLZww9/C9oKVz34HwMcnRKjV6Rzf3tkK4USbaP1RuOg=; =?utf-8?q?b=3Dx5HZvRor22M8?=
+ =?utf-8?q?Zf8KAQcZevATIl+vpcbbMAD1GM99pK/2Erk85hayIcWqZw0wvjXZHGYzdJzNkEYPR?=
+ =?utf-8?q?J3f3LOiqA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============5317256357489661442=="
+
+--===============5317256357489661442==
+Content-Type: multipart/alternative;
+ boundary="===============4593868854217370734=="
+
+--===============4593868854217370734==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Nikhil,
+
+Please find attached invoice INV-2025-3762 for INR 3,022,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Neha Anderson
+Accounts Receivable, Lakeside Consulting
+
+--===============4593868854217370734==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Nikhil,</p><p>Please find attached invoice INV-2025-3762=
+ for INR 3,022,000, now overdue. Kindly review the attached statement and pro=
+cess this payment immediately to avoid service interruption.</p><p>If the ban=
+k details have changed since your last remittance, use the updated account in=
+formation in the attachment.</p><p>Regards, Neha Anderson Accounts Receivable=
+, Lakeside Consulting</p></body></html>
+
+--===============4593868854217370734==--
+
+--===============5317256357489661442==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-3762.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============5317256357489661442==--

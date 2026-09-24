@@ -1,0 +1,37 @@
+From: "Arjun Pillai" <arjun.pillai@northgate-industries.com>
+To: Anna Verma <anna.verma@northgate-industries.com>
+Subject: PR #2530: refactor the retry handler
+Date: Wed, 06 May 2026 09:05:00 +0000
+Message-ID: <178772094074.6.7566870094339389075@northgate-industries.com>
+Return-Path: <arjun.pillai@northgate-industries.com>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 43B751799564 for
+ <recipient@northgate-industries.com>; Wed, 06 May 2026 09:05:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id D695B5CD42A4; Wed,
+ 06 May 2026 08:59:33 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=936073968; h=from:to:subject:date;
+ bh=CmUwUjNKJ41ZCuF2a0fd6kvENOU0nAOdvKtRkUdHKio=; =?utf-8?q?b=3DsvgW98xqYGgL?=
+ =?utf-8?q?h/ce/4jbCBHNknA+FYPL+yqMuzduCsNBrqMMzM+aDeD5D5JqsfWgjt4E5KN/WJNKi?=
+ =?utf-8?q?menYMHeaw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Arjun Pillai requested your review on pull request #2530.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.

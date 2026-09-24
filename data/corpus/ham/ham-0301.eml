@@ -1,0 +1,35 @@
+From: "Priya Ellis" <priya.ellis@meridian-labs.org>
+To: Michael Iyer <michael.iyer@meridian-labs.org>
+Subject: Library books due June
+Date: Sat, 16 May 2026 11:18:00 +0000
+Message-ID: <178772094115.6.10710543783655137490@meridian-labs.org>
+Return-Path: <priya.ellis@meridian-labs.org>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id AF0753A64013 for
+ <recipient@meridian-labs.org>; Sat, 16 May 2026 11:18:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id EF735C1C6535; Sat, 16 May 2026
+ 11:15:50 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id 9D00A46AEF5A; Sat, 16 May
+ 2026 11:11:52 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=710089634; h=from:to:subject:date;
+ bh=KcqK2xxP/fpS7LWhfWdlLU63GUS3JfwxPvhiyEQOt+k=; =?utf-8?q?b=3DyX6Xdpnsemp6?=
+ =?utf-8?q?xUt18c/jsXMToStxgT99SCWJsAMV/W1IH1qGFDRUTGbr4nzjzfO7YQFW5Pu0ZxMsZ?=
+ =?utf-8?q?+/rHvN0mQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Michael,
+
+Two items on your library account are due at the end of June. Renewals can be
+made at the circulation desk or from the catalogue page.
+
+Central Library

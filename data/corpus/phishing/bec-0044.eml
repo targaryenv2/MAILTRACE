@@ -1,0 +1,46 @@
+From: "Vikram Grant (CEO)" <vikram.grant@gmail.com>
+Reply-To: vikram.grant.office@gmail.com
+To: Vikram Rao <vikram.rao@summitfoods.co.in>
+Subject: Quick request before end of day
+Date: Sun, 10 May 2026 20:56:00 +0000
+Message-ID: <178772093695.6.7826566160038011747@gmail.com>
+Return-Path: <bounce-2613@gmail.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 62EDD1133D4B for
+ <recipient@summitfoods.co.in>; Sun, 10 May 2026 20:56:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id E5C699CD926A; Sun, 10 May 2026 20:50:57 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 7C0E8262CEEB; Sun, 10 May 2026 20:47:49 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=695650006; h=from:to:subject:date;
+ bh=0Xgs0HHK2kK20HwqM1SXL22ki91Q9+FUMrftyln4OK0=; =?utf-8?q?b=3DI0Do3DIbUyo5?=
+ =?utf-8?q?f50ebn9CC/JVc3gsy+utlbpt2JnWsa9iMnC2rNiIATn+dlqd8dETtk4nI4PRCFOzv?=
+ =?utf-8?q?MXtxyD8RA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Vikram,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 5,800,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 88065963181
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Vikram Grant
+Managing Director

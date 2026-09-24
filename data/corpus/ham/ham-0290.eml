@@ -1,0 +1,53 @@
+From: "Anna Kapoor" <anna.kapoor@summitfoods.co.in>
+To: Rahul Brooks <rahul.brooks@summitfoods.co.in>
+Subject: Payslip for September is available
+Date: Wed, 20 May 2026 04:41:00 +0000
+Message-ID: <178772094097.6.7081536292685368861@summitfoods.co.in>
+Return-Path: <anna.kapoor@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id A4E63365DAEC for
+ <recipient@summitfoods.co.in>; Wed, 20 May 2026 04:41:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ D4BEA2153F42; Wed, 20 May 2026 04:34:41 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=855020141; h=from:to:subject:date;
+ bh=9CEqFnImr0Har46xgEH9rcmrY+ZTlP0q5psDToqRuhY=; =?utf-8?q?b=3DojREX/PLp4B6?=
+ =?utf-8?q?n1bz4F4d/Pkw3pMrjJWhey2gXnJmmKYKwzZLIxJcs6dW48RCy3Ik2TYzTLJDAPId6?=
+ =?utf-8?q?e33uwPcZQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============0575653168993549356=="
+
+--===============0575653168993549356==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rahul,
+
+Your payslip for September is now available on the employee portal. Log in th=
+rough
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Orion Systems
+
+--===============0575653168993549356==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-1571.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============0575653168993549356==--

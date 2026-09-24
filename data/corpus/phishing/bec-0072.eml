@@ -1,0 +1,50 @@
+From: "Sarah Sharma (CEO)" <sarah.sharma@outlook.com>
+Reply-To: sarah.sharma.office@outlook.com
+To: Laura Brooks <laura.brooks@vertexlogistics.in>
+Subject: Re: Urgent wire transfer - confidential
+Date: Thu, 14 May 2026 06:46:00 +0000
+Message-ID: <178772093738.6.976816704269290285@outlook.com>
+Return-Path: <bounce-8181@outlook.com>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.vertexlogistics.in (Postfix) with ESMTPS id
+ 936C2670E629 for <recipient@vertexlogistics.in>; Thu, 14 May 2026 06:46:00
+ +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id E43C1A3EAB64; Thu, 14 May
+ 2026 06:45:24 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 805A610655AC; Thu, 14 May 2026
+ 06:43:55 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id 599F75352DE9; Thu, 14 May 2026 06:42:18 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=691904252; h=from:to:subject:date;
+ bh=BmLOt8g+DQlv7w6Px/qlzMjRyIbmKWJ/wSCl6Z+Vr7g=; =?utf-8?q?b=3D92yUEMEI2YBb?=
+ =?utf-8?q?t4ofA6nTQcwR24tmvIXMZ5fx/rxhDIVaqR5vU/rAzoaWNWa00lKj5rztNlwshm8AY?=
+ =?utf-8?q?TStiYt4hA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Laura,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 7,791,000 to a new beneficiary today. This relates to
+Bluestone Partners and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Bluestone Partners
+Account: 75591744993
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Sarah Sharma
+Chairman

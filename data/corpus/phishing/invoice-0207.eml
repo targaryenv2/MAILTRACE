@@ -1,0 +1,67 @@
+From: "Trident Components Accounts" <billing@micros0ft-verify.com>
+To: Nikhil Ellis <nikhil.ellis@summitfoods.co.in>
+Subject: Invoice attached: INV-2026-3090 ($5,780,000)
+Date: Sat, 09 May 2026 04:42:00 +0000
+Message-ID: <178772093965.6.2685892783133649413@micros0ft-verify.com>
+Return-Path: <bounce-4179@micros0ft-verify.com>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id BF2C5FF4893E for <recipient@summitfoods.co.in>; Sat,
+ 09 May 2026 04:42:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id CCAE607B9F0E; Sat,
+ 09 May 2026 04:38:22 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@micros0ft-verify.com>;
+Authentication-Results: mx.micros0ft-verify.com; spf=fail
+ smtp.mailfrom=micros0ft-verify.com; dkim=none header.d=micros0ft-verify.com;
+ dmarc=fail (p=reject) header.from=micros0ft-verify.com
+Content-Type: multipart/mixed; boundary="===============1156611185816245643=="
+
+--===============1156611185816245643==
+Content-Type: multipart/alternative;
+ boundary="===============8340143032096854357=="
+
+--===============8340143032096854357==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Nikhil,
+
+Please find attached invoice INV-2026-3090 for $5,780,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Rohan Iyer
+Accounts Receivable, Trident Components
+
+--===============8340143032096854357==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Nikhil,</p><p>Please find attached invoice INV-2026-3090=
+ for $5,780,000, now overdue. Kindly review the attached statement and proces=
+s this payment immediately to avoid service interruption.</p><p>If the bank d=
+etails have changed since your last remittance, use the updated account infor=
+mation in the attachment.</p><p>Regards, Rohan Iyer Accounts Receivable, Trid=
+ent Components</p></body></html>
+
+--===============8340143032096854357==--
+
+--===============1156611185816245643==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2026-3090.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============1156611185816245643==--

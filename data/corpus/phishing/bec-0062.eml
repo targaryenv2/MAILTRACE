@@ -1,0 +1,43 @@
+From: "Sneha Brooks (CEO)" <sneha.brooks@outlook.com>
+Reply-To: sneha.brooks.office@outlook.com
+To: Priya Nair <priya.nair@kalyaniworks.in>
+Subject: Quick request before end of day
+Date: Mon, 04 May 2026 13:58:00 +0000
+Message-ID: <178772093722.6.6016171016969608432@outlook.com>
+Return-Path: <bounce-7902@outlook.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id D8100677D99B for
+ <recipient@kalyaniworks.in>; Mon, 04 May 2026 13:58:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 8A9BC6A8A021; Mon, 04 May 2026
+ 13:53:46 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=395792524; h=from:to:subject:date;
+ bh=3tE5+0v5XU97XWrTFgazU/AxMMFdo0k7tD6Web5EJl8=; =?utf-8?q?b=3D3UZcjcuPDyaZ?=
+ =?utf-8?q?wBJbT4c4G7K1y9//qpjj0mqDy1LNjbDhcc3A3tINnTmBmJ9+RbhJ1tGmNBVGhfZJO?=
+ =?utf-8?q?W3jFmPFdw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Priya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $5,124,000 to a new beneficiary today. This relates to
+Lakeside Consulting and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Lakeside Consulting
+Account: 66503033900
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Sneha Brooks
+Chief Executive Officer

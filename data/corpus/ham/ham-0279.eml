@@ -1,0 +1,53 @@
+From: "Aditya Hughes" <aditya.hughes@summitfoods.co.in>
+To: Aditya Joshi <aditya.joshi@summitfoods.co.in>
+Subject: PR #1406: refactor the retry handler
+Date: Fri, 15 May 2026 13:09:00 +0000
+Message-ID: <178772094081.6.13525844320757509889@summitfoods.co.in>
+Return-Path: <aditya.hughes@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.summitfoods.co.in (Postfix) with ESMTPS id C14C5F406B03 for
+ <recipient@summitfoods.co.in>; Fri, 15 May 2026 13:09:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id 2E5EEAE34597; Fri, 15 May 2026 13:07:27 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=405378114; h=from:to:subject:date;
+ bh=SHlMp54VlgcNVQClJDalFvC3HBvINsNDcZpjyCJYpOU=; =?utf-8?q?b=3DHLvtZFb5yozk?=
+ =?utf-8?q?iCMvgDJquJx/74aT8/vFveQWaUgj2JC19nE9wymwDnd1NquaCXEwbIx6AoUMGIcsp?=
+ =?utf-8?q?9Y12sK8Lg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8264470991399451144=="
+
+--===============8264470991399451144==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Aditya Hughes requested your review on pull request #1406.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============8264470991399451144==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Aditya Hughes requested your review on pull request #1406.</p>=
+<p>refactor: collapse the three retry paths into one backoff helper</p><p>Cha=
+nged 6 files, +148 -211. CI is green. The behaviour change worth checking is =
+that a 429 now retries twice instead of once.</p><p>View it in the repository=
+ when you get a chance.</p></body></html>
+
+--===============8264470991399451144==--

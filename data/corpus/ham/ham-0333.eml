@@ -1,0 +1,54 @@
+From: "Aditya Fletcher" <aditya.fletcher@kalyaniworks.in>
+To: Michael Sharma <michael.sharma@kalyaniworks.in>
+Subject: Conference paper decision - Brightpath Institute workshop
+Date: Wed, 27 May 2026 13:40:00 +0000
+Message-ID: <178772094164.6.11485381480615001213@kalyaniworks.in>
+Return-Path: <aditya.fletcher@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id C82B3DAED8C7 for
+ <recipient@kalyaniworks.in>; Wed, 27 May 2026 13:40:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 4451CD412737; Wed, 27 May 2026
+ 13:38:14 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=645863611; h=from:to:subject:date;
+ bh=vwqE4OYLXGb4ocmG2N75GQAxa2qOhoJhalQp8WyVPCc=; =?utf-8?q?b=3DOEYfEcdoqa/N?=
+ =?utf-8?q?N2DBs0vQJ1gbVTjUyNE3UWaGeiqdwLgei3hDN+PK+pJXSAxdmFK/twxCLGlNgNcxq?=
+ =?utf-8?q?xVFfnN2ig=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2915108756977750375=="
+
+--===============2915108756977750375==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Michael,
+
+Thank you for your submission to the Brightpath Institute workshop. The revie=
+wers have
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============2915108756977750375==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Michael,</p><p>Thank you for your submission to the Brigh=
+tpath Institute workshop. The reviewers have recommended acceptance with mino=
+r revisions. Reviews are attached to the submission record in the conference =
+system.</p><p>Camera-ready copies are due at the end of the month.</p><p>Prog=
+ramme Committee</p></body></html>
+
+--===============2915108756977750375==--

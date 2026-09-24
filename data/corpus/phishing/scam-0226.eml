@@ -1,0 +1,56 @@
+From: "Apple" <notice@apple-id-locked.buzz>
+To: Daniel Menon <daniel.menon@orionsystems.io>
+Subject: Income tax refund of EUR 4,671,000 is pending
+Date: Tue, 19 May 2026 11:19:00 +0000
+Message-ID: <178772093995.6.17407621780343104134@apple-id-locked.buzz>
+Return-Path: <bounce-8175@apple-id-locked.buzz>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id A4CFD150F58C for <recipient@orionsystems.io>; Tue,
+ 19 May 2026 11:19:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 99F84FE5161C; Tue,
+ 19 May 2026 11:17:45 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@apple-id-locked.buzz>;
+Authentication-Results: mx.apple-id-locked.buzz; spf=fail
+ smtp.mailfrom=apple-id-locked.buzz; dkim=none header.d=apple-id-locked.buzz;
+ dmarc=fail (p=reject) header.from=apple-id-locked.buzz
+Content-Type: multipart/alternative;
+ boundary="===============2252055815524789640=="
+
+--===============2252055815524789640==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+A refund has been approved against your assessment and is awaiting your bank =
+confirmation. Reference number: AWB911443401.
+
+Click here to log in and complete the process:
+https://apple-id-locked.buzz/auth/confirm
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Apple
+
+--===============2252055815524789640==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>A refund has been approved against your a=
+ssessment and is awaiting your bank confirmation. Reference number: AWB911443=
+401.</p><p>Click here to log in and complete the process: https://apple-id-lo=
+cked.buzz/auth/confirm</p><p>If we do not receive a response within 24 hours =
+the request will be cancelled and the amount returned to treasury.</p><p>Cust=
+omer Support Apple</p><p><a href=3D"https://apple-id-locked.buzz/auth/confirm=
+">https://www.apple.com/verify</a></p></body></html>
+
+--===============2252055815524789640==--

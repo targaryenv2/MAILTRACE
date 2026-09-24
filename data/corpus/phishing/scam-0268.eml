@@ -1,0 +1,56 @@
+From: "Google Workspace" <notice@gooogle-mail.cf>
+To: Ishita Dawson <ishita.dawson@vertexlogistics.in>
+Subject: KYC update required within 24 hours
+Date: Fri, 22 May 2026 09:34:00 +0000
+Message-ID: <178772094064.6.11793948867079213135@gooogle-mail.cf>
+Return-Path: <bounce-6767@gooogle-mail.cf>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 348D51D1FA88 for
+ <recipient@vertexlogistics.in>; Fri, 22 May 2026 09:34:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 91984876FB8A;
+ Fri, 22 May 2026 09:31:55 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@gooogle-mail.cf>;
+Authentication-Results: mx.gooogle-mail.cf; spf=fail
+ smtp.mailfrom=gooogle-mail.cf; dkim=none header.d=gooogle-mail.cf; dmarc=fail
+ (p=reject) header.from=gooogle-mail.cf
+Content-Type: multipart/alternative;
+ boundary="===============8612838358998284134=="
+
+--===============8612838358998284134==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your consignment is held at our facility because the address details are inco=
+mplete. Reference number: TRK605878635.
+
+Click here to log in and complete the process:
+https://gooogle-mail.cf/auth/confirm
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Google Workspace
+
+--===============8612838358998284134==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your consignment is held at our facility =
+because the address details are incomplete. Reference number: TRK605878635.</=
+p><p>Click here to log in and complete the process: https://gooogle-mail.cf/a=
+uth/confirm</p><p>If we do not receive a response within 24 hours the request=
+ will be cancelled and the amount returned to treasury.</p><p>Customer Suppor=
+t Google Workspace</p><p><a href=3D"https://gooogle-mail.cf/auth/confirm">htt=
+ps://www.google.com/verify</a></p></body></html>
+
+--===============8612838358998284134==--

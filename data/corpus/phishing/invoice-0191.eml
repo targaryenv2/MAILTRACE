@@ -1,0 +1,78 @@
+From: "Trident Components Accounts" <billing@linkedin-invitation.click>
+To: Arjun Rao <arjun.rao@meridian-labs.org>
+Subject: Purchase order INV-2025-1571 needs your approval
+Date: Thu, 21 May 2026 06:15:00 +0000
+Message-ID: <178772093938.6.6712965305910840986@linkedin-invitation.click>
+Return-Path: <bounce-6163@linkedin-invitation.click>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 9B348FABF06C for
+ <recipient@meridian-labs.org>; Thu, 21 May 2026 06:15:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 557560440A3A; Thu, 21 May 2026
+ 06:13:17 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 37034C433D5C; Thu, 21 May 2026 06:07:16 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id CE180135EE44; Thu, 21 May
+ 2026 06:07:06 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@linkedin-invitation.click>;
+Authentication-Results: mx.linkedin-invitation.click; spf=softfail
+ smtp.mailfrom=linkedin-invitation.click; dkim=fail
+ header.d=linkedin-invitation.click; dmarc=fail (p=reject)
+ header.from=linkedin-invitation.click
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=linkedin-invitation.click; s=selector1; t=760239496;
+ h=from:to:subject:date; bh=gmi6AJ4joQ+KVni6QsHmSRrWaN6uHffYAYaA9l/HWRI=; 
+ =?utf-8?q?b=3DKKJDoZeMFB3gEGv1KHnxXjHudj5hvyNFsIB25SA3B7IC8msAh93fioKklHodf?=
+ =?utf-8?q?/mjDPPXJeydz2VjAF1GZjxWjQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============2482634235683064925=="
+
+--===============2482634235683064925==
+Content-Type: multipart/alternative;
+ boundary="===============9193901493041676298=="
+
+--===============9193901493041676298==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Arjun,
+
+Please find attached invoice INV-2025-1571 for $9,445,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Ishita Joshi
+Accounts Receivable, Trident Components
+
+--===============9193901493041676298==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Arjun,</p><p>Please find attached invoice INV-2025-1571 =
+for $9,445,000, now overdue. Kindly review the attached statement and process=
+ this payment immediately to avoid service interruption.</p><p>If the bank de=
+tails have changed since your last remittance, use the updated account inform=
+ation in the attachment.</p><p>Regards, Ishita Joshi Accounts Receivable, Tri=
+dent Components</p></body></html>
+
+--===============9193901493041676298==--
+
+--===============2482634235683064925==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-1571.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============2482634235683064925==--

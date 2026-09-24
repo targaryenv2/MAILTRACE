@@ -1,0 +1,52 @@
+From: "Meera Pillai (CEO)" <meera.pillai@outlook.com>
+Reply-To: meera.pillai.office@outlook.com
+To: Rahul Pillai <rahul.pillai@meridian-labs.org>
+Subject: Quick request before end of day
+Date: Mon, 18 May 2026 18:20:00 +0000
+Message-ID: <178772093746.6.16120543295517346480@outlook.com>
+Return-Path: <bounce-5168@outlook.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 2E23D400E831 for
+ <recipient@meridian-labs.org>; Mon, 18 May 2026 18:20:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id E199BA160DB9; Mon, 18 May
+ 2026 18:15:37 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id 6C8B808689AC; Mon, 18 May 2026 18:11:06 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 36A7F6315D98; Mon,
+ 18 May 2026 18:07:03 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 17C56D249A0B; Mon, 18 May
+ 2026 18:02:49 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=645047211; h=from:to:subject:date;
+ bh=uJzcmplA9gwqyfbM6l6MKXoJh4wBni4oqxwYkhXPN/U=; =?utf-8?q?b=3DL/Viwy2/1z4j?=
+ =?utf-8?q?556/ox03Jd4jmfNDZr6o9KelbEC09SQAhWKuUN49rSX6HUZUiNKG7opO8TGrwljAl?=
+ =?utf-8?q?xnwuKaowA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rahul,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 936,000 to a new beneficiary today. This relates to
+Kestrel Supplies Ltd and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Kestrel Supplies Ltd
+Account: 44510892337
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Meera Pillai
+Chairman

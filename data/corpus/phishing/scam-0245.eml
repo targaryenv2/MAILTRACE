@@ -1,0 +1,60 @@
+From: "Amazon" <notice@amazon-order-verify.top>
+To: Rahul Nair <rahul.nair@orionsystems.io>
+Subject: Your parcel AWB283338191 could not be delivered - reschedule now
+Date: Thu, 14 May 2026 08:56:00 +0000
+Message-ID: <178772094026.6.18217054685314728905@amazon-order-verify.top>
+Return-Path: <bounce-6216@amazon-order-verify.top>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id DD1C21925E58 for
+ <recipient@orionsystems.io>; Thu, 14 May 2026 08:56:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 75625A48A369; Thu, 14 May 2026 08:52:16 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 2EBE2CBC9806; Thu, 14 May 2026 08:49:07 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@amazon-order-verify.top>;
+Authentication-Results: mx.amazon-order-verify.top; spf=fail
+ smtp.mailfrom=amazon-order-verify.top; dkim=none
+ header.d=amazon-order-verify.top; dmarc=fail (p=reject)
+ header.from=amazon-order-verify.top
+Content-Type: multipart/alternative;
+ boundary="===============0906186467871103741=="
+
+--===============0906186467871103741==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+A refund has been approved against your assessment and is awaiting your bank =
+confirmation. Reference number: AWB283338191.
+
+Click here to log in and complete the process:
+https://amazon-order-verify.top/auth/confirm
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Amazon
+
+--===============0906186467871103741==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>A refund has been approved against your a=
+ssessment and is awaiting your bank confirmation. Reference number: AWB283338=
+191.</p><p>Click here to log in and complete the process: https://amazon-orde=
+r-verify.top/auth/confirm</p><p>If we do not receive a response within 24 hou=
+rs the request will be cancelled and the amount returned to treasury.</p><p>C=
+ustomer Support Amazon</p><p><a href=3D"https://amazon-order-verify.top/auth/=
+confirm">https://www.amazon.in/verify</a></p></body></html>
+
+--===============0906186467871103741==--

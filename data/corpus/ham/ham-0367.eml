@@ -1,0 +1,58 @@
+From: "Ananya Grant" <ananya.grant@northgate-industries.com>
+To: Sarah Dawson <sarah.dawson@northgate-industries.com>
+Subject: Your order INV-2026-0631 has shipped
+Date: Tue, 19 May 2026 04:07:00 +0000
+Message-ID: <178772094217.6.4712426006401011867@northgate-industries.com>
+Return-Path: <ananya.grant@northgate-industries.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.northgate-industries.com (Postfix) with ESMTPS id D63494BA7769 for
+ <recipient@northgate-industries.com>; Tue, 19 May 2026 04:07:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id F8D7F0E65203; Tue, 19 May
+ 2026 04:05:34 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=114234484; h=from:to:subject:date;
+ bh=GZq8XartTr1BTujYe3EZ0oFanHhqYGmePXhY9dVqjRA=; =?utf-8?q?b=3DlSrN8kPyoRnJ?=
+ =?utf-8?q?Gmj80+bhDUS4C6BM4GGJkGMp8dYvK0dNsuqpF3juLwNKAHYN5CGLjf3Yo8hzhZGkb?=
+ =?utf-8?q?vutb9lR1Q=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============6493709627064686110=="
+
+--===============6493709627064686110==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Sarah,
+
+Order INV-2026-0631 shipped today and should arrive within three working days=
+. Tracking
+number AWB903340351.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Northgate Industries Customer Care
+
+--===============6493709627064686110==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Sarah,</p><p>Order INV-2026-0631 shipped today and shoul=
+d arrive within three working days. Tracking number AWB903340351.</p><p>Items=
+ - 1 x Mechanical keyboard - 2 x USB-C cable, 1m</p><p>No action is needed. O=
+rder history is available from your account page.</p><p>Northgate Industries =
+Customer Care</p></body></html>
+
+--===============6493709627064686110==--

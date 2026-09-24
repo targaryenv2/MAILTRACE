@@ -1,0 +1,71 @@
+From: "Kestrel Supplies Ltd Accounts" <billing@sbi-netbanking-kyc.top>
+To: Emily Joshi <emily.joshi@summitfoods.co.in>
+Subject: Invoice attached: INV-2025-7607 (INR 5,878,000)
+Date: Sat, 30 May 2026 04:47:00 +0000
+Message-ID: <178772093963.6.1440745980912025989@sbi-netbanking-kyc.top>
+Return-Path: <bounce-8388@sbi-netbanking-kyc.top>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 2AB90831972F for
+ <recipient@summitfoods.co.in>; Sat, 30 May 2026 04:47:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 1AFDE7ABA145; Sat, 30 May 2026 04:44:12 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 797426A87942; Sat,
+ 30 May 2026 04:41:20 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@sbi-netbanking-kyc.top>;
+Authentication-Results: mx.sbi-netbanking-kyc.top; spf=fail
+ smtp.mailfrom=sbi-netbanking-kyc.top; dkim=none
+ header.d=sbi-netbanking-kyc.top; dmarc=fail (p=reject)
+ header.from=sbi-netbanking-kyc.top
+Content-Type: multipart/mixed; boundary="===============5380877279324709887=="
+
+--===============5380877279324709887==
+Content-Type: multipart/alternative;
+ boundary="===============8314087751746855013=="
+
+--===============8314087751746855013==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Emily,
+
+Please find attached invoice INV-2025-7607 for INR 5,878,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Meera Joshi
+Accounts Receivable, Kestrel Supplies Ltd
+
+--===============8314087751746855013==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Emily,</p><p>Please find attached invoice INV-2025-7607 =
+for INR 5,878,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Meera Joshi Accounts Receivable, K=
+estrel Supplies Ltd</p></body></html>
+
+--===============8314087751746855013==--
+
+--===============5380877279324709887==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-7607.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============5380877279324709887==--

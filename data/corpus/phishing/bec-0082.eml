@@ -1,0 +1,53 @@
+From: "Rahul Hughes (CEO)" <rahul.hughes@yahoo.com>
+Reply-To: rahul.hughes.office@yahoo.com
+To: Sanjay Verma <sanjay.verma@kalyaniworks.in>
+Subject: Confidential matter - need your help
+Date: Sun, 24 May 2026 10:51:00 +0000
+Message-ID: <178772093753.6.5320091341610671978@yahoo.com>
+Return-Path: <bounce-7854@yahoo.com>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 19137688295F for
+ <recipient@kalyaniworks.in>; Sun, 24 May 2026 10:51:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 666409F72F65; Sun, 24 May 2026 10:46:07 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id F42EB90B1CB6;
+ Sun, 24 May 2026 10:43:47 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 9588007E511C; Sun, 24 May
+ 2026 10:43:34 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 1E3FBD9F9AE1; Sun, 24 May 2026
+ 10:40:21 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=267622200; h=from:to:subject:date;
+ bh=muYv+qz6dXyE/CEvAeZTA3WpYFhlOQQaJlVFE+uzJNQ=; =?utf-8?q?b=3DUFldJys24qDl?=
+ =?utf-8?q?6KcUtSrA6lyKz0dH3YIDLE4WOSLCy1kOKWpCQ1ldUH4gwQ67kBzD236MUF1otYw/m?=
+ =?utf-8?q?NVAdbkyIg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sanjay,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $5,328,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 50723011527
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Rahul Hughes
+Chief Executive Officer

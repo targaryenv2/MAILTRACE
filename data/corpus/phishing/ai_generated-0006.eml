@@ -1,0 +1,66 @@
+From: "David Menon" <david.menon@summitfoods.co.in>
+To: Laura Carter <laura.carter@orionsystems.io>
+Subject: Re: the shared folder permissions
+Date: Wed, 27 May 2026 09:06:00 +0000
+Message-ID: <178772093641.6.11953664252601783727@summitfoods.co.in>
+Return-Path: <bounce-7041@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.orionsystems.io (Postfix) with ESMTPS id C3AEFB99CCC0
+ for <recipient@orionsystems.io>; Wed, 27 May 2026 09:06:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 97CDB1F7EC51; Wed, 27 May
+ 2026 08:59:47 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 0A051B39CEB6; Wed, 27 May 2026
+ 08:54:06 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=585038864; h=from:to:subject:date;
+ bh=MUP7MXIJ8WEHFNoL/gMejZWI2kGeu1VZFj4SQtWle5g=; =?utf-8?q?b=3DQIwIZz3HObHO?=
+ =?utf-8?q?FJtC3EgEGEl7CAvNVGGtQtKTxIOmuGbN7DmrplPOKzLJMvJVTVCB/IHGxFQZ2bCux?=
+ =?utf-8?q?4y6+3EqkQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============5104500140070879213=="
+
+--===============5104500140070879213==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Laura,
+
+Thanks again for your time earlier this week. I have put the revised Human Re=
+sources
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/888f0bfc
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+David Menon
+Partner, Zenith Traders
+
+--===============5104500140070879213==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Laura,</p><p>Thanks again for your time earlier this week. =
+I have put the revised Human Resources document in the shared workspace and a=
+dded comments against the two clauses we discussed.</p><p>You can open it her=
+e when convenient: https://teamfiles-hub.co/d/888f0bfc</p><p>There is no rush=
+ on this. If the second section reads oddly, that is my drafting rather than =
+a change in position, so do flag it.</p><p>Best regards, David Menon Partner,=
+ Zenith Traders</p><p><a href=3D"https://teamfiles-hub.co/d/888f0bfc">shared =
+workspace</a></p></body></html>
+
+--===============5104500140070879213==--

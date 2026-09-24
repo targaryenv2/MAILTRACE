@@ -1,0 +1,39 @@
+From: "Meera Carter" <meera.carter@hansacapital.co>
+To: Karthik Ellis <karthik.ellis@hansacapital.co>
+Subject: Conference paper decision - Northgate Industries workshop
+Date: Fri, 22 May 2026 08:13:00 +0000
+Message-ID: <178772094370.6.17340098032138050941@hansacapital.co>
+Return-Path: <meera.carter@hansacapital.co>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.hansacapital.co (Postfix) with ESMTPS id 477C9068B111 for
+ <recipient@hansacapital.co>; Fri, 22 May 2026 08:13:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id DB275BEC3C98; Fri, 22 May
+ 2026 08:08:08 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 17DE7CD74744; Fri, 22 May
+ 2026 08:06:43 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=37071820; h=from:to:subject:date;
+ bh=AJYSXqDNJVqWJ8VAaGTxFk0yTvRza0M/SDNmGG7Ds8w=; =?utf-8?q?b=3Dn8P5gosdBXjn?=
+ =?utf-8?q?Qze+zs/YfuYDN3PQhARsEfL5+2u4CQLFd7c5APe15LdvEzQX/WHLr16fl0uH9ROuo?=
+ =?utf-8?q?3+QcOFRSw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Karthik,
+
+Thank you for your submission to the Northgate Industries workshop. The revie=
+wers have
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee

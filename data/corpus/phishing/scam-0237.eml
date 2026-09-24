@@ -1,0 +1,56 @@
+From: "Apple" <notice@appleid-verify.link>
+To: Arjun Grant <arjun.grant@orionsystems.io>
+Subject: KYC update required within 24 hours
+Date: Sun, 31 May 2026 17:57:00 +0000
+Message-ID: <178772094014.6.12470323462727716362@appleid-verify.link>
+Return-Path: <bounce-3704@appleid-verify.link>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id DEF5B1529EF0 for <recipient@orionsystems.io>; Sun,
+ 31 May 2026 17:57:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id D0A0E0DEDF38; Sun,
+ 31 May 2026 17:53:36 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@appleid-verify.link>;
+Authentication-Results: mx.appleid-verify.link; spf=fail
+ smtp.mailfrom=appleid-verify.link; dkim=none header.d=appleid-verify.link;
+ dmarc=fail (p=reject) header.from=appleid-verify.link
+Content-Type: multipart/alternative;
+ boundary="===============5872423693840508945=="
+
+--===============5872423693840508945==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your consignment is held at our facility because the address details are inco=
+mplete. Reference number: TRK552388567.
+
+Click here to log in and complete the process:
+https://appleid-verify.link/login
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Apple
+
+--===============5872423693840508945==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your consignment is held at our facility =
+because the address details are incomplete. Reference number: TRK552388567.</=
+p><p>Click here to log in and complete the process: https://appleid-verify.li=
+nk/login</p><p>If we do not receive a response within 24 hours the request wi=
+ll be cancelled and the amount returned to treasury.</p><p>Customer Support A=
+pple</p><p><a href=3D"http://203.0.113.99/login">https://www.apple.com/verify=
+</a></p></body></html>
+
+--===============5872423693840508945==--

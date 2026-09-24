@@ -1,0 +1,47 @@
+From: "Sneha Anderson (CEO)" <sneha.anderson@outlook.com>
+Reply-To: sneha.anderson.office@outlook.com
+To: Kavya Carter <kavya.carter@kalyaniworks.in>
+Subject: Confidential matter - need your help
+Date: Fri, 08 May 2026 14:58:00 +0000
+Message-ID: <178772093741.6.10728677512846070262@outlook.com>
+Return-Path: <bounce-8942@outlook.com>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.kalyaniworks.in
+ (Postfix) with ESMTPS id F50F7C002D28 for <recipient@kalyaniworks.in>; Fri,
+ 08 May 2026 14:58:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 54E794EA0CFF; Fri,
+ 08 May 2026 14:56:16 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id EE3F1111023E; Fri, 08 May 2026
+ 14:53:52 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=323374501; h=from:to:subject:date;
+ bh=kd7BYu02b9nxVxUEV/H5qL7H6qPPi97BcK8gBzqvFZ8=; =?utf-8?q?b=3DMYKBeUHmxouP?=
+ =?utf-8?q?SDfOPQMYWAvGEZdgtHnhalk9K1m3nRCpE5KqmBADM85Brmd6Jx81Ep2HQBcJjYyZD?=
+ =?utf-8?q?M0j5uOslw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Kavya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 2,991,000 to a new beneficiary today. This relates to
+Lakeside Consulting and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Lakeside Consulting
+Account: 92765525660
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Sneha Anderson
+Managing Director

@@ -1,0 +1,71 @@
+From: "Divya Brooks" <divya.brooks@brightpath-edu.ac.in>
+To: Meera Anderson <meera.anderson@brightpath-edu.ac.in>
+Subject: Payslip for December is available
+Date: Sat, 30 May 2026 14:20:00 +0000
+Message-ID: <178772094380.6.14377640138130494514@brightpath-edu.ac.in>
+Return-Path: <divya.brooks@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 65EFB129ECA3 for
+ <recipient@brightpath-edu.ac.in>; Sat, 30 May 2026 14:20:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ C0402BBEF5C5; Sat, 30 May 2026 14:19:14 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=552793472; h=from:to:subject:date;
+ bh=LuflNUY7N7lpH230P6ImOAaI9JvgKVQRuk1Pb9ZLiDg=; =?utf-8?q?b=3DmwUkByv8FRd+?=
+ =?utf-8?q?4ShmcFhsQHXAwL0rZPChBCqNh/A3pB3iDSX2hmfCRSfQhjDugJ2unf8YoSdfieIEl?=
+ =?utf-8?q?PznpuGxvQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7671821788489317461=="
+
+--===============7671821788489317461==
+Content-Type: multipart/alternative;
+ boundary="===============3424648850289555496=="
+
+--===============3424648850289555496==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Meera,
+
+Your payslip for December is now available on the employee portal. Log in thr=
+ough
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Vertex Logistics
+
+--===============3424648850289555496==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Meera,</p><p>Your payslip for December is now available o=
+n the employee portal. Log in through the usual internal link on the intranet=
+ home page.</p><p>If any of the tax details look incorrect, raise a ticket wi=
+th Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll T=
+eam Vertex Logistics</p></body></html>
+
+--===============3424648850289555496==--
+
+--===============7671821788489317461==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-4421.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============7671821788489317461==--

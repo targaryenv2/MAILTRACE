@@ -1,0 +1,71 @@
+From: "Vikram Menon" <vikram.menon@brightpath-edu.ac.in>
+To: Daniel Gupta <daniel.gupta@brightpath-edu.ac.in>
+Subject: Payslip for January is available
+Date: Sun, 31 May 2026 14:15:00 +0000
+Message-ID: <178772094305.6.11569545370018230977@brightpath-edu.ac.in>
+Return-Path: <vikram.menon@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 6C759C8B80AB for
+ <recipient@brightpath-edu.ac.in>; Sun, 31 May 2026 14:15:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id AD102E60D4D1; Sun, 31 May
+ 2026 14:14:04 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=74906361; h=from:to:subject:date;
+ bh=qSeGbF/O0/tknXyzuZiijuFm+wnjzoYAPjs3+oozBs0=; =?utf-8?q?b=3DEv+Ei14Am809?=
+ =?utf-8?q?WYRvTS+UNOf+MFbAvC5z3mKMlYs9Y8hR2Bt4K0RFRzYcvp4XLXVHSZU42Z/1QnPL7?=
+ =?utf-8?q?uGRIQsVZw=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============0034670685090444641=="
+
+--===============0034670685090444641==
+Content-Type: multipart/alternative;
+ boundary="===============2968678097079630372=="
+
+--===============2968678097079630372==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Daniel,
+
+Your payslip for January is now available on the employee portal. Log in thro=
+ugh
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Northgate Industries
+
+--===============2968678097079630372==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Daniel,</p><p>Your payslip for January is now available o=
+n the employee portal. Log in through the usual internal link on the intranet=
+ home page.</p><p>If any of the tax details look incorrect, raise a ticket wi=
+th Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll T=
+eam Northgate Industries</p></body></html>
+
+--===============2968678097079630372==--
+
+--===============0034670685090444641==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-7712.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============0034670685090444641==--

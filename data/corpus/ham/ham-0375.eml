@@ -1,0 +1,70 @@
+From: "Karthik Brooks" <karthik.brooks@hansacapital.co>
+To: Arjun Sharma <arjun.sharma@hansacapital.co>
+Subject: Payslip for May is available
+Date: Tue, 05 May 2026 06:46:00 +0000
+Message-ID: <178772094230.6.230424989592862071@hansacapital.co>
+Return-Path: <karthik.brooks@hansacapital.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 2A26F36CCBC0 for
+ <recipient@hansacapital.co>; Tue, 05 May 2026 06:46:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 4A4F3B72A949; Tue, 05 May 2026 06:43:50 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=446082741; h=from:to:subject:date;
+ bh=fh6YUS7vqji3Och+/sue2rvM5QLWCLaW7FzAsakjYsw=; =?utf-8?q?b=3DN6VTOkFcRBGG?=
+ =?utf-8?q?YCrHTP9FivopiU883fTkwzqsKH5EaK0GHTPyqKSQ7VsbkGMFw1yN0J/fs2T+3JvJA?=
+ =?utf-8?q?UBK3ae9JA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7879049352502511057=="
+
+--===============7879049352502511057==
+Content-Type: multipart/alternative;
+ boundary="===============8823932389537518636=="
+
+--===============8823932389537518636==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Arjun,
+
+Your payslip for May is now available on the employee portal. Log in through
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Orion Systems
+
+--===============8823932389537518636==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Arjun,</p><p>Your payslip for May is now available on the=
+ employee portal. Log in through the usual internal link on the intranet home=
+ page.</p><p>If any of the tax details look incorrect, raise a ticket with Pa=
+yroll and we will correct it in the next cycle.</p><p>Regards, Payroll Team O=
+rion Systems</p></body></html>
+
+--===============8823932389537518636==--
+
+--===============7879049352502511057==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-3286.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============7879049352502511057==--

@@ -1,0 +1,596 @@
+{
+  "_README": "Illustrative offline fixtures for the bundled demo set. The demo messages use RFC 5737 documentation IP ranges and reserved-style domains, so no real WHOIS/AbuseIPDB/VirusTotal record exists for them. Every entry is marked illustrative and is served with source='fixture' so the UI and the PDF badge it as non-live. Set ALLOW_NETWORK=true and supply API keys in .env to replace all of this with live lookups.",
+  "_generated_by": "scripts/make_demo_set.py",
+  "abuseipdb": {
+    "192.0.2.10": {
+      "data": {
+        "abuse_confidence_score": 90,
+        "country_code": "",
+        "distinct_reporters": 25,
+        "domain": "",
+        "is_tor": false,
+        "isp": "",
+        "last_reported_at": "",
+        "total_reports": 154,
+        "usage_type": "Data Center/Web Hosting/Transit"
+      },
+      "illustrative": true,
+      "summary": "abuse confidence 90% from 154 report(s) (illustrative fixture)"
+    },
+    "192.0.2.201": {
+      "data": {
+        "abuse_confidence_score": 88,
+        "country_code": "",
+        "distinct_reporters": 30,
+        "domain": "",
+        "is_tor": false,
+        "isp": "",
+        "last_reported_at": "",
+        "total_reports": 183,
+        "usage_type": "Data Center/Web Hosting/Transit"
+      },
+      "illustrative": true,
+      "summary": "abuse confidence 88% from 183 report(s) (illustrative fixture)"
+    },
+    "192.0.2.44": {
+      "data": {
+        "abuse_confidence_score": 67,
+        "country_code": "",
+        "distinct_reporters": 29,
+        "domain": "",
+        "is_tor": false,
+        "isp": "",
+        "last_reported_at": "",
+        "total_reports": 178,
+        "usage_type": "Data Center/Web Hosting/Transit"
+      },
+      "illustrative": true,
+      "summary": "abuse confidence 67% from 178 report(s) (illustrative fixture)"
+    },
+    "198.51.100.150": {
+      "data": {
+        "abuse_confidence_score": 0,
+        "country_code": "",
+        "distinct_reporters": 0,
+        "domain": "",
+        "is_tor": false,
+        "isp": "",
+        "last_reported_at": "",
+        "total_reports": 0,
+        "usage_type": ""
+      },
+      "illustrative": true,
+      "summary": "abuse confidence 0% from 0 report(s) (illustrative fixture)"
+    },
+    "198.51.100.7": {
+      "data": {
+        "abuse_confidence_score": 83,
+        "country_code": "",
+        "distinct_reporters": 24,
+        "domain": "",
+        "is_tor": false,
+        "isp": "",
+        "last_reported_at": "",
+        "total_reports": 146,
+        "usage_type": "Data Center/Web Hosting/Transit"
+      },
+      "illustrative": true,
+      "summary": "abuse confidence 83% from 146 report(s) (illustrative fixture)"
+    },
+    "198.51.100.89": {
+      "data": {
+        "abuse_confidence_score": 81,
+        "country_code": "",
+        "distinct_reporters": 12,
+        "domain": "",
+        "is_tor": false,
+        "isp": "",
+        "last_reported_at": "",
+        "total_reports": 77,
+        "usage_type": "Data Center/Web Hosting/Transit"
+      },
+      "illustrative": true,
+      "summary": "abuse confidence 81% from 77 report(s) (illustrative fixture)"
+    },
+    "203.0.113.5": {
+      "data": {
+        "abuse_confidence_score": 84,
+        "country_code": "",
+        "distinct_reporters": 19,
+        "domain": "",
+        "is_tor": false,
+        "isp": "",
+        "last_reported_at": "",
+        "total_reports": 117,
+        "usage_type": "Data Center/Web Hosting/Transit"
+      },
+      "illustrative": true,
+      "summary": "abuse confidence 84% from 117 report(s) (illustrative fixture)"
+    },
+    "203.0.113.61": {
+      "data": {
+        "abuse_confidence_score": 0,
+        "country_code": "",
+        "distinct_reporters": 0,
+        "domain": "",
+        "is_tor": false,
+        "isp": "",
+        "last_reported_at": "",
+        "total_reports": 0,
+        "usage_type": ""
+      },
+      "illustrative": true,
+      "summary": "abuse confidence 0% from 0 report(s) (illustrative fixture)"
+    }
+  },
+  "dns": {
+    "amazon-order-verify.top": {
+      "data": {
+        "a": [
+          "192.0.2.55"
+        ],
+        "dmarc": [],
+        "mx": [],
+        "notes": [
+          "domain publishes no MX record",
+          "no SPF record published",
+          "no DMARC record published"
+        ],
+        "ns": [
+          "ns1.amazon-order-verify.top",
+          "ns2.amazon-order-verify.top"
+        ],
+        "resolver": "fixture",
+        "spf": []
+      },
+      "illustrative": true,
+      "summary": "no MX, SPF or DMARC published (illustrative fixture)"
+    },
+    "brightpath-edu.ac.in": {
+      "data": {
+        "a": [
+          "192.0.2.212"
+        ],
+        "dmarc": [],
+        "mx": [],
+        "notes": [
+          "domain publishes no MX record",
+          "no SPF record published",
+          "no DMARC record published"
+        ],
+        "ns": [
+          "ns1.brightpath-edu.ac.in",
+          "ns2.brightpath-edu.ac.in"
+        ],
+        "resolver": "fixture",
+        "spf": []
+      },
+      "illustrative": true,
+      "summary": "no MX, SPF or DMARC published (illustrative fixture)"
+    },
+    "gmail.com": {
+      "data": {
+        "a": [
+          "192.0.2.198"
+        ],
+        "dmarc": [],
+        "mx": [],
+        "notes": [
+          "domain publishes no MX record",
+          "no SPF record published",
+          "no DMARC record published"
+        ],
+        "ns": [
+          "ns1.gmail.com",
+          "ns2.gmail.com"
+        ],
+        "resolver": "fixture",
+        "spf": []
+      },
+      "illustrative": true,
+      "summary": "no MX, SPF or DMARC published (illustrative fixture)"
+    },
+    "itr-refund-portal.click": {
+      "data": {
+        "a": [
+          "192.0.2.216"
+        ],
+        "dmarc": [],
+        "mx": [],
+        "notes": [
+          "domain publishes no MX record",
+          "no SPF record published",
+          "no DMARC record published"
+        ],
+        "ns": [
+          "ns1.itr-refund-portal.click",
+          "ns2.itr-refund-portal.click"
+        ],
+        "resolver": "fixture",
+        "spf": []
+      },
+      "illustrative": true,
+      "summary": "no MX, SPF or DMARC published (illustrative fixture)"
+    },
+    "summitfoods.co.in": {
+      "data": {
+        "a": [
+          "192.0.2.88"
+        ],
+        "dmarc": [
+          "v=DMARC1; p=reject; rua=mailto:dmarc@summitfoods.co.in"
+        ],
+        "mx": [
+          "10 mx1.summitfoods.co.in"
+        ],
+        "notes": [],
+        "ns": [
+          "ns1.summitfoods.co.in",
+          "ns2.summitfoods.co.in"
+        ],
+        "resolver": "fixture",
+        "spf": [
+          "v=spf1 include:_spf.summitfoods.co.in -all"
+        ]
+      },
+      "illustrative": true,
+      "summary": "MX, SPF and DMARC all present (illustrative fixture)"
+    }
+  },
+  "dnsbl": {
+    "192.0.2.10": {
+      "data": {
+        "listed_count": 2,
+        "listed_on": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net"
+        ],
+        "zones_checked": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net",
+          "b.barracudacentral.org"
+        ]
+      },
+      "illustrative": true,
+      "summary": "listed on 2 of 3 blocklists (illustrative fixture)"
+    },
+    "192.0.2.201": {
+      "data": {
+        "listed_count": 2,
+        "listed_on": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net"
+        ],
+        "zones_checked": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net",
+          "b.barracudacentral.org"
+        ]
+      },
+      "illustrative": true,
+      "summary": "listed on 2 of 3 blocklists (illustrative fixture)"
+    },
+    "192.0.2.44": {
+      "data": {
+        "listed_count": 1,
+        "listed_on": [
+          "zen.spamhaus.org"
+        ],
+        "zones_checked": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net",
+          "b.barracudacentral.org"
+        ]
+      },
+      "illustrative": true,
+      "summary": "listed on 1 of 3 blocklists (illustrative fixture)"
+    },
+    "198.51.100.150": {
+      "data": {
+        "listed_count": 0,
+        "listed_on": [],
+        "zones_checked": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net",
+          "b.barracudacentral.org"
+        ]
+      },
+      "illustrative": true,
+      "summary": "listed on 0 of 3 blocklists (illustrative fixture)"
+    },
+    "198.51.100.7": {
+      "data": {
+        "listed_count": 2,
+        "listed_on": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net"
+        ],
+        "zones_checked": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net",
+          "b.barracudacentral.org"
+        ]
+      },
+      "illustrative": true,
+      "summary": "listed on 2 of 3 blocklists (illustrative fixture)"
+    },
+    "198.51.100.89": {
+      "data": {
+        "listed_count": 2,
+        "listed_on": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net"
+        ],
+        "zones_checked": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net",
+          "b.barracudacentral.org"
+        ]
+      },
+      "illustrative": true,
+      "summary": "listed on 2 of 3 blocklists (illustrative fixture)"
+    },
+    "203.0.113.5": {
+      "data": {
+        "listed_count": 2,
+        "listed_on": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net"
+        ],
+        "zones_checked": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net",
+          "b.barracudacentral.org"
+        ]
+      },
+      "illustrative": true,
+      "summary": "listed on 2 of 3 blocklists (illustrative fixture)"
+    },
+    "203.0.113.61": {
+      "data": {
+        "listed_count": 0,
+        "listed_on": [],
+        "zones_checked": [
+          "zen.spamhaus.org",
+          "bl.spamcop.net",
+          "b.barracudacentral.org"
+        ]
+      },
+      "illustrative": true,
+      "summary": "listed on 0 of 3 blocklists (illustrative fixture)"
+    }
+  },
+  "rdns": {
+    "192.0.2.10": {
+      "data": {
+        "forward": [],
+        "forward_confirmed": false,
+        "ptr": [
+          "mx1.mail-relay.example"
+        ]
+      },
+      "illustrative": true,
+      "summary": "reverse DNS does not forward-confirm (illustrative fixture)"
+    },
+    "192.0.2.201": {
+      "data": {
+        "forward": [],
+        "forward_confirmed": false,
+        "ptr": [
+          "tor-exit-node.example"
+        ]
+      },
+      "illustrative": true,
+      "summary": "reverse DNS does not forward-confirm (illustrative fixture)"
+    },
+    "192.0.2.44": {
+      "data": {
+        "forward": [],
+        "forward_confirmed": false,
+        "ptr": [
+          "smtp-out-3.example"
+        ]
+      },
+      "illustrative": true,
+      "summary": "reverse DNS does not forward-confirm (illustrative fixture)"
+    },
+    "198.51.100.150": {
+      "data": {
+        "forward": [
+          "198.51.100.150"
+        ],
+        "forward_confirmed": true,
+        "ptr": [
+          "compute-04.cloudprovider.example"
+        ]
+      },
+      "illustrative": true,
+      "summary": "reverse DNS forward-confirms (illustrative fixture)"
+    },
+    "198.51.100.7": {
+      "data": {
+        "forward": [],
+        "forward_confirmed": false,
+        "ptr": [
+          "vps-31.hosting.example"
+        ]
+      },
+      "illustrative": true,
+      "summary": "reverse DNS does not forward-confirm (illustrative fixture)"
+    },
+    "198.51.100.89": {
+      "data": {
+        "forward": [],
+        "forward_confirmed": false,
+        "ptr": [
+          "relay.open-smtp.example"
+        ]
+      },
+      "illustrative": true,
+      "summary": "reverse DNS does not forward-confirm (illustrative fixture)"
+    },
+    "203.0.113.5": {
+      "data": {
+        "forward": [],
+        "forward_confirmed": false,
+        "ptr": [
+          "mail.gateway.example"
+        ]
+      },
+      "illustrative": true,
+      "summary": "reverse DNS does not forward-confirm (illustrative fixture)"
+    },
+    "203.0.113.61": {
+      "data": {
+        "forward": [
+          "203.0.113.61"
+        ],
+        "forward_confirmed": true,
+        "ptr": [
+          "edge-2.mailcluster.example"
+        ]
+      },
+      "illustrative": true,
+      "summary": "reverse DNS forward-confirms (illustrative fixture)"
+    }
+  },
+  "virustotal": {
+    "http://203.0.113.99/login": {
+      "data": {
+        "engines": 92,
+        "harmless": 0,
+        "malicious": 12,
+        "reputation": -40,
+        "suspicious": 1,
+        "undetected": 78
+      },
+      "illustrative": true,
+      "summary": "12/92 engines flag this URL (illustrative fixture)"
+    },
+    "https://amazon-order-verify.top/auth/confirm": {
+      "data": {
+        "engines": 92,
+        "harmless": 0,
+        "malicious": 13,
+        "reputation": -40,
+        "suspicious": 1,
+        "undetected": 77
+      },
+      "illustrative": true,
+      "summary": "13/92 engines flag this URL (illustrative fixture)"
+    },
+    "https://amazon-order-verify.top/secure/signin": {
+      "data": {
+        "engines": 92,
+        "harmless": 0,
+        "malicious": 14,
+        "reputation": -40,
+        "suspicious": 1,
+        "undetected": 76
+      },
+      "illustrative": true,
+      "summary": "14/92 engines flag this URL (illustrative fixture)"
+    },
+    "https://docs-workspace.app/d/44d09f3d": {
+      "data": {
+        "engines": 92,
+        "harmless": 0,
+        "malicious": 21,
+        "reputation": -40,
+        "suspicious": 1,
+        "undetected": 69
+      },
+      "illustrative": true,
+      "summary": "21/92 engines flag this URL (illustrative fixture)"
+    },
+    "https://www.amazon.in/verify": {
+      "data": {
+        "engines": 92,
+        "harmless": 0,
+        "malicious": 17,
+        "reputation": -40,
+        "suspicious": 1,
+        "undetected": 73
+      },
+      "illustrative": true,
+      "summary": "17/92 engines flag this URL (illustrative fixture)"
+    }
+  },
+  "whois": {
+    "amazon-order-verify.top": {
+      "data": {
+        "abuse_contact": "abuse@hostingeroperationsuab.example",
+        "created": "",
+        "domain_age_days": 6,
+        "name_servers": [
+          "ns1.amazon-order-verify.top",
+          "ns2.amazon-order-verify.top"
+        ],
+        "registrar": "Hostinger Operations UAB",
+        "whois_server": "fixture"
+      },
+      "illustrative": true,
+      "summary": "registered 6 days ago (illustrative fixture)"
+    },
+    "brightpath-edu.ac.in": {
+      "data": {
+        "abuse_contact": "abuse@pdrltd-d/b/apublicdomainregistry-com.example",
+        "created": "",
+        "domain_age_days": 13,
+        "name_servers": [
+          "ns1.brightpath-edu.ac.in",
+          "ns2.brightpath-edu.ac.in"
+        ],
+        "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+        "whois_server": "fixture"
+      },
+      "illustrative": true,
+      "summary": "registered 13 days ago (illustrative fixture)"
+    },
+    "gmail.com": {
+      "data": {
+        "abuse_contact": "abuse@pdrltd-d/b/apublicdomainregistry-com.example",
+        "created": "",
+        "domain_age_days": 19,
+        "name_servers": [
+          "ns1.gmail.com",
+          "ns2.gmail.com"
+        ],
+        "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+        "whois_server": "fixture"
+      },
+      "illustrative": true,
+      "summary": "registered 19 days ago (illustrative fixture)"
+    },
+    "itr-refund-portal.click": {
+      "data": {
+        "abuse_contact": "abuse@alibabacloudcomputingltd-.example",
+        "created": "",
+        "domain_age_days": 7,
+        "name_servers": [
+          "ns1.itr-refund-portal.click",
+          "ns2.itr-refund-portal.click"
+        ],
+        "registrar": "Alibaba Cloud Computing Ltd.",
+        "whois_server": "fixture"
+      },
+      "illustrative": true,
+      "summary": "registered 7 days ago (illustrative fixture)"
+    },
+    "summitfoods.co.in": {
+      "data": {
+        "abuse_contact": "abuse@alibabacloudcomputingltd-.example",
+        "created": "",
+        "domain_age_days": 3452,
+        "name_servers": [
+          "ns1.summitfoods.co.in",
+          "ns2.summitfoods.co.in"
+        ],
+        "registrar": "Alibaba Cloud Computing Ltd.",
+        "whois_server": "fixture"
+      },
+      "illustrative": true,
+      "summary": "registered 3452 days ago (illustrative fixture)"
+    }
+  }
+}

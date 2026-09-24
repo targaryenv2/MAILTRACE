@@ -1,0 +1,69 @@
+From: "Laura Carter" <laura.carter@hansacapital.co>
+To: Rahul Brooks <rahul.brooks@hansacapital.co>
+Subject: Welcome to the team, Rahul
+Date: Sat, 23 May 2026 17:41:00 +0000
+Message-ID: <178772094403.6.11878328038343558324@hansacapital.co>
+Return-Path: <laura.carter@hansacapital.co>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.hansacapital.co (Postfix) with ESMTPS id 127B20B96CDC for
+ <recipient@hansacapital.co>; Sat, 23 May 2026 17:41:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 5F521D0714C1; Sat, 23 May
+ 2026 17:40:08 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ EBA05F8F58F8; Sat, 23 May 2026 17:38:19 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=936173165; h=from:to:subject:date;
+ bh=5nag9cTqkqbAjPQeu1NJrQoVWTa1mqqtaOBlOYC9EOI=; =?utf-8?q?b=3Di7YXoCbrtp9a?=
+ =?utf-8?q?q1gRg6l5OqoR1Jzh5ZkNjB7Y8E7v5xRfhWCCuYWsBYatIGkCd/q8jGVvcsY6Gq1b5?=
+ =?utf-8?q?7jxzvdBpw=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============4800049283199174974=="
+
+--===============4800049283199174974==
+Content-Type: multipart/alternative;
+ boundary="===============1729267658044101365=="
+
+--===============1729267658044101365==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Rahul,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Laura Carter
+Human Resources, Summit Foods
+
+--===============1729267658044101365==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Rahul,</p><p>Welcome aboard. Your laptop is at the IT desk =
+on the second floor and your manager will walk you through the first-week pla=
+n tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Laura Carter Human =
+Resources, Summit Foods</p></body></html>
+
+--===============1729267658044101365==--
+
+--===============4800049283199174974==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-5827.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============4800049283199174974==--

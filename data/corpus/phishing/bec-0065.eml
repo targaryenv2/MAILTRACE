@@ -1,0 +1,52 @@
+From: "James Grant (CEO)" <james.grant@yahoo.com>
+Reply-To: james.grant.office@yahoo.com
+To: Kavya Reddy <kavya.reddy@brightpath-edu.ac.in>
+Subject: Quick request before end of day
+Date: Fri, 22 May 2026 05:13:00 +0000
+Message-ID: <178772093727.6.346123590636557378@yahoo.com>
+Return-Path: <bounce-4999@yahoo.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 3508944094AA for
+ <recipient@brightpath-edu.ac.in>; Fri, 22 May 2026 05:13:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 2C1C7754120A; Fri, 22 May 2026 05:07:12 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id FBDDFF33763C; Fri, 22 May
+ 2026 05:03:30 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 162E34A527F9; Fri, 22 May 2026
+ 04:58:18 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ FD643E227C54; Fri, 22 May 2026 04:56:22 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=648435402; h=from:to:subject:date;
+ bh=IZ6zkJHPU4sk7D1U8+J8gwkw8Tjg24C4emrp32yQJJo=; =?utf-8?q?b=3DW/K0mqm7Vhr7?=
+ =?utf-8?q?9cJDaq9fUBhbplQTAWIphTEHrzwzZZejFNXe3/FANKNR8/Qjtm3JH6BgzyOgedk54?=
+ =?utf-8?q?s82D9QI3g=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Kavya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 6,735,000 to a new beneficiary today. This relates to
+Zenith Traders and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Zenith Traders
+Account: 82895685376
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+James Grant
+CFO

@@ -1,0 +1,46 @@
+From: "Aditya Ellis (CEO)" <aditya.ellis@gmail.com>
+Reply-To: aditya.ellis.office@gmail.com
+To: Sanjay Carter <sanjay.carter@kalyaniworks.in>
+Subject: Payment instruction (do not discuss)
+Date: Sun, 31 May 2026 05:16:00 +0000
+Message-ID: <178772093680.6.16045031131393861638@gmail.com>
+Return-Path: <bounce-2029@gmail.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 71F1A1A04CE6 for
+ <recipient@kalyaniworks.in>; Sun, 31 May 2026 05:16:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 74E38449E82A; Sun, 31 May 2026
+ 05:13:51 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 16AB1E44676A; Sun, 31 May 2026 05:13:10 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=406179599; h=from:to:subject:date;
+ bh=ai9O+ORg567qmvere3mrnilt9OUimeBiR69gI8raQCA=; =?utf-8?q?b=3Dpk79mXR9IQfZ?=
+ =?utf-8?q?B88Mp8MTBnWpaubJs5GvimIMVTQ3F9865lPbJvVRVQ0IahcizRRJ1aEoyZTd0ImMT?=
+ =?utf-8?q?60mBnEOqQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sanjay,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 7,092,000 to a new beneficiary today. This relates to
+Trident Components and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Trident Components
+Account: 99916029089
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Aditya Ellis
+Managing Director

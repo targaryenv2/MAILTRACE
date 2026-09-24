@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MailTrace</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { width: 280px; font-family: system-ui, -apple-system, sans-serif;
+           background: #0F172A; color: #F1F5F9; }
+    .header { padding: 14px 16px 12px; border-bottom: 1px solid #1E293B;
+              display: flex; align-items: center; gap: 8px; }
+    .logo { font-size: 15px; font-weight: 800; letter-spacing: -0.02em; }
+    .logo em { color: #2563EB; font-style: normal; }
+    .status-row { padding: 12px 16px; display: flex; align-items: center;
+                  gap: 8px; font-size: 13px; color: #CBD5E1; }
+    .dot { width: 8px; height: 8px; border-radius: 50%;
+           background: #475569; flex-shrink: 0; transition: background .2s; }
+    .dot.green  { background: #22C55E; }
+    .dot.red    { background: #EF4444; }
+    .dot.yellow { background: #F59E0B; }
+    .stat { padding: 0 16px 12px; font-size: 12px; color: #64748B; }
+    .divider { height: 1px; background: #1E293B; margin: 0 16px 12px; }
+    .section-label { padding: 0 16px 6px; font-size: 11px; font-weight: 600;
+                     color: #475569; text-transform: uppercase; letter-spacing: 0.05em; }
+    .gmail-row { padding: 0 16px 12px; display: flex; align-items: center;
+                 justify-content: space-between; gap: 8px; }
+    .gmail-status { font-size: 12px; color: #64748B; display: flex;
+                    align-items: center; gap: 6px; }
+    .connect-btn { padding: 5px 10px; background: #2563EB; color: #fff;
+                   border: none; border-radius: 5px; font-size: 12px;
+                   font-weight: 600; cursor: pointer; white-space: nowrap; }
+    .connect-btn:hover { background: #1D4ED8; }
+    .connect-btn:disabled { background: #334155; color: #64748B; cursor: default; }
+    .open-btn { display: block; margin: 0 16px 14px; padding: 9px 0;
+                background: #2563EB; color: #fff; text-align: center;
+                border-radius: 6px; font-size: 13px; font-weight: 700;
+                text-decoration: none; }
+    .open-btn:hover { background: #1D4ED8; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">Mail<em>Trace</em></div>
+  </div>
+
+  <!-- Backend status -->
+  <div class="status-row">
+    <div class="dot" id="dot"></div>
+    <span id="status-text">Checking&hellip;</span>
+  </div>
+  <div class="stat" id="count-text"></div>
+
+  <div class="divider"></div>
+
+  <!-- Gmail API auth -->
+  <div class="section-label">Gmail Analysis</div>
+  <div class="gmail-row">
+    <div class="gmail-status">
+      <div class="dot" id="gmail-dot"></div>
+      <span id="gmail-status-text">Checking&hellip;</span>
+    </div>
+    <button class="connect-btn" id="connect-btn" disabled>Connect</button>
+  </div>
+  <div class="stat" id="gmail-hint"></div>
+
+  <div class="divider"></div>
+
+  <a href="http://localhost:5173" target="_blank" class="open-btn">Open MailTrace &rarr;</a>
+  <script src="popup.js"></script>
+</body>
+</html>

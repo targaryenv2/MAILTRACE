@@ -1,0 +1,51 @@
+From: "Neha Joshi" <neha.joshi@meridian-labs.org>
+To: Ishita Ellis <ishita.ellis@meridian-labs.org>
+Subject: Invoice INV-2026-7745 paid
+Date: Fri, 15 May 2026 11:17:00 +0000
+Message-ID: <178772094290.6.15972321927500126921@meridian-labs.org>
+Return-Path: <neha.joshi@meridian-labs.org>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 55DD23940C10 for
+ <recipient@meridian-labs.org>; Fri, 15 May 2026 11:17:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 184C931C32FD; Fri, 15 May 2026 11:11:44 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=208326280; h=from:to:subject:date;
+ bh=5iF2caACCyt2zvIu0bwiEubTQ7nKxB50XBq/B0b1g/8=; =?utf-8?q?b=3DBobktbRDkSeK?=
+ =?utf-8?q?8cvc6kJdl/ihBEZEApdBHFIIl7aDxiOx0POOI0cZQ6TCzGML81OlmM+8zTF5FAMAO?=
+ =?utf-8?q?+DzmBwXCQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7447152640997311522=="
+
+--===============7447152640997311522==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This confirms that invoice INV-2026-7745 for INR 283,800 was paid on 23 Apr 2=
+026
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Orion Systems
+
+--===============7447152640997311522==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>This confirms that invoice INV-2026-7745 for INR =
+283,800 was paid on 23 Apr 2026 by bank transfer to the account already on fi=
+le. No further action is needed.</p><p>Accounts Payable Orion Systems</p></bo=
+dy></html>
+
+--===============7447152640997311522==--

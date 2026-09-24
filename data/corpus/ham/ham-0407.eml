@@ -1,0 +1,50 @@
+From: "Rohan Iyer" <rohan.iyer@northgate-industries.com>
+To: Sneha Menon <sneha.menon@northgate-industries.com>
+Subject: Library books due October
+Date: Tue, 19 May 2026 03:55:00 +0000
+Message-ID: <178772094278.6.9804238757876368753@northgate-industries.com>
+Return-Path: <rohan.iyer@northgate-industries.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 4AAD87372626 for
+ <recipient@northgate-industries.com>; Tue, 19 May 2026 03:55:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 0C9E24BE3B7A; Tue, 19 May 2026
+ 03:48:27 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=405209808; h=from:to:subject:date;
+ bh=WYEUtgPve4gh2z+AoB6TUBmcYGHmON6WRQjdxPHI5WM=; =?utf-8?q?b=3D2NjADW27K3AR?=
+ =?utf-8?q?tqQqpiOFGtSkhyNoFC+ewUH9OzBtI0eRQ0ALJ52tiOzEpuJBhPzDZZaUcPwQNsaHr?=
+ =?utf-8?q?otrf60SZw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2409434963834613741=="
+
+--===============2409434963834613741==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sneha,
+
+Two items on your library account are due at the end of October. Renewals can=
+ be
+made at the circulation desk or from the catalogue page.
+
+Central Library
+
+--===============2409434963834613741==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Sneha,</p><p>Two items on your library account are due at=
+ the end of October. Renewals can be made at the circulation desk or from the=
+ catalogue page.</p><p>Central Library</p></body></html>
+
+--===============2409434963834613741==--

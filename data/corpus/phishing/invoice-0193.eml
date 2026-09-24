@@ -1,0 +1,75 @@
+From: "Bluestone Partners Accounts" <billing@appie.com>
+To: Arjun Sharma <arjun.sharma@hansacapital.co>
+Subject: Remittance advice INV-2026-3820 - action required
+Date: Fri, 15 May 2026 14:47:00 +0000
+Message-ID: <178772093942.6.3011826465225767284@appie.com>
+Return-Path: <bounce-1006@appie.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.hansacapital.co (Postfix) with ESMTPS id 7B6EEC6EC1E1 for
+ <recipient@hansacapital.co>; Fri, 15 May 2026 14:47:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ FF5FCBB11381; Fri, 15 May 2026 14:43:52 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 575E691716C7; Fri, 15 May
+ 2026 14:40:49 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 11E7070BFB3B; Fri, 15 May 2026
+ 14:37:17 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id 7FABF9138E02; Fri, 15 May 2026 14:36:10 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@appie.com>;
+Authentication-Results: mx.appie.com; spf=fail smtp.mailfrom=appie.com;
+ dkim=none header.d=appie.com; dmarc=fail (p=reject) header.from=appie.com
+Content-Type: multipart/mixed; boundary="===============6551976659020046143=="
+
+--===============6551976659020046143==
+Content-Type: multipart/alternative;
+ boundary="===============5647410364305040455=="
+
+--===============5647410364305040455==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Arjun,
+
+Please find attached invoice INV-2026-3820 for INR 2,964,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Emily Sharma
+Accounts Receivable, Bluestone Partners
+
+--===============5647410364305040455==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Arjun,</p><p>Please find attached invoice INV-2026-3820 =
+for INR 2,964,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Emily Sharma Accounts Receivable, =
+Bluestone Partners</p></body></html>
+
+--===============5647410364305040455==--
+
+--===============6551976659020046143==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2026-3820.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============6551976659020046143==--

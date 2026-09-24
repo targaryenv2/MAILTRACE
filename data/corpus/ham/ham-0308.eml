@@ -1,0 +1,61 @@
+From: "Aditya Ellis" <aditya.ellis@meridian-labs.org>
+To: Meera Joshi <meera.joshi@meridian-labs.org>
+Subject: Weekly Engineering sync - agenda
+Date: Sun, 31 May 2026 15:18:00 +0000
+Message-ID: <178772094125.6.4088530133748890934@meridian-labs.org>
+Return-Path: <aditya.ellis@meridian-labs.org>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.meridian-labs.org (Postfix) with ESMTPS id D59C68C1CF8D
+ for <recipient@meridian-labs.org>; Sun, 31 May 2026 15:18:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id C997C16AD642; Sun, 31
+ May 2026 15:12:16 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id DBC4368D59D9; Sun, 31 May
+ 2026 15:09:46 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=931175469; h=from:to:subject:date;
+ bh=SpgF3+v2qiQbog6utftErkqS73JysqeFcqcAJqwWMU4=; =?utf-8?q?b=3DbcMSI0RUE57s?=
+ =?utf-8?q?t93zY2nJGGko897yDUkV5+lM83rIzHQK1x0dSqIqYhTY3uLWczNgWqZXfFgA8IUT5?=
+ =?utf-8?q?SZVf9eiqw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3533545498382669743=="
+
+--===============3533545498382669743==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Engineering sync:
+
+1. Status of the Northgate Industries migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Aditya Ellis
+
+--===============3533545498382669743==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi team,</p><p>Agenda for Thursday's Engineering sync:</p><p>1=
+. Status of the Northgate Industries migration 2. Hiring update for the two o=
+pen roles 3. Budget review before quarter close</p><p>The recording and notes=
+ will go in the usual shared folder afterwards. Add any items to the bottom o=
+f the page before Wednesday evening.</p><p>Thanks, Aditya Ellis</p></body></h=
+tml>
+
+--===============3533545498382669743==--

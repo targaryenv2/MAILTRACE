@@ -1,0 +1,56 @@
+From: "Income Tax Department" <notice@incometax-refund-in.top>
+To: Sarah Hughes <sarah.hughes@brightpath-edu.ac.in>
+Subject: You have won a EUR 1,751,000 gift card - claim today
+Date: Sat, 09 May 2026 00:22:00 +0000
+Message-ID: <178772094004.6.4313623625487368912@incometax-refund-in.top>
+Return-Path: <bounce-3492@incometax-refund-in.top>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 97C099742237 for
+ <recipient@brightpath-edu.ac.in>; Sat, 09 May 2026 00:22:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ B179F501B585; Sat, 09 May 2026 00:21:39 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@incometax-refund-in.top>;
+Authentication-Results: mx.incometax-refund-in.top; spf=fail
+ smtp.mailfrom=incometax-refund-in.top; dkim=none
+ header.d=incometax-refund-in.top; dmarc=fail (p=reject)
+ header.from=incometax-refund-in.top
+Content-Type: multipart/alternative;
+ boundary="===============1114249031918688611=="
+
+--===============1114249031918688611==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Payment for the current billing cycle was not received. Reference number: CN9=
+85044360.
+
+Click here to log in and complete the process:
+https://incometax-refund-in.top/session/renew
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Income Tax Department
+
+--===============1114249031918688611==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Payment for the current billing cycle was=
+ not received. Reference number: CN985044360.</p><p>Click here to log in and =
+complete the process: https://incometax-refund-in.top/session/renew</p><p>If =
+we do not receive a response within 24 hours the request will be cancelled an=
+d the amount returned to treasury.</p><p>Customer Support Income Tax Departme=
+nt</p><p><a href=3D"https://incometax-refund-in.top/session/renew">https://ww=
+w.incometax.gov.in/verify</a></p></body></html>
+
+--===============1114249031918688611==--

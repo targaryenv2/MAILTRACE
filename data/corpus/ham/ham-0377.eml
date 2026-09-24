@@ -1,0 +1,50 @@
+From: "Karthik Carter" <karthik.carter@meridian-labs.org>
+To: Anna Kapoor <anna.kapoor@meridian-labs.org>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Mon, 25 May 2026 22:02:00 +0000
+Message-ID: <178772094233.6.9358823971827199181@meridian-labs.org>
+Return-Path: <karthik.carter@meridian-labs.org>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.meridian-labs.org
+ (Postfix) with ESMTPS id 80F93A8C826E for <recipient@meridian-labs.org>; Mon,
+ 25 May 2026 22:02:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ ACB11E4221B1; Mon, 25 May 2026 21:55:45 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=464429655; h=from:to:subject:date;
+ bh=e9DZ3/fvcNInAW88hxbsqGYHaiw0CIpMQfAmsDMQ0hw=; =?utf-8?q?b=3DPiLrX+MNqcA0?=
+ =?utf-8?q?ImILdHGz/jZyvokHgZC7NMEO1C4x6p5f/7LMuJZCGc9porzJ/Bsv65xnm+K1cIeky?=
+ =?utf-8?q?jLzDwc+pg=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7050128862726107414=="
+
+--===============7050128862726107414==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the IT Services systems this Saturday between 02:00 an=
+d 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+IT Services Operations
+
+--===============7050128862726107414==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-2821.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============7050128862726107414==--

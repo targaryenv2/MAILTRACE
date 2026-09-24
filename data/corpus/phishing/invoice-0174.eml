@@ -1,0 +1,82 @@
+From: "Zenith Traders Accounts" <billing@itr-refund-portal.click>
+To: James Dawson <james.dawson@meridian-labs.org>
+Subject: Purchase order INV-2026-1012 needs your approval
+Date: Sun, 03 May 2026 02:22:00 +0000
+Message-ID: <178772093909.6.392803969140371672@itr-refund-portal.click>
+Return-Path: <bounce-3601@itr-refund-portal.click>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 7B56E89A6CC9 for
+ <recipient@meridian-labs.org>; Sun, 03 May 2026 02:22:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 1C6254687FF6; Sun, 03 May 2026 02:19:44 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ FA1025CD5B41; Sun, 03 May 2026 02:18:01 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 714F3171AE96; Sun, 03 May
+ 2026 02:11:34 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mail.gateway.example (Postfix) with ESMTPS id 9292001FBACE; Sun, 03 May 2026
+ 02:08:33 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@itr-refund-portal.click>;
+Authentication-Results: mx.itr-refund-portal.click; spf=softfail
+ smtp.mailfrom=itr-refund-portal.click; dkim=fail
+ header.d=itr-refund-portal.click; dmarc=fail (p=reject)
+ header.from=itr-refund-portal.click
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=itr-refund-portal.click; s=selector1; t=780568211; h=from:to:subject:date;
+ bh=tZM514/VX1rMTSgk8TUBV4X4d7VbLJQu613tXuztQgU=; =?utf-8?q?b=3DxNZrq87YOfDJ?=
+ =?utf-8?q?d3m4gQrge7o3WCH4Cg1LUCtNAcJFa8uxl8r8SRCyjdn3j+2G63ttQCgWimAkYoxsd?=
+ =?utf-8?q?2S3at74Xg=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7108254545314787621=="
+
+--===============7108254545314787621==
+Content-Type: multipart/alternative;
+ boundary="===============8800591626180273006=="
+
+--===============8800591626180273006==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello James,
+
+Please find attached invoice INV-2026-1012 for INR 914,000, now overdue. Kind=
+ly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+David Dawson
+Accounts Receivable, Zenith Traders
+
+--===============8800591626180273006==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello James,</p><p>Please find attached invoice INV-2026-1012 =
+for INR 914,000, now overdue. Kindly review the attached statement and proces=
+s this payment immediately to avoid service interruption.</p><p>If the bank d=
+etails have changed since your last remittance, use the updated account infor=
+mation in the attachment.</p><p>Regards, David Dawson Accounts Receivable, Ze=
+nith Traders</p></body></html>
+
+--===============8800591626180273006==--
+
+--===============7108254545314787621==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-1012.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============7108254545314787621==--

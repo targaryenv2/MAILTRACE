@@ -1,0 +1,39 @@
+From: "Laura Ellis" <laura.ellis@orionsystems.io>
+To: David Menon <david.menon@orionsystems.io>
+Subject: Your order INV-2026-7878 has shipped
+Date: Tue, 19 May 2026 01:01:00 +0000
+Message-ID: <178772094356.6.12394728869451352924@orionsystems.io>
+Return-Path: <laura.ellis@orionsystems.io>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id 667D3A9B032B for
+ <recipient@orionsystems.io>; Tue, 19 May 2026 01:01:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id A9CD1501E80B; Tue, 19 May 2026 00:56:33 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=18669130; h=from:to:subject:date;
+ bh=kTC61xYXcvOWSSgFE8Ov5Kbp60qmyBzRsIOJC6D1cbI=; =?utf-8?q?b=3DJJoW3rH/Znct?=
+ =?utf-8?q?1LEyxEXbsZEOQ73Ei37OaUn0qot51rVivGkJmjCjnMZ4qctm1o8o9W2wGu4gbFCdV?=
+ =?utf-8?q?tIAC6CIEA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello David,
+
+Order INV-2026-7878 shipped today and should arrive within three working days=
+. Tracking
+number TRK837050268.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Brightpath Institute Customer Care

@@ -1,0 +1,52 @@
+From: "Anna Anderson" <anna.anderson@kalyaniworks.in>
+To: Priya Sharma <priya.sharma@kalyaniworks.in>
+Subject: Invoice INV-2026-6651 paid
+Date: Sat, 02 May 2026 14:27:00 +0000
+Message-ID: <178772094185.6.5627841242410884992@kalyaniworks.in>
+Return-Path: <anna.anderson@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.kalyaniworks.in
+ (Postfix) with ESMTPS id 389A1A3E833D for <recipient@kalyaniworks.in>; Sat,
+ 02 May 2026 14:27:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 1ABF81089867; Sat, 02 May 2026 14:23:54 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 04D484B2CEE6; Sat, 02 May
+ 2026 14:20:36 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=519270284; h=from:to:subject:date;
+ bh=aYwAdE9g7mRHZ+sJiW7ULSK4DGsXTh8rqxB+ZsTWWME=; =?utf-8?q?b=3D4HvCa6Sok9ZE?=
+ =?utf-8?q?uvU4CFrMFo16JYpPFLrPBjAGQr4wuRYtY80yswg8RxYXOlltmlbvLAW7TXH5IRjSi?=
+ =?utf-8?q?T605cek6g=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============1947774016284379374=="
+
+--===============1947774016284379374==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This confirms that invoice INV-2026-6651 for INR 322,500 was paid on 26 May 2=
+026
+by bank transfer to the account already on file. No further action is needed.
+
+Accounts Payable
+Brightpath Institute
+
+--===============1947774016284379374==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-6651.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============1947774016284379374==--

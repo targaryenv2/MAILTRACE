@@ -1,0 +1,67 @@
+From: "Anna Hughes" <anna.hughes@meridian-labs.org>
+To: Kavya Bose <kavya.bose@meridian-labs.org>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Sat, 23 May 2026 11:38:00 +0000
+Message-ID: <178772094231.6.3564997301999366650@meridian-labs.org>
+Return-Path: <anna.hughes@meridian-labs.org>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.meridian-labs.org
+ (Postfix) with ESMTPS id DBF751C3B9F0 for <recipient@meridian-labs.org>; Sat,
+ 23 May 2026 11:38:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id F879E589522A;
+ Sat, 23 May 2026 11:34:43 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=63952720; h=from:to:subject:date;
+ bh=Bj6NTiT5MI5su532JIh3edNIYgDBjUK9SBz5aqdcEy8=; =?utf-8?q?b=3D3hPV119O2f9i?=
+ =?utf-8?q?KFjYRHXUuxYAYSPvPB1E+JDZrSLb9aMitd1vBJXxoQ093lpLIloJp2BBT4aevjlUK?=
+ =?utf-8?q?EgrfYJqWA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============5886741904451604188=="
+
+--===============5886741904451604188==
+Content-Type: multipart/alternative;
+ boundary="===============8468640391502789259=="
+
+--===============8468640391502789259==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Operations systems this Saturday between 02:00 and=
+ 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Operations Operations
+
+--===============8468640391502789259==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the Operations systems thi=
+s Saturday between 02:00 and 04:00 IST. Expect a short interruption while the=
+ database fails over.</p><p>No user action is required. We will send a note h=
+ere once the window closes.</p><p>Operations Operations</p></body></html>
+
+--===============8468640391502789259==--
+
+--===============5886741904451604188==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-4693.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============5886741904451604188==--

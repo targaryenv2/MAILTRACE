@@ -1,0 +1,52 @@
+From: "Kavya Gupta" <kavya.gupta@hansacapital.co>
+To: Sarah Menon <sarah.menon@hansacapital.co>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Mon, 25 May 2026 11:47:00 +0000
+Message-ID: <178772094116.6.6744404389177458756@hansacapital.co>
+Return-Path: <kavya.gupta@hansacapital.co>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.hansacapital.co (Postfix) with ESMTPS id B8F6A248D50C for
+ <recipient@hansacapital.co>; Mon, 25 May 2026 11:47:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ EC56C4263FE8; Mon, 25 May 2026 11:43:27 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=400472203; h=from:to:subject:date;
+ bh=8VUvaildcyJehW8tFUR1/hI9fCOvL7y6POjH1Bu7Cuk=; =?utf-8?q?b=3Dl5La7Tgdrrdz?=
+ =?utf-8?q?OIRYtb74PrK7RnwfI2DE/J3j+7NfmiBE3QUxgtsEdJaFMD8/Tizcc8hJQeLRcAswt?=
+ =?utf-8?q?VtNo2fjcQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4024902106585463283=="
+
+--===============4024902106585463283==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Procurement systems this Saturday between 02:00 an=
+d 04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Procurement Operations
+
+--===============4024902106585463283==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the Procurement systems th=
+is Saturday between 02:00 and 04:00 IST. Expect a short interruption while th=
+e database fails over.</p><p>No user action is required. We will send a note =
+here once the window closes.</p><p>Procurement Operations</p></body></html>
+
+--===============4024902106585463283==--

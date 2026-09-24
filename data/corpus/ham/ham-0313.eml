@@ -1,0 +1,55 @@
+From: "David Dawson" <david.dawson@summitfoods.co.in>
+To: Sanjay Fletcher <sanjay.fletcher@summitfoods.co.in>
+Subject: Maintenance window: Saturday 02:00-04:00 IST
+Date: Mon, 18 May 2026 15:54:00 +0000
+Message-ID: <178772094132.6.10825599777561534354@summitfoods.co.in>
+Return-Path: <david.dawson@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 3A4D93966D8A for
+ <recipient@summitfoods.co.in>; Mon, 18 May 2026 15:54:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id E97F3FD8C3F9; Mon, 18 May
+ 2026 15:47:38 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 5704D0BD3175; Mon, 18 May 2026 15:44:24 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=190638688; h=from:to:subject:date;
+ bh=XIDTU09jIyKOSQ/eP8AvnKT8gMx0YTjkXuj0zQQFmio=; =?utf-8?q?b=3DmrMuDA4TD+yb?=
+ =?utf-8?q?vToAY0be6aF58RVEbtx0mKPQaIFZKKDyNQAahzz9BVgRWeYg2t3ZDg8sx6s/uh/JD?=
+ =?utf-8?q?Xj0uwe2jg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7057614694771809800=="
+
+--===============7057614694771809800==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Planned maintenance on the Academics systems this Saturday between 02:00 and =
+04:00
+IST. Expect a short interruption while the database fails over.
+
+No user action is required. We will send a note here once the window closes.
+
+Academics Operations
+
+--===============7057614694771809800==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello,</p><p>Planned maintenance on the Academics systems this=
+ Saturday between 02:00 and 04:00 IST. Expect a short interruption while the =
+database fails over.</p><p>No user action is required. We will send a note he=
+re once the window closes.</p><p>Academics Operations</p></body></html>
+
+--===============7057614694771809800==--

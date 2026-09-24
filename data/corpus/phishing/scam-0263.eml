@@ -1,0 +1,55 @@
+From: "HDFC Bank" <notice@hdfc-kyc-update.link>
+To: Sanjay Brooks <sanjay.brooks@meridian-labs.org>
+Subject: KYC update required within 24 hours
+Date: Fri, 08 May 2026 13:10:00 +0000
+Message-ID: <178772094056.6.3185691908934552857@hdfc-kyc-update.link>
+Return-Path: <bounce-2314@hdfc-kyc-update.link>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id DE1579CB903B for
+ <recipient@meridian-labs.org>; Fri, 08 May 2026 13:10:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mail.gateway.example (Postfix) with ESMTPS id 89D18596B6B2; Fri, 08 May 2026
+ 13:05:01 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@hdfc-kyc-update.link>;
+Authentication-Results: mx.hdfc-kyc-update.link; spf=fail
+ smtp.mailfrom=hdfc-kyc-update.link; dkim=none header.d=hdfc-kyc-update.link;
+ dmarc=fail (p=reject) header.from=hdfc-kyc-update.link
+Content-Type: multipart/alternative;
+ boundary="===============4630208685766127123=="
+
+--===============4630208685766127123==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your KYC documents have expired and the account has been marked for restricti=
+on. Reference number: CN182884477.
+
+Click here to log in and complete the process:
+https://hdfc-kyc-update.link/login
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+HDFC Bank
+
+--===============4630208685766127123==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your KYC documents have expired and the a=
+ccount has been marked for restriction. Reference number: CN182884477.</p><p>=
+Click here to log in and complete the process: https://hdfc-kyc-update.link/l=
+ogin</p><p>If we do not receive a response within 24 hours the request will b=
+e cancelled and the amount returned to treasury.</p><p>Customer Support HDFC =
+Bank</p><p><a href=3D"https://hdfc-kyc-update.link/login">https://www.hdfcban=
+k.com/verify</a></p></body></html>
+
+--===============4630208685766127123==--

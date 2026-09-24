@@ -1,0 +1,60 @@
+From: "Anna Anderson" <anna.anderson@orionsystems.io>
+To: Ishita Verma <ishita.verma@orionsystems.io>
+Subject: Weekly Admissions sync - agenda
+Date: Sun, 03 May 2026 09:36:00 +0000
+Message-ID: <178772094368.6.3168285752993177765@orionsystems.io>
+Return-Path: <anna.anderson@orionsystems.io>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id 0FE3F31B5369 for
+ <recipient@orionsystems.io>; Sun, 03 May 2026 09:36:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id 7E67E6F27C90; Sun, 03 May 2026
+ 09:32:06 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 346DEC7EC974; Sun, 03 May
+ 2026 09:30:06 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=783008139; h=from:to:subject:date;
+ bh=8JjfDALMJKDXdN/9nE87WQBW2LYNO8qJep6PqlufUBA=; =?utf-8?q?b=3D7/Jo/l7LtxGK?=
+ =?utf-8?q?9wBamE4p+RVAV1soWKIBoJD10yBWA+4rmb3IXIyFkDJDegJBNHULvMY9MQTMF9+aP?=
+ =?utf-8?q?bV9R2+5jg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============6644655849346664676=="
+
+--===============6644655849346664676==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Admissions sync:
+
+1. Status of the Orion Systems migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Anna Anderson
+
+--===============6644655849346664676==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi team,</p><p>Agenda for Thursday's Admissions sync:</p><p>1.=
+ Status of the Orion Systems migration 2. Hiring update for the two open role=
+s 3. Budget review before quarter close</p><p>The recording and notes will go=
+ in the usual shared folder afterwards. Add any items to the bottom of the pa=
+ge before Wednesday evening.</p><p>Thanks, Anna Anderson</p></body></html>
+
+--===============6644655849346664676==--

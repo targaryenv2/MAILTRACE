@@ -1,0 +1,50 @@
+From: "Laura Fletcher (CEO)" <laura.fletcher@outlook.com>
+Reply-To: laura.fletcher.office@outlook.com
+To: Michael Iyer <michael.iyer@kalyaniworks.in>
+Subject: Quick request before end of day
+Date: Sun, 17 May 2026 15:33:00 +0000
+Message-ID: <178772093728.6.7159466533748560437@outlook.com>
+Return-Path: <bounce-4638@outlook.com>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.kalyaniworks.in
+ (Postfix) with ESMTPS id E26A05502817 for <recipient@kalyaniworks.in>; Sun,
+ 17 May 2026 15:33:00 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ CCB44F883E0C; Sun, 17 May 2026 15:30:10 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ relay.open-smtp.example (Postfix) with ESMTPS id 689E0D78AD37; Sun, 17 May
+ 2026 15:24:44 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id A15CA293316F; Sun, 17 May
+ 2026 15:19:02 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=357656534; h=from:to:subject:date;
+ bh=AEgcui6d3HXXltwMTh9ziYcSD7LSDU2qrt35NEOeLdE=; =?utf-8?q?b=3D504VHtgz8yxg?=
+ =?utf-8?q?A8PbY7ilXXyec8LQayIWb2sqmEdeeiooKH1uIZEZZYFibYzxcA2RfyO1gc4twt27i?=
+ =?utf-8?q?nP8xGHJaQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Michael,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 3,208,000 to a new beneficiary today. This relates to
+Kestrel Supplies Ltd and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Kestrel Supplies Ltd
+Account: 14846147191
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Laura Fletcher
+CFO

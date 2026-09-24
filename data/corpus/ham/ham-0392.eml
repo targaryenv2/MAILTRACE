@@ -1,0 +1,42 @@
+From: "Emily Sharma" <emily.sharma@vertexlogistics.in>
+To: Nikhil Sharma <nikhil.sharma@vertexlogistics.in>
+Subject: Weekly IT Services sync - agenda
+Date: Sun, 31 May 2026 02:24:00 +0000
+Message-ID: <178772094256.6.2833385423555327268@vertexlogistics.in>
+Return-Path: <emily.sharma@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 25C5D5C36858 for
+ <recipient@vertexlogistics.in>; Sun, 31 May 2026 02:24:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id E7551D978A9D; Sun, 31 May 2026
+ 02:19:48 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 7E4206BDD364;
+ Sun, 31 May 2026 02:18:35 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=519533323; h=from:to:subject:date;
+ bh=fqBWysi3S9OCbPtQ41c6h/W+KZQoeVJZ5wAmmkYT9CU=; =?utf-8?q?b=3DhPpYm8ZN57xo?=
+ =?utf-8?q?0E4aDolV+GYhoa6TLIKplhPHcrYvRGKmTij1WW08f65I/fXy0VFdtcA5EccM8T3fN?=
+ =?utf-8?q?UV6akOHOg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's IT Services sync:
+
+1. Status of the Brightpath Institute migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Emily Sharma

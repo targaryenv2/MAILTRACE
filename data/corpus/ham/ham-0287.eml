@@ -1,0 +1,72 @@
+From: "Emily Pillai" <emily.pillai@orionsystems.io>
+To: Ishita Dawson <ishita.dawson@orionsystems.io>
+Subject: Conference paper decision - Brightpath Institute workshop
+Date: Fri, 29 May 2026 06:24:00 +0000
+Message-ID: <178772094093.6.15739996146850559016@orionsystems.io>
+Return-Path: <emily.pillai@orionsystems.io>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id 67C7CE706102 for <recipient@orionsystems.io>; Fri,
+ 29 May 2026 06:24:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 43E7CBDB3725; Fri,
+ 29 May 2026 06:21:39 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id F08B2D5FFCEF; Fri, 29 May 2026
+ 06:20:13 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=580520740; h=from:to:subject:date;
+ bh=3UYeRcO0u1n9gFc1KJB2JylYH7oYbzpfk82AIyJ3/HM=; =?utf-8?q?b=3Dkk+jmHvTMCYT?=
+ =?utf-8?q?o8z6wnMWBBTHM/TueO6e68FvmLVick7EnIOWuC0d6k6Em5wGxGBVGi6SNuYAgWqAJ?=
+ =?utf-8?q?MeDth5IbQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7988674338054238381=="
+
+--===============7988674338054238381==
+Content-Type: multipart/alternative;
+ boundary="===============5272305661789020164=="
+
+--===============5272305661789020164==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Ishita,
+
+Thank you for your submission to the Brightpath Institute workshop. The revie=
+wers have
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============5272305661789020164==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Ishita,</p><p>Thank you for your submission to the Bright=
+path Institute workshop. The reviewers have recommended acceptance with minor=
+ revisions. Reviews are attached to the submission record in the conference s=
+ystem.</p><p>Camera-ready copies are due at the end of the month.</p><p>Progr=
+amme Committee</p></body></html>
+
+--===============5272305661789020164==--
+
+--===============7988674338054238381==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-8590.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============7988674338054238381==--

@@ -1,0 +1,49 @@
+From: "Sanjay Hughes (CEO)" <sanjay.hughes@yahoo.com>
+Reply-To: sanjay.hughes.office@yahoo.com
+To: Rahul Nair <rahul.nair@brightpath-edu.ac.in>
+Subject: URGENT: release the payment today
+Date: Sun, 17 May 2026 18:21:00 +0000
+Message-ID: <178772093706.6.5630318229350434852@yahoo.com>
+Return-Path: <bounce-4978@yahoo.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 33D34833C694 for
+ <recipient@brightpath-edu.ac.in>; Sun, 17 May 2026 18:21:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 5366E55ECD24; Sun, 17 May 2026
+ 18:19:05 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 7A6315913340; Sun, 17 May 2026 18:12:53 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ C1C135518C9F; Sun, 17 May 2026 18:09:14 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=127535; h=from:to:subject:date;
+ bh=eApdvT7aFv6Be0mRfd65O+kcwh7yNwTQ1k7F5rdPRf8=; =?utf-8?q?b=3DWG45H6eG6dHX?=
+ =?utf-8?q?B8Ws+fSF5MDp36o4VIuOAVVGYYLJlyKCnL2hyl5FPuVqBtxCmiP4SgEEhoqUT7i2M?=
+ =?utf-8?q?cL5O0gPrw=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Rahul,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 7,193,000 to a new beneficiary today. This relates to
+Lakeside Consulting and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Lakeside Consulting
+Account: 14869483449
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Sanjay Hughes
+Chief Executive Officer

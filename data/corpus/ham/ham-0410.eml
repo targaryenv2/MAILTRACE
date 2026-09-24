@@ -1,0 +1,50 @@
+From: "Priya Rao" <priya.rao@orionsystems.io>
+To: Neha Nair <neha.nair@orionsystems.io>
+Subject: Reminder: submit Operations timesheets by Friday
+Date: Mon, 25 May 2026 21:49:00 +0000
+Message-ID: <178772094283.6.14627040906612697456@orionsystems.io>
+Return-Path: <priya.rao@orionsystems.io>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.orionsystems.io (Postfix) with ESMTPS id 183B790723BC
+ for <recipient@orionsystems.io>; Mon, 25 May 2026 21:49:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 14CE3ADF1E04; Mon, 25
+ May 2026 21:46:24 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=380999004; h=from:to:subject:date;
+ bh=CC7T1u7E42ImVbis2s6lSfU7CjIrOAI0b5ddPwvQPP4=; =?utf-8?q?b=3DkGD2Jv8pNy74?=
+ =?utf-8?q?AESC3l8H4GLtNdHIbRxIiExmj4nco065kjSDxLdGy4cx0HLKtIV49kNsyMPTaXCov?=
+ =?utf-8?q?mgKDrWqbw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============6951475781428390923=="
+
+--===============6951475781428390923==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Neha,
+
+A reminder that August timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Priya Rao
+Operations
+
+--===============6951475781428390923==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Neha,</p><p>A reminder that August timesheets close on Frid=
+ay. If you are on leave, your approver can submit on your behalf.</p><p>Thank=
+s, Priya Rao Operations</p></body></html>
+
+--===============6951475781428390923==--

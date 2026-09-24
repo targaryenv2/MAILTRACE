@@ -1,0 +1,63 @@
+From: "Michael Dawson" <michael.dawson@orionsystems.io>
+To: David Joshi <david.joshi@orionsystems.io>
+Subject: Library books due October
+Date: Sat, 23 May 2026 18:15:00 +0000
+Message-ID: <178772094149.6.3588338491880488936@orionsystems.io>
+Return-Path: <michael.dawson@orionsystems.io>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.orionsystems.io (Postfix) with ESMTPS id 27F57912DAE9
+ for <recipient@orionsystems.io>; Sat, 23 May 2026 18:15:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id E7DE68C32254; Sat, 23 May
+ 2026 18:14:41 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=35782310; h=from:to:subject:date;
+ bh=NmA74uD82WPGBdOLpE+ETpVlJDWIkZ8FatulFYX+ZzU=; =?utf-8?q?b=3DsYrC7Wsw5qot?=
+ =?utf-8?q?MXffkryhjETmzbekfdSylXWIg0hEifItj54Oj51FmizvFj7GckL5CWrPs3304PnuE?=
+ =?utf-8?q?lDZQMCRxg=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============8456914254246070021=="
+
+--===============8456914254246070021==
+Content-Type: multipart/alternative;
+ boundary="===============8379086708638609043=="
+
+--===============8379086708638609043==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear David,
+
+Two items on your library account are due at the end of October. Renewals can=
+ be
+made at the circulation desk or from the catalogue page.
+
+Central Library
+
+--===============8379086708638609043==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear David,</p><p>Two items on your library account are due at=
+ the end of October. Renewals can be made at the circulation desk or from the=
+ catalogue page.</p><p>Central Library</p></body></html>
+
+--===============8379086708638609043==--
+
+--===============8456914254246070021==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-7948.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============8456914254246070021==--

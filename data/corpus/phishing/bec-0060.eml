@@ -1,0 +1,46 @@
+From: "Anna Dawson (CEO)" <anna.dawson@gmail.com>
+Reply-To: anna.dawson.office@gmail.com
+To: James Ellis <james.ellis@summitfoods.co.in>
+Subject: Re: Urgent wire transfer - confidential
+Date: Tue, 19 May 2026 21:21:00 +0000
+Message-ID: <178772093719.6.5335182643691438327@gmail.com>
+Return-Path: <bounce-5386@gmail.com>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id BE3D9408321E for
+ <recipient@summitfoods.co.in>; Tue, 19 May 2026 21:21:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id 44E298E3309C; Tue, 19 May
+ 2026 21:14:31 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id D6195D2BF254; Tue, 19 May
+ 2026 21:12:11 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=702274637; h=from:to:subject:date;
+ bh=dxnW1MhrCXJvqg9V4Rz94QPPChB6j6xxfQuQguhEHwY=; =?utf-8?q?b=3D0CmBTUCVK9Vh?=
+ =?utf-8?q?5Fa3SaF7yt9n/xy3v8twUtPX7L42FiWz6s8qR5vV/I782izOD7AMDxCPpxhX5YARA?=
+ =?utf-8?q?6CZvJCf2A=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear James,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 324,000 to a new beneficiary today. This relates to
+Kestrel Supplies Ltd and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Kestrel Supplies Ltd
+Account: 29302371102
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Anna Dawson
+Chairman

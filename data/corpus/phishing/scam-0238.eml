@@ -1,0 +1,64 @@
+From: "PayPal" <notice@paypa1-secure.com>
+To: Vikram Brooks <vikram.brooks@orionsystems.io>
+Subject: You have won a $3,520,000 gift card - claim today
+Date: Mon, 01 Jun 2026 03:13:00 +0000
+Message-ID: <178772094015.6.14515522689681121388@paypa1-secure.com>
+Return-Path: <bounce-2988@paypa1-secure.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.orionsystems.io (Postfix) with ESMTPS id 0E9B359D57B6 for
+ <recipient@orionsystems.io>; Mon, 01 Jun 2026 03:13:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 7107FAE3ADF4; Mon, 01 Jun
+ 2026 03:06:51 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 04FB528B89B3; Mon, 01 Jun
+ 2026 03:02:59 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 20D612E765B2; Mon, 01 Jun 2026
+ 02:57:24 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id A706507D2516;
+ Mon, 01 Jun 2026 02:56:48 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@paypa1-secure.com>;
+Authentication-Results: mx.paypa1-secure.com; spf=fail
+ smtp.mailfrom=paypa1-secure.com; dkim=none header.d=paypa1-secure.com;
+ dmarc=fail (p=reject) header.from=paypa1-secure.com
+Content-Type: multipart/alternative;
+ boundary="===============2981556221721726937=="
+
+--===============2981556221721726937==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+A refund has been approved against your assessment and is awaiting your bank =
+confirmation. Reference number: CN606915135.
+
+Click here to log in and complete the process:
+https://paypa1-secure.com/session/renew
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+PayPal
+
+--===============2981556221721726937==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>A refund has been approved against your a=
+ssessment and is awaiting your bank confirmation. Reference number: CN6069151=
+35.</p><p>Click here to log in and complete the process: https://paypa1-secur=
+e.com/session/renew</p><p>If we do not receive a response within 24 hours the=
+ request will be cancelled and the amount returned to treasury.</p><p>Custome=
+r Support PayPal</p><p><a href=3D"https://paypa1-secure.com/session/renew">ht=
+tps://www.paypal.com/verify</a></p></body></html>
+
+--===============2981556221721726937==--

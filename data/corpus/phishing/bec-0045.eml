@@ -1,0 +1,50 @@
+From: "Aditya Iyer (CEO)" <aditya.iyer@outlook.com>
+Reply-To: aditya.iyer.office@outlook.com
+To: Laura Ellis <laura.ellis@kalyaniworks.in>
+Subject: Change of bank details for Bluestone Partners
+Date: Sat, 30 May 2026 10:27:00 +0000
+Message-ID: <178772093697.6.6574299193314196539@outlook.com>
+Return-Path: <bounce-6102@outlook.com>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 3DECAC802BB4 for
+ <recipient@kalyaniworks.in>; Sat, 30 May 2026 10:27:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id F50F17956887; Sat, 30 May 2026
+ 10:24:15 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id D66F3CC57B19; Sat, 30 May
+ 2026 10:23:55 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by smtp-out-3.example (Postfix) with ESMTPS id B47E9886EC68; Sat, 30 May 2026
+ 10:22:51 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=398178335; h=from:to:subject:date;
+ bh=i4oomAy0dLYhM3KUlfAjuCn3oqBeJoOBa5mQ0OI13nE=; =?utf-8?q?b=3DkCXai74NcjH/?=
+ =?utf-8?q?fvhJ/IWvKu4w+ZaLkQADa5eYOtIyzwmEJVFg/+rVq8HxVlftqKHG44kVgVAjBHonn?=
+ =?utf-8?q?OtFfYhH8w=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Laura,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 6,085,000 to a new beneficiary today. This relates to
+Bluestone Partners and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Bluestone Partners
+Account: 72589974202
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Aditya Iyer
+CFO

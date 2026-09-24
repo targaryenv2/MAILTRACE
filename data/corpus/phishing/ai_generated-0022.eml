@@ -1,0 +1,64 @@
+From: "Michael Dawson" <michael.dawson@orionsystems.io>
+To: Sarah Fletcher <sarah.fletcher@summitfoods.co.in>
+Subject: Updated Admissions template for your comments
+Date: Sat, 09 May 2026 17:43:00 +0000
+Message-ID: <178772093664.6.2344094024496859739@orionsystems.io>
+Return-Path: <bounce-2722@orionsystems.io>
+MIME-Version: 1.0
+X-Mailer: BulkSend 2.1
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 938D51910D13 for
+ <recipient@summitfoods.co.in>; Sat, 09 May 2026 17:43:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 9B66D96277AF; Sat, 09 May 2026 17:41:07 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=200496155; h=from:to:subject:date;
+ bh=ZwHU0KPEQwAzmo+cdMvMaOveUCOMy+21KbQGk05F3wo=; =?utf-8?q?b=3DRvGwfLLIGCqW?=
+ =?utf-8?q?s4R4pTr7Mb11VLa9lEtvb2oCF+OjdoHKTZLkHE2hBgXAKI/yjq7OmtIr9g+dOij0h?=
+ =?utf-8?q?54rkUDoOw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============6769312394409735451=="
+
+--===============6769312394409735451==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sarah,
+
+Thanks again for your time earlier this week. I have put the revised Admissio=
+ns
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/f241fa35
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Michael Dawson
+Programme Manager, Zenith Traders
+
+--===============6769312394409735451==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Sarah,</p><p>Thanks again for your time earlier this week. =
+I have put the revised Admissions document in the shared workspace and added =
+comments against the two clauses we discussed.</p><p>You can open it here whe=
+n convenient: https://teamfiles-hub.co/d/f241fa35</p><p>There is no rush on t=
+his. If the second section reads oddly, that is my drafting rather than a cha=
+nge in position, so do flag it.</p><p>Best regards, Michael Dawson Programme =
+Manager, Zenith Traders</p><p><a href=3D"https://teamfiles-hub.co/d/f241fa35"=
+>shared workspace</a></p></body></html>
+
+--===============6769312394409735451==--

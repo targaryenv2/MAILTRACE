@@ -1,0 +1,53 @@
+From: "Rahul Carter" <rahul.carter@orionsystems.io>
+To: Nikhil Hughes <nikhil.hughes@orionsystems.io>
+Subject: PR #2540: refactor the retry handler
+Date: Sat, 09 May 2026 14:11:00 +0000
+Message-ID: <178772094156.6.9959420080436077576@orionsystems.io>
+Return-Path: <rahul.carter@orionsystems.io>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.orionsystems.io (Postfix) with ESMTPS id C35EF8ADD814
+ for <recipient@orionsystems.io>; Sat, 09 May 2026 14:11:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 854814CEC727; Sat, 09 May
+ 2026 14:06:47 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=974743193; h=from:to:subject:date;
+ bh=a6rs+i5ZyCLxz0/Jz4ZPaGG29Jevn1nG1S7H71d/kfA=; =?utf-8?q?b=3D95D9/YUEf6IS?=
+ =?utf-8?q?r4plGIvl7C/3f+Ol/SJgGsV/vHDFjP7iQOt5yv/x/pQbY9fNSUpZhiW2TP3WMN+wd?=
+ =?utf-8?q?LnIxRP7lQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8311400633303723339=="
+
+--===============8311400633303723339==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Rahul Carter requested your review on pull request #2540.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============8311400633303723339==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Rahul Carter requested your review on pull request #2540.</p><=
+p>refactor: collapse the three retry paths into one backoff helper</p><p>Chan=
+ged 6 files, +148 -211. CI is green. The behaviour change worth checking is t=
+hat a 429 now retries twice instead of once.</p><p>View it in the repository =
+when you get a chance.</p></body></html>
+
+--===============8311400633303723339==--

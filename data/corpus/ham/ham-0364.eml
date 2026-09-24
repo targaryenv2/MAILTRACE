@@ -1,0 +1,54 @@
+From: "Anna Carter" <anna.carter@vertexlogistics.in>
+To: Rohan Joshi <rohan.joshi@vertexlogistics.in>
+Subject: Weekly Procurement sync - agenda
+Date: Sun, 10 May 2026 11:46:00 +0000
+Message-ID: <178772094213.6.7259288740273735529@vertexlogistics.in>
+Return-Path: <anna.carter@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.vertexlogistics.in
+ (Postfix) with ESMTPS id CC6395AF2D63 for <recipient@vertexlogistics.in>;
+ Sun, 10 May 2026 11:46:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id AEB10B35A05F; Sun,
+ 10 May 2026 11:40:27 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=189738499; h=from:to:subject:date;
+ bh=PEp0u6rXU45P+ad4ywDJLf5CfbeIR395HAVp/v6P86A=; =?utf-8?q?b=3DhzOZxzGNK6/A?=
+ =?utf-8?q?eZE0PFuFGnt4RiP7IpMrMTqn3HZdcG/pDfBcISos3FTiyHKLGxuZSEQGYts1S3R0o?=
+ =?utf-8?q?3UJzxqgKw=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============6359673627802815864=="
+
+--===============6359673627802815864==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Procurement sync:
+
+1. Status of the Meridian Labs migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Anna Carter
+
+--===============6359673627802815864==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-0282.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============6359673627802815864==--

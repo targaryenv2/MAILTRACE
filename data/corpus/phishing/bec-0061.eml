@@ -1,0 +1,49 @@
+From: "Laura Brooks (CEO)" <laura.brooks@outlook.com>
+Reply-To: laura.brooks.office@outlook.com
+To: Neha Ellis <neha.ellis@brightpath-edu.ac.in>
+Subject: Quick request before end of day
+Date: Wed, 13 May 2026 18:38:00 +0000
+Message-ID: <178772093721.6.11201547405526123510@outlook.com>
+Return-Path: <bounce-9237@outlook.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 8F5E1A9E2B9E for
+ <recipient@brightpath-edu.ac.in>; Wed, 13 May 2026 18:38:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id D57868F73961; Wed, 13 May
+ 2026 18:37:22 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 4B2D3CF25947; Wed, 13 May 2026 18:32:19 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by edge-2.mailcluster.example (Postfix) with ESMTPS id
+ D92C478FEA70; Wed, 13 May 2026 18:29:56 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@outlook.com>;
+Authentication-Results: mx.outlook.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass (p=reject) header.from=outlook.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; t=352360512; h=from:to:subject:date;
+ bh=oszmwkr2GRqpdjuFsGUZSh7taoaVKi5RJsKSlyDig1k=; =?utf-8?q?b=3Dp/YQZ5rTy6UF?=
+ =?utf-8?q?ujqAJgplJe+KETAPvWUAkQX5bkTw6fTM7FSso2cea9sLC14FDEJZQZMYXCDllEUac?=
+ =?utf-8?q?sEbHuhDgQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Neha,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 1,910,000 to a new beneficiary today. This relates to
+Lakeside Consulting and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Lakeside Consulting
+Account: 57395334776
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Laura Brooks
+Managing Director

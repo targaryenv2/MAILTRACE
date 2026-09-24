@@ -1,0 +1,57 @@
+From: "Priya Ellis" <priya.ellis@vertexlogistics.in>
+To: Rohan Rao <rohan.rao@vertexlogistics.in>
+Subject: Weekly Research sync - agenda
+Date: Thu, 07 May 2026 02:04:00 +0000
+Message-ID: <178772094239.6.12242862774379299136@vertexlogistics.in>
+Return-Path: <priya.ellis@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 982E2B95B375 for
+ <recipient@vertexlogistics.in>; Thu, 07 May 2026 02:04:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id E3DBE52BCF03; Thu, 07 May
+ 2026 02:02:57 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=714782598; h=from:to:subject:date;
+ bh=QM+ZOTl13mhBLhhLSZMiTB68z26z73uZqasFpuXoXCQ=; =?utf-8?q?b=3D1hKPOLpQkWeM?=
+ =?utf-8?q?evoUBqsjBgYZvx/uvxdtjcXtXE2vvF24s7iFagHPFIzUnXguj+1xRHq+GWDBZWQqk?=
+ =?utf-8?q?ZOMP2eGrw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============5507164860441049041=="
+
+--===============5507164860441049041==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Research sync:
+
+1. Status of the Orion Systems migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Priya Ellis
+
+--===============5507164860441049041==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi team,</p><p>Agenda for Thursday's Research sync:</p><p>1. S=
+tatus of the Orion Systems migration 2. Hiring update for the two open roles =
+3. Budget review before quarter close</p><p>The recording and notes will go i=
+n the usual shared folder afterwards. Add any items to the bottom of the page=
+ before Wednesday evening.</p><p>Thanks, Priya Ellis</p></body></html>
+
+--===============5507164860441049041==--

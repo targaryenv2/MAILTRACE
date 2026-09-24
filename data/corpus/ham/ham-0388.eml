@@ -1,0 +1,57 @@
+From: "Vikram Reddy" <vikram.reddy@meridian-labs.org>
+To: James Anderson <james.anderson@meridian-labs.org>
+Subject: Your order INV-2026-6806 has shipped
+Date: Sat, 16 May 2026 08:41:00 +0000
+Message-ID: <178772094249.6.9686440331949600638@meridian-labs.org>
+Return-Path: <vikram.reddy@meridian-labs.org>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 352D1A615495 for
+ <recipient@meridian-labs.org>; Sat, 16 May 2026 08:41:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id A399AF34FA6F; Sat, 16 May 2026
+ 08:35:02 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=30880248; h=from:to:subject:date;
+ bh=GJOeI50c5JIRAuqQC+O9UcuxCeHNb+wA+zRiN5daAVQ=; =?utf-8?q?b=3DCSNq+55MSdHR?=
+ =?utf-8?q?GMGZdVH2YEdHIoUIw3hUBppV3xjDtUqsEVVH4yrrz7qRLhbA0FM3DXlVHRf9sYFpk?=
+ =?utf-8?q?kBvyyigcA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7717179235612607144=="
+
+--===============7717179235612607144==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello James,
+
+Order INV-2026-6806 shipped today and should arrive within three working days=
+. Tracking
+number TRK263824989.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Northgate Industries Customer Care
+
+--===============7717179235612607144==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello James,</p><p>Order INV-2026-6806 shipped today and shoul=
+d arrive within three working days. Tracking number TRK263824989.</p><p>Items=
+ - 1 x Mechanical keyboard - 2 x USB-C cable, 1m</p><p>No action is needed. O=
+rder history is available from your account page.</p><p>Northgate Industries =
+Customer Care</p></body></html>
+
+--===============7717179235612607144==--

@@ -1,0 +1,53 @@
+From: "James Reddy (CEO)" <james.reddy@yahoo.com>
+Reply-To: james.reddy.office@yahoo.com
+To: Divya Fletcher <divya.fletcher@vertexlogistics.in>
+Subject: Re: Urgent wire transfer - confidential
+Date: Mon, 25 May 2026 04:14:00 +0000
+Message-ID: <178772093730.6.7307064807669497968@yahoo.com>
+Return-Path: <bounce-2326@yahoo.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id E47C6BA862F5 for
+ <recipient@vertexlogistics.in>; Mon, 25 May 2026 04:14:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id B5FA6C04C3F4;
+ Mon, 25 May 2026 04:12:32 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 5A37E729A008; Mon, 25 May
+ 2026 04:11:52 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 29597B78069E; Mon,
+ 25 May 2026 04:05:57 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 54649A5F882C; Mon, 25 May
+ 2026 04:03:23 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=860789261; h=from:to:subject:date;
+ bh=F924dAMNF9DU1CLYlqrQpU532auF5qd5v8XV3Ru3ypA=; =?utf-8?q?b=3Dsfdeu6OllOCN?=
+ =?utf-8?q?bnvgbtYMNHLQyj7XZkQZRlUjBguNQ8OhoK1sW/iY9KQEOZmB3VR5oNa0Ufdsm6sJc?=
+ =?utf-8?q?i4fuUL+Yg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Divya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $8,937,000 to a new beneficiary today. This relates to
+Bluestone Partners and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Bluestone Partners
+Account: 83442860801
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+James Reddy
+Chief Executive Officer

@@ -1,0 +1,46 @@
+From: "Anna Bose (CEO)" <anna.bose@gmail.com>
+Reply-To: anna.bose.office@gmail.com
+To: Priya Reddy <priya.reddy@northgate-industries.com>
+Subject: Re: Urgent wire transfer - confidential
+Date: Thu, 07 May 2026 08:07:00 +0000
+Message-ID: <178772093718.6.13656384938288038870@gmail.com>
+Return-Path: <bounce-6745@gmail.com>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 76008E0C7CA8 for
+ <recipient@northgate-industries.com>; Thu, 07 May 2026 08:07:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ BCB462C6ED1A; Thu, 07 May 2026 08:01:26 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by edge-2.mailcluster.example (Postfix) with ESMTPS id
+ 9ACBCD358B09; Thu, 07 May 2026 07:56:22 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=667376808; h=from:to:subject:date;
+ bh=Kg6F1gK4PKAvntzg41ScVGgrEAEw2Mgo5EClb/vBOUQ=; =?utf-8?q?b=3DzNImUknGK1Is?=
+ =?utf-8?q?PBpFLImIFmjm/taOkLDXlqpF4LJkx0U/gxkfdgerdEtL/UBE/IzA4C22BR5sQPb7q?=
+ =?utf-8?q?UUiFDx/qQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Priya,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $7,865,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 62594048202
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Anna Bose
+Chairman

@@ -1,0 +1,35 @@
+From: "Priya Iyer" <priya.iyer@kalyaniworks.in>
+To: Priya Rao <priya.rao@kalyaniworks.in>
+Subject: PR #3627: refactor the retry handler
+Date: Tue, 26 May 2026 18:43:00 +0000
+Message-ID: <178772094112.6.7016605277923687962@kalyaniworks.in>
+Return-Path: <priya.iyer@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.kalyaniworks.in (Postfix) with ESMTPS id 922560E850FF for
+ <recipient@kalyaniworks.in>; Tue, 26 May 2026 18:43:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ B867D9E18C5F; Tue, 26 May 2026 18:39:36 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=644666136; h=from:to:subject:date;
+ bh=lLqzvMA08VzufwFhdJ910owBZCnHVxkJ3JIDHpL9T7Q=; =?utf-8?q?b=3D+bDEOOum2bc2?=
+ =?utf-8?q?vpaQJZu5pZDCBFNSXaPxrLDWjHxxr8pGE8Y6mqbsszpDKAeLJ9U1VpDXVOoN6y5RC?=
+ =?utf-8?q?IkPk/WuLQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Priya Iyer requested your review on pull request #3627.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.

@@ -1,0 +1,52 @@
+From: "Sneha Anderson" <sneha.anderson@hansacapital.co>
+To: Vikram Grant <vikram.grant@hansacapital.co>
+Subject: PR #3244: refactor the retry handler
+Date: Mon, 04 May 2026 23:03:00 +0000
+Message-ID: <178772094321.6.2222052136777310326@hansacapital.co>
+Return-Path: <sneha.anderson@hansacapital.co>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 74A38C069444 for
+ <recipient@hansacapital.co>; Mon, 04 May 2026 23:03:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 5A72CB45ACBF; Mon, 04 May 2026 22:58:35 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 98164089685A; Mon, 04 May
+ 2026 22:57:20 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=285323730; h=from:to:subject:date;
+ bh=t994nQp2GL1egmZQe2tbdw8kYiir5XNy0NkzZgmU3t0=; =?utf-8?q?b=3DDjBHN7kzTCsy?=
+ =?utf-8?q?2+0FM8BqroyfBSoUjM78fLxkaSvs21qCZm8+IJzys/tzDrIhkfwJ6EYvzB6KUoAa4?=
+ =?utf-8?q?bHzYc54KQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============0360846942572701115=="
+
+--===============0360846942572701115==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Sneha Anderson requested your review on pull request #3244.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============0360846942572701115==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-6036.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============0360846942572701115==--

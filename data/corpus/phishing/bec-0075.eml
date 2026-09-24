@@ -1,0 +1,43 @@
+From: "Ananya Ellis (CEO)" <ananya.ellis@yahoo.com>
+Reply-To: ananya.ellis.office@yahoo.com
+To: Arjun Joshi <arjun.joshi@vertexlogistics.in>
+Subject: Payment instruction (do not discuss)
+Date: Wed, 27 May 2026 02:39:00 +0000
+Message-ID: <178772093742.6.10732284959926455362@yahoo.com>
+Return-Path: <bounce-2786@yahoo.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 809B5AE16619 for
+ <recipient@vertexlogistics.in>; Wed, 27 May 2026 02:39:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id C79E6790C5B9; Wed, 27 May 2026
+ 02:37:06 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=61947609; h=from:to:subject:date;
+ bh=qg/81iloVkzhOPtPAKQAn9XCqewgutQcaCtRPhFeABU=; =?utf-8?q?b=3DAb4u5Jk1ffd9?=
+ =?utf-8?q?FrxlOKgLfn4WfhtF5r2aiqOsqXYt4cX2lvO51bnfITwjXi6zW59ARPiEst5qUtJP2?=
+ =?utf-8?q?i4LzWGeMA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Arjun,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 9,100,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 10156524618
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Ananya Ellis
+Managing Director

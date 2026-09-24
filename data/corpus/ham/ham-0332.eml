@@ -1,0 +1,52 @@
+From: "Meera Verma" <meera.verma@kalyaniworks.in>
+To: Nikhil Verma <nikhil.verma@kalyaniworks.in>
+Subject: Welcome to the team, Nikhil
+Date: Sun, 17 May 2026 10:11:00 +0000
+Message-ID: <178772094162.6.6202857258785629611@kalyaniworks.in>
+Return-Path: <meera.verma@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 25EDFDE956F2 for
+ <recipient@kalyaniworks.in>; Sun, 17 May 2026 10:11:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 0C32949766E6; Sun, 17 May 2026 10:04:29 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=368879297; h=from:to:subject:date;
+ bh=HBMTeKgp9ZvPkRQ7Xi5nDWf5oVNaMUJ4N+84estgA/o=; =?utf-8?q?b=3DmL98lK4JW8+4?=
+ =?utf-8?q?C1zWU4+goa4SomZsqlhwIkiyEEbrxkfp0Axef/QUGGgTxU1h7GDCQ2XsFXOUe7IWE?=
+ =?utf-8?q?b7nRW+OpA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4564125742777262044=="
+
+--===============4564125742777262044==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Nikhil,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Meera Verma
+Human Resources, Meridian Labs
+
+--===============4564125742777262044==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Nikhil,</p><p>Welcome aboard. Your laptop is at the IT desk=
+ on the second floor and your manager will walk you through the first-week pl=
+an tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Meera Verma Human =
+Resources, Meridian Labs</p></body></html>
+
+--===============4564125742777262044==--

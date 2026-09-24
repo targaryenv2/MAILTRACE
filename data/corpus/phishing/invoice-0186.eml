@@ -1,0 +1,76 @@
+From: "Bluestone Partners Accounts" <billing@arnazon.co>
+To: Nikhil Reddy <nikhil.reddy@orionsystems.io>
+Subject: Remittance advice INV-2025-6444 - action required
+Date: Sat, 09 May 2026 10:12:00 +0000
+Message-ID: <178772093930.6.5985567643131241369@arnazon.co>
+Return-Path: <bounce-5515@arnazon.co>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id FF5C35CC147E for
+ <recipient@orionsystems.io>; Sat, 09 May 2026 10:12:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ D6FCF4B60294; Sat, 09 May 2026 10:10:09 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 5C305C417720; Sat, 09
+ May 2026 10:05:05 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id D0351A0EE6AD; Sat, 09 May
+ 2026 10:04:59 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@arnazon.co>;
+Authentication-Results: mx.arnazon.co; spf=softfail smtp.mailfrom=arnazon.co;
+ dkim=fail header.d=arnazon.co; dmarc=fail (p=reject) header.from=arnazon.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=arnazon.co;
+ s=selector1; t=466406123; h=from:to:subject:date;
+ bh=8ac+j1DbI1dd0VZAsI/aIpP3rw7ogJ8vjfOijhBFzeo=; =?utf-8?q?b=3DsktuM9Vwbuz2?=
+ =?utf-8?q?VRdaqRF01laTdYADm1t/tQwbz43qWks7YS7NdUdaTOBZWQG+K7hK3tkrvmmRTvicM?=
+ =?utf-8?q?ZO6ZqXzbQ=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============1476698556881104573=="
+
+--===============1476698556881104573==
+Content-Type: multipart/alternative;
+ boundary="===============2116812139436577155=="
+
+--===============2116812139436577155==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Nikhil,
+
+Please find attached invoice INV-2025-6444 for INR 3,932,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Emily Brooks
+Accounts Receivable, Bluestone Partners
+
+--===============2116812139436577155==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Nikhil,</p><p>Please find attached invoice INV-2025-6444=
+ for INR 3,932,000, now overdue. Kindly review the attached statement and pro=
+cess this payment immediately to avoid service interruption.</p><p>If the ban=
+k details have changed since your last remittance, use the updated account in=
+formation in the attachment.</p><p>Regards, Emily Brooks Accounts Receivable,=
+ Bluestone Partners</p></body></html>
+
+--===============2116812139436577155==--
+
+--===============1476698556881104573==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-6444.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============1476698556881104573==--

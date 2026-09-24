@@ -1,0 +1,61 @@
+From: "Apple" <notice@appleid-verify.link>
+To: Kavya Ellis <kavya.ellis@northgate-industries.com>
+Subject: You have won a EUR 3,905,000 gift card - claim today
+Date: Tue, 12 May 2026 22:50:00 +0000
+Message-ID: <178772094017.6.5790668482763071559@appleid-verify.link>
+Return-Path: <bounce-9100@appleid-verify.link>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id E5C2381E4A5C for
+ <recipient@northgate-industries.com>; Tue, 12 May 2026 22:50:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id 4015568D065F; Tue, 12 May
+ 2026 22:48:19 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id A3495AECEE3A; Tue, 12 May
+ 2026 22:46:41 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by tor-exit-node.example (Postfix) with ESMTPS id
+ 270D8CB1FB53; Tue, 12 May 2026 22:42:52 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@appleid-verify.link>;
+Authentication-Results: mx.appleid-verify.link; spf=fail
+ smtp.mailfrom=appleid-verify.link; dkim=none header.d=appleid-verify.link;
+ dmarc=fail (p=reject) header.from=appleid-verify.link
+Content-Type: multipart/alternative;
+ boundary="===============0260323136422391197=="
+
+--===============0260323136422391197==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+A refund has been approved against your assessment and is awaiting your bank =
+confirmation. Reference number: TRK962809605.
+
+Click here to log in and complete the process:
+https://appleid-verify.link/auth/confirm
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Apple
+
+--===============0260323136422391197==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>A refund has been approved against your a=
+ssessment and is awaiting your bank confirmation. Reference number: TRK962809=
+605.</p><p>Click here to log in and complete the process: https://appleid-ver=
+ify.link/auth/confirm</p><p>If we do not receive a response within 24 hours t=
+he request will be cancelled and the amount returned to treasury.</p><p>Custo=
+mer Support Apple</p><p><a href=3D"https://appleid-verify.link/auth/confirm">=
+https://www.apple.com/verify</a></p></body></html>
+
+--===============0260323136422391197==--

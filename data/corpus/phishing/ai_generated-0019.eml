@@ -1,0 +1,70 @@
+From: "Laura Pillai" <laura.pillai@hansacapital.co>
+To: Neha Verma <neha.verma@kalyaniworks.in>
+Subject: Following up on the Finance document you shared
+Date: Mon, 25 May 2026 02:42:00 +0000
+Message-ID: <178772093660.6.4973312521110926807@hansacapital.co>
+Return-Path: <bounce-3208@hansacapital.co>
+MIME-Version: 1.0
+X-Mailer: BulkSend 2.1
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.kalyaniworks.in
+ (Postfix) with ESMTPS id EFF6044D5401 for <recipient@kalyaniworks.in>; Mon,
+ 25 May 2026 02:42:00 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 28473B3DFADD; Mon, 25 May 2026 02:38:37 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ relay.open-smtp.example (Postfix) with ESMTPS id EC6EF746EEB8; Mon, 25 May
+ 2026 02:35:47 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id F42FF617326E; Mon, 25 May
+ 2026 02:31:28 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=483716003; h=from:to:subject:date;
+ bh=8dTtWAUFpllL9k+IIcc23n5PSj2JokQYUvnGfe8T8R4=; =?utf-8?q?b=3DjFGrOJ3w6sK/?=
+ =?utf-8?q?s7b9aM2QTi91iiyzno1QePyWIScwLGLADWO4S37RVVT/23449i9wW/HPVaO26Snkh?=
+ =?utf-8?q?vmm2zabJQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8289778798366796453=="
+
+--===============8289778798366796453==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Neha,
+
+Thanks again for your time earlier this week. I have put the revised Finance
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/17bb6882
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Laura Pillai
+Associate Director, Bluestone Partners
+
+--===============8289778798366796453==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Neha,</p><p>Thanks again for your time earlier this week. I=
+ have put the revised Finance document in the shared workspace and added comm=
+ents against the two clauses we discussed.</p><p>You can open it here when co=
+nvenient: https://teamfiles-hub.co/d/17bb6882</p><p>There is no rush on this.=
+ If the second section reads oddly, that is my drafting rather than a change =
+in position, so do flag it.</p><p>Best regards, Laura Pillai Associate Direct=
+or, Bluestone Partners</p><p><a href=3D"https://teamfiles-hub.co/d/17bb6882">=
+shared workspace</a></p></body></html>
+
+--===============8289778798366796453==--

@@ -1,0 +1,69 @@
+From: "Priya Menon" <priya.menon@summitfoods.co.in>
+To: Michael Nair <michael.nair@kalyaniworks.in>
+Subject: Updated Human Resources template for your comments
+Date: Sat, 30 May 2026 20:44:00 +0000
+Message-ID: <178772093668.6.842870632634867002@summitfoods.co.in>
+Return-Path: <bounce-1512@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 492847F9AC46 for
+ <recipient@kalyaniworks.in>; Sat, 30 May 2026 20:44:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by tor-exit-node.example (Postfix) with ESMTPS id
+ 9938230B61CC; Sat, 30 May 2026 20:39:28 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 1FB71207E33C; Sat, 30 May
+ 2026 20:35:14 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 71E3D7E923CE; Sat, 30 May 2026 20:33:48 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=631042409; h=from:to:subject:date;
+ bh=/cdQzTxnov79konyTCW9r5mxqGuyDLT795+LB3Rm9R8=; =?utf-8?q?b=3DbmVXH5eCFxqK?=
+ =?utf-8?q?5KZ2WuRKdjvLVKdCbQfOIunlGzPuPckdhdmhq+CD27RnfKCf2RkdD+RlR4ohFFav0?=
+ =?utf-8?q?Oi9ojj1Kg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7039299216966362270=="
+
+--===============7039299216966362270==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Michael,
+
+Thanks again for your time earlier this week. I have put the revised Human Re=
+sources
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://sharedrive-review.io/d/9cfd94d9
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Priya Menon
+Associate Director, Bluestone Partners
+
+--===============7039299216966362270==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Michael,</p><p>Thanks again for your time earlier this week=
+. I have put the revised Human Resources document in the shared workspace and=
+ added comments against the two clauses we discussed.</p><p>You can open it h=
+ere when convenient: https://sharedrive-review.io/d/9cfd94d9</p><p>There is n=
+o rush on this. If the second section reads oddly, that is my drafting rather=
+ than a change in position, so do flag it.</p><p>Best regards, Priya Menon As=
+sociate Director, Bluestone Partners</p><p><a href=3D"https://sharedrive-revi=
+ew.io/d/9cfd94d9">shared workspace</a></p></body></html>
+
+--===============7039299216966362270==--

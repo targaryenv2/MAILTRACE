@@ -1,0 +1,68 @@
+From: "Neha Kapoor" <neha.kapoor@summitfoods.co.in>
+To: Rahul Joshi <rahul.joshi@vertexlogistics.in>
+Subject: Notes from Tuesday and one item for review
+Date: Wed, 27 May 2026 08:09:00 +0000
+Message-ID: <178772093665.6.7580326490228665859@summitfoods.co.in>
+Return-Path: <bounce-6745@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 4428AA01170E for
+ <recipient@vertexlogistics.in>; Wed, 27 May 2026 08:09:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 2D3EBCB5108B; Wed, 27 May
+ 2026 08:06:40 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ tor-exit-node.example (Postfix) with ESMTPS id AC5B3307AF01; Wed, 27 May 2026
+ 08:04:10 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by smtp-out-3.example (Postfix) with ESMTPS id C24F4917C817;
+ Wed, 27 May 2026 08:03:35 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=371762054; h=from:to:subject:date;
+ bh=v5Kq5GpoePTrV0NmTI9LHx7SDDv6pAXICOdsB99c1cI=; =?utf-8?q?b=3D1pDmOYJIs7bG?=
+ =?utf-8?q?IZIFggDEvlm4disZg/6ba3LAAq+CAZEuSXxXWW+LSdDeVjMCm6Su4iG7CcUDnmyfo?=
+ =?utf-8?q?NoH3PDB/w=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============6559427350029314819=="
+
+--===============6559427350029314819==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Rahul,
+
+Thanks again for your time earlier this week. I have put the revised Research
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://docs-workspace.app/d/8bc9eba4
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Neha Kapoor
+Programme Manager, Aurora Freight
+
+--===============6559427350029314819==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Rahul,</p><p>Thanks again for your time earlier this week. =
+I have put the revised Research document in the shared workspace and added co=
+mments against the two clauses we discussed.</p><p>You can open it here when =
+convenient: https://docs-workspace.app/d/8bc9eba4</p><p>There is no rush on t=
+his. If the second section reads oddly, that is my drafting rather than a cha=
+nge in position, so do flag it.</p><p>Best regards, Neha Kapoor Programme Man=
+ager, Aurora Freight</p><p><a href=3D"https://docs-workspace.app/d/8bc9eba4">=
+shared workspace</a></p></body></html>
+
+--===============6559427350029314819==--

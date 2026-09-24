@@ -1,0 +1,43 @@
+From: "David Rao (CEO)" <david.rao@gmail.com>
+Reply-To: david.rao.office@gmail.com
+To: Rahul Verma <rahul.verma@orionsystems.io>
+Subject: Quick request before end of day
+Date: Sun, 17 May 2026 13:37:00 +0000
+Message-ID: <178772093750.6.7466151819332939533@gmail.com>
+Return-Path: <bounce-8593@gmail.com>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id C71B5DB0784C for
+ <recipient@orionsystems.io>; Sun, 17 May 2026 13:37:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 7443B9D5E524; Sun, 17 May
+ 2026 13:36:02 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=306589800; h=from:to:subject:date;
+ bh=mNFiYdWCbs1aLzL+7NR9AdD5BXhCFlTwUBrFnUXa5Gg=; =?utf-8?q?b=3DpALlgdmV07rw?=
+ =?utf-8?q?UXoKiHz18J9R9j8gM/mnaVteniuWXIlxJppox4ZCUwU/hxdt0KzJRf6UzTYxSVmP8?=
+ =?utf-8?q?8ZyDe6Zdg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rahul,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 648,000 to a new beneficiary today. This relates to
+Aurora Freight and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Aurora Freight
+Account: 11904837043
+SWIFT/IBAN: SBININBB104
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+David Rao
+Chairman

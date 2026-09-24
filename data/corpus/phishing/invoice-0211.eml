@@ -1,0 +1,67 @@
+From: "Kestrel Supplies Ltd Accounts" <billing@linkedin-invitation.click>
+To: Meera Ellis <meera.ellis@summitfoods.co.in>
+Subject: Outstanding invoice INV-2026-5133 - payment overdue
+Date: Mon, 11 May 2026 20:35:00 +0000
+Message-ID: <178772093971.6.4656323813894705834@linkedin-invitation.click>
+Return-Path: <bounce-6730@linkedin-invitation.click>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id CD7310E8DB5B for <recipient@summitfoods.co.in>; Mon,
+ 11 May 2026 20:35:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ B7D1E79D4069; Mon, 11 May 2026 20:31:02 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@linkedin-invitation.click>;
+Authentication-Results: mx.linkedin-invitation.click; spf=fail
+ smtp.mailfrom=linkedin-invitation.click; dkim=none
+ header.d=linkedin-invitation.click; dmarc=fail (p=reject)
+ header.from=linkedin-invitation.click
+Content-Type: multipart/mixed; boundary="===============9098201598047641224=="
+
+--===============9098201598047641224==
+Content-Type: multipart/alternative;
+ boundary="===============7987697693669074879=="
+
+--===============7987697693669074879==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Meera,
+
+Please find attached invoice INV-2026-5133 for $6,797,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Michael Bose
+Accounts Receivable, Kestrel Supplies Ltd
+
+--===============7987697693669074879==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Meera,</p><p>Please find attached invoice INV-2026-5133 =
+for $6,797,000, now overdue. Kindly review the attached statement and process=
+ this payment immediately to avoid service interruption.</p><p>If the bank de=
+tails have changed since your last remittance, use the updated account inform=
+ation in the attachment.</p><p>Regards, Michael Bose Accounts Receivable, Kes=
+trel Supplies Ltd</p></body></html>
+
+--===============7987697693669074879==--
+
+--===============9098201598047641224==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-5133.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============9098201598047641224==--

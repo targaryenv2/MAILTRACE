@@ -1,0 +1,55 @@
+From: "Arjun Ellis" <arjun.ellis@northgate-industries.com>
+To: Anna Dawson <anna.dawson@northgate-industries.com>
+Subject: Reminder: submit Academics timesheets by Friday
+Date: Fri, 15 May 2026 06:41:00 +0000
+Message-ID: <178772094221.6.3933898514113848986@northgate-industries.com>
+Return-Path: <arjun.ellis@northgate-industries.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 379D31EB38C1 for
+ <recipient@northgate-industries.com>; Fri, 15 May 2026 06:41:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 9AB767641B75; Fri, 15 May 2026
+ 06:40:49 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id 044E6A1309C8; Fri, 15 May
+ 2026 06:35:20 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=175314401; h=from:to:subject:date;
+ bh=mTsfuLroLhIWpzKjj+pEtkQ4mMZ8KGgtnfM/v1sYSBw=; =?utf-8?q?b=3DDSfPgDW1v8m6?=
+ =?utf-8?q?xyA189du8u1ryTd1iakkGATBVdnEoXKb7ZM6Yx05tmTGfFosLL+/kuWpPvapcG5Ea?=
+ =?utf-8?q?9OGdXp3bA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============1201161116913355679=="
+
+--===============1201161116913355679==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Anna,
+
+A reminder that September timesheets close on Friday. If you are on leave, yo=
+ur
+approver can submit on your behalf.
+
+Thanks,
+Arjun Ellis
+Academics
+
+--===============1201161116913355679==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Anna,</p><p>A reminder that September timesheets close on F=
+riday. If you are on leave, your approver can submit on your behalf.</p><p>Th=
+anks, Arjun Ellis Academics</p></body></html>
+
+--===============1201161116913355679==--

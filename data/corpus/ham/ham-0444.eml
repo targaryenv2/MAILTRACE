@@ -1,0 +1,52 @@
+From: "Rahul Bose" <rahul.bose@summitfoods.co.in>
+To: Sarah Kapoor <sarah.kapoor@summitfoods.co.in>
+Subject: Welcome to the team, Sarah
+Date: Mon, 04 May 2026 08:53:00 +0000
+Message-ID: <178772094336.6.3054841056309914043@summitfoods.co.in>
+Return-Path: <rahul.bose@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 12221BBEE705 for
+ <recipient@summitfoods.co.in>; Mon, 04 May 2026 08:53:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 232A76BC1129; Mon, 04 May 2026 08:51:09 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=498443405; h=from:to:subject:date;
+ bh=X4UyA2alcPpoKSdeQ5z1e+9pEVFb2fGedV/ii9U82wQ=; =?utf-8?q?b=3DgzhcYdXbkI29?=
+ =?utf-8?q?3PtM7kKnwtMlz8msMsnnjqjakDnxRaeOuTwKGj5dTL86hEXjw9+SI3MMtj5uCEeZI?=
+ =?utf-8?q?y463L/lyg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============5088068266161681052=="
+
+--===============5088068266161681052==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Sarah,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Rahul Bose
+Human Resources, Meridian Labs
+
+--===============5088068266161681052==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Sarah,</p><p>Welcome aboard. Your laptop is at the IT desk =
+on the second floor and your manager will walk you through the first-week pla=
+n tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Rahul Bose Human Re=
+sources, Meridian Labs</p></body></html>
+
+--===============5088068266161681052==--

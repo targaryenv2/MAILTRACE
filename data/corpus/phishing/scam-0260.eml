@@ -1,0 +1,56 @@
+From: "Google Workspace" <notice@accounts-google-verify.top>
+To: Ananya Anderson <ananya.anderson@brightpath-edu.ac.in>
+Subject: You have won a EUR 3,155,000 gift card - claim today
+Date: Wed, 27 May 2026 10:36:00 +0000
+Message-ID: <178772094051.6.16793967108742691001@accounts-google-verify.top>
+Return-Path: <bounce-3846@accounts-google-verify.top>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id B0B424FB559A for
+ <recipient@brightpath-edu.ac.in>; Wed, 27 May 2026 10:36:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 40D24DE97F8A; Wed, 27 May 2026 10:32:20 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@accounts-google-verify.top>;
+Authentication-Results: mx.accounts-google-verify.top; spf=fail
+ smtp.mailfrom=accounts-google-verify.top; dkim=none
+ header.d=accounts-google-verify.top; dmarc=fail (p=reject)
+ header.from=accounts-google-verify.top
+Content-Type: multipart/alternative;
+ boundary="===============7722636716576793201=="
+
+--===============7722636716576793201==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your KYC documents have expired and the account has been marked for restricti=
+on. Reference number: CN926474144.
+
+Click here to log in and complete the process:
+https://accounts-google-verify.top/account/verify
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Google Workspace
+
+--===============7722636716576793201==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your KYC documents have expired and the a=
+ccount has been marked for restriction. Reference number: CN926474144.</p><p>=
+Click here to log in and complete the process: https://accounts-google-verify=
+.top/account/verify</p><p>If we do not receive a response within 24 hours the=
+ request will be cancelled and the amount returned to treasury.</p><p>Custome=
+r Support Google Workspace</p><p><a href=3D"https://accounts-google-verify.to=
+p/account/verify">https://www.google.com/verify</a></p></body></html>
+
+--===============7722636716576793201==--

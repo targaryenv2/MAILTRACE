@@ -1,0 +1,54 @@
+From: "David Anderson" <david.anderson@kalyaniworks.in>
+To: Rahul Hughes <rahul.hughes@kalyaniworks.in>
+Subject: Conference paper decision - Vertex Logistics workshop
+Date: Mon, 01 Jun 2026 08:23:00 +0000
+Message-ID: <178772094395.6.196317072506607548@kalyaniworks.in>
+Return-Path: <david.anderson@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.kalyaniworks.in
+ (Postfix) with ESMTPS id 192C780337D0 for <recipient@kalyaniworks.in>; Mon,
+ 01 Jun 2026 08:23:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 68259B235FAF; Mon,
+ 01 Jun 2026 08:16:59 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 2890E3F48455;
+ Mon, 01 Jun 2026 08:12:07 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=982739916; h=from:to:subject:date;
+ bh=Iutom0EkqyxetSY1uBlCnvoPMLs/CbIGHnRRF1CRuBk=; =?utf-8?q?b=3DBg028BPwQvxO?=
+ =?utf-8?q?T+4ntdwRkHICVPoIh6wZTylW5ZU1+I1HvG69I7vKv+nz4qVOFYYM6423mUgFzEHca?=
+ =?utf-8?q?wROBhoSJA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============5737310713449723418=="
+
+--===============5737310713449723418==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rahul,
+
+Thank you for your submission to the Vertex Logistics workshop. The reviewers=
+ have
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee
+
+--===============5737310713449723418==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-6175.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============5737310713449723418==--

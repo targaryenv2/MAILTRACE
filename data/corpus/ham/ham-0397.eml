@@ -1,0 +1,57 @@
+From: "Aditya Grant" <aditya.grant@meridian-labs.org>
+To: Michael Nair <michael.nair@meridian-labs.org>
+Subject: Payslip for October is available
+Date: Mon, 11 May 2026 12:40:00 +0000
+Message-ID: <178772094263.6.6945753021350962122@meridian-labs.org>
+Return-Path: <aditya.grant@meridian-labs.org>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.meridian-labs.org (Postfix) with ESMTPS id CE253F2B06B7
+ for <recipient@meridian-labs.org>; Mon, 11 May 2026 12:40:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 3F57CF575771; Mon, 11 May
+ 2026 12:39:00 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=420739518; h=from:to:subject:date;
+ bh=k431oMiWNFTm59HQms6SU3n3Z+OTqGsGRwUBu59tk34=; =?utf-8?q?b=3DPwm1gicQG7Se?=
+ =?utf-8?q?5CUYIQWorgMzypHE0Fc6Bj1/8N5LdaBUmm2b7eQVE9vAkuWxovY3ZBYOYBpP6lkWo?=
+ =?utf-8?q?dnI72vLBg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3567287074811656319=="
+
+--===============3567287074811656319==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Michael,
+
+Your payslip for October is now available on the employee portal. Log in thro=
+ugh
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Orion Systems
+
+--===============3567287074811656319==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Michael,</p><p>Your payslip for October is now available =
+on the employee portal. Log in through the usual internal link on the intrane=
+t home page.</p><p>If any of the tax details look incorrect, raise a ticket w=
+ith Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll =
+Team Orion Systems</p></body></html>
+
+--===============3567287074811656319==--

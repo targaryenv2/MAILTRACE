@@ -1,0 +1,57 @@
+From: "Kavya Menon" <kavya.menon@kalyaniworks.in>
+To: James Pillai <james.pillai@kalyaniworks.in>
+Subject: Your order INV-2026-5185 has shipped
+Date: Thu, 14 May 2026 10:21:00 +0000
+Message-ID: <178772094118.6.13079479146085375270@kalyaniworks.in>
+Return-Path: <kavya.menon@kalyaniworks.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id 9F0AF9D1D331 for
+ <recipient@kalyaniworks.in>; Thu, 14 May 2026 10:21:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 631A68493011; Thu, 14 May
+ 2026 10:20:42 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@kalyaniworks.in>;
+Authentication-Results: mx.kalyaniworks.in; spf=pass
+ smtp.mailfrom=kalyaniworks.in; dkim=pass header.d=kalyaniworks.in; dmarc=pass
+ (p=reject) header.from=kalyaniworks.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kalyaniworks.in;
+ s=selector1; t=886000647; h=from:to:subject:date;
+ bh=46fVZjc5aqz49P4dtieV+3HrA78vjkSLvLjgnpl9MMI=; =?utf-8?q?b=3DO4pMR+TC/OG3?=
+ =?utf-8?q?+QUBnuc028eBmXGyJmN3bpF9GtfL7phX8u1S1LaVzck7nw5+EWAgKwX4JlstrJaKX?=
+ =?utf-8?q?ZcPw9C0eQ=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3913799595418333959=="
+
+--===============3913799595418333959==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello James,
+
+Order INV-2026-5185 shipped today and should arrive within three working days=
+. Tracking
+number TRK192714898.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Brightpath Institute Customer Care
+
+--===============3913799595418333959==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello James,</p><p>Order INV-2026-5185 shipped today and shoul=
+d arrive within three working days. Tracking number TRK192714898.</p><p>Items=
+ - 1 x Mechanical keyboard - 2 x USB-C cable, 1m</p><p>No action is needed. O=
+rder history is available from your account page.</p><p>Brightpath Institute =
+Customer Care</p></body></html>
+
+--===============3913799595418333959==--

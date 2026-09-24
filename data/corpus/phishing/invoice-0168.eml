@@ -1,0 +1,70 @@
+From: "Kestrel Supplies Ltd Accounts" <billing@gooogle-mail.cf>
+To: Anna Hughes <anna.hughes@kalyaniworks.in>
+Subject: Purchase order INV-2026-1175 needs your approval
+Date: Mon, 18 May 2026 17:03:00 +0000
+Message-ID: <178772093898.6.5814635201964402948@gooogle-mail.cf>
+Return-Path: <bounce-6303@gooogle-mail.cf>
+MIME-Version: 1.0
+X-Mailer: BulkSend 2.1
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id C9BBFA606A17 for
+ <recipient@kalyaniworks.in>; Mon, 18 May 2026 17:03:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id A96298385ED9; Mon, 18 May 2026
+ 16:59:11 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id C2D00D6B1521; Mon, 18 May 2026 16:53:52 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@gooogle-mail.cf>;
+Authentication-Results: mx.gooogle-mail.cf; spf=fail
+ smtp.mailfrom=gooogle-mail.cf; dkim=none header.d=gooogle-mail.cf; dmarc=fail
+ (p=reject) header.from=gooogle-mail.cf
+Content-Type: multipart/mixed; boundary="===============7556027762499815966=="
+
+--===============7556027762499815966==
+Content-Type: multipart/alternative;
+ boundary="===============7027710963595208977=="
+
+--===============7027710963595208977==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Anna,
+
+Please find attached invoice INV-2026-1175 for EUR 6,824,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Neha Kapoor
+Accounts Receivable, Kestrel Supplies Ltd
+
+--===============7027710963595208977==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Anna,</p><p>Please find attached invoice INV-2026-1175 f=
+or EUR 6,824,000, now overdue. Kindly review the attached statement and proce=
+ss this payment immediately to avoid service interruption.</p><p>If the bank =
+details have changed since your last remittance, use the updated account info=
+rmation in the attachment.</p><p>Regards, Neha Kapoor Accounts Receivable, Ke=
+strel Supplies Ltd</p></body></html>
+
+--===============7027710963595208977==--
+
+--===============7556027762499815966==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-1175.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============7556027762499815966==--

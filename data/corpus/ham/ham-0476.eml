@@ -1,0 +1,57 @@
+From: "Priya Joshi" <priya.joshi@hansacapital.co>
+To: Ishita Kapoor <ishita.kapoor@hansacapital.co>
+Subject: Payslip for January is available
+Date: Fri, 29 May 2026 07:13:00 +0000
+Message-ID: <178772094385.6.10107739213682055648@hansacapital.co>
+Return-Path: <priya.joshi@hansacapital.co>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.hansacapital.co (Postfix) with ESMTPS id C7DAA09EF8F8
+ for <recipient@hansacapital.co>; Fri, 29 May 2026 07:13:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 56D4880D872E; Fri, 29 May
+ 2026 07:11:40 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=596878034; h=from:to:subject:date;
+ bh=5IKpW5dl8MXnvX6GSn+p7a3p3wFQkQJRmPmi+TuH2ag=; =?utf-8?q?b=3D4Qa9/rbh48GM?=
+ =?utf-8?q?Ci6Z+wcP0i8jndBtF2mlQGYVTKebr/aZPBYbm6TBeL7n4zYphuTuoGiM1sdOlxC8G?=
+ =?utf-8?q?ajhUaZ04w=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7624045708773215218=="
+
+--===============7624045708773215218==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Ishita,
+
+Your payslip for January is now available on the employee portal. Log in thro=
+ugh
+the usual internal link on the intranet home page.
+
+If any of the tax details look incorrect, raise a ticket with Payroll and we =
+will
+correct it in the next cycle.
+
+Regards,
+Payroll Team
+Vertex Logistics
+
+--===============7624045708773215218==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Ishita,</p><p>Your payslip for January is now available o=
+n the employee portal. Log in through the usual internal link on the intranet=
+ home page.</p><p>If any of the tax details look incorrect, raise a ticket wi=
+th Payroll and we will correct it in the next cycle.</p><p>Regards, Payroll T=
+eam Vertex Logistics</p></body></html>
+
+--===============7624045708773215218==--

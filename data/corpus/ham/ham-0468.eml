@@ -1,0 +1,42 @@
+From: "Priya Gupta" <priya.gupta@brightpath-edu.ac.in>
+To: Anna Hughes <anna.hughes@brightpath-edu.ac.in>
+Subject: Weekly Operations sync - agenda
+Date: Wed, 13 May 2026 00:51:00 +0000
+Message-ID: <178772094373.6.6050176384368161237@brightpath-edu.ac.in>
+Return-Path: <priya.gupta@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 6E2979E3A301 for
+ <recipient@brightpath-edu.ac.in>; Wed, 13 May 2026 00:51:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id 2C4587BA273B; Wed, 13 May
+ 2026 00:46:15 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 1F9A2242A4D0; Wed, 13 May
+ 2026 00:40:54 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=806470787; h=from:to:subject:date;
+ bh=/qZNMBIDYJksduicaI9cK2Nupi/AyrpFty0QUfxKyh4=; =?utf-8?q?b=3DYWXz9p90xWlL?=
+ =?utf-8?q?p2Zz9QzMBSk80pIkt7L9nP3noavvUGyn2ulojVNObAwCLCSwMTAl5hHOCN6sSfvDN?=
+ =?utf-8?q?GE2e2fGhQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Operations sync:
+
+1. Status of the Vertex Logistics migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Priya Gupta

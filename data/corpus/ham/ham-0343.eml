@@ -1,0 +1,57 @@
+From: "James Menon" <james.menon@brightpath-edu.ac.in>
+To: Karthik Sharma <karthik.sharma@brightpath-edu.ac.in>
+Subject: Your order INV-2025-8609 has shipped
+Date: Sun, 17 May 2026 03:14:00 +0000
+Message-ID: <178772094179.6.2274487365897734377@brightpath-edu.ac.in>
+Return-Path: <james.menon@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id FD1600DAAEBF for
+ <recipient@brightpath-edu.ac.in>; Sun, 17 May 2026 03:14:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id B199AD93F14A; Sun, 17 May 2026 03:13:16 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=873505708; h=from:to:subject:date;
+ bh=i/4Td7/CbZF3xIcqATAN+lrbzRj9xIhi5m4ai/YurUE=; =?utf-8?q?b=3DwULLtvW1T3xP?=
+ =?utf-8?q?Lx/pWvYOsbobG25AB77diYohpkT6Cxa8aOpxZsMsg+Vnb2rFYnmeiSLJLix/Xh+40?=
+ =?utf-8?q?isOTgDYug=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============4131641954056478700=="
+
+--===============4131641954056478700==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Karthik,
+
+Order INV-2025-8609 shipped today and should arrive within three working days=
+. Tracking
+number TRK896985875.
+
+Items
+- 1 x Mechanical keyboard
+- 2 x USB-C cable, 1m
+
+No action is needed. Order history is available from your account page.
+
+Vertex Logistics Customer Care
+
+--===============4131641954056478700==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Karthik,</p><p>Order INV-2025-8609 shipped today and sho=
+uld arrive within three working days. Tracking number TRK896985875.</p><p>Ite=
+ms - 1 x Mechanical keyboard - 2 x USB-C cable, 1m</p><p>No action is needed.=
+ Order history is available from your account page.</p><p>Vertex Logistics Cu=
+stomer Care</p></body></html>
+
+--===============4131641954056478700==--

@@ -1,0 +1,68 @@
+From: "Laura Joshi" <laura.joshi@northgate-industries.com>
+To: Meera Dawson <meera.dawson@northgate-industries.com>
+Subject: PR #2325: refactor the retry handler
+Date: Fri, 08 May 2026 05:36:00 +0000
+Message-ID: <178772094193.6.12495023084784229676@northgate-industries.com>
+Return-Path: <laura.joshi@northgate-industries.com>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 2024C4E7CD52 for
+ <recipient@northgate-industries.com>; Fri, 08 May 2026 05:36:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 40C5D466C2DE;
+ Fri, 08 May 2026 05:35:14 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=341092776; h=from:to:subject:date;
+ bh=zev/Lot+dqdP011NHd42tt0cdJVeknKhWFWeBGmQZ/E=; =?utf-8?q?b=3D8zMTryRl9bUF?=
+ =?utf-8?q?GDgRWafOValby0wmrIIBfO/PPqFYMs3/lT3C26WLDPeU0uRLtnnonVk5p0pNXA6ih?=
+ =?utf-8?q?aVWUeUY3g=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============7376377678234217243=="
+
+--===============7376377678234217243==
+Content-Type: multipart/alternative;
+ boundary="===============4888845027776978732=="
+
+--===============4888845027776978732==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Laura Joshi requested your review on pull request #2325.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============4888845027776978732==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Laura Joshi requested your review on pull request #2325.</p><p=
+>refactor: collapse the three retry paths into one backoff helper</p><p>Chang=
+ed 6 files, +148 -211. CI is green. The behaviour change worth checking is th=
+at a 429 now retries twice instead of once.</p><p>View it in the repository w=
+hen you get a chance.</p></body></html>
+
+--===============4888845027776978732==--
+
+--===============7376377678234217243==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-0277.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============7376377678234217243==--

@@ -1,0 +1,66 @@
+From: "State Bank of India" <notice@sbi-netbanking-kyc.top>
+To: Sanjay Menon <sanjay.menon@brightpath-edu.ac.in>
+Subject: You have won a $6,752,000 gift card - claim today
+Date: Mon, 18 May 2026 03:24:00 +0000
+Message-ID: <178772094021.6.10997309653718970067@sbi-netbanking-kyc.top>
+Return-Path: <bounce-6267@sbi-netbanking-kyc.top>
+MIME-Version: 1.0
+X-Mailer: PHPMailer 6.1.6
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 8EB60A828DBF for
+ <recipient@brightpath-edu.ac.in>; Mon, 18 May 2026 03:24:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 66237D366CFF; Mon, 18 May
+ 2026 03:21:05 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 2A30BE37157A; Mon, 18 May 2026
+ 03:17:01 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mail.gateway.example
+ (Postfix) with ESMTPS id 7D1973394C30; Mon, 18 May 2026 03:13:50 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ C3052F715110; Mon, 18 May 2026 03:12:33 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@sbi-netbanking-kyc.top>;
+Authentication-Results: mx.sbi-netbanking-kyc.top; spf=fail
+ smtp.mailfrom=sbi-netbanking-kyc.top; dkim=none
+ header.d=sbi-netbanking-kyc.top; dmarc=fail (p=reject)
+ header.from=sbi-netbanking-kyc.top
+Content-Type: multipart/alternative;
+ boundary="===============3330961663953189401=="
+
+--===============3330961663953189401==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+A refund has been approved against your assessment and is awaiting your bank =
+confirmation. Reference number: AWB056111939.
+
+Click here to log in and complete the process:
+https://sbi-netbanking-kyc.top/auth/confirm
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+State Bank of India
+
+--===============3330961663953189401==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>A refund has been approved against your a=
+ssessment and is awaiting your bank confirmation. Reference number: AWB056111=
+939.</p><p>Click here to log in and complete the process: https://sbi-netbank=
+ing-kyc.top/auth/confirm</p><p>If we do not receive a response within 24 hour=
+s the request will be cancelled and the amount returned to treasury.</p><p>Cu=
+stomer Support State Bank of India</p><p><a href=3D"https://sbi-netbanking-ky=
+c.top/auth/confirm">https://www.sbi.co.in/verify</a></p></body></html>
+
+--===============3330961663953189401==--

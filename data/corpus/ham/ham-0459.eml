@@ -1,0 +1,52 @@
+From: "Ishita Carter" <ishita.carter@orionsystems.io>
+To: Aditya Kapoor <aditya.kapoor@orionsystems.io>
+Subject: Welcome to the team, Aditya
+Date: Mon, 11 May 2026 14:41:00 +0000
+Message-ID: <178772094359.6.2216911768187751824@orionsystems.io>
+Return-Path: <ishita.carter@orionsystems.io>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.orionsystems.io (Postfix) with ESMTPS id DA6CEB3509C6
+ for <recipient@orionsystems.io>; Mon, 11 May 2026 14:41:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id FD2914ADA718; Mon, 11
+ May 2026 14:36:58 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.61;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=857276428; h=from:to:subject:date;
+ bh=+K4OSowRQcdhChgu34oLMHUShFQewUMWY8NftmnyEa8=; =?utf-8?q?b=3DKE/VzxRog3u7?=
+ =?utf-8?q?SsldgwDAskIkT1Tn8cjBeF4hw+03xJthrxmFzCMHAHlm93JPFHJzvQpBJlIwMtOb0?=
+ =?utf-8?q?tCZvYGjgw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============1106773849786291927=="
+
+--===============1106773849786291927==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Aditya,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Ishita Carter
+Human Resources, Vertex Logistics
+
+--===============1106773849786291927==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Aditya,</p><p>Welcome aboard. Your laptop is at the IT desk=
+ on the second floor and your manager will walk you through the first-week pl=
+an tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Ishita Carter Huma=
+n Resources, Vertex Logistics</p></body></html>
+
+--===============1106773849786291927==--

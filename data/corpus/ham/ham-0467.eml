@@ -1,0 +1,53 @@
+From: "Michael Menon" <michael.menon@vertexlogistics.in>
+To: Michael Hughes <michael.hughes@vertexlogistics.in>
+Subject: Reminder: submit Operations timesheets by Friday
+Date: Wed, 13 May 2026 07:36:00 +0000
+Message-ID: <178772094371.6.17893602600510128447@vertexlogistics.in>
+Return-Path: <michael.menon@vertexlogistics.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id 32A3F8BC4294 for
+ <recipient@vertexlogistics.in>; Wed, 13 May 2026 07:36:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by smtp-out-3.example (Postfix) with ESMTPS id 49155DE8B870;
+ Wed, 13 May 2026 07:32:49 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 3E5E4D1F8B30; Wed, 13
+ May 2026 07:27:15 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@vertexlogistics.in>;
+Authentication-Results: mx.vertexlogistics.in; spf=pass
+ smtp.mailfrom=vertexlogistics.in; dkim=pass header.d=vertexlogistics.in;
+ dmarc=pass (p=reject) header.from=vertexlogistics.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vertexlogistics.in;
+ s=selector1; t=129046619; h=from:to:subject:date;
+ bh=0uOCJ5msorXu3qiRez8O8uXyoR35fb76mLBXkOFjVCw=; =?utf-8?q?b=3Df9O/DkOzGbRl?=
+ =?utf-8?q?25cNhxLVdgN6xkwWkRHMeyTop76Molj2GalYl9ALP4WOJm2oPDZvnyOYBqUtWfRNs?=
+ =?utf-8?q?SjUvIcMMg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============2897290068795295129=="
+
+--===============2897290068795295129==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Michael,
+
+A reminder that May timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Michael Menon
+Operations
+
+--===============2897290068795295129==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Michael,</p><p>A reminder that May timesheets close on Frid=
+ay. If you are on leave, your approver can submit on your behalf.</p><p>Thank=
+s, Michael Menon Operations</p></body></html>
+
+--===============2897290068795295129==--

@@ -1,0 +1,47 @@
+From: "Michael Grant (CEO)" <michael.grant@gmail.com>
+Reply-To: michael.grant.office@gmail.com
+To: Rohan Nair <rohan.nair@summitfoods.co.in>
+Subject: Quick request before end of day
+Date: Sat, 02 May 2026 20:27:00 +0000
+Message-ID: <178772093744.6.16406035820484818109@gmail.com>
+Return-Path: <bounce-1327@gmail.com>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id 3A862792DC38 for <recipient@summitfoods.co.in>; Sat,
+ 02 May 2026 20:27:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 2667C269AE6B; Sat,
+ 02 May 2026 20:22:26 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mail.gateway.example (Postfix) with ESMTPS id
+ 30D3DDA705A6; Sat, 02 May 2026 20:21:41 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=139858193; h=from:to:subject:date;
+ bh=l9BIWqJdeWoNz9P2FdcTLX0lrmc0c6D/ngEDJY1Mu+I=; =?utf-8?q?b=3DQGRe1jPBpe9J?=
+ =?utf-8?q?adhmwtCcRZCQ6UrMbb2WBHbswVWyg/PQEfvzJ0/v3cDgBvoItvP55ZEvUsihcOnHI?=
+ =?utf-8?q?erKuocDQg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Rohan,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of $4,452,000 to a new beneficiary today. This relates to
+Lakeside Consulting and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Lakeside Consulting
+Account: 42544974885
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Michael Grant
+Managing Director

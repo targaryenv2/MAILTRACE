@@ -1,0 +1,50 @@
+From: "Neha Verma" <neha.verma@summitfoods.co.in>
+To: Karthik Anderson <karthik.anderson@summitfoods.co.in>
+Subject: Library books due October
+Date: Mon, 25 May 2026 13:36:00 +0000
+Message-ID: <178772094085.6.10017121816843086849@summitfoods.co.in>
+Return-Path: <neha.verma@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id 0C609F44A366 for <recipient@summitfoods.co.in>; Mon,
+ 25 May 2026 13:36:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 607DF7A0B96C; Mon, 25 May 2026 13:31:19 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=38365964; h=from:to:subject:date;
+ bh=+J3tUhGPXG3sZo7nmnry7wsqtrxBpSk/zF/JXuMj+sQ=; =?utf-8?q?b=3DHSGb/o+ODtjO?=
+ =?utf-8?q?3S9BahGFtPcxzMl/g1mRXfebUpxbFEcZ7jKCQziQZU+3PlZWUnEfJZt09uPh+mINO?=
+ =?utf-8?q?WqGfBgwAA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============8842524000177759917=="
+
+--===============8842524000177759917==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Karthik,
+
+Two items on your library account are due at the end of October. Renewals can=
+ be
+made at the circulation desk or from the catalogue page.
+
+Central Library
+
+--===============8842524000177759917==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Karthik,</p><p>Two items on your library account are due =
+at the end of October. Renewals can be made at the circulation desk or from t=
+he catalogue page.</p><p>Central Library</p></body></html>
+
+--===============8842524000177759917==--

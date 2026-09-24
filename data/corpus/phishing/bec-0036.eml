@@ -1,0 +1,53 @@
+From: "Karthik Menon (CEO)" <karthik.menon@yahoo.com>
+Reply-To: karthik.menon.office@yahoo.com
+To: David Brooks <david.brooks@summitfoods.co.in>
+Subject: Re: Urgent wire transfer - confidential
+Date: Thu, 14 May 2026 17:16:00 +0000
+Message-ID: <178772093684.6.224579447768228987@yahoo.com>
+Return-Path: <bounce-8035@yahoo.com>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 3D4CB21C8BD4 for
+ <recipient@summitfoods.co.in>; Thu, 14 May 2026 17:16:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id E0140323FF87; Thu, 14 May 2026
+ 17:09:23 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id BF570C63D871; Thu, 14 May 2026 17:04:40 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 075E13A0C6EA; Thu, 14 May 2026 17:01:13 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 10AC92CB7686; Thu, 14
+ May 2026 16:54:34 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=603582243; h=from:to:subject:date;
+ bh=EDh6b7n9ejkhNo+3RFp3EBUJ5kYUznRiiRDs1R4E9ss=; =?utf-8?q?b=3Dw1jOUMOIHhJv?=
+ =?utf-8?q?kpM2aFl+6tuGghID+gwCkpVU9hTLIBsO4NBhooFx2X2pl0JE0TNp8p52skmD9RIuZ?=
+ =?utf-8?q?0zJGeG8jA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello David,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 5,638,000 to a new beneficiary today. This relates to
+Lakeside Consulting and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Lakeside Consulting
+Account: 38664561207
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Karthik Menon
+Managing Director

@@ -1,0 +1,57 @@
+From: "Sarah Verma" <sarah.verma@hansacapital.co>
+To: Rohan Hughes <rohan.hughes@hansacapital.co>
+Subject: Weekly Legal sync - agenda
+Date: Sat, 09 May 2026 20:49:00 +0000
+Message-ID: <178772094187.6.16916769769929739711@hansacapital.co>
+Return-Path: <sarah.verma@hansacapital.co>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.hansacapital.co
+ (Postfix) with ESMTPS id 44E6424451F4 for <recipient@hansacapital.co>; Sat,
+ 09 May 2026 20:49:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id DC1EA9544C0A; Sat,
+ 09 May 2026 20:46:11 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 072E33AE7CBC; Sat, 09 May
+ 2026 20:43:38 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@hansacapital.co>;
+Authentication-Results: mx.hansacapital.co; spf=pass
+ smtp.mailfrom=hansacapital.co; dkim=pass header.d=hansacapital.co; dmarc=pass
+ (p=reject) header.from=hansacapital.co
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hansacapital.co;
+ s=selector1; t=709531030; h=from:to:subject:date;
+ bh=s6rq98UcIsK0xEz0PAqlBmFH0alklKxPfkGd6XSL+Oc=; =?utf-8?q?b=3Dt9VcOsmeAnxx?=
+ =?utf-8?q?ApxgP1sJHBH3WOV/CBrEGfQOY1W11gr+yRTZmVOXGLJd7R9mI5YDUzSJMy65MZpij?=
+ =?utf-8?q?I27lZhR/A=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============2255919815714039936=="
+
+--===============2255919815714039936==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Legal sync:
+
+1. Status of the Meridian Labs migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Sarah Verma
+
+--===============2255919815714039936==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-8144.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============2255919815714039936==--

@@ -1,0 +1,80 @@
+From: "Aurora Freight Accounts" <billing@sbi-netbanking-kyc.top>
+To: Arjun Brooks <arjun.brooks@brightpath-edu.ac.in>
+Subject: Purchase order INV-2025-2260 needs your approval
+Date: Thu, 28 May 2026 11:49:00 +0000
+Message-ID: <178772093969.6.2514516206787921@sbi-netbanking-kyc.top>
+Return-Path: <bounce-8128@sbi-netbanking-kyc.top>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 1F2E8A6A19C8 for
+ <recipient@brightpath-edu.ac.in>; Thu, 28 May 2026 11:49:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 0D3F56388C93; Thu, 28 May 2026
+ 11:45:53 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id 63A8FDCD2319; Thu, 28 May
+ 2026 11:43:25 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 6A062594B593; Thu, 28 May
+ 2026 11:41:50 +0000
+Received: from relay.open-smtp.example (relay.open-smtp.example
+ [198.51.100.89]) by mail.gateway.example (Postfix) with ESMTPS id
+ A62C1BB788D0; Thu, 28 May 2026 11:39:28 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@sbi-netbanking-kyc.top>;
+Authentication-Results: mx.sbi-netbanking-kyc.top; spf=softfail
+ smtp.mailfrom=sbi-netbanking-kyc.top; dkim=fail
+ header.d=sbi-netbanking-kyc.top; dmarc=fail (p=reject)
+ header.from=sbi-netbanking-kyc.top
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=sbi-netbanking-kyc.top; s=selector1; t=577073224; h=from:to:subject:date;
+ bh=HqP1GEyE6OpGRnXL8ijdpTCJCxawp8R5F66JoY1Tiss=; =?utf-8?q?b=3DjdWOfwASqIHL?=
+ =?utf-8?q?rHw5vIrLDKx5lvUWkJTPyyVTzLYtR6G8cRy/WDmi3nSPBualb2cOeoMrliphc+5jc?=
+ =?utf-8?q?A9ReNrZ8A=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============6623336891448874626=="
+
+--===============6623336891448874626==
+Content-Type: multipart/alternative;
+ boundary="===============8911823116085609533=="
+
+--===============8911823116085609533==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Arjun,
+
+Please find attached invoice INV-2025-2260 for $3,923,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Aditya Kapoor
+Accounts Receivable, Aurora Freight
+
+--===============8911823116085609533==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Arjun,</p><p>Please find attached invoice INV-2025-2260 =
+for $3,923,000, now overdue. Kindly review the attached statement and process=
+ this payment immediately to avoid service interruption.</p><p>If the bank de=
+tails have changed since your last remittance, use the updated account inform=
+ation in the attachment.</p><p>Regards, Aditya Kapoor Accounts Receivable, Au=
+rora Freight</p></body></html>
+
+--===============8911823116085609533==--
+
+--===============6623336891448874626==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-2260.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============6623336891448874626==--

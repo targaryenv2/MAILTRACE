@@ -1,0 +1,73 @@
+From: "Trident Components Accounts" <billing@docusign-review.click>
+To: Divya Kapoor <divya.kapoor@brightpath-edu.ac.in>
+Subject: Invoice attached: INV-2026-8399 (EUR 1,967,000)
+Date: Tue, 05 May 2026 05:51:00 +0000
+Message-ID: <178772093982.6.16227290903588854317@docusign-review.click>
+Return-Path: <bounce-6706@docusign-review.click>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id B76226FA033A for
+ <recipient@brightpath-edu.ac.in>; Tue, 05 May 2026 05:51:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mail.gateway.example (Postfix) with ESMTPS id D5C2AF443B7B; Tue, 05 May 2026
+ 05:45:58 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@docusign-review.click>;
+Authentication-Results: mx.docusign-review.click; spf=softfail
+ smtp.mailfrom=docusign-review.click; dkim=fail
+ header.d=docusign-review.click; dmarc=fail (p=reject)
+ header.from=docusign-review.click
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=docusign-review.click;
+ s=selector1; t=857559381; h=from:to:subject:date;
+ bh=OqnxZko4B3G+aSrTcp1CGHRk7FjTSoCrDF5c5vmbaYk=; =?utf-8?q?b=3Dq1jQYTl0cL7c?=
+ =?utf-8?q?KcUGSRVL4ilo+MXiRD+qrGrV/+KTEGGlUmlHbwqnFnb52VRn8X/8iIkwO5hxsOMhB?=
+ =?utf-8?q?/OPjzu85A=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============4584533818522964117=="
+
+--===============4584533818522964117==
+Content-Type: multipart/alternative;
+ boundary="===============5088377938124732245=="
+
+--===============5088377938124732245==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Divya,
+
+Please find attached invoice INV-2026-8399 for EUR 1,967,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Priya Iyer
+Accounts Receivable, Trident Components
+
+--===============5088377938124732245==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Divya,</p><p>Please find attached invoice INV-2026-8399 =
+for EUR 1,967,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Priya Iyer Accounts Receivable, Tr=
+ident Components</p></body></html>
+
+--===============5088377938124732245==--
+
+--===============4584533818522964117==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-8399.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============4584533818522964117==--

@@ -1,0 +1,74 @@
+From: "Trident Components Accounts" <billing@accounts-google-verify.top>
+To: Anna Pillai <anna.pillai@vertexlogistics.in>
+Subject: Outstanding invoice INV-2025-7431 - payment overdue
+Date: Wed, 13 May 2026 22:29:00 +0000
+Message-ID: <178772093918.6.16473605887318654528@accounts-google-verify.top>
+Return-Path: <bounce-8363@accounts-google-verify.top>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.vertexlogistics.in (Postfix) with ESMTPS id
+ ACFD9FE5D716 for <recipient@vertexlogistics.in>; Wed, 13 May 2026 22:29:00
+ +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 116983A04C0B; Wed, 13
+ May 2026 22:26:52 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ vps-31.hosting.example (Postfix) with ESMTPS id 7432094C912A; Wed, 13 May
+ 2026 22:24:31 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 73667A63B503; Wed, 13 May 2026 22:23:51 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@accounts-google-verify.top>;
+Authentication-Results: mx.accounts-google-verify.top; spf=fail
+ smtp.mailfrom=accounts-google-verify.top; dkim=none
+ header.d=accounts-google-verify.top; dmarc=fail (p=reject)
+ header.from=accounts-google-verify.top
+Content-Type: multipart/mixed; boundary="===============8487243384157410737=="
+
+--===============8487243384157410737==
+Content-Type: multipart/alternative;
+ boundary="===============8877041159305376935=="
+
+--===============8877041159305376935==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Anna,
+
+Please find attached invoice INV-2025-7431 for $5,763,000, now overdue. Kindly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Sanjay Brooks
+Accounts Receivable, Trident Components
+
+--===============8877041159305376935==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Anna,</p><p>Please find attached invoice INV-2025-7431 f=
+or $5,763,000, now overdue. Kindly review the attached statement and process =
+this payment immediately to avoid service interruption.</p><p>If the bank det=
+ails have changed since your last remittance, use the updated account informa=
+tion in the attachment.</p><p>Regards, Sanjay Brooks Accounts Receivable, Tri=
+dent Components</p></body></html>
+
+--===============8877041159305376935==--
+
+--===============8487243384157410737==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-7431.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============8487243384157410737==--

@@ -1,0 +1,85 @@
+[
+  {
+    "expected": "phishing",
+    "file": "01-phishing-password-expiry.eml",
+    "kind": "credential",
+    "label": 1,
+    "subject": "Action required: your Amazon password expires in 48 hours",
+    "tags": [
+      "credential",
+      "credential-harvest",
+      "display-name-spoof"
+    ]
+  },
+  {
+    "expected": "phishing",
+    "file": "02-bec-wire-transfer.eml",
+    "kind": "bec",
+    "label": 1,
+    "subject": "Confidential matter - need your help",
+    "tags": [
+      "bec",
+      "freemail-executive",
+      "payment-diversion"
+    ]
+  },
+  {
+    "expected": "phishing",
+    "file": "03-dangerous-attachment.eml",
+    "kind": "invoice",
+    "label": 1,
+    "subject": "Remittance advice INV-2025-4150 - action required",
+    "tags": [
+      "double-extension",
+      "invoice",
+      "malicious-attachment"
+    ]
+  },
+  {
+    "expected": "benign",
+    "file": "04-legitimate-notice.eml",
+    "kind": "ham",
+    "label": 0,
+    "subject": "Payslip for October is available",
+    "tags": [
+      "legitimate"
+    ]
+  },
+  {
+    "expected": "phishing",
+    "file": "05-ai-generated-spearphish.eml",
+    "kind": "ai_generated",
+    "label": 1,
+    "subject": "Notes from Tuesday and one item for review",
+    "tags": [
+      "ai-generated-style",
+      "ai_generated",
+      "hard-negative",
+      "low-signal"
+    ]
+  },
+  {
+    "expected": "phishing",
+    "file": "06-consumer-scam-ip-link.eml",
+    "kind": "scam",
+    "label": 1,
+    "subject": "Income tax refund of $8,675,000 is pending",
+    "tags": [
+      "anchor-mismatch",
+      "consumer-scam",
+      "ip-literal-link",
+      "scam"
+    ]
+  },
+  {
+    "expected": "phishing",
+    "file": "07-malformed-headers.eml",
+    "kind": "malformed",
+    "label": 1,
+    "subject": "no headers at all just a body",
+    "tags": [
+      "malformed",
+      "missing-headers"
+    ]
+  }
+]

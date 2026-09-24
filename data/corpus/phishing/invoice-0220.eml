@@ -1,0 +1,74 @@
+From: "Trident Components Accounts" <billing@hdfc-kyc-update.link>
+To: James Sharma <james.sharma@hansacapital.co>
+Subject: Invoice attached: INV-2026-5054 (EUR 2,461,000)
+Date: Fri, 15 May 2026 19:52:00 +0000
+Message-ID: <178772093985.6.13494690634815045013@hdfc-kyc-update.link>
+Return-Path: <bounce-2569@hdfc-kyc-update.link>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.hansacapital.co (Postfix) with ESMTPS id 1F930A26A0DA for
+ <recipient@hansacapital.co>; Fri, 15 May 2026 19:52:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id DDE6085AE589; Fri, 15 May 2026
+ 19:47:09 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 928B24243030; Fri, 15 May 2026 19:40:38 +0000
+Received-SPF: softfail (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@hdfc-kyc-update.link>;
+Authentication-Results: mx.hdfc-kyc-update.link; spf=softfail
+ smtp.mailfrom=hdfc-kyc-update.link; dkim=fail header.d=hdfc-kyc-update.link;
+ dmarc=fail (p=reject) header.from=hdfc-kyc-update.link
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hdfc-kyc-update.link;
+ s=selector1; t=594475765; h=from:to:subject:date;
+ bh=qmYARZjOKa1OkHZqzjiPdAkdWEaVpFZodt9S56J+Gaw=; =?utf-8?q?b=3Df7cebx2JioKZ?=
+ =?utf-8?q?rcnCtDTfqKf7Dn0ImzlvEjxOBKghAjMf0HsxTlWyub6hph5EmU9s3WaNjePz7vMar?=
+ =?utf-8?q?I/eK5ZYFA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============1988995324140772478=="
+
+--===============1988995324140772478==
+Content-Type: multipart/alternative;
+ boundary="===============7627948584325444305=="
+
+--===============7627948584325444305==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello James,
+
+Please find attached invoice INV-2026-5054 for EUR 2,461,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Aditya Menon
+Accounts Receivable, Trident Components
+
+--===============7627948584325444305==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello James,</p><p>Please find attached invoice INV-2026-5054 =
+for EUR 2,461,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Aditya Menon Accounts Receivable, =
+Trident Components</p></body></html>
+
+--===============7627948584325444305==--
+
+--===============1988995324140772478==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-5054.zip"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGF5bG9hZC1zdHVi
+
+--===============1988995324140772478==--

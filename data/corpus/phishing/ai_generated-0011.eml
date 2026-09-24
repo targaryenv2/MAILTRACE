@@ -1,0 +1,63 @@
+From: "Sneha Kapoor" <sneha.kapoor@meridian-labs.org>
+To: Anna Bose <anna.bose@vertexlogistics.in>
+Subject: Quick question about the Bluestone Partners agreement
+Date: Sat, 16 May 2026 23:43:00 +0000
+Message-ID: <178772093648.6.8188656890875071952@meridian-labs.org>
+Return-Path: <bounce-4327@meridian-labs.org>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.vertexlogistics.in (Postfix) with ESMTPS id DC1407AD5ECD for
+ <recipient@vertexlogistics.in>; Sat, 16 May 2026 23:43:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id C91D5A216956; Sat, 16 May
+ 2026 23:42:23 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=958345787; h=from:to:subject:date;
+ bh=tGpZLMKuaDxS9nEKP0ZtaJVS2C0gzANP2wlytb7CqDY=; =?utf-8?q?b=3DAJF3AQ9oen6c?=
+ =?utf-8?q?ls07buSNT6+eDmq5mu3hRyaAypu4BHOqmu7ZJpeq0gzIG7ua4f3qMXCfeX5ROQ/EM?=
+ =?utf-8?q?GdeEOD6+w=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7113311918028189918=="
+
+--===============7113311918028189918==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Anna,
+
+Thanks again for your time earlier this week. I have put the revised Operatio=
+ns
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://docs-workspace.app/d/d706b3e9
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Sneha Kapoor
+Associate Director, Bluestone Partners
+
+--===============7113311918028189918==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Anna,</p><p>Thanks again for your time earlier this week. I=
+ have put the revised Operations document in the shared workspace and added c=
+omments against the two clauses we discussed.</p><p>You can open it here when=
+ convenient: https://docs-workspace.app/d/d706b3e9</p><p>There is no rush on =
+this. If the second section reads oddly, that is my drafting rather than a ch=
+ange in position, so do flag it.</p><p>Best regards, Sneha Kapoor Associate D=
+irector, Bluestone Partners</p><p><a href=3D"https://docs-workspace.app/d/d70=
+6b3e9">shared workspace</a></p></body></html>
+
+--===============7113311918028189918==--

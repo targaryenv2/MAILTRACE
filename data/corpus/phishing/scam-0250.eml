@@ -1,0 +1,59 @@
+From: "State Bank of India" <notice@sbi-netbanking-kyc.top>
+To: Ananya Verma <ananya.verma@northgate-industries.com>
+Subject: Income tax refund of INR 4,764,000 is pending
+Date: Mon, 25 May 2026 16:21:00 +0000
+Message-ID: <178772094034.6.12888429959371199426@sbi-netbanking-kyc.top>
+Return-Path: <bounce-8474@sbi-netbanking-kyc.top>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 30A4D7909975 for
+ <recipient@northgate-industries.com>; Mon, 25 May 2026 16:21:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ smtp-out-3.example (Postfix) with ESMTPS id AD7BCF95368C; Mon, 25 May 2026
+ 16:18:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mail.gateway.example (Postfix) with ESMTPS id 219BBE28F02F; Mon, 25 May 2026
+ 16:15:39 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@sbi-netbanking-kyc.top>;
+Authentication-Results: mx.sbi-netbanking-kyc.top; spf=fail
+ smtp.mailfrom=sbi-netbanking-kyc.top; dkim=none
+ header.d=sbi-netbanking-kyc.top; dmarc=fail (p=reject)
+ header.from=sbi-netbanking-kyc.top
+Content-Type: multipart/alternative;
+ boundary="===============8210578373636719318=="
+
+--===============8210578373636719318==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+You have been selected in this month's customer appreciation draw. Reference =
+number: TRK645193120.
+
+Click here to log in and complete the process:
+https://sbi-netbanking-kyc.top/session/renew
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+State Bank of India
+
+--===============8210578373636719318==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>You have been selected in this month's cu=
+stomer appreciation draw. Reference number: TRK645193120.</p><p>Click here to=
+ log in and complete the process: https://sbi-netbanking-kyc.top/session/rene=
+w</p><p>If we do not receive a response within 24 hours the request will be c=
+ancelled and the amount returned to treasury.</p><p>Customer Support State Ba=
+nk of India</p><p><a href=3D"https://sbi-netbanking-kyc.top/session/renew">ht=
+tps://www.sbi.co.in/verify</a></p></body></html>
+
+--===============8210578373636719318==--

@@ -1,0 +1,49 @@
+From: "Emily Brooks (CEO)" <emily.brooks@yahoo.com>
+Reply-To: emily.brooks.office@yahoo.com
+To: Rahul Sharma <rahul.sharma@kalyaniworks.in>
+Subject: Confidential matter - need your help
+Date: Fri, 15 May 2026 12:36:00 +0000
+Message-ID: <178772093737.6.17046772549727247121@yahoo.com>
+Return-Path: <bounce-6428@yahoo.com>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.kalyaniworks.in (Postfix) with ESMTPS id FF867B4AD6AB for
+ <recipient@kalyaniworks.in>; Fri, 15 May 2026 12:36:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ 5BEDAD2E6F3F; Fri, 15 May 2026 12:30:18 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 681F16444A8D; Fri, 15 May
+ 2026 12:27:30 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id B5079108624E; Fri, 15 May 2026
+ 12:22:15 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@yahoo.com>;
+Authentication-Results: mx.yahoo.com; spf=pass smtp.mailfrom=yahoo.com;
+ dkim=pass header.d=yahoo.com; dmarc=pass (p=reject) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com;
+ s=selector1; t=811517941; h=from:to:subject:date;
+ bh=6ampa+UMcxDu45pkwInW9nH/007ugMn+FwdXZuWm7+4=; =?utf-8?q?b=3DY4de01aVgKZ1?=
+ =?utf-8?q?QPqu+vlnwziyuyGJ6tcklzizM5LXYdpk+Q+c3/kU6V4844LBjU9wmipPEQxKNmw74?=
+ =?utf-8?q?djOx0jxyQ=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Rahul,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of INR 2,158,000 to a new beneficiary today. This relates to
+Zenith Traders and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Zenith Traders
+Account: 95094006131
+SWIFT/IBAN: DEUTDEFF
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Emily Brooks
+CFO

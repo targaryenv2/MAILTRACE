@@ -1,0 +1,50 @@
+From: "Sarah Verma" <sarah.verma@orionsystems.io>
+To: James Joshi <james.joshi@orionsystems.io>
+Subject: Library books due July
+Date: Sun, 31 May 2026 18:36:00 +0000
+Message-ID: <178772094362.6.11442063209268117972@orionsystems.io>
+Return-Path: <sarah.verma@orionsystems.io>
+MIME-Version: 1.0
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx.orionsystems.io (Postfix) with ESMTPS id 9F7C23C32AF2 for
+ <recipient@orionsystems.io>; Sun, 31 May 2026 18:36:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by vps-31.hosting.example (Postfix) with ESMTPS id
+ EAEA7CA48B34; Sun, 31 May 2026 18:32:55 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id BA8D04C915EF; Sun, 31 May
+ 2026 18:30:32 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=586044743; h=from:to:subject:date;
+ bh=XR9z7hvNNAdmkgIXKCJQikHX9HJdR+/7dC9VkEljVdw=; =?utf-8?q?b=3DG6YL847m2NRC?=
+ =?utf-8?q?/y0LX6yzPWqdt0wKr2XcMS7JZ2OGcqKSkGrvOnW4KIELRTcAKlY5ujdo7yHV7zVgw?=
+ =?utf-8?q?qoxImpiCA=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============3613764342058272300=="
+
+--===============3613764342058272300==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear James,
+
+Two items on your library account are due at the end of July. Renewals can be
+made at the circulation desk or from the catalogue page.
+
+Central Library
+
+--===============3613764342058272300==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-7070.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============3613764342058272300==--

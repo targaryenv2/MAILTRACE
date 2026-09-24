@@ -1,0 +1,70 @@
+From: "Laura Gupta" <laura.gupta@meridian-labs.org>
+To: Meera Pillai <meera.pillai@meridian-labs.org>
+Subject: PR #3503: refactor the retry handler
+Date: Mon, 01 Jun 2026 07:05:00 +0000
+Message-ID: <178772094325.6.4877308433490563333@meridian-labs.org>
+Return-Path: <laura.gupta@meridian-labs.org>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.meridian-labs.org (Postfix) with ESMTPS id 8C516EE18444 for
+ <recipient@meridian-labs.org>; Mon, 01 Jun 2026 07:05:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 89EAE1AB4648; Mon, 01 Jun 2026
+ 07:00:33 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id 0D1CC9622FF2; Mon, 01 Jun 2026 06:57:42 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=793474084; h=from:to:subject:date;
+ bh=CUb8G9F5OKP3sSz3Fe8/QisdHj4Wrt02zbXkkQB7I38=; =?utf-8?q?b=3DEcCp77HHGwUe?=
+ =?utf-8?q?uk6m1ub6BAsfAAy7uPXWUYwKUUwH+WbZIKR/FYdB2Py4fgY23SrRss2EcIUY96M5G?=
+ =?utf-8?q?/cskDFo2A=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============1419767096486616237=="
+
+--===============1419767096486616237==
+Content-Type: multipart/alternative;
+ boundary="===============0399622809279551730=="
+
+--===============0399622809279551730==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Laura Gupta requested your review on pull request #3503.
+
+  refactor: collapse the three retry paths into one backoff helper
+
+Changed 6 files, +148 -211. CI is green. The behaviour change worth checking =
+is
+that a 429 now retries twice instead of once.
+
+View it in the repository when you get a chance.
+
+--===============0399622809279551730==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Laura Gupta requested your review on pull request #3503.</p><p=
+>refactor: collapse the three retry paths into one backoff helper</p><p>Chang=
+ed 6 files, +148 -211. CI is green. The behaviour change worth checking is th=
+at a 429 now retries twice instead of once.</p><p>View it in the repository w=
+hen you get a chance.</p></body></html>
+
+--===============0399622809279551730==--
+
+--===============1419767096486616237==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-8652.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============1419767096486616237==--

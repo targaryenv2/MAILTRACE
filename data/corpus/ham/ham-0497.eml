@@ -1,0 +1,54 @@
+From: "Kavya Rao" <kavya.rao@summitfoods.co.in>
+To: Aditya Iyer <aditya.iyer@summitfoods.co.in>
+Subject: Weekly Procurement sync - agenda
+Date: Fri, 15 May 2026 18:03:00 +0000
+Message-ID: <178772094417.6.6576391657432276022@summitfoods.co.in>
+Return-Path: <kavya.rao@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.summitfoods.co.in
+ (Postfix) with ESMTPS id 1A69DCDD3ED7 for <recipient@summitfoods.co.in>; Fri,
+ 15 May 2026 18:03:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id FA5B1DA7233A;
+ Fri, 15 May 2026 18:00:30 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=222601673; h=from:to:subject:date;
+ bh=5RKkBZku4/qtQYy22qhmfDLa0Wvsd+ZHtF0tUtYQTLQ=; =?utf-8?q?b=3DuFUwWT95qFy1?=
+ =?utf-8?q?wKg7sDhA5NU3B7B3Ka3lEBGbJzaTqb9g3sgKLm081TLu/kKojI4gMrjkf537EX2zQ?=
+ =?utf-8?q?4sd0Gbdmw=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============4180212147844066593=="
+
+--===============4180212147844066593==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Procurement sync:
+
+1. Status of the Summit Foods migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Kavya Rao
+
+--===============4180212147844066593==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-0254.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============4180212147844066593==--

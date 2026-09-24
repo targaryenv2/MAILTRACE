@@ -1,0 +1,42 @@
+From: "Anna Anderson" <anna.anderson@summitfoods.co.in>
+To: Arjun Ellis <arjun.ellis@summitfoods.co.in>
+Subject: Weekly Human Resources sync - agenda
+Date: Tue, 12 May 2026 08:28:00 +0000
+Message-ID: <178772094309.6.1541341818668860944@summitfoods.co.in>
+Return-Path: <anna.anderson@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id 727F9B9B975B for
+ <recipient@summitfoods.co.in>; Tue, 12 May 2026 08:28:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ ED254A9FD2F1; Tue, 12 May 2026 08:26:22 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id A58ED0E3BDA6; Tue, 12
+ May 2026 08:20:53 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=658423049; h=from:to:subject:date;
+ bh=HfEh1aFAXIH8194N5o89i/nniYi15pHJYJALFNNdubQ=; =?utf-8?q?b=3Dm/QAZfawxKEk?=
+ =?utf-8?q?y1UBTEqJon83ZbY0C9nKuAFwJEA9aYmvc1OQR2Ra1bhvBySRfb4l6HzU6UoOPsSPr?=
+ =?utf-8?q?Jetk2kaog=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Human Resources sync:
+
+1. Status of the Meridian Labs migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Anna Anderson

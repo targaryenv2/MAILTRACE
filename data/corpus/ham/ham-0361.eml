@@ -1,0 +1,38 @@
+From: "Neha Gupta" <neha.gupta@northgate-industries.com>
+To: Michael Bose <michael.bose@northgate-industries.com>
+Subject: Conference paper decision - Brightpath Institute workshop
+Date: Wed, 27 May 2026 03:53:00 +0000
+Message-ID: <178772094207.6.13806862455355682413@northgate-industries.com>
+Return-Path: <neha.gupta@northgate-industries.com>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id A21C02F009ED for
+ <recipient@northgate-industries.com>; Wed, 27 May 2026 03:53:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by compute-04.cloudprovider.example (Postfix) with ESMTPS id 3EE50C96C285;
+ Wed, 27 May 2026 03:52:44 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=115250232; h=from:to:subject:date;
+ bh=8CcYlW+BVQLDLsbBmXzkGssfROPtEvw0HUx0iCIyF0E=; =?utf-8?q?b=3DnWKsMbu3bDod?=
+ =?utf-8?q?qYB+IN6Goxiv60Z6B9ddBtCSsilyg8lVTWjYM6wb75YwzKY5w2xqNAq4k7dWgOMCy?=
+ =?utf-8?q?5+axzoeIA=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Michael,
+
+Thank you for your submission to the Brightpath Institute workshop. The revie=
+wers have
+recommended acceptance with minor revisions. Reviews are attached to the
+submission record in the conference system.
+
+Camera-ready copies are due at the end of the month.
+
+Programme Committee

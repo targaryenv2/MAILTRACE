@@ -1,0 +1,49 @@
+From: "Neha Gupta" <neha.gupta@northgate-industries.com>
+To: Kavya Fletcher <kavya.fletcher@northgate-industries.com>
+Subject: Library books due April
+Date: Tue, 12 May 2026 18:58:00 +0000
+Message-ID: <178772094267.6.7665330923340271132@northgate-industries.com>
+Return-Path: <neha.gupta@northgate-industries.com>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.northgate-industries.com (Postfix) with ESMTPS id 4EE3F5167F30 for
+ <recipient@northgate-industries.com>; Tue, 12 May 2026 18:58:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id 71079EF10451; Tue, 12 May
+ 2026 18:51:55 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@northgate-industries.com>;
+Authentication-Results: mx.northgate-industries.com; spf=pass
+ smtp.mailfrom=northgate-industries.com; dkim=pass
+ header.d=northgate-industries.com; dmarc=pass (p=reject)
+ header.from=northgate-industries.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=northgate-industries.com; s=selector1; t=925478505; h=from:to:subject:date;
+ bh=2SN9O8IyrlotmusVPuLQQrT8b3gNq05tuUmEC6tU7l4=; =?utf-8?q?b=3DUzslUZ2uE+67?=
+ =?utf-8?q?4fZttE+tgjMMHeg51jefy91Yf8f2maWdotfChFjPC0JCYBqO/VKxFbXz8ZYyyiSkO?=
+ =?utf-8?q?GZNegZuKA=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============9101949806340972763=="
+
+--===============9101949806340972763==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Kavya,
+
+Two items on your library account are due at the end of April. Renewals can be
+made at the circulation desk or from the catalogue page.
+
+Central Library
+
+--===============9101949806340972763==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear Kavya,</p><p>Two items on your library account are due at=
+ the end of April. Renewals can be made at the circulation desk or from the c=
+atalogue page.</p><p>Central Library</p></body></html>
+
+--===============9101949806340972763==--

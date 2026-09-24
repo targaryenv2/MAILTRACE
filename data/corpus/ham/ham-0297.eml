@@ -1,0 +1,54 @@
+From: "Ananya Dawson" <ananya.dawson@brightpath-edu.ac.in>
+To: Michael Gupta <michael.gupta@brightpath-edu.ac.in>
+Subject: Reminder: submit Human Resources timesheets by Friday
+Date: Tue, 05 May 2026 10:19:00 +0000
+Message-ID: <178772094109.6.16068857689770612430@brightpath-edu.ac.in>
+Return-Path: <ananya.dawson@brightpath-edu.ac.in>
+MIME-Version: 1.0
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx.brightpath-edu.ac.in (Postfix) with ESMTPS id
+ F98C91850440 for <recipient@brightpath-edu.ac.in>; Tue, 05 May 2026 10:19:00
+ +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by edge-2.mailcluster.example (Postfix) with ESMTPS id 57878025C5DA; Tue, 05
+ May 2026 10:12:38 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by vps-31.hosting.example
+ (Postfix) with ESMTPS id F13768B2225E; Tue, 05 May 2026 10:08:46 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@brightpath-edu.ac.in>;
+Authentication-Results: mx.brightpath-edu.ac.in; spf=pass
+ smtp.mailfrom=brightpath-edu.ac.in; dkim=pass header.d=brightpath-edu.ac.in;
+ dmarc=pass (p=reject) header.from=brightpath-edu.ac.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=brightpath-edu.ac.in;
+ s=selector1; t=742002208; h=from:to:subject:date;
+ bh=X4PKLHIi0JAsnxf+JcPDYHkKxIh84y1cUGLL+RESQwY=; =?utf-8?q?b=3DZlrSYKFaWZcN?=
+ =?utf-8?q?JGQRLzCnvXW8izKIeSVpHWZdqgej+ElizX4bnq8ZgcZZJ5HrvQG8e9ybCdzqhvQ8d?=
+ =?utf-8?q?o4PZkxI0Q=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============6290351363956824389=="
+
+--===============6290351363956824389==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Michael,
+
+A reminder that November timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Ananya Dawson
+Human Resources
+
+--===============6290351363956824389==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Michael,</p><p>A reminder that November timesheets close on=
+ Friday. If you are on leave, your approver can submit on your behalf.</p><p>=
+Thanks, Ananya Dawson Human Resources</p></body></html>
+
+--===============6290351363956824389==--

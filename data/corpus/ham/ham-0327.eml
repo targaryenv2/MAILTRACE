@@ -1,0 +1,52 @@
+From: "Ananya Iyer" <ananya.iyer@summitfoods.co.in>
+To: Nikhil Hughes <nikhil.hughes@summitfoods.co.in>
+Subject: Welcome to the team, Nikhil
+Date: Mon, 18 May 2026 07:57:00 +0000
+Message-ID: <178772094154.6.12609658338532446111@summitfoods.co.in>
+Return-Path: <ananya.iyer@summitfoods.co.in>
+MIME-Version: 1.0
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id BCC35A0FA16A for
+ <recipient@summitfoods.co.in>; Mon, 18 May 2026 07:57:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 43F0AFE89034; Mon, 18 May 2026
+ 07:50:37 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@summitfoods.co.in>;
+Authentication-Results: mx.summitfoods.co.in; spf=pass
+ smtp.mailfrom=summitfoods.co.in; dkim=pass header.d=summitfoods.co.in;
+ dmarc=pass (p=reject) header.from=summitfoods.co.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=summitfoods.co.in;
+ s=selector1; t=231302390; h=from:to:subject:date;
+ bh=cbLbDFTG/79K2GLewxacZOedXfVhEiX8vCIi0k4eAgk=; =?utf-8?q?b=3D1VbURJDWYvtE?=
+ =?utf-8?q?1K/8yeGoFgTOGpUMxyz0uzSsuy9+9ePAFtviY/eaqBv3dG+0zoW60/RPKOdP5NYQR?=
+ =?utf-8?q?6dWP/fBsw=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============6965608142343990812=="
+
+--===============6965608142343990812==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Nikhil,
+
+Welcome aboard. Your laptop is at the IT desk on the second floor and your
+manager will walk you through the first-week plan tomorrow morning.
+
+Lunch is on us on Friday.
+
+Ananya Iyer
+Human Resources, Orion Systems
+
+--===============6965608142343990812==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Nikhil,</p><p>Welcome aboard. Your laptop is at the IT desk=
+ on the second floor and your manager will walk you through the first-week pl=
+an tomorrow morning.</p><p>Lunch is on us on Friday.</p><p>Ananya Iyer Human =
+Resources, Orion Systems</p></body></html>
+
+--===============6965608142343990812==--

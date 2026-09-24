@@ -1,0 +1,43 @@
+From: "Sarah Bose (CEO)" <sarah.bose@gmail.com>
+Reply-To: sarah.bose.office@gmail.com
+To: Sanjay Nair <sanjay.nair@orionsystems.io>
+Subject: URGENT: release the payment today
+Date: Sat, 30 May 2026 15:11:00 +0000
+Message-ID: <178772093712.6.4566695305271192675@gmail.com>
+Return-Path: <bounce-3558@gmail.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id 3A2FEA13D61D for
+ <recipient@orionsystems.io>; Sat, 30 May 2026 15:11:00 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id 2B2DC0164331; Sat, 30 May
+ 2026 15:08:31 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.150;
+ envelope-from=<bounce@gmail.com>;
+Authentication-Results: mx.gmail.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass (p=reject) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com;
+ s=selector1; t=590424606; h=from:to:subject:date;
+ bh=3onsJnenM6txc6CRZybtsJ6PyeMrwT2uxkWmWGakLyc=; =?utf-8?q?b=3Dcih+es+2cjix?=
+ =?utf-8?q?ToF/NQmy2JgErNGCqGhVxJNI/9d7Q2WgEQoIbE/AlbprliAYWg2WIV+vOUHiUEqXH?=
+ =?utf-8?q?NQDTLhqLg=3D=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Sanjay,
+
+I am in back-to-back meetings so I cannot take calls. I need you to process a
+wire transfer of EUR 3,280,000 to a new beneficiary today. This relates to
+Zenith Traders and it is time sensitive - the deal closes end of day.
+
+Beneficiary: Zenith Traders
+Account: 22084973942
+SWIFT/IBAN: HSBCGB2L
+
+Please keep this confidential until the announcement. Do not discuss it with =
+the
+wider team. Confirm once the payment has been released.
+
+Sent from my iPhone
+Sarah Bose
+CFO

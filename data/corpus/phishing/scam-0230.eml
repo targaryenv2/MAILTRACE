@@ -1,0 +1,57 @@
+From: "Google Workspace" <notice@accounts-google-verify.top>
+To: Meera Fletcher <meera.fletcher@summitfoods.co.in>
+Subject: Your parcel AWB652875048 could not be delivered - reschedule now
+Date: Thu, 21 May 2026 20:43:00 +0000
+Message-ID: <178772094002.6.2057515512647282840@accounts-google-verify.top>
+Return-Path: <bounce-6186@accounts-google-verify.top>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id DAB721B3A723 for
+ <recipient@summitfoods.co.in>; Thu, 21 May 2026 20:43:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by smtp-out-3.example
+ (Postfix) with ESMTPS id 248F2FD4B488; Thu, 21 May 2026 20:38:57 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@accounts-google-verify.top>;
+Authentication-Results: mx.accounts-google-verify.top; spf=fail
+ smtp.mailfrom=accounts-google-verify.top; dkim=none
+ header.d=accounts-google-verify.top; dmarc=fail (p=reject)
+ header.from=accounts-google-verify.top
+Content-Type: multipart/alternative;
+ boundary="===============7689875744534216731=="
+
+--===============7689875744534216731==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer,
+
+Your KYC documents have expired and the account has been marked for restricti=
+on. Reference number: AWB652875048.
+
+Click here to log in and complete the process:
+https://accounts-google-verify.top/session/renew
+
+If we do not receive a response within 24 hours the request will be cancelled=
+ and
+the amount returned to treasury.
+
+Customer Support
+Google Workspace
+
+--===============7689875744534216731==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Dear customer,</p><p>Your KYC documents have expired and the a=
+ccount has been marked for restriction. Reference number: AWB652875048.</p><p=
+>Click here to log in and complete the process: https://accounts-google-verif=
+y.top/session/renew</p><p>If we do not receive a response within 24 hours the=
+ request will be cancelled and the amount returned to treasury.</p><p>Custome=
+r Support Google Workspace</p><p><a href=3D"http://203.0.113.99/login">https:=
+//www.google.com/verify</a></p></body></html>
+
+--===============7689875744534216731==--

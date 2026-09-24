@@ -1,0 +1,76 @@
+From: "Kestrel Supplies Ltd Accounts" <billing@rnicrosoft.com>
+To: Meera Pillai <meera.pillai@summitfoods.co.in>
+Subject: Outstanding invoice INV-2025-1203 - payment overdue
+Date: Thu, 21 May 2026 11:16:00 +0000
+Message-ID: <178772093976.6.1848221111024000743@rnicrosoft.com>
+Return-Path: <bounce-5559@rnicrosoft.com>
+MIME-Version: 1.0
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.summitfoods.co.in (Postfix) with ESMTPS id F366C8B6C7F5 for
+ <recipient@summitfoods.co.in>; Thu, 21 May 2026 11:16:00 +0000
+Received: from smtp-out-3.example (smtp-out-3.example [192.0.2.44]) by
+ mail.gateway.example (Postfix) with ESMTPS id 661297CCBD9D; Thu, 21 May 2026
+ 11:13:54 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ smtp-out-3.example (Postfix) with ESMTPS id 8CCF535A8E52; Thu, 21 May 2026
+ 11:08:09 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by mx1.mail-relay.example (Postfix) with ESMTPS id
+ 0F9CBD3A7CC5; Thu, 21 May 2026 11:02:53 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id 901D64CEECB5; Thu, 21 May
+ 2026 11:00:34 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=198.51.100.7;
+ envelope-from=<bounce@rnicrosoft.com>;
+Authentication-Results: mx.rnicrosoft.com; spf=fail
+ smtp.mailfrom=rnicrosoft.com; dkim=none header.d=rnicrosoft.com; dmarc=fail
+ (p=reject) header.from=rnicrosoft.com
+Content-Type: multipart/mixed; boundary="===============0794362353660924357=="
+
+--===============0794362353660924357==
+Content-Type: multipart/alternative;
+ boundary="===============6885365848691628388=="
+
+--===============6885365848691628388==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Meera,
+
+Please find attached invoice INV-2025-1203 for EUR 3,681,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Priya Grant
+Accounts Receivable, Kestrel Supplies Ltd
+
+--===============6885365848691628388==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Meera,</p><p>Please find attached invoice INV-2025-1203 =
+for EUR 3,681,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Priya Grant Accounts Receivable, K=
+estrel Supplies Ltd</p></body></html>
+
+--===============6885365848691628388==--
+
+--===============0794362353660924357==
+Content-Type: application/msword
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-1203.doc"
+MIME-Version: 1.0
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkJBLW1hY3Jv
+LXN0dWI=
+
+--===============0794362353660924357==--

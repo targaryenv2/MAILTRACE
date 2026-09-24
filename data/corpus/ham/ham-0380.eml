@@ -1,0 +1,60 @@
+From: "Vikram Brooks" <vikram.brooks@orionsystems.io>
+To: Arjun Sharma <arjun.sharma@orionsystems.io>
+Subject: Weekly Engineering sync - agenda
+Date: Tue, 12 May 2026 04:10:00 +0000
+Message-ID: <178772094237.6.14266880669325848082@orionsystems.io>
+Return-Path: <vikram.brooks@orionsystems.io>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.orionsystems.io (Postfix) with ESMTPS id 3D7B3B8897FC for
+ <recipient@orionsystems.io>; Tue, 12 May 2026 04:10:00 +0000
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx1.mail-relay.example
+ (Postfix) with ESMTPS id D1EED29CF3DC; Tue, 12 May 2026 04:08:59 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id EBF47C5085E8; Tue,
+ 12 May 2026 04:05:10 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=192.0.2.44;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=666745879; h=from:to:subject:date;
+ bh=q4yhDUmEYtqKKcKKLV44Ph3mnsyrSeJTpANBXusMr2s=; =?utf-8?q?b=3DoG2WNLYKeXLZ?=
+ =?utf-8?q?xdGjBbnXXGQ1mi3FWyXbjhiIXId0Qnp/dUJz9I5PhBvM1KfI3RMcYcyK7gn2VfBbQ?=
+ =?utf-8?q?SazdGvmTg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============3915316555059529239=="
+
+--===============3915316555059529239==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi team,
+
+Agenda for Thursday's Engineering sync:
+
+1. Status of the Vertex Logistics migration
+2. Hiring update for the two open roles
+3. Budget review before quarter close
+
+The recording and notes will go in the usual shared folder afterwards. Add any
+items to the bottom of the page before Wednesday evening.
+
+Thanks,
+Vikram Brooks
+
+--===============3915316555059529239==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi team,</p><p>Agenda for Thursday's Engineering sync:</p><p>1=
+. Status of the Vertex Logistics migration 2. Hiring update for the two open =
+roles 3. Budget review before quarter close</p><p>The recording and notes wil=
+l go in the usual shared folder afterwards. Add any items to the bottom of th=
+e page before Wednesday evening.</p><p>Thanks, Vikram Brooks</p></body></html>
+
+--===============3915316555059529239==--

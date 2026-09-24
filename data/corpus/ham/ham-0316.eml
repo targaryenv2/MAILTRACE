@@ -1,0 +1,52 @@
+From: "Sarah Joshi" <sarah.joshi@orionsystems.io>
+To: Ananya Menon <ananya.menon@orionsystems.io>
+Subject: Reminder: submit Procurement timesheets by Friday
+Date: Fri, 15 May 2026 00:09:00 +0000
+Message-ID: <178772094137.6.8917838090375317728@orionsystems.io>
+Return-Path: <sarah.joshi@orionsystems.io>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.orionsystems.io
+ (Postfix) with ESMTPS id 19DCB6FEDC68 for <recipient@orionsystems.io>; Fri,
+ 15 May 2026 00:09:00 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ compute-04.cloudprovider.example (Postfix) with ESMTPS id 774A76F0D156; Fri,
+ 15 May 2026 00:03:10 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mx1.mail-relay.example (Postfix) with ESMTPS id 0233D550FA9F; Thu, 14 May
+ 2026 23:59:30 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=198.51.100.89;
+ envelope-from=<bounce@orionsystems.io>;
+Authentication-Results: mx.orionsystems.io; spf=pass
+ smtp.mailfrom=orionsystems.io; dkim=pass header.d=orionsystems.io; dmarc=pass
+ (p=reject) header.from=orionsystems.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=orionsystems.io;
+ s=selector1; t=775367106; h=from:to:subject:date;
+ bh=CXUiifu2n6mMBkTK7afMOr6nj8v6zDPInDUlerj29WM=; =?utf-8?q?b=3DFLPllzknd4BS?=
+ =?utf-8?q?cf+MmlRfee2QVhBOHsqRzFaob1+AJOt7V4OqJLs3+LkJRvC7hKX7VZ7k/3a+ffzTz?=
+ =?utf-8?q?ocb+3cD/w=3D=3D?=
+Content-Type: multipart/mixed; boundary="===============3196513002156890170=="
+
+--===============3196513002156890170==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Ananya,
+
+A reminder that December timesheets close on Friday. If you are on leave, your
+approver can submit on your behalf.
+
+Thanks,
+Sarah Joshi
+Procurement
+
+--===============3196513002156890170==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-2929.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJXN0dWIKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZz4+ZW5kb2JqCnRyYWlsZXI8PD4+
+CiUlRU9GCg==
+
+--===============3196513002156890170==--

